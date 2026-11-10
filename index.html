@@ -91,6 +91,7 @@ p { margin: 0 0 1em; }
 .card--featured .card__stack { color: rgb(255 255 255 / 65%); }
 .card__link { font-weight: 700; }
 .card--featured .card__link { color: var(--aurora-1); }
+.card__link + .card__link { margin-top: .4rem; }
 
 /* Timeline */
 .timeline { margin: 2rem 0 0; padding: 0; list-style: none; }
@@ -192,8 +193,9 @@ p { margin: 0 0 1em; }
           <span class="card__tag">Featured · Drupal 11</span>
           <h3>Legacy Site Sunset Toolkit — a GNWT.ca case study</h3>
           <p>In 2026 GNWT.ca replaced more than ten department websites. This module finds the new page for every old URL, lets editors approve each match, and answers the old addresses with the right redirect. First run: 7,155 legacy URLs from the health site, half matched automatically.</p>
-          <p class="card__stack">Drupal 11.4 · PHP 8.5 · Views · Migrate and Batch API · Drush · tests and CI</p>
+          <p class="card__stack">Drupal 11.4 · PHP 8.5 · Views · Migrate and Batch API · Drush · tests and CI/CD</p>
           <a class="card__link" href="https://sunset.erwanbargain.com">sunset.erwanbargain.com →</a>
+          <a class="card__link" href="https://github.com/Interne52105110/gnwt-sunset">Code, tests and deployment pipeline on GitHub →</a>
         </article>
         <article class="card">
           <span class="card__tag">GIS · Yellowknife</span>
