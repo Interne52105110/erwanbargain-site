@@ -15,7 +15,15 @@ export interface City {
   rent?: { v: number; unit: string; per: 'm2' | 'month'; kind: RentKind; period: string; computed: boolean };
   vacancy?: { v: number; period: string };
   share?: { v: number; basis: 'net' | 'gross'; asking: boolean };
+  /** Census unemployment rate by education: a different measure from `unemp`. */
+  edu?: { low: number; mid: number; high: number; basis: 'ca21' | 'fr23' | 'eu21' };
 }
+
+export const eduBasis: Record<'ca21' | 'fr23' | 'eu21', L10n> = {
+  ca21: { en: '2021 census, ages 25–54', fr: 'recensement 2021, 25–54 ans' },
+  fr23: { en: '2023 census, ages 15–64', fr: 'recensement 2023, 15–64 ans' },
+  eu21: { en: '2021 census, ages 15–64', fr: 'recensement 2021, 15–64 ans' },
+};
 
 export const cities = raw as City[];
 

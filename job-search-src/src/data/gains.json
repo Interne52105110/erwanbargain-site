@@ -1,0 +1,633 @@
+{
+ "index": [
+  {
+   "name": "Île-de-France",
+   "v": 116,
+   "beforePremium": false
+  },
+  {
+   "name": "Centre-Val de Loire",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Bourgogne-Franche-Comté",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Normandie",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Hauts-de-France",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Grand Est",
+   "v": 94,
+   "beforePremium": false
+  },
+  {
+   "name": "Pays de la Loire",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Bretagne",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Nouvelle-Aquitaine",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Occitanie",
+   "v": 93,
+   "beforePremium": false
+  },
+  {
+   "name": "Auvergne-Rhône-Alpes",
+   "v": 99,
+   "beforePremium": false
+  },
+  {
+   "name": "Provence-Alpes-Côte d'Azur",
+   "v": 100,
+   "beforePremium": false
+  },
+  {
+   "name": "Corse",
+   "v": 84,
+   "beforePremium": false
+  },
+  {
+   "name": "Bruxelles-Capitale",
+   "v": 113,
+   "beforePremium": false
+  },
+  {
+   "name": "Wallonie",
+   "v": 101,
+   "beforePremium": false
+  },
+  {
+   "name": "Luxembourg",
+   "v": 141,
+   "beforePremium": false
+  },
+  {
+   "name": "Région lémanique",
+   "v": 176,
+   "beforePremium": true
+  },
+  {
+   "name": "Espace Mittelland",
+   "v": 173,
+   "beforePremium": true
+  },
+  {
+   "name": "Québec",
+   "v": 102,
+   "beforePremium": false
+  },
+  {
+   "name": "Nouveau-Brunswick",
+   "v": 93,
+   "beforePremium": false
+  },
+  {
+   "name": "Ontario",
+   "v": 111,
+   "beforePremium": false
+  },
+  {
+   "name": "Manitoba",
+   "v": 96,
+   "beforePremium": false
+  },
+  {
+   "name": "Saskatchewan",
+   "v": 106,
+   "beforePremium": false
+  },
+  {
+   "name": "Alberta",
+   "v": 116,
+   "beforePremium": false
+  },
+  {
+   "name": "Colombie-Britannique",
+   "v": 111,
+   "beforePremium": false
+  },
+  {
+   "name": "Nouvelle-Écosse",
+   "v": 94,
+   "beforePremium": false
+  },
+  {
+   "name": "Île-du-Prince-Édouard",
+   "v": 92,
+   "beforePremium": false
+  },
+  {
+   "name": "Terre-Neuve-et-Labrador",
+   "v": 104,
+   "beforePremium": false
+  }
+ ],
+ "europe": [
+  {
+   "name": "Paris",
+   "rent": 1721,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 974,
+   "left67": 249,
+   "currency": "EUR"
+  },
+  {
+   "name": "Nice",
+   "rent": 1061,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 1635,
+   "left67": 909,
+   "currency": "EUR"
+  },
+  {
+   "name": "Lyon",
+   "rent": 863,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 1832,
+   "left67": 1107,
+   "currency": "EUR"
+  },
+  {
+   "name": "Marseille",
+   "rent": 842,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 1853,
+   "left67": 1127,
+   "currency": "EUR"
+  },
+  {
+   "name": "Bordeaux",
+   "rent": 832,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 1864,
+   "left67": 1138,
+   "currency": "EUR"
+  },
+  {
+   "name": "Lille",
+   "rent": 822,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 1874,
+   "left67": 1148,
+   "currency": "EUR"
+  },
+  {
+   "name": "Strasbourg",
+   "rent": 811,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 1884,
+   "left67": 1159,
+   "currency": "EUR"
+  },
+  {
+   "name": "Rennes",
+   "rent": 775,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 1921,
+   "left67": 1195,
+   "currency": "EUR"
+  },
+  {
+   "name": "Nantes",
+   "rent": 754,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 1942,
+   "left67": 1216,
+   "currency": "EUR"
+  },
+  {
+   "name": "Toulouse",
+   "rent": 728,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 1968,
+   "left67": 1242,
+   "currency": "EUR"
+  },
+  {
+   "name": "Brest",
+   "rent": 634,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 2061,
+   "left67": 1335,
+   "currency": "EUR"
+  },
+  {
+   "name": "Quimper",
+   "rent": 624,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 2072,
+   "left67": 1346,
+   "currency": "EUR"
+  },
+  {
+   "name": "Bruxelles (Région)",
+   "rent": 980,
+   "rentKind": "newlease",
+   "premium": null,
+   "left100": 2029,
+   "left67": 1381,
+   "currency": "EUR"
+  },
+  {
+   "name": "Wallonie ; complexe de Liège",
+   "rent": 750,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 2259,
+   "left67": 1611,
+   "currency": "EUR"
+  },
+  {
+   "name": "Complexe de Charleroi",
+   "rent": 695,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 2314,
+   "left67": 1666,
+   "currency": "EUR"
+  },
+  {
+   "name": "Luxembourg (pays)",
+   "rent": 1700,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 2956,
+   "left67": 1876,
+   "currency": "EUR"
+  },
+  {
+   "name": "Luxembourg-Ville",
+   "rent": 1955,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 2701,
+   "left67": 1621,
+   "currency": "EUR"
+  },
+  {
+   "name": "Genève",
+   "rent": 1573,
+   "rentKind": "sitting",
+   "premium": 585,
+   "left100": 4487,
+   "left67": 2462,
+   "currency": "CHF"
+  },
+  {
+   "name": "Vaud",
+   "rent": 1465,
+   "rentKind": "sitting",
+   "premium": 527,
+   "left100": 4654,
+   "left67": 2629,
+   "currency": "CHF"
+  },
+  {
+   "name": "Vaud, 3 pièces, bail récent",
+   "rent": 1673,
+   "rentKind": "newlease",
+   "premium": 527,
+   "left100": 4446,
+   "left67": 2421,
+   "currency": "CHF"
+  },
+  {
+   "name": "Fribourg",
+   "rent": 1328,
+   "rentKind": "sitting",
+   "premium": 443,
+   "left100": 4875,
+   "left67": 2850,
+   "currency": "CHF"
+  },
+  {
+   "name": "Valais",
+   "rent": 1227,
+   "rentKind": "sitting",
+   "premium": 436,
+   "left100": 4982,
+   "left67": 2957,
+   "currency": "CHF"
+  },
+  {
+   "name": "Neuchâtel",
+   "rent": 1091,
+   "rentKind": "sitting",
+   "premium": 531,
+   "left100": 5024,
+   "left67": 2999,
+   "currency": "CHF"
+  }
+ ],
+ "canada": [
+  {
+   "name": "Montréal",
+   "net": 4212,
+   "rent": 1480,
+   "paid": false,
+   "left": 2732,
+   "share": 35
+  },
+  {
+   "name": "Québec",
+   "net": 4212,
+   "rent": 1210,
+   "paid": false,
+   "left": 3002,
+   "share": 29
+  },
+  {
+   "name": "Gatineau",
+   "net": 4212,
+   "rent": 1440,
+   "paid": false,
+   "left": 2772,
+   "share": 34
+  },
+  {
+   "name": "Sherbrooke",
+   "net": 4212,
+   "rent": 1040,
+   "paid": false,
+   "left": 3172,
+   "share": 25
+  },
+  {
+   "name": "Saguenay",
+   "net": 4212,
+   "rent": 834,
+   "paid": true,
+   "left": 3378,
+   "share": 20
+  },
+  {
+   "name": "Trois-Rivières",
+   "net": 4212,
+   "rent": 873,
+   "paid": true,
+   "left": 3339,
+   "share": 21
+  },
+  {
+   "name": "Grand Sudbury",
+   "net": 4499,
+   "rent": 1630,
+   "paid": false,
+   "left": 2869,
+   "share": 36
+  },
+  {
+   "name": "Timmins",
+   "net": 4499,
+   "rent": 1274,
+   "paid": true,
+   "left": 3225,
+   "share": 28
+  },
+  {
+   "name": "Hamilton",
+   "net": 4499,
+   "rent": 1720,
+   "paid": false,
+   "left": 2779,
+   "share": 38
+  },
+  {
+   "name": "London",
+   "net": 4499,
+   "rent": 1560,
+   "paid": false,
+   "left": 2939,
+   "share": 35
+  },
+  {
+   "name": "Ottawa",
+   "net": 4499,
+   "rent": 1900,
+   "paid": false,
+   "left": 2599,
+   "share": 42
+  },
+  {
+   "name": "Toronto",
+   "net": 4499,
+   "rent": 2090,
+   "paid": false,
+   "left": 2409,
+   "share": 46
+  },
+  {
+   "name": "Moncton",
+   "net": 3876,
+   "rent": 1290,
+   "paid": false,
+   "left": 2586,
+   "share": 33
+  },
+  {
+   "name": "Bathurst",
+   "net": 3876,
+   "rent": 763,
+   "paid": true,
+   "left": 3113,
+   "share": 20
+  },
+  {
+   "name": "Edmundston",
+   "net": 3876,
+   "rent": 726,
+   "paid": true,
+   "left": 3150,
+   "share": 19
+  },
+  {
+   "name": "Winnipeg",
+   "net": 3826,
+   "rent": 1320,
+   "paid": false,
+   "left": 2506,
+   "share": 35
+  },
+  {
+   "name": "Regina",
+   "net": 4213,
+   "rent": 1250,
+   "paid": false,
+   "left": 2963,
+   "share": 30
+  },
+  {
+   "name": "Saskatoon",
+   "net": 4213,
+   "rent": 1340,
+   "paid": false,
+   "left": 2873,
+   "share": 32
+  },
+  {
+   "name": "Calgary",
+   "net": 4648,
+   "rent": 1550,
+   "paid": false,
+   "left": 3098,
+   "share": 33
+  },
+  {
+   "name": "Edmonton",
+   "net": 4648,
+   "rent": 1260,
+   "paid": false,
+   "left": 3388,
+   "share": 27
+  },
+  {
+   "name": "Kelowna",
+   "net": 4600,
+   "rent": 1880,
+   "paid": false,
+   "left": 2720,
+   "share": 41
+  },
+  {
+   "name": "Vancouver",
+   "net": 4600,
+   "rent": 2280,
+   "paid": false,
+   "left": 2320,
+   "share": 50
+  },
+  {
+   "name": "Halifax",
+   "net": 4022,
+   "rent": 1880,
+   "paid": false,
+   "left": 2142,
+   "share": 47
+  },
+  {
+   "name": "Charlottetown",
+   "net": 3824,
+   "rent": 1090,
+   "paid": true,
+   "left": 2734,
+   "share": 29
+  },
+  {
+   "name": "St. John's",
+   "net": 4193,
+   "rent": 1270,
+   "paid": false,
+   "left": 2923,
+   "share": 30
+  }
+ ],
+ "family": [
+  {
+   "id": "childcare",
+   "values": [
+    "11 (2026)",
+    "13 (2025)",
+    "7 (2025)",
+    "17 (2025)",
+    "10 (2026)"
+   ]
+  },
+  {
+   "id": "under3",
+   "values": [
+    "59,7",
+    "48,0",
+    "56,4",
+    "36,8",
+    "n.d."
+   ]
+  },
+  {
+   "id": "maternity",
+   "values": [
+    "16 / 100 %",
+    "15 / 77 %",
+    "20 / 100 %",
+    "14 / 56 %",
+    "16 / 36 % (régime fédéral)"
+   ]
+  },
+  {
+   "id": "motherLeave",
+   "values": [
+    "20,0",
+    "15,1",
+    "38,1",
+    "7,9",
+    "19,9"
+   ]
+  },
+  {
+   "id": "fatherLeave",
+   "values": [
+    "8,1",
+    "6,3",
+    "20,1",
+    "1,1",
+    "2,0"
+   ]
+  }
+ ],
+ "daily": [
+  {
+   "id": "hours",
+   "values": [
+    "39,9",
+    "40,3",
+    "40,8",
+    "43,3",
+    "39,7",
+    "38,6",
+    "39,7"
+   ]
+  },
+  {
+   "id": "satisfaction",
+   "values": [
+    "7,1 (2025)",
+    "7,6 (2025)",
+    "7,4 (2025)",
+    "7,7 (2024)",
+    "7,0 (T2 2025)",
+    "7,5",
+    "6,8"
+   ]
+  }
+ ]
+}

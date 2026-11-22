@@ -1,15 +1,20 @@
-// Builds src/data/references.json: every source linked in the written report,
+// Builds src/data/references.json: every source linked in the written reports,
 // deduplicated by URL and split into official statistics and research.
 //
-// Usage: node scripts/build-refs.mjs [path-to-report.md]
+// Usage: node scripts/build-refs.mjs [path-to-reports-folder]
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const report = resolve(process.argv[2] ?? join(here, '../research/reports/Difficulté emploi régions francophones OCDE.md'));
-const text = readFileSync(report, 'utf8');
+// Every report in research/reports: job-search difficulty, then the gains of moving.
+const dir = resolve(process.argv[2] ?? join(here, '../research/reports'));
+const text = readdirSync(dir)
+  .filter((f) => f.endsWith('.md'))
+  .sort()
+  .map((f) => readFileSync(join(dir, f), 'utf8'))
+  .join('\n');
 
 const official = [
   'ec.europa.eu', 'statcan.gc.ca', 'insee.fr', 'travail-emploi.gouv.fr', 'francetravail', 'bfs.admin.ch', 'seco.admin.ch',

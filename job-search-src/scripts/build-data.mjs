@@ -154,12 +154,45 @@ const communities = ca
     };
   });
 
-// The three territories: no education breakdown is published; only the overall rate
-// (Labour Force Survey, three-month average to June 2026) is available for now.
-const terrOf = { Yn: 'CA-YT', 'T.N.-O.': 'CA-NT', Nt: 'CA-NU' };
-for (const l of ca.filter((x) => /^\| CFA/.test(x) && cells(x).length >= 12)) {
-  const c = cells(l);
-  if (terrOf[c[2]]) push(terrOf[c[2]], 'unemp', 'all', 'all', num(c[5]), 'Q2 2026', 'statcan-1410029201', 'ok');
+// The three territories. The Labour Force Survey publishes only their overall rate
+// (annual average 2025). No survey gives unemployment by education there, so the profile
+// is MODELLED: the 2021 Census pattern by age and education, shifted on the logit scale by
+// one constant per territory so that the overall rate equals the 2025 survey rate.
+const gains = resolve(join(here, '../research/notes/Gains de mobilité territoires francophones'));
+const profiles = readFileSync(join(gains, 'profils_territoires_villes.csv'), 'utf8')
+  .replace(/^\uFEFF/, '')
+  .trim()
+  .split(/\r?\n/)
+  .slice(1)
+  .map((l) => {
+    const c = l.split(',');
+    return { place: c[0], level: c[1], age: c[3], edu: c[4], ind: c[5], v: parseFloat(c[6]), period: c[7], def: c[8], src: c[9], flag: c[11] ?? '' };
+  });
+const logit = (p) => Math.log(p / (100 - p));
+const invLogit = (x) => 100 / (1 + Math.exp(-x));
+const terrId = { Yukon: 'CA-YT', 'Territoires du Nord-Ouest': 'CA-NT', Nunavut: 'CA-NU' };
+const ageCensus = { '15-24': '15-24', '25-54': '25-54', '55-64': '55-64', '15+': 'all' };
+const eduCensus = { aucun_diplome: 'low', secondaire: 'mid', postsecondaire_tous: 'high', tous: 'all' };
+for (const [place, id] of Object.entries(terrId)) {
+  const rows = profiles.filter((r) => r.place === place && r.ind === 'unemployment_rate');
+  const survey = rows.find((r) => r.def === 'LFS_annual_average' && r.age === '15+' && r.edu === 'tous' && !r.flag && /0464/.test(r.src));
+  const census = rows.filter((r) => /^census_2021/.test(r.def));
+  const overall = census.find((r) => r.age === '15+' && r.edu === 'tous');
+  if (!survey || !overall) throw new Error(`territory inputs missing for ${place}`);
+  const shift = logit(survey.v) - logit(overall.v);
+  push(id, 'unemp', 'all', 'all', survey.v, survey.period, 'statcan-1410046401', 'ok');
+  // The survey also publishes the 25–54 rate for all education levels: use it rather than the model.
+  const prime = rows.find((r) => r.def === 'LFS_annual_average' && r.age === '25-54' && r.edu === 'tous' && !r.flag && r.v > 0);
+  if (prime) push(id, 'unemp', '25-54', 'all', prime.v, prime.period, 'statcan-1410044601', 'ok');
+  for (const r of census) {
+    const a = ageCensus[r.age];
+    const e = eduCensus[r.edu];
+    if (!a || !e || (a === 'all' && e === 'all')) continue;
+    if (prime && a === '25-54' && e === 'all') continue;
+    // Cells resting on fewer than 250 people, or suppressed, are not shown.
+    if (!(r.v > 0) || r.flag) continue;
+    push(id, 'unemp', a, e, +invLogit(logit(r.v) + shift).toFixed(1), '2025', 'model-territories', 'model');
+  }
 }
 
 const sources = {
@@ -179,9 +212,17 @@ const sources = {
     label: 'Statistics Canada, table 14-10-0020-01',
     url: 'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410002001',
   },
-  'statcan-1410029201': {
-    label: 'Statistics Canada, table 14-10-0292-01',
-    url: 'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410029201',
+  'statcan-1410046401': {
+    label: 'Statistics Canada, table 14-10-0464-01',
+    url: 'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410046401',
+  },
+  'statcan-1410044601': {
+    label: 'Statistics Canada, table 14-10-0446-01',
+    url: 'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044601',
+  },
+  'model-territories': {
+    label: 'Statistics Canada, tables 98-10-0400-01 and 14-10-0464-01',
+    url: 'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810040001',
   },
   'statcan-1410034201': {
     label: 'Statistics Canada, table 14-10-0342-01',

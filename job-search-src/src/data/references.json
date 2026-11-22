@@ -56,6 +56,13 @@
   "kind": "research"
  },
  {
+  "label": "Banque des Territoires",
+  "url": "https://www.banquedesterritoires.fr/logement-social-29-millions-de-demandeurs-et-86-milliards-deuros-necessaires-pour-affronter-les",
+  "host": "banquedesterritoires.fr",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
   "label": "Forum for the Future",
   "url": "https://blog.forumforthefuture.be/fr/article/36-des-chomeurs-au-deuxieme-trimestre-2023-sont-au-travail-un-an-plus-tard/24312",
   "host": "blog.forumforthefuture.be",
@@ -67,6 +74,27 @@
   "url": "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs",
   "host": "budgetlab.yale.edu",
   "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "BX1",
+  "url": "https://bx1.be/?p=831775",
+  "host": "bx1.be",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "BX1",
+  "url": "https://bx1.be/?p=833944",
+  "host": "bx1.be",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "canton de Genève",
+  "url": "https://www.ge.ch/actualite/salaire-minimum-genevois-2026-etablira-2459-fr-heure-1-10-2025",
+  "host": "ge.ch",
+  "publisher": "Canton of Geneva",
   "kind": "research"
  },
  {
@@ -84,11 +112,67 @@
   "kind": "official"
  },
  {
+  "label": "État de Vaud",
+  "url": "https://www.vd.ch/actualites/communiques-de-presse-de-letat-de-vaud/detail/communique/3900-logements-vacants-dans-le-canton-de-vaud-au-1er-juin-2026",
+  "host": "vd.ch",
+  "publisher": "Canton of Vaud",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Vaud, Numerus n° 8, novembre 2026",
+  "url": "https://www.vd.ch/fileadmin/user_upload/organisation/dfin/statvd/Publications/Numerus/Numerus-08-2026_Loyers.pdf",
+  "host": "vd.ch",
+  "publisher": "Canton of Vaud",
+  "kind": "official"
+ },
+ {
   "label": "Céreq 2026",
   "url": "https://www.cereq.fr/sites/default/files/2026-07/Bref_487-488_OK.pdf",
   "host": "cereq.fr",
   "publisher": "Céreq",
   "kind": "official"
+ },
+ {
+  "label": "CFFP, 19 novembre 2026",
+  "url": "https://cffp.recherche.usherbrooke.ca/regard-sur-le-fardeau-fiscal/",
+  "host": "cffp.recherche.usherbrooke.ca",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "ch.ch",
+  "url": "https://ch.ch/fr/travail/horaires--absences--vacances/vacances-et-jours-feries",
+  "host": "ch.ch",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "CMEC, faits saillants PISA 2025",
+  "url": "https://cmec.ca/docs/pisa2025/PISA_2025_Highlights_FR.pdf",
+  "host": "cmec.ca",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "CMEC, rapport canadien PISA 2022",
+  "url": "https://www.cmec.ca/Publications/Lists/Publications/Attachments/438/PISA-2022_Canadian_Report_EN.pdf",
+  "host": "cmec.ca",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "SCHL, mi-année 2026",
+  "url": "https://www.cmhc-schl.gc.ca/observer/2026/2026-mid-year-rental-market-update",
+  "host": "cmhc-schl.gc.ca",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "SCHL, Rapport sur le logement dans le Nord, 29 juillet 2026",
+  "url": "https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/market-reports/housing-market/northern-housing-report",
+  "host": "cmhc-schl.gc.ca",
+  "publisher": null,
+  "kind": "research"
  },
  {
   "label": "DARES",
@@ -119,8 +203,22 @@
   "kind": "official"
  },
  {
+  "label": "ANIL et ministère du Logement, Carte des loyers 2025",
+  "url": "https://www.data.gouv.fr/datasets/693aa2feed1bf4da603faa49/",
+  "host": "data.gouv.fr",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
   "label": "DH",
   "url": "https://www.dhnet.be/regions/bruxelles/bruxelles-mobilite/2023/04/17/il-ny-a-jamais-eu-autant-de-navetteurs-flamands-et-wallons-a-bruxelles-infographie-OHJRZXUG5BFQZNWHOISXKKQVMI/",
+  "host": "dhnet.be",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "DH",
+  "url": "https://www.dhnet.be/regions/bruxelles/bruxelles-mobilite/2026/04/23/louer-un-logement-dans-le-grand-bruxelles-coute-23-de-plus-que-dans-le-grand-liege-4FCDLGI7VZF7THIOH6JS4M6KJI/",
   "host": "dhnet.be",
   "publisher": null,
   "kind": "research"
@@ -266,10 +364,52 @@
   "kind": "research"
  },
  {
+  "label": "DEPP",
+  "url": "https://www.education.gouv.fr/sites/default/files/document/depp-ni-2026-40pisa-mathspdf-520231.pdf",
+  "host": "education.gouv.fr",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "Employment Hero",
+  "url": "https://employmenthero.com/en-ca/resources/vacation-entitlement-by-province/",
+  "host": "employmenthero.com",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "etudiant.gouv.fr",
+  "url": "https://www.etudiant.gouv.fr/droits-d-inscription-1489",
+  "host": "etudiant.gouv.fr",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
   "label": "Dares, IPP, ISM Corum",
   "url": "https://migrant-integration.ec.europa.eu/system/files/2022-01/Dares%20Analyses_testing_discrimination_embauche.pdf",
   "host": "migrant-integration.ec.europa.eu",
   "publisher": "European Commission",
+  "kind": "official"
+ },
+ {
+  "label": "demo_r_minfind",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_r_minfind?format=JSON&lang=EN&sinceTimePeriod=2018&unit=RT&geo=FR1",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "earn_ses22_20",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/earn_ses22_20?format=JSON&lang=EN&geo=FR&geo=BE&geo=LU&geo=CH&nace_r2=B-S_X_O&sex=T",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "edat_lfse_04",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/edat_lfse_04?format=JSON&lang=EN&sinceTimePeriod=2018&sex=T&age=Y25-34&isced11=ED5-8&unit=PC&geo=FR1",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
   "kind": "official"
  },
  {
@@ -287,8 +427,134 @@
   "kind": "official"
  },
  {
+  "label": "Eurostat crim_gen_reg",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/crim_gen_reg?format=JSON&lang=EN&sinceTimePeriod=2018&iccs=ICCS0101&unit=P_HTHAB&geo=FR1",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat crim_gen_reg",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/crim_gen_reg?format=JSON&lang=EN&sinceTimePeriod=2018&iccs=ICCS0101&iccs=ICCS0401&iccs=ICCS05012&unit=P_HTHAB&geo=FR1",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat demo_r_frate2",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_r_frate2?format=JSON&lang=EN&sinceTimePeriod=2018&age=TOTAL&unit=NR&geo=FR1",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat demo_r_mlifexp",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_r_mlifexp?format=JSON&lang=EN&sinceTimePeriod=2018&sex=T&age=Y_LT1&unit=YR&geo=FR1",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat earn_mw_cur",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/earn_mw_cur?format=JSON&lang=EN&geo=FR&geo=BE&geo=LU&sinceTimePeriod=2026-S1",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat earn_nt_net",
+  "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat earn_ses_pub1s",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/earn_ses_pub1s?format=JSON&lang=EN&geo=FR&geo=BE&geo=LU&geo=CH&sinceTimePeriod=2022",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat earn_ses_pub2a",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/earn_ses_pub2a?format=JSON&lang=EN&geo=FR&geo=BE&geo=LU&geo=CH&sinceTimePeriod=2022",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat earn_ses22_23",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/earn_ses22_23?format=JSON&lang=EN&geo=FR&geo=BE&geo=LU&geo=CH&nace_r2=B-S_X_O&sex=T",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat earn_ses22_rann",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/earn_ses22_rann?format=JSON&lang=EN",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat edat_lfse_16",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/edat_lfse_16?format=JSON&lang=EN&sinceTimePeriod=2018&sex=T&age=Y18-24&unit=PC&geo=FR1",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
   "label": "Eurostat edat_lfse_33",
   "url": "https://ec.europa.eu/eurostat/databrowser/view/edat_lfse_33/default/table?lang=fr",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat hlth_hlye",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_hlye?format=JSON&lang=EN&sinceTimePeriod=2018&hlth_hle=HLY_Y0&sex=T&sex=M&sex=F&unit=YR&geo=FR&geo=BE&geo=LU&geo=CH&geo=EU27_2020",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat hlth_silc_08",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_silc_08?format=JSON&lang=EN&sinceTimePeriod=2018&reason=TXP_TFAR_WLIST&reason=WLIST&reason=TXP&quant_inc=TOTAL&sex=T&age=Y_GE16&unit=PC&geo=FR&geo=BE&geo=LU&geo=CH&geo=EU27_2020",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat ilc_caindformal",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_caindformal?format=JSON&lang=EN&sinceTimePeriod=2018&age=Y_LT3&unit=PC&geo=FR&geo=BE&geo=LU&geo=CH&geo=EU27_2020",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat ilc_li41",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_li41?format=JSON&lang=EN&sinceTimePeriod=2023",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat ilc_lvho02",
+  "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_lvho02/default/table",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat ilc_lvho07c",
+  "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_lvho07c/default/table",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat ilc_pw01",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_pw01?format=JSON&lang=EN&sinceTimePeriod=2018&life_sat=LIFE&statinfo=AVG&isced11=TOTAL&sex=T&age=Y_GE16&unit=RTG&geo=FR&geo=BE&geo=LU&geo=CH",
   "host": "ec.europa.eu",
   "publisher": "Eurostat",
   "kind": "official"
@@ -303,6 +569,13 @@
  {
   "label": "Eurostat lfsa_eoqgac",
   "url": "https://ec.europa.eu/eurostat/databrowser/view/lfsa_eoqgac/default/table?lang=en",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat lfsa_ewhun2",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsa_ewhun2?format=JSON&lang=EN&sinceTimePeriod=2018&nace_r2=TOTAL&wstatus=EMP&worktime=FT&age=Y20-64&sex=T&unit=HR&geo=FR&geo=BE&geo=LU&geo=CH",
   "host": "ec.europa.eu",
   "publisher": "Eurostat",
   "kind": "official"
@@ -343,6 +616,13 @@
   "kind": "official"
  },
  {
+  "label": "Eurostat prc_ppp_ind_1",
+  "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind_1?format=JSON&lang=EN&geo=FR&geo=BE&geo=LU&geo=CH&sinceTimePeriod=2024",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
   "label": "Eurostat une_rt_m",
   "url": "https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table?lang=en",
   "host": "ec.europa.eu",
@@ -359,6 +639,13 @@
  {
   "label": "Eurostat, métadonnées JVS",
   "url": "https://ec.europa.eu/eurostat/cache/metadata/en/jvs_esms.htm",
+  "host": "ec.europa.eu",
+  "publisher": "Eurostat",
+  "kind": "official"
+ },
+ {
+  "label": "Eurostat, qualité de vie",
+  "url": "https://ec.europa.eu/eurostat/web/quality-of-life/methodology",
   "host": "ec.europa.eu",
   "publisher": "Eurostat",
   "kind": "official"
@@ -462,6 +749,13 @@
   "kind": "official"
  },
  {
+  "label": "OFS, logements vacants, 10 septembre 2026",
+  "url": "https://www.bfs.admin.ch/fr/newnsb/kgvqAd91MYZr",
+  "host": "bfs.admin.ch",
+  "publisher": "FSO (Switzerland)",
+  "kind": "official"
+ },
+ {
   "label": "OFS, places vacantes",
   "url": "https://www.pxweb.bfs.admin.ch/pxweb/fr/px-x-0602000000_104/-/px-x-0602000000_104.px",
   "host": "pxweb.bfs.admin.ch",
@@ -469,9 +763,51 @@
   "kind": "official"
  },
  {
+  "label": "OFS, tableau 203",
+  "url": "https://www.pxweb.bfs.admin.ch/pxweb/fr/px-x-0304010000_203/px-x-0304010000_203/px-x-0304010000_203.px/",
+  "host": "pxweb.bfs.admin.ch",
+  "publisher": "FSO (Switzerland)",
+  "kind": "official"
+ },
+ {
+  "label": "OFS, tableau 204",
+  "url": "https://www.pxweb.bfs.admin.ch/pxweb/fr/px-x-0304010000_204/px-x-0304010000_204/px-x-0304010000_204.px/",
+  "host": "pxweb.bfs.admin.ch",
+  "publisher": "FSO (Switzerland)",
+  "kind": "official"
+ },
+ {
+  "label": "Blomquist 2006",
+  "url": "https://gattonweb.uky.edu/faculty/blomquist/CompanionUrbanEcon%202006%20QOL%20chapter%20Blomquist.pdf",
+  "host": "gattonweb.uky.edu",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "Guichet.lu",
+  "url": "https://guichet.public.lu/fr/entreprises/ressources-humaines/conges/annuel/conge-annuel.html",
+  "host": "guichet.public.lu",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "Clark et Diaz-Serrano",
+  "url": "https://halshs.archives-ouvertes.fr/halshs-03230851v1/file/WP_202132_.pdf",
+  "host": "halshs.archives-ouvertes.fr",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
   "label": "Indeed Hiring Lab",
   "url": "https://hiringlab.indeed.com/indeed-data-faq-2/",
   "host": "hiringlab.indeed.com",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "IBSA, Cahier n° 16, 23 avril 2026",
+  "url": "https://ibsa.brussels/sites/default/files/2026-04/CP_Cahier16_FR.pdf",
+  "host": "ibsa.brussels",
   "publisher": null,
   "kind": "research"
  },
@@ -518,8 +854,50 @@
   "kind": "official"
  },
  {
+  "label": "Insee",
+  "url": "https://www.insee.fr/fr/statistiques/8733103",
+  "host": "insee.fr",
+  "publisher": "Insee",
+  "kind": "official"
+ },
+ {
+  "label": "Insee",
+  "url": "https://www.insee.fr/fr/statistiques/8733089",
+  "host": "insee.fr",
+  "publisher": "Insee",
+  "kind": "official"
+ },
+ {
+  "label": "Insee Analyses Grand Est n° 205",
+  "url": "https://www.insee.fr/fr/statistiques/8669660",
+  "host": "insee.fr",
+  "publisher": "Insee",
+  "kind": "official"
+ },
+ {
   "label": "Insee Première n° 1661",
   "url": "https://www.insee.fr/fr/statistiques/2905681",
+  "host": "insee.fr",
+  "publisher": "Insee",
+  "kind": "official"
+ },
+ {
+  "label": "Insee Première n° 1959",
+  "url": "https://www.insee.fr/fr/statistiques/7649921",
+  "host": "insee.fr",
+  "publisher": "Insee",
+  "kind": "official"
+ },
+ {
+  "label": "Insee, indicateurs de richesse nationale",
+  "url": "https://www.insee.fr/fr/statistiques/4277783",
+  "host": "insee.fr",
+  "publisher": "Insee",
+  "kind": "official"
+ },
+ {
+  "label": "Insee, recensement 2022",
+  "url": "https://www.insee.fr/fr/statistiques/2012695",
   "host": "insee.fr",
   "publisher": "Insee",
   "kind": "official"
@@ -529,6 +907,13 @@
   "url": "https://www.insee.fr/fr/statistiques/1893230",
   "host": "insee.fr",
   "publisher": "Insee",
+  "kind": "official"
+ },
+ {
+  "label": "Budget 2026, annexe 3",
+  "url": "https://budget.canada.ca/2026/report-rapport/anx3-en.html",
+  "host": "budget.canada.ca",
+  "publisher": "IRCC",
   "kind": "official"
  },
  {
@@ -595,6 +980,13 @@
   "kind": "official"
  },
  {
+  "label": "ministère des Finances",
+  "url": "https://www.canada.ca/en/department-finance/news/2024/02/government-announces-two-year-extension-to-ban-on-foreign-ownership-of-canadian-housing.html",
+  "host": "canada.ca",
+  "publisher": "IRCC",
+  "kind": "official"
+ },
+ {
   "label": "IWEPS",
   "url": "https://www.iweps.be/wp-content/uploads/2026/06/L001-TX.VAC-062026_Full1.pdf",
   "host": "iweps.be",
@@ -637,6 +1029,13 @@
   "kind": "research"
  },
  {
+  "label": "LCP",
+  "url": "https://lcp.fr/actualites/encadrement-des-loyers-l-assemblee-prolonge-l-experimentation-du-dispositif-au-terme-d",
+  "host": "lcp.fr",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
   "label": "Forem",
   "url": "https://www.leforem.be/a-propos/espace-presse/communiques-presse/situation-demande-emploi-wallonie-juin-2026.html",
   "host": "leforem.be",
@@ -651,8 +1050,22 @@
   "kind": "research"
  },
  {
+  "label": "Logement.lu",
+  "url": "https://logement.public.lu/fr/proprietaire/logement-location/faq-bail-a-loyer.html",
+  "host": "logement.public.lu",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
   "label": "Gouvernement luxembourgeois",
   "url": "https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2026/11-novembre/20-chomage-octobre.html",
+  "host": "gouvernement.lu",
+  "publisher": "Luxembourg government",
+  "kind": "official"
+ },
+ {
+  "label": "Le Logement en chiffres n° 20",
+  "url": "https://gouvernement.lu/dam-assets/images-documents/actualites/2026/09-septembre/24-logement-en-chiffres-n20/logement-en-chiffre-20.pdf",
   "host": "gouvernement.lu",
   "publisher": "Luxembourg government",
   "kind": "official"
@@ -663,6 +1076,55 @@
   "host": "gouvernement.lu",
   "publisher": "Luxembourg government",
   "kind": "official"
+ },
+ {
+  "label": "Observatoire de l'Habitat, loyers annoncés 2025",
+  "url": "https://gouvernement.lu/dam-assets/images-documents/actualites/2026/09-septembre/30-observatoire-habitat/rapport-loyers-annoncs-en-2025.pdf",
+  "host": "gouvernement.lu",
+  "publisher": "Luxembourg government",
+  "kind": "official"
+ },
+ {
+  "label": "rapport d'analyse n° 24",
+  "url": "https://gouvernement.lu/dam-assets/images-documents/actualites/2026/06-juin/05-mlog-cadastre-loyers/rapport-danalyse-24.pdf",
+  "host": "gouvernement.lu",
+  "publisher": "Luxembourg government",
+  "kind": "official"
+ },
+ {
+  "label": "Métropole du Grand Nancy",
+  "url": "https://mhdd.grandnancy.eu/fileadmin/MHDD/PDF/DH_infos/2026_Cahier_69_OLL.pdf",
+  "host": "mhdd.grandnancy.eu",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "Mon Chasseur Immo",
+  "url": "https://www.monchasseurimmo.com/actualites-immobilieres/marche-immobilier-4e-trimestre-2025-notaires-prix-volumes",
+  "host": "monchasseurimmo.com",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "Albouy 2008",
+  "url": "https://www.nber.org/papers/w14472",
+  "host": "nber.org",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "Albouy 2016",
+  "url": "https://www.nber.org/papers/w14981",
+  "host": "nber.org",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "Albouy, Leibovici et Warman 2013",
+  "url": "https://www.nber.org/papers/w18103",
+  "host": "nber.org",
+  "publisher": null,
+  "kind": "research"
  },
  {
   "label": "Bilal 2023",
@@ -688,6 +1150,13 @@
  {
   "label": "Elsby, Hobijn et Şahin",
   "url": "https://www.nber.org/papers/w14617.pdf",
+  "host": "nber.org",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "Helliwell, Shiplett et Bonikowska 2020",
+  "url": "https://www.nber.org/papers/w22601",
   "host": "nber.org",
   "publisher": null,
   "kind": "research"
@@ -728,6 +1197,13 @@
   "kind": "research"
  },
  {
+  "label": "Gallup",
+  "url": "https://news.gallup.com/opinion/gallup/230639/migrants-happier-move.aspx",
+  "host": "news.gallup.com",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
   "label": "OCSTAT",
   "url": "https://statistique.ge.ch/statistique/tel/domaines/03/03_05/T_03_05_2_01.xlsx",
   "host": "statistique.ge.ch",
@@ -756,6 +1232,13 @@
   "kind": "research"
  },
  {
+  "label": "OCDE, base Famille, PF2.1",
+  "url": "https://webfs.oecd.org/Els-com/Family_Database/PF2_1_Parental_leave_systems.pdf",
+  "host": "webfs.oecd.org",
+  "publisher": "OECD",
+  "kind": "research"
+ },
+ {
   "label": "OCDE, Regards sur l'éducation 2026",
   "url": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/how-does-educational-attainment-affect-participation-in-the-labour-market_b0fe0937.html",
   "host": "oecd.org",
@@ -763,8 +1246,57 @@
   "kind": "research"
  },
  {
+  "label": "OCDE",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.WISE.INE,DSD_WEALTH@DF_WEALTH,1.0/all?startPeriod=2016",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, base régionale",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_ECO@DF_INC,2.4/all?startPeriod=2020",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
   "label": "OCDE, chômage par durée",
   "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.SAE,DSD_DUR@DF_DUR_I,1.0/all?startPeriod=2023&dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, comptes de la santé",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_SHA@DF_SHA,1.1/FRA+BEL+LUX+CHE+CAN.A...HF3+HF1+HF2+_T.._T.._T...?startPeriod=2022&dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, coût net de la garde",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.JAI,DSD_TAXBEN_NCC@DF_NCC,1.1/FRA+BEL+LUX+CHE+CAN...........?startPeriod=2022&dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, dépenses sociales",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.SPD,DSD_SOCX_AGG@DF_PUB_FAM,1.0/FRA+BEL+LUX+CHE+CAN.......?startPeriod=2018&dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, DF_AIR_POLL",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.ENV.EPI,DSD_AIR_POL@DF_AIR_POLL,/all?startPeriod=2018&dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, DSD_REG_HEALTH@DF_CARE",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.CFE.EDS,DSD_REG_HEALTH@DF_CARE,2.5/all?startPeriod=2018&dimensionAtObservation=AllDimensions&format=csvfilewithlabels",
   "host": "sdmx.oecd.org",
   "publisher": "OECD data",
   "kind": "official"
@@ -784,6 +1316,62 @@
   "kind": "official"
  },
  {
+  "label": "OCDE, niveaux de prix",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PPP@DF_PPP_CPL,1.1/all?startPeriod=2022",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, PPA",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_PPP@DF_PPP_PPP,1.1/all?startPeriod=2022",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, prix des logements",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.ECO.MPD,DSD_AN_HOUSE_PRICES@DF_HOUSE_PRICES,1.0/FRA+BEL+LUX+CHE+CAN.Q.HPI_YDH+HPI_RPI+RHP+HPI_YDH_AVG+HPI_RPI_AVG.?startPeriod=2022-Q1",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, Regards sur l'éducation",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.EDU.IMEP,DSD_EAG_LSO_EA@DF_LSO_EARN_REL_UPPER,1.0/all?startPeriod=2019",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, Taxing Wages",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.CTP.TPS,DSD_TAX_WAGES_COMP@DF_TW_COMP,2.1/all?startPeriod=2024",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "OCDE, Taxing Wages",
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.CTP.TPS,DSD_TAX_WAGES_COMP@DF_TW_COMP,2.1/all?startPeriod=2022&endPeriod=2023",
+  "host": "sdmx.oecd.org",
+  "publisher": "OECD data",
+  "kind": "official"
+ },
+ {
+  "label": "fichier OCDE Regional Well-Being, octobre 2025",
+  "url": "https://www.oecdregionalwellbeing.org/assets/downloads/OECD-Regional-Well-Being-Data-File.xlsx",
+  "host": "oecdregionalwellbeing.org",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "OCDE, guide Regional Well-Being, octobre 2025",
+  "url": "https://www.oecdregionalwellbeing.org/assets/downloads/Regional-Well-Being-User-Guide.pdf",
+  "host": "oecdregionalwellbeing.org",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
   "label": "ONEM",
   "url": "https://www.onem.be/index.php/reforme-de-la-reglementation-du-chomage",
   "host": "onem.be",
@@ -795,6 +1383,34 @@
   "url": "https://www.onem.be/index.php/statistiques/reforme-de-la-reglementation-du-chomage-chiffres",
   "host": "onem.be",
   "publisher": "ONEM",
+  "kind": "official"
+ },
+ {
+  "label": "Ontario.ca",
+  "url": "https://www.ontario.ca/page/residential-rent-increases",
+  "host": "ontario.ca",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "ULiège",
+  "url": "https://orbi.uliege.be/bitstream/2268/349304/2/pisa2025_synthese_et_slides_08092026.pdf",
+  "host": "orbi.uliege.be",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "CCPA, août 2026",
+  "url": "https://www.policyalternatives.ca/news-research/the-10-a-day-divide-child-care-fees-in-canada-in-2026/",
+  "host": "policyalternatives.ca",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "FLHLMQ",
+  "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/finances/publications-adm/Consultations_prebudgetaires/2026-2027/FLHLMQ.pdf",
+  "host": "cdn-contenu.quebec.ca",
+  "publisher": "Québec government",
   "kind": "official"
  },
  {
@@ -817,6 +1433,41 @@
   "host": "statistique.quebec.ca",
   "publisher": "Québec government",
   "kind": "official"
+ },
+ {
+  "label": "Québec.ca",
+  "url": "https://www.quebec.ca/nouvelles/actualites/details/exiger-un-depot-de-garantie-est-illegal",
+  "host": "quebec.ca",
+  "publisher": "Québec government",
+  "kind": "official"
+ },
+ {
+  "label": "Québec.ca",
+  "url": "https://www.quebec.ca/nouvelles/actualites/details/le-calcul-de-lajustement-des-loyers-en-2026-68053",
+  "host": "quebec.ca",
+  "publisher": "Québec government",
+  "kind": "official"
+ },
+ {
+  "label": "Québec.ca",
+  "url": "https://www.quebec.ca/famille-et-soutien-aux-personnes/grossesse-parentalite/aide-financiere-prestations/regime-quebecois-assurance-parentale/grossesse-naissance/montant-prestations",
+  "host": "quebec.ca",
+  "publisher": "Québec government",
+  "kind": "official"
+ },
+ {
+  "label": "Québec.ca",
+  "url": "https://www.quebec.ca/education/etudier-quebec/aide-financiere-etudiants-internationaux/exemption-droits-scolarite-ententes",
+  "host": "quebec.ca",
+  "publisher": "Québec government",
+  "kind": "official"
+ },
+ {
+  "label": "Nowok, van Ham, Findlay et Gayle 2013",
+  "url": "https://research-repository.st-andrews.ac.uk/bitstream/10023/6563/1/vanHam_2013_EPA_Migration_AM.pdf",
+  "host": "research-repository.st-andrews.ac.uk",
+  "publisher": null,
+  "kind": "research"
  },
  {
   "label": "RTBF",
@@ -847,6 +1498,13 @@
   "kind": "official"
  },
  {
+  "label": "Service-public.gouv.fr",
+  "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31269",
+  "host": "service-public.gouv.fr",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
   "label": "Quillian et al. 2019",
   "url": "https://sociologicalscience.com/download/vol-6/june/SocSci_v6_467to496.pdf",
   "host": "sociologicalscience.com",
@@ -854,8 +1512,50 @@
   "kind": "research"
  },
  {
+  "label": "11-10-0240",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1110024001",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "13-10-0140-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310014001",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "13-10-0713-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310071301",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
   "label": "14-10-0342-01",
   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410034201",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "34-10-0127",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410012701",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "34-10-0129",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410012901",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "35-10-0026-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510002601",
   "host": "statcan.gc.ca",
   "publisher": "Statistics Canada",
   "kind": "official"
@@ -868,6 +1568,13 @@
   "kind": "official"
  },
  {
+  "label": "Lu, Schellenberg, Hou et Helliwell 2015",
+  "url": "https://www150.statcan.gc.ca/n1/pub/11-626-x/11-626-x2015046-eng.htm",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
   "label": "Statistique Canada",
   "url": "https://www150.statcan.gc.ca/n1/pub/75-005-m/75-005-m2024003-eng.htm",
   "host": "statcan.gc.ca",
@@ -875,8 +1582,78 @@
   "kind": "official"
  },
  {
+  "label": "Statistique Canada",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/220921/dq220921b-eng.htm",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 11-10-0135-01",
+  "url": "https://www150.statcan.gc.ca/n1/tbl/csv/11100135-eng.zip",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 11-10-0239-01",
+  "url": "https://www150.statcan.gc.ca/n1/tbl/csv/11100239-eng.zip",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 13-10-0114-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310011401",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 13-10-0418-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310041801",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 13-10-0843-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310084301",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 13-10-0905-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310090501",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
   "label": "Statistique Canada 14-10-0020-01",
   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410002001",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 14-10-0043-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410004301",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 14-10-0064-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410006401",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 14-10-0064-01",
+  "url": "https://www150.statcan.gc.ca/n1/tbl/csv/14100064-eng.zip",
   "host": "statcan.gc.ca",
   "publisher": "Statistics Canada",
   "kind": "official"
@@ -938,6 +1715,48 @@
   "kind": "official"
  },
  {
+  "label": "Statistique Canada 34-10-0133",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410013301",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 35-10-0068-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510006801",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 37-10-0009-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710000901",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 37-10-0130-01",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710013001",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 46-10-0065",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4610006501",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 46-10-0092",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4610009201",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
   "label": "Statistique Canada 98-10-0615-01",
   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810061501",
   "host": "statcan.gc.ca",
@@ -959,6 +1778,13 @@
   "kind": "official"
  },
  {
+  "label": "Statistique Canada, Carrefour de la qualité de vie",
+  "url": "https://www.statcan.gc.ca/hub-carrefour/quality-life-qualite-vie/index-fra.htm",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
   "label": "Statistique Canada, Le Quotidien du 6 novembre 2026",
   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm",
   "host": "statcan.gc.ca",
@@ -970,6 +1796,20 @@
   "url": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/98-200-X/2021010/98-200-X2021010-fra.cfm",
   "host": "statcan.gc.ca",
   "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "DFI, primes moyennes 2026",
+  "url": "https://www.bsv.admin.ch/dam/fr/sd-web/juMQ1SfoExDq/FR%20Anhang%20(Art.%203",
+  "host": "bsv.admin.ch",
+  "publisher": "Swiss Confederation",
+  "kind": "official"
+ },
+ {
+  "label": "OFSP, communiqué du 29 septembre 2026",
+  "url": "https://www.bag.admin.ch/fr/newnsb/BfuGvedj0OOX",
+  "host": "bag.admin.ch",
+  "publisher": "Swiss Confederation",
   "kind": "official"
  },
  {
@@ -985,5 +1825,12 @@
   "host": "unedic.org",
   "publisher": "Unédic",
   "kind": "official"
+ },
+ {
+  "label": "WelcomeAide",
+  "url": "https://welcomeaide.com/en/blog/health-insurance-waiting-period-interim-coverage-2026",
+  "host": "welcomeaide.com",
+  "publisher": null,
+  "kind": "research"
  }
 ]

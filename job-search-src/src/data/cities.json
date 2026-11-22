@@ -19,6 +19,12 @@
    "kind": "paid",
    "period": "2024",
    "computed": false
+  },
+  "edu": {
+   "low": 30,
+   "mid": 19.9,
+   "high": 10.9,
+   "basis": "eu21"
   }
  },
  {
@@ -69,6 +75,12 @@
    "kind": "paid",
    "period": "2024",
    "computed": false
+  },
+  "edu": {
+   "low": 24.2,
+   "mid": 12.3,
+   "high": 5.5,
+   "basis": "eu21"
   }
  },
  {
@@ -83,6 +95,12 @@
    "v": 7.7,
    "kind": "prov",
    "period": "2025"
+  },
+  "edu": {
+   "low": 21,
+   "mid": 11.4,
+   "high": 4.6,
+   "basis": "eu21"
   }
  },
  {
@@ -105,6 +123,12 @@
    "kind": "paid",
    "period": "2024",
    "computed": false
+  },
+  "edu": {
+   "low": 25.6,
+   "mid": 13.4,
+   "high": 5.1,
+   "basis": "eu21"
   }
  },
  {
@@ -136,6 +160,12 @@
    "v": 31.5,
    "basis": "gross",
    "asking": false
+  },
+  "edu": {
+   "low": 18.9,
+   "mid": 13.7,
+   "high": 8.6,
+   "basis": "ca21"
   }
  },
  {
@@ -150,6 +180,12 @@
    "v": 4.9,
    "kind": "cma",
    "period": "Aug–Oct 2026"
+  },
+  "edu": {
+   "low": 16.7,
+   "mid": 8.7,
+   "high": 5.9,
+   "basis": "ca21"
   }
  },
  {
@@ -197,6 +233,12 @@
    "hi": 9.4,
    "kind": "sae",
    "period": "Aug 2026"
+  },
+  "edu": {
+   "low": 22,
+   "mid": 10.1,
+   "high": 5.4,
+   "basis": "ca21"
   }
  },
  {
@@ -223,6 +265,12 @@
   "vacancy": {
    "v": 6.3,
    "period": "2025-10"
+  },
+  "edu": {
+   "low": 11.7,
+   "mid": 8.8,
+   "high": 5.4,
+   "basis": "ca21"
   }
  },
  {
@@ -243,6 +291,12 @@
   "vacancy": {
    "v": 0.8,
    "period": "2025-10"
+  },
+  "edu": {
+   "low": 7.8,
+   "mid": 7.2,
+   "high": 4.6,
+   "basis": "ca21"
   }
  },
  {
@@ -269,6 +323,12 @@
   "vacancy": {
    "v": 3.7,
    "period": "2025-10"
+  },
+  "edu": {
+   "low": 17.6,
+   "mid": 10.7,
+   "high": 5.7,
+   "basis": "ca21"
   }
  },
  {
@@ -388,9 +448,9 @@
   "territory": "CA-NT",
   "country": "CA",
   "unemp": {
-   "v": 8,
+   "v": 5,
    "kind": "terr",
-   "period": "Apr–Jun 2026"
+   "period": "2025"
   },
   "rent": {
    "v": 2115,
@@ -408,6 +468,12 @@
    "v": 27.7,
    "basis": "gross",
    "asking": false
+  },
+  "edu": {
+   "low": 22.1,
+   "mid": 5.7,
+   "high": 2,
+   "basis": "ca21"
   }
  },
  {
@@ -419,9 +485,9 @@
   "territory": "CA-NU",
   "country": "CA",
   "unemp": {
-   "v": 11.6,
+   "v": 10.3,
    "kind": "terr",
-   "period": "Apr–Jun 2026"
+   "period": "2025"
   },
   "vacancy": {
    "v": 0.3,
@@ -431,6 +497,12 @@
    "v": 37.9,
    "basis": "gross",
    "asking": false
+  },
+  "edu": {
+   "low": 22.1,
+   "mid": 6.5,
+   "high": 2.9,
+   "basis": "ca21"
   }
  },
  {
@@ -457,6 +529,12 @@
   "vacancy": {
    "v": 1.3,
    "period": "2025-10"
+  },
+  "edu": {
+   "low": 20.7,
+   "mid": 12.6,
+   "high": 6.1,
+   "basis": "ca21"
   }
  },
  {
@@ -520,6 +598,12 @@
    "hi": 9.2,
    "kind": "sae",
    "period": "Aug 2026"
+  },
+  "edu": {
+   "low": 19.1,
+   "mid": 12.9,
+   "high": 9.4,
+   "basis": "ca21"
   }
  },
  {
@@ -568,6 +652,12 @@
   "vacancy": {
    "v": 1.9,
    "period": "2025-10"
+  },
+  "edu": {
+   "low": 11.9,
+   "mid": 10.7,
+   "high": 4.7,
+   "basis": "ca21"
   }
  },
  {
@@ -610,6 +700,12 @@
   "vacancy": {
    "v": 3.6,
    "period": "2025-10"
+  },
+  "edu": {
+   "low": 18.9,
+   "mid": 14.3,
+   "high": 8.2,
+   "basis": "ca21"
   }
  },
  {
@@ -636,6 +732,12 @@
   "vacancy": {
    "v": 3.9,
    "period": "2025-10"
+  },
+  "edu": {
+   "low": 20.6,
+   "mid": 15.6,
+   "high": 9,
+   "basis": "ca21"
   }
  },
  {
@@ -666,6 +768,12 @@
    "v": 3.8,
    "kind": "cma",
    "period": "Aug–Oct 2026"
+  },
+  "edu": {
+   "low": 10.4,
+   "mid": 3.3,
+   "high": 2.7,
+   "basis": "ca21"
   }
  },
  {
@@ -692,6 +800,12 @@
   "vacancy": {
    "v": 2.5,
    "period": "2025-10"
+  },
+  "edu": {
+   "low": 10.8,
+   "mid": 5.9,
+   "high": 3.3,
+   "basis": "ca21"
   }
  },
  {
@@ -723,6 +837,12 @@
    "v": 22.2,
    "basis": "gross",
    "asking": false
+  },
+  "edu": {
+   "low": 11.5,
+   "mid": 9.1,
+   "high": 4,
+   "basis": "ca21"
   }
  },
  {
@@ -751,6 +871,12 @@
    "v": 5.5,
    "kind": "cma",
    "period": "Aug–Oct 2026"
+  },
+  "edu": {
+   "low": 12.1,
+   "mid": 7,
+   "high": 3.2,
+   "basis": "ca21"
   }
  },
  {
@@ -782,6 +908,12 @@
    "v": 21.4,
    "basis": "gross",
    "asking": false
+  },
+  "edu": {
+   "low": 13,
+   "mid": 10.7,
+   "high": 5.3,
+   "basis": "ca21"
   }
  },
  {
@@ -813,6 +945,12 @@
    "v": 31.9,
    "basis": "gross",
    "asking": true
+  },
+  "edu": {
+   "low": 17,
+   "mid": 13.7,
+   "high": 7.4,
+   "basis": "ca21"
   }
  },
  {
@@ -856,13 +994,19 @@
   "territory": "CA-YT",
   "country": "CA",
   "unemp": {
-   "v": 6.6,
+   "v": 4.2,
    "kind": "terr",
-   "period": "Apr–Jun 2026"
+   "period": "2025"
   },
   "vacancy": {
    "v": 1.9,
    "period": "2025"
+  },
+  "edu": {
+   "low": 13.5,
+   "mid": 6.5,
+   "high": 3.6,
+   "basis": "ca21"
   }
  },
  {
@@ -1088,6 +1232,12 @@
    "v": 63.9,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 19.7,
+   "mid": 15.6,
+   "high": 8.3,
+   "basis": "fr23"
   }
  },
  {
@@ -1265,6 +1415,12 @@
    "v": 30.5,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 27.8,
+   "mid": 17.5,
+   "high": 7.8,
+   "basis": "fr23"
   }
  },
  {
@@ -1404,6 +1560,12 @@
    "v": 30.1,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 25.5,
+   "mid": 16.4,
+   "high": 8.6,
+   "basis": "fr23"
   }
  },
  {
@@ -1487,6 +1649,12 @@
    "v": 28,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 25,
+   "mid": 14,
+   "high": 7.1,
+   "basis": "fr23"
   }
  },
  {
@@ -1598,6 +1766,12 @@
    "v": 28.7,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 23.3,
+   "mid": 14.3,
+   "high": 7.5,
+   "basis": "fr23"
   }
  },
  {
@@ -1620,6 +1794,12 @@
    "kind": "asking",
    "period": "2025-T3",
    "computed": false
+  },
+  "edu": {
+   "low": 21.2,
+   "mid": 12.5,
+   "high": 7,
+   "basis": "fr23"
   }
  },
  {
@@ -1647,6 +1827,12 @@
    "v": 23.5,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 26.6,
+   "mid": 14.3,
+   "high": 7.2,
+   "basis": "fr23"
   }
  },
  {
@@ -1702,6 +1888,12 @@
    "v": 30.9,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 22.4,
+   "mid": 14.3,
+   "high": 7.6,
+   "basis": "fr23"
   }
  },
  {
@@ -1729,6 +1921,12 @@
    "v": 27,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 26.5,
+   "mid": 17.2,
+   "high": 8.5,
+   "basis": "fr23"
   }
  },
  {
@@ -1743,6 +1941,12 @@
    "v": 10.6,
    "kind": "ze",
    "period": "Q2 2026"
+  },
+  "edu": {
+   "low": 26.4,
+   "mid": 19.4,
+   "high": 10.2,
+   "basis": "fr23"
   }
  },
  {
@@ -1882,6 +2086,12 @@
    "v": 32,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 22.8,
+   "mid": 15.4,
+   "high": 7.6,
+   "basis": "fr23"
   }
  },
  {
@@ -1923,6 +2133,12 @@
    "v": 31.3,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 21,
+   "mid": 13.9,
+   "high": 7.2,
+   "basis": "fr23"
   }
  },
  {
@@ -2000,6 +2216,12 @@
    "v": 42,
    "basis": "net",
    "asking": true
+  },
+  "edu": {
+   "low": 6.4,
+   "mid": 4,
+   "high": 3.1,
+   "basis": "eu21"
   }
  }
 ]

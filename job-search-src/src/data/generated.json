@@ -4586,34 +4586,474 @@
    "q": "calc"
   },
   {
-   "t": "CA-NU",
+   "t": "CA-YT",
    "i": "unemp",
    "a": "all",
    "e": "all",
-   "v": 11.6,
-   "p": "Q2 2026",
-   "s": "statcan-1410029201",
+   "v": 4.2,
+   "p": "2025",
+   "s": "statcan-1410046401",
    "q": "ok"
   },
   {
-   "t": "CA-NT",
+   "t": "CA-YT",
    "i": "unemp",
-   "a": "all",
+   "a": "25-54",
    "e": "all",
-   "v": 8,
-   "p": "Q2 2026",
-   "s": "statcan-1410029201",
+   "v": 3.1,
+   "p": "2025",
+   "s": "statcan-1410044601",
    "q": "ok"
   },
   {
    "t": "CA-YT",
    "i": "unemp",
    "a": "all",
+   "e": "low",
+   "v": 10.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 5.5,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 2.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "15-24",
    "e": "all",
-   "v": 6.6,
-   "p": "Q2 2026",
-   "s": "statcan-1410029201",
+   "v": 7.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 11.7,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 9.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 2.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 10.2,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 4.7,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 2.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.5,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 8.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 5,
+   "p": "2025",
+   "s": "statcan-1410046401",
    "q": "ok"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 3.6,
+   "p": "2025",
+   "s": "statcan-1410044601",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 12.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 6.2,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 2.5,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 9.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 11.7,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 10.3,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 4.8,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 14.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 5.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 2.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.2,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 9.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 3,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 2.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 10.3,
+   "p": "2025",
+   "s": "statcan-1410046401",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 10,
+   "p": "2025",
+   "s": "statcan-1410044601",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 17.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 9.8,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 4.7,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 17.8,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 23.5,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 12.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 13.3,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 17.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 9.4,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 10.2,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
   }
  ],
  "communities": [
@@ -4984,9 +5424,17 @@
    "label": "Statistics Canada, table 14-10-0020-01",
    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410002001"
   },
-  "statcan-1410029201": {
-   "label": "Statistics Canada, table 14-10-0292-01",
-   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410029201"
+  "statcan-1410046401": {
+   "label": "Statistics Canada, table 14-10-0464-01",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410046401"
+  },
+  "statcan-1410044601": {
+   "label": "Statistics Canada, table 14-10-0446-01",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044601"
+  },
+  "model-territories": {
+   "label": "Statistics Canada, tables 98-10-0400-01 and 14-10-0464-01",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810040001"
   },
   "statcan-1410034201": {
    "label": "Statistics Canada, table 14-10-0342-01",

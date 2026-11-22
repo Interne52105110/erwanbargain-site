@@ -145,10 +145,16 @@ export const caveats: L10n[] = [
   },
 ];
 
+caveats.push({
+  en: 'For Yukon, the Northwest Territories and Nunavut, no survey publishes unemployment by education. The profile shown there is modelled: the 2021 Census pattern by age and education, shifted by one constant per territory so that the overall rate matches the 2025 survey rate. Cells resting on fewer than 250 people are left out. Whether the pattern has stayed the same since 2021 has not been tested.',
+  fr: "Pour le Yukon, les Territoires du Nord-Ouest et le Nunavut, aucune enquête ne publie le chômage par diplôme. Le profil affiché y est modélisé : la structure par âge et diplôme du Recensement de 2021, décalée d'une constante par territoire pour que le taux d'ensemble égale celui de l'enquête de 2025. Les cases reposant sur moins de 250 personnes sont écartées. La stabilité de cette structure depuis 2021 n'a pas été testée.",
+});
+
 export const grades: { mark: string; text: L10n }[] = [
   { mark: '6.3', text: { en: 'Published by the statistical office.', fr: "Publié par l'office statistique." } },
   { mark: '6.3 · computed', text: { en: 'Computed here from published figures, with the method stated.', fr: 'Calculé ici à partir de chiffres publiés, avec la méthode indiquée.' } },
   { mark: '6.3*', text: { en: 'Published with a low-reliability flag: small sample.', fr: 'Publié avec une mention de fiabilité faible : petit échantillon.' } },
   { mark: '6.3 · 2023–2025', text: { en: 'The 2025 figure is withheld; the average of the published years is shown.', fr: 'Le chiffre 2025 est masqué ; la moyenne des années publiées est affichée.' } },
+  { mark: '6.3~', text: { en: 'Modelled, not published: used only for the three Canadian territories.', fr: 'Modélisé, non publié : utilisé seulement pour les trois territoires canadiens.' } },
   { mark: '–', text: { en: 'Not published. The site falls back to the closest broader profile and says so.', fr: 'Non publié. Le site se replie sur le profil plus large le plus proche et le signale.' } },
 ];

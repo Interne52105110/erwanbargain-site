@@ -7,7 +7,7 @@ export type L10n = { en: string; fr: string };
 export type AgeId = '15-24' | '25-54' | '55-64' | 'all';
 export type EduId = 'low' | 'mid' | 'high' | 'all';
 /** ok = published; u = low reliability; calc = computed from published figures; avg = three-year average. */
-export type Quality = 'ok' | 'u' | 'calc' | 'avg';
+export type Quality = 'ok' | 'u' | 'calc' | 'avg' | 'model';
 
 export interface Territory {
   id: string;

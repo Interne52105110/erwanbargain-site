@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { type Lang } from '../i18n/ui';
 import { territories } from '../data/study';
-import { cities, unempKind, rentKind, countryNote, fmtRent } from '../data/cities';
+import { cities, unempKind, rentKind, countryNote, fmtRent, eduBasis } from '../data/cities';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -21,6 +21,11 @@ const h = {
   rent: fr ? 'Loyer' : 'Rent',
   vacancy: fr ? 'Logements vacants' : 'Vacancy',
   share: fr ? 'Loyer / salaire' : 'Rent / pay',
+  edu: fr ? 'Par diplôme' : 'By education',
+  eduHelp: fr ? 'sans diplôme · secondaire · supérieur' : 'no diploma · secondary · higher',
+  eduNote: fr
+    ? "« Par diplôme » : taux de chômage au sens du recensement, pour les peu diplômés, les diplômés du secondaire et ceux du supérieur. C'est une autre mesure que le chômage local de la colonne voisine : déclarative, plus élevée, et relevée en mai 2021 au Canada, en pleine pandémie. Elle sert à lire l'écart entre niveaux de diplôme dans une même ville, pas à comparer les villes entre pays."
+    : '“By education”: census unemployment rate for people with no diploma, a secondary diploma and higher education. It is a different measure from the local rate in the next column: self-declared, higher, and taken in May 2021 in Canada, during the pandemic. Use it to read the gap between education levels within a city, not to compare cities across countries.',
   net: fr ? 'du net' : 'of net pay',
   gross: fr ? 'du brut' : 'of gross pay',
   shareNote: fr
@@ -62,6 +67,7 @@ const groups = (['FR', 'BE', 'LU', 'CH', 'CA'] as const).map((c) => ({
                 <th>{h.place}</th>
                 <th>{h.region}</th>
                 <th class="r">{h.unemp}</th>
+                <th class="r">{h.edu}<span class="sub th-sub">{h.eduHelp}</span></th>
                 <th class="r">{h.rent}</th>
                 <th class="r">{h.vacancy}</th>
                 <th class="r">{h.share}</th>
@@ -75,6 +81,14 @@ const groups = (['FR', 'BE', 'LU', 'CH', 'CA'] as const).map((c) => ({
                   <td class="r">
                     <span class="num v">{nf.format(x.unemp.v)} %</span>
                     <span class="sub">{unempKind[x.unemp.kind][lang]}{x.unemp.lo != null && ` · ${nf.format(x.unemp.lo)}–${nf.format(x.unemp.hi!)}`}</span>
+                  </td>
+                  <td class="r">
+                    {x.edu ? (
+                      <>
+                        <span class="num v">{nf.format(x.edu.low)} · {nf.format(x.edu.mid)} · {nf.format(x.edu.high)}</span>
+                        <span class="sub">{eduBasis[x.edu.basis][lang]}</span>
+                      </>
+                    ) : <span class="muted">–</span>}
                   </td>
                   <td class="r">
                     {x.rent ? (
@@ -104,6 +118,7 @@ const groups = (['FR', 'BE', 'LU', 'CH', 'CA'] as const).map((c) => ({
 
   <section class="section">
     <div class="container">
+      <p class="note muted">{h.eduNote}</p>
       <p class="note muted">{h.shareNote}</p>
     </div>
   </section>
@@ -121,5 +136,7 @@ const groups = (['FR', 'BE', 'LU', 'CH', 'CA'] as const).map((c) => ({
   td .v { display: block; font-size: 13.5px; }
   td .sub { display: block; font-size: 11.5px; color: var(--muted); }
   table.data td { vertical-align: top; }
-  table.data th.r { white-space: nowrap; }
+  table.data th { vertical-align: bottom; }
+  .th-sub { display: block; text-transform: none; letter-spacing: 0; font-weight: 400; font-size: 11px; margin-top: 2px; }
+  td .v { white-space: nowrap; }
 </style>

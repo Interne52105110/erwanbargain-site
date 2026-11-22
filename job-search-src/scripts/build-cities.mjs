@@ -22,6 +22,17 @@ const num = (s) => {
 };
 const key = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\(.*$/, '').replace(/[’']/g, ' ').replace(/[^a-zA-Z]+/g, ' ').trim().toLowerCase();
 
+// Profile research: census figures by education for cities, survey rates for the territories.
+const profiles = readFileSync(join(B, 'profils_territoires_villes.csv'), 'utf8')
+  .replace(/^\uFEFF/, '')
+  .trim()
+  .split(/\r?\n/)
+  .slice(1)
+  .map((l) => {
+    const c = l.split(',');
+    return { place: c[0], level: c[1], age: c[3], edu: c[4], ind: c[5], v: parseFloat(c[6]), def: c[8], src: c[9], flag: c[11] ?? '' };
+  });
+
 const cities = [];
 const add = (c) => {
   if (c.unemp?.v == null) return;
@@ -91,7 +102,10 @@ for (const l of ca.filter((x) => /^\| (PICF|CFA)/.test(x) && cells(x).length >= 
     if (cmaProv[key(place)] || /Sudbury/.test(place)) continue; // metropolitan figure already kept
     add({ id: 'ca-' + key(place).replace(/ /g, '-'), name: { en: place, fr: place }, territory, country: 'CA', unemp: { v: num(sae[2]), lo: num(sae[3]), hi: num(sae[4]), kind: 'sae', period: 'Aug 2026' } });
   } else if (['CA-NT', 'CA-YT', 'CA-NU'].includes(territory)) {
-    add({ id: 'ca-' + key(c[1]).replace(/ /g, '-'), name: { en: c[1], fr: c[1] }, territory, country: 'CA', unemp: { v: num(c[5]), kind: 'terr', period: 'Apr–Jun 2026' } });
+    // No figure exists for the capital itself: show the territory's 2025 annual rate.
+    const terrName = { 'CA-NT': 'Territoires du Nord-Ouest', 'CA-YT': 'Yukon', 'CA-NU': 'Nunavut' }[territory];
+    const annual = profiles.find((r) => r.place === terrName && r.ind === 'unemployment_rate' && r.def === 'LFS_annual_average' && r.age === '15+' && r.edu === 'tous' && !r.flag && /0464/.test(r.src));
+    add({ id: 'ca-' + key(c[1]).replace(/ /g, '-'), name: { en: c[1], fr: c[1] }, territory, country: 'CA', unemp: { v: annual.v, kind: 'terr', period: '2025' } });
   }
 }
 
@@ -160,9 +174,28 @@ for (const c of cities) {
   if (shareRow) c.share = { v: shareRow.v, basis: /brut/.test(shareRow.ind) ? 'gross' : 'net', asking: /demande|annonce|nouveau bail|52 m2/.test(shareRow.ind) };
 }
 
+// ---------- Unemployment by education, from censuses (a different measure from the local rate) ----------
+const eduAlias = { 'ca-sudbury': 'grand sudbury', 'ca-quebec': 'quebec', 'be-hainaut': 'province de hainaut', 'be-liege': 'province de liege', 'be-namur': 'province de namur', 'be-bruxelles': 'region de bruxelles capitale', 'lu-ville': 'luxembourg' };
+const eduSpec = {
+  CA: { level: 'ville (SDR)', age: '25-54', low: /^aucun_diplome$/, mid: /^secondaire$/, high: /^postsecondaire_tous$/, basis: 'ca21' },
+  FR: { level: 'ville (intercommunalité EPCI)', age: '15-64', low: /^low \(/, mid: /^medium \(/, high: /^high \(/, basis: 'fr23' },
+  BE: { level: 'région NUTS 2', age: '15-64', low: /^low \(/, mid: /^medium \(/, high: /^high \(/, basis: 'eu21' },
+  LU: { level: 'pays', age: '15-64', low: /^low \(/, mid: /^medium \(/, high: /^high \(/, basis: 'eu21' },
+};
+for (const c of cities) {
+  const spec = eduSpec[c.country];
+  if (!spec) continue;
+  const k = eduAlias[c.id] ?? key(c.name.fr);
+  const rows = profiles.filter((r) => key(r.place) === k && r.level === spec.level && r.ind === 'unemployment_rate' && r.age === spec.age && !/model|LFS/.test(r.def) && !r.flag);
+  const val = (re) => rows.find((r) => re.test(r.edu))?.v;
+  const [low, mid, high] = [val(spec.low), val(spec.mid), val(spec.high)];
+  if ([low, mid, high].every((v) => v > 0)) c.edu = { low, mid, high, basis: spec.basis };
+}
+
 cities.sort((a, b) => a.territory.localeCompare(b.territory) || a.unemp.v - b.unemp.v);
 writeFileSync(join(here, '../src/data/cities.json'), JSON.stringify(cities, null, 1));
 const by = (f) => cities.reduce((o, c) => ((o[f(c)] = (o[f(c)] ?? 0) + 1), o), {});
 console.log(`cities ${cities.length}`, by((c) => c.country), by((c) => c.unemp.kind));
+console.log(`with education gradient ${cities.filter((c) => c.edu).length}`);
 console.log(`with rent ${cities.filter((c) => c.rent).length} · vacancy ${cities.filter((c) => c.vacancy).length} · share ${cities.filter((c) => c.share).length}`);
 if (unknownZe.length) console.log('employment zones without a region:', unknownZe.join(', '));

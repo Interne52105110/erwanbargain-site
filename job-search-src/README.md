@@ -18,17 +18,18 @@ short path such as `D:\emploi`.
 
 ## Data
 
-Figures are never typed by hand. Two scripts rebuild them from the research material:
+Figures are never typed by hand. Four scripts rebuild them from the research material
+(`npm run data` runs them all):
 
 ```
-node scripts/build-data.mjs   # src/data/generated.json  (values, territories, IRCC communities)
-node scripts/build-refs.mjs   # src/data/references.json (every source linked in the report)
+node scripts/build-data.mjs    # src/data/generated.json  (regions, profiles, IRCC communities)
+node scripts/build-cities.mjs  # src/data/cities.json     (cities: local unemployment, rent, education)
+node scripts/build-gains.mjs   # src/data/gains.json      (pay after tax, prices and rent)
+node scripts/build-refs.mjs    # src/data/references.json (every source linked in the reports)
 ```
 
-Both read `research/notes/` and `research/reports/` by default; pass another path as first argument.
-
-`research/` holds the working material: the eight research notes, the written report (French)
-and the three style mock-ups. It is not part of the published site.
+They read `research/notes/` and `research/reports/`. `research/` holds the working material:
+research notes, the two written reports (French) and the style mock-ups. It is not published.
 
 - `src/data/study.ts`: indicators shown in the profile picker.
 - `src/data/method.ts`: indicator ranking and reading notes (Method page).
