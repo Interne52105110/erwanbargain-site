@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trois directions visuelles</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body { background: #e9e9e6; font-family: Inter, system-ui, sans-serif; color: #222; padding: 32px 20px 64px; }
+  .wrap { max-width: 1040px; margin: 0 auto; }
+  .intro { font-size: 14px; color: #555; margin-bottom: 28px; }
+  .label { display: flex; align-items: baseline; gap: 12px; margin: 36px 0 12px; }
+  .label b { font-size: 15px; font-weight: 600; }
+  .label span { font-size: 13px; color: #666; }
+  .label em { font-style: normal; font-size: 12px; background: #222; color: #fff; padding: 2px 8px; border-radius: 99px; }
+
+  .mock { border-radius: 10px; overflow: hidden; background: var(--bg); color: var(--fg); border: 1px solid var(--frame); }
+  .nav { display: flex; justify-content: space-between; align-items: center; padding: 16px 36px; border-bottom: 1px solid var(--line); font-size: 13px; }
+  .nav .brand { font-weight: 600; letter-spacing: var(--brand-ls, 0); font-family: var(--font-ui); }
+  .nav .links { display: flex; gap: 24px; color: var(--muted); font-family: var(--font-ui); }
+  .body { display: grid; grid-template-columns: 1.15fr 1fr; gap: 44px; padding: 44px 36px 36px; }
+  .eyebrow { font-family: var(--font-num); font-size: 12px; color: var(--accent); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 18px; }
+  h1 { font-family: var(--font-display); font-weight: var(--h-weight); font-size: var(--h-size); line-height: 1.08; letter-spacing: var(--h-ls); margin-bottom: 18px; }
+  h1 i { font-style: var(--h-i-style, normal); color: var(--h-i-color, inherit); }
+  .lead { font-family: var(--font-ui); font-size: 15px; line-height: 1.6; color: var(--muted); max-width: 44ch; margin-bottom: 28px; }
+  .picker { display: flex; gap: 10px; flex-wrap: wrap; }
+  .field { font-family: var(--font-ui); border: 1px solid var(--line-strong); border-radius: var(--radius); padding: 9px 12px; min-width: 122px; background: var(--field-bg); }
+  .field small { display: block; font-size: 11px; color: var(--muted); margin-bottom: 2px; }
+  .field div { font-size: 14px; font-weight: 500; display: flex; justify-content: space-between; gap: 12px; }
+  .field div::after { content: "▾"; color: var(--muted); font-size: 11px; }
+  .cta { font-family: var(--font-ui); font-size: 14px; font-weight: 500; background: var(--cta-bg); color: var(--cta-fg); border-radius: var(--radius); padding: 0 18px; display: flex; align-items: center; }
+
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 22px 22px 16px; align-self: start; }
+  .panel h2 { font-family: var(--font-ui); font-size: 13px; font-weight: 500; color: var(--muted); margin-bottom: 4px; }
+  .big { font-family: var(--font-num); font-size: 40px; font-weight: 500; letter-spacing: -.02em; line-height: 1.1; }
+  .big span { font-size: 15px; color: var(--muted); font-weight: 400; letter-spacing: 0; margin-left: 6px; font-family: var(--font-ui); }
+  .rows { margin-top: 18px; display: grid; gap: 9px; }
+  .row { display: grid; grid-template-columns: 118px 1fr 44px; gap: 10px; align-items: center; font-size: 13px; font-family: var(--font-ui); }
+  .row .bar { height: 8px; background: var(--track); border-radius: 2px; }
+  .row .bar i { display: block; height: 100%; background: var(--bar); border-radius: 2px; }
+  .row.me .bar i { background: var(--accent); }
+  .row.me { font-weight: 600; }
+  .row .v { font-family: var(--font-num); text-align: right; font-size: 12.5px; }
+  .src { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 11.5px; color: var(--muted); font-family: var(--font-num); }
+
+  /* A — éditorial */
+  .a { --bg:#f7f4ee; --fg:#1b1a17; --muted:#6b665c; --line:#e2dccf; --line-strong:#cfc7b6; --frame:#d9d2c3; --panel:#fffdf8; --field-bg:#fffdf8;
+       --accent:#a6432a; --bar:#3b4a5e; --track:#ebe5d8; --cta-bg:#1b1a17; --cta-fg:#f7f4ee;
+       --font-display:"Newsreader", Georgia, serif; --font-ui:Inter, sans-serif; --font-num:Inter, sans-serif;
+       --h-weight:400; --h-size:42px; --h-ls:-.015em; --h-i-style:italic; --radius:4px; --radius-lg:6px; }
+  /* B — tech sobre */
+  .b { --bg:#fbfbfa; --fg:#0f1114; --muted:#646a73; --line:#e6e7e9; --line-strong:#d3d5d9; --frame:#d9dadc; --panel:#ffffff; --field-bg:#ffffff;
+       --accent:#2747d8; --bar:#1b1e24; --track:#eeeff1; --cta-bg:#0f1114; --cta-fg:#ffffff;
+       --font-display:"Inter Tight", Inter, sans-serif; --font-ui:Inter, sans-serif; --font-num:"JetBrains Mono", monospace;
+       --h-weight:600; --h-size:40px; --h-ls:-.03em; --h-i-color:#2747d8; --radius:6px; --radius-lg:8px; --brand-ls:-.01em;
+       background-image: linear-gradient(#eff0f1 1px, transparent 1px), linear-gradient(90deg, #eff0f1 1px, transparent 1px); background-size: 52px 52px; }
+  /* C — sombre */
+  .c { --bg:#0e1013; --fg:#ecebe7; --muted:#8b9099; --line:#22262d; --line-strong:#343942; --frame:#0e1013; --panel:#14171c; --field-bg:#14171c;
+       --accent:#e3a84a; --bar:#566070; --track:#1d2127; --cta-bg:#ecebe7; --cta-fg:#0e1013;
+       --font-display:"Inter Tight", Inter, sans-serif; --font-ui:Inter, sans-serif; --font-num:"JetBrains Mono", monospace;
+       --h-weight:500; --h-size:40px; --h-ls:-.03em; --h-i-color:#e3a84a; --radius:6px; --radius-lg:8px; }
+
+  @media (max-width: 760px) { .body { grid-template-columns: 1fr; padding: 28px 20px; } .nav { padding: 14px 20px; } .nav .links { display: none; } h1 { font-size: 32px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="intro">Même contenu, trois traitements. Les chiffres sont fictifs : ils servent uniquement à juger le style.</p>
+
+  <div class="label"><b>A · Éditorial</b><span>papier, serif, sobre : registre revue ou rapport d'institution</span></div>
+  <div class="mock a" data-k="a"></div>
+
+  <div class="label"><b>B · Tech sobre</b><em>ma recommandation</em><span>clair, grille fine, chiffres en police mono : registre outil de données</span></div>
+  <div class="mock b" data-k="b"></div>
+
+  <div class="label"><b>C · Sombre</b><span>graphite, un seul accent ambre : registre terminal financier</span></div>
+  <div class="mock c" data-k="c"></div>
+</div>
+
+<template id="t">
+  <div class="nav">
+    <div class="brand">Erwan Bargain <span style="opacity:.45;font-weight:400">/ emploi</span></div>
+    <div class="links"><span>Mon profil</span><span>Territoires</span><span>Méthode</span><span>Sources</span></div>
+  </div>
+  <div class="body">
+    <div>
+      <div class="eyebrow">Étude · novembre 2026</div>
+      <h1>Où est-il <i>vraiment</i> difficile de trouver un emploi en francophonie&nbsp;?</h1>
+      <p class="lead">France, Belgique, Luxembourg, Suisse romande, Canada francophone. Des sources publiques, une méthode ouverte, des limites écrites.</p>
+      <div class="picker">
+        <div class="field"><small>Âge</small><div>25–34 ans</div></div>
+        <div class="field"><small>Diplôme</small><div>Bac+3</div></div>
+        <div class="field"><small>Zone</small><div>Bretagne</div></div>
+        <div class="cta">Voir mon profil</div>
+      </div>
+    </div>
+    <div class="panel">
+      <h2>Durée médiane de recherche, votre profil</h2>
+      <div class="big">4,2<span>mois en Bretagne</span></div>
+      <div class="rows">
+        <div class="row"><span>Sudbury</span><div class="bar"><i style="width:34%"></i></div><span class="v">2,6</span></div>
+        <div class="row"><span>Québec</span><div class="bar"><i style="width:41%"></i></div><span class="v">3,1</span></div>
+        <div class="row me"><span>Bretagne</span><div class="bar"><i style="width:55%"></i></div><span class="v">4,2</span></div>
+        <div class="row"><span>Genève</span><div class="bar"><i style="width:72%"></i></div><span class="v">5,5</span></div>
+        <div class="row"><span>Bruxelles</span><div class="bar"><i style="width:92%"></i></div><span class="v">7,0</span></div>
+      </div>
+      <div class="src">Chiffres fictifs · maquette de style</div>
+    </div>
+  </div>
+</template>
+<script>
+  const t = document.getElementById('t');
+  document.querySelectorAll('.mock').forEach(m => m.appendChild(t.content.cloneNode(true)));
+</script>
+</body>
+</html>

@@ -1,0 +1,2209 @@
+geo,territoire,age,isced11,annee,taux_chomage_pct,drapeau,type
+EU27_2020,UE-27,Y15-24,TOTAL,2023,14.6,,publie
+EU27_2020,UE-27,Y15-24,TOTAL,2024,15.0,,publie
+EU27_2020,UE-27,Y15-24,TOTAL,2025,15.2,,publie
+EU27_2020,UE-27,Y15-24,ED0-2,2023,20.2,,publie
+EU27_2020,UE-27,Y15-24,ED0-2,2024,20.6,,publie
+EU27_2020,UE-27,Y15-24,ED0-2,2025,21.2,,publie
+EU27_2020,UE-27,Y15-24,ED3_4,2023,12.8,,publie
+EU27_2020,UE-27,Y15-24,ED3_4,2024,13.0,,publie
+EU27_2020,UE-27,Y15-24,ED3_4,2025,13.2,,publie
+EU27_2020,UE-27,Y15-24,ED5-8,2023,11.6,,publie
+EU27_2020,UE-27,Y15-24,ED5-8,2024,12.2,,publie
+EU27_2020,UE-27,Y15-24,ED5-8,2025,12.8,,publie
+EU27_2020,UE-27,Y25-34,TOTAL,2023,7.1,,publie
+EU27_2020,UE-27,Y25-34,TOTAL,2024,7.0,,publie
+EU27_2020,UE-27,Y25-34,TOTAL,2025,7.2,,publie
+EU27_2020,UE-27,Y25-34,ED0-2,2023,15.7,,publie
+EU27_2020,UE-27,Y25-34,ED0-2,2024,15.4,,publie
+EU27_2020,UE-27,Y25-34,ED0-2,2025,16.8,,publie
+EU27_2020,UE-27,Y25-34,ED3_4,2023,6.9,,publie
+EU27_2020,UE-27,Y25-34,ED3_4,2024,6.7,,publie
+EU27_2020,UE-27,Y25-34,ED3_4,2025,6.8,,publie
+EU27_2020,UE-27,Y25-34,ED5-8,2023,5.0,,publie
+EU27_2020,UE-27,Y25-34,ED5-8,2024,5.2,,publie
+EU27_2020,UE-27,Y25-34,ED5-8,2025,5.4,,publie
+EU27_2020,UE-27,Y35-44,TOTAL,2023,5.2,,publie
+EU27_2020,UE-27,Y35-44,TOTAL,2024,5.0,,publie
+EU27_2020,UE-27,Y35-44,TOTAL,2025,5.0,,publie
+EU27_2020,UE-27,Y35-44,ED0-2,2023,11.9,,publie
+EU27_2020,UE-27,Y35-44,ED0-2,2024,11.5,,publie
+EU27_2020,UE-27,Y35-44,ED0-2,2025,12.0,,publie
+EU27_2020,UE-27,Y35-44,ED3_4,2023,4.9,,publie
+EU27_2020,UE-27,Y35-44,ED3_4,2024,4.8,,publie
+EU27_2020,UE-27,Y35-44,ED3_4,2025,4.9,,publie
+EU27_2020,UE-27,Y35-44,ED5-8,2023,3.2,,publie
+EU27_2020,UE-27,Y35-44,ED5-8,2024,3.1,,publie
+EU27_2020,UE-27,Y35-44,ED5-8,2025,3.2,,publie
+EU27_2020,UE-27,Y45-54,TOTAL,2023,4.6,,publie
+EU27_2020,UE-27,Y45-54,TOTAL,2024,4.4,,publie
+EU27_2020,UE-27,Y45-54,TOTAL,2025,4.4,,publie
+EU27_2020,UE-27,Y45-54,ED0-2,2023,9.8,,publie
+EU27_2020,UE-27,Y45-54,ED0-2,2024,9.5,,publie
+EU27_2020,UE-27,Y45-54,ED0-2,2025,9.5,,publie
+EU27_2020,UE-27,Y45-54,ED3_4,2023,4.0,,publie
+EU27_2020,UE-27,Y45-54,ED3_4,2024,3.9,,publie
+EU27_2020,UE-27,Y45-54,ED3_4,2025,3.9,,publie
+EU27_2020,UE-27,Y45-54,ED5-8,2023,2.6,,publie
+EU27_2020,UE-27,Y45-54,ED5-8,2024,2.7,,publie
+EU27_2020,UE-27,Y45-54,ED5-8,2025,2.7,,publie
+EU27_2020,UE-27,Y55-64,TOTAL,2023,4.6,,publie
+EU27_2020,UE-27,Y55-64,TOTAL,2024,4.4,,publie
+EU27_2020,UE-27,Y55-64,TOTAL,2025,4.4,,publie
+EU27_2020,UE-27,Y55-64,ED0-2,2023,8.5,,publie
+EU27_2020,UE-27,Y55-64,ED0-2,2024,8.1,,publie
+EU27_2020,UE-27,Y55-64,ED0-2,2025,8.2,,publie
+EU27_2020,UE-27,Y55-64,ED3_4,2023,3.9,,publie
+EU27_2020,UE-27,Y55-64,ED3_4,2024,3.7,,publie
+EU27_2020,UE-27,Y55-64,ED3_4,2025,3.8,,publie
+EU27_2020,UE-27,Y55-64,ED5-8,2023,3.0,,publie
+EU27_2020,UE-27,Y55-64,ED5-8,2024,2.9,,publie
+EU27_2020,UE-27,Y55-64,ED5-8,2025,3.1,,publie
+EU27_2020,UE-27,Y_GE25,TOTAL,2023,5.2,,publie
+EU27_2020,UE-27,Y_GE25,TOTAL,2024,5.1,,publie
+EU27_2020,UE-27,Y_GE25,TOTAL,2025,5.1,,publie
+EU27_2020,UE-27,Y_GE25,ED0-2,2023,10.6,,publie
+EU27_2020,UE-27,Y_GE25,ED0-2,2024,10.3,,publie
+EU27_2020,UE-27,Y_GE25,ED0-2,2025,10.5,,publie
+EU27_2020,UE-27,Y_GE25,ED3_4,2023,4.8,,publie
+EU27_2020,UE-27,Y_GE25,ED3_4,2024,4.6,,publie
+EU27_2020,UE-27,Y_GE25,ED3_4,2025,4.7,,publie
+EU27_2020,UE-27,Y_GE25,ED5-8,2023,3.4,,publie
+EU27_2020,UE-27,Y_GE25,ED5-8,2024,3.5,,publie
+EU27_2020,UE-27,Y_GE25,ED5-8,2025,3.6,,publie
+EU27_2020,UE-27,Y15-74,TOTAL,2023,6.1,,publie
+EU27_2020,UE-27,Y15-74,TOTAL,2024,6.0,,publie
+EU27_2020,UE-27,Y15-74,TOTAL,2025,6.0,,publie
+EU27_2020,UE-27,Y15-74,ED0-2,2023,12.0,,publie
+EU27_2020,UE-27,Y15-74,ED0-2,2024,11.8,,publie
+EU27_2020,UE-27,Y15-74,ED0-2,2025,12.1,,publie
+EU27_2020,UE-27,Y15-74,ED3_4,2023,5.6,,publie
+EU27_2020,UE-27,Y15-74,ED3_4,2024,5.5,,publie
+EU27_2020,UE-27,Y15-74,ED3_4,2025,5.6,,publie
+EU27_2020,UE-27,Y15-74,ED5-8,2023,3.8,,publie
+EU27_2020,UE-27,Y15-74,ED5-8,2024,3.8,,publie
+EU27_2020,UE-27,Y15-74,ED5-8,2025,4.0,,publie
+EU27_2020,UE-27,Y25-54_calc,TOTAL,2023,5.5,calc,calc
+EU27_2020,UE-27,Y25-54_calc,TOTAL,2024,5.4,calc,calc
+EU27_2020,UE-27,Y25-54_calc,TOTAL,2025,5.4,calc,calc
+EU27_2020,UE-27,Y25-54_calc,ED0-2,2023,11.9,calc,calc
+EU27_2020,UE-27,Y25-54_calc,ED0-2,2024,11.5,calc,calc
+EU27_2020,UE-27,Y25-54_calc,ED0-2,2025,12.0,calc,calc
+EU27_2020,UE-27,Y25-54_calc,ED3_4,2023,5.1,calc,calc
+EU27_2020,UE-27,Y25-54_calc,ED3_4,2024,5.0,calc,calc
+EU27_2020,UE-27,Y25-54_calc,ED3_4,2025,5.1,calc,calc
+EU27_2020,UE-27,Y25-54_calc,ED5-8,2023,3.6,calc,calc
+EU27_2020,UE-27,Y25-54_calc,ED5-8,2024,3.7,calc,calc
+EU27_2020,UE-27,Y25-54_calc,ED5-8,2025,3.8,calc,calc
+FR,France,Y15-24,TOTAL,2023,17.2,d,publie
+FR,France,Y15-24,TOTAL,2024,18.8,bd,publie
+FR,France,Y15-24,TOTAL,2025,19.8,d,publie
+FR,France,Y15-24,ED0-2,2023,30.2,d,publie
+FR,France,Y15-24,ED0-2,2024,32.6,bd,publie
+FR,France,Y15-24,ED0-2,2025,33.5,d,publie
+FR,France,Y15-24,ED3_4,2023,17.0,d,publie
+FR,France,Y15-24,ED3_4,2024,18.6,bd,publie
+FR,France,Y15-24,ED3_4,2025,19.9,d,publie
+FR,France,Y15-24,ED5-8,2023,11.2,d,publie
+FR,France,Y15-24,ED5-8,2024,12.6,bd,publie
+FR,France,Y15-24,ED5-8,2025,13.4,d,publie
+FR,France,Y25-34,TOTAL,2023,8.5,d,publie
+FR,France,Y25-34,TOTAL,2024,8.6,bd,publie
+FR,France,Y25-34,TOTAL,2025,9.1,d,publie
+FR,France,Y25-34,ED0-2,2023,19.5,d,publie
+FR,France,Y25-34,ED0-2,2024,19.1,bd,publie
+FR,France,Y25-34,ED0-2,2025,22.0,d,publie
+FR,France,Y25-34,ED3_4,2023,9.7,d,publie
+FR,France,Y25-34,ED3_4,2024,9.9,bd,publie
+FR,France,Y25-34,ED3_4,2025,10.1,d,publie
+FR,France,Y25-34,ED5-8,2023,6.1,d,publie
+FR,France,Y25-34,ED5-8,2024,6.3,bd,publie
+FR,France,Y25-34,ED5-8,2025,7.0,d,publie
+FR,France,Y35-44,TOTAL,2023,6.0,d,publie
+FR,France,Y35-44,TOTAL,2024,5.9,bd,publie
+FR,France,Y35-44,TOTAL,2025,5.8,d,publie
+FR,France,Y35-44,ED0-2,2023,12.2,d,publie
+FR,France,Y35-44,ED0-2,2024,13.2,bd,publie
+FR,France,Y35-44,ED0-2,2025,14.2,d,publie
+FR,France,Y35-44,ED3_4,2023,6.8,d,publie
+FR,France,Y35-44,ED3_4,2024,6.8,bd,publie
+FR,France,Y35-44,ED3_4,2025,6.6,d,publie
+FR,France,Y35-44,ED5-8,2023,4.1,d,publie
+FR,France,Y35-44,ED5-8,2024,3.7,bd,publie
+FR,France,Y35-44,ED5-8,2025,3.7,d,publie
+FR,France,Y45-54,TOTAL,2023,4.9,d,publie
+FR,France,Y45-54,TOTAL,2024,4.9,bd,publie
+FR,France,Y45-54,TOTAL,2025,5.0,d,publie
+FR,France,Y45-54,ED0-2,2023,9.5,d,publie
+FR,France,Y45-54,ED0-2,2024,9.8,bd,publie
+FR,France,Y45-54,ED0-2,2025,9.6,d,publie
+FR,France,Y45-54,ED3_4,2023,5.2,d,publie
+FR,France,Y45-54,ED3_4,2024,5.0,bd,publie
+FR,France,Y45-54,ED3_4,2025,5.3,d,publie
+FR,France,Y45-54,ED5-8,2023,3.3,d,publie
+FR,France,Y45-54,ED5-8,2024,3.4,bd,publie
+FR,France,Y45-54,ED5-8,2025,3.5,d,publie
+FR,France,Y55-64,TOTAL,2023,5.4,d,publie
+FR,France,Y55-64,TOTAL,2024,5.2,bd,publie
+FR,France,Y55-64,TOTAL,2025,5.2,d,publie
+FR,France,Y55-64,ED0-2,2023,7.2,d,publie
+FR,France,Y55-64,ED0-2,2024,7.3,bd,publie
+FR,France,Y55-64,ED0-2,2025,8.1,d,publie
+FR,France,Y55-64,ED3_4,2023,5.4,d,publie
+FR,France,Y55-64,ED3_4,2024,5.2,bd,publie
+FR,France,Y55-64,ED3_4,2025,5.0,d,publie
+FR,France,Y55-64,ED5-8,2023,4.2,d,publie
+FR,France,Y55-64,ED5-8,2024,4.2,bd,publie
+FR,France,Y55-64,ED5-8,2025,4.2,d,publie
+FR,France,Y_GE25,TOTAL,2023,6.1,d,publie
+FR,France,Y_GE25,TOTAL,2024,6.1,bd,publie
+FR,France,Y_GE25,TOTAL,2025,6.2,d,publie
+FR,France,Y_GE25,ED0-2,2023,10.7,d,publie
+FR,France,Y_GE25,ED0-2,2024,10.9,bd,publie
+FR,France,Y_GE25,ED0-2,2025,11.8,d,publie
+FR,France,Y_GE25,ED3_4,2023,6.6,d,publie
+FR,France,Y_GE25,ED3_4,2024,6.5,bd,publie
+FR,France,Y_GE25,ED3_4,2025,6.6,d,publie
+FR,France,Y_GE25,ED5-8,2023,4.5,d,publie
+FR,France,Y_GE25,ED5-8,2024,4.4,bd,publie
+FR,France,Y_GE25,ED5-8,2025,4.7,d,publie
+FR,France,Y15-74,TOTAL,2023,7.3,d,publie
+FR,France,Y15-74,TOTAL,2024,7.4,bd,publie
+FR,France,Y15-74,TOTAL,2025,7.7,d,publie
+FR,France,Y15-74,ED0-2,2023,13.3,d,publie
+FR,France,Y15-74,ED0-2,2024,13.8,bd,publie
+FR,France,Y15-74,ED0-2,2025,14.7,d,publie
+FR,France,Y15-74,ED3_4,2023,8.1,d,publie
+FR,France,Y15-74,ED3_4,2024,8.2,bd,publie
+FR,France,Y15-74,ED3_4,2025,8.4,d,publie
+FR,France,Y15-74,ED5-8,2023,5.0,d,publie
+FR,France,Y15-74,ED5-8,2024,5.0,bd,publie
+FR,France,Y15-74,ED5-8,2025,5.3,d,publie
+FR,France,Y25-54_calc,TOTAL,2023,6.4,calc,calc
+FR,France,Y25-54_calc,TOTAL,2024,6.4,calc,calc
+FR,France,Y25-54_calc,TOTAL,2025,6.5,calc,calc
+FR,France,Y25-54_calc,ED0-2,2023,12.7,calc,calc
+FR,France,Y25-54_calc,ED0-2,2024,13.1,calc,calc
+FR,France,Y25-54_calc,ED0-2,2025,14.0,calc,calc
+FR,France,Y25-54_calc,ED3_4,2023,7.0,calc,calc
+FR,France,Y25-54_calc,ED3_4,2024,7.0,calc,calc
+FR,France,Y25-54_calc,ED3_4,2025,7.1,calc,calc
+FR,France,Y25-54_calc,ED5-8,2023,4.5,calc,calc
+FR,France,Y25-54_calc,ED5-8,2024,4.5,calc,calc
+FR,France,Y25-54_calc,ED5-8,2025,4.8,calc,calc
+FR1,Ile-de-France,Y15-24,TOTAL,2023,16.1,d,publie
+FR1,Ile-de-France,Y15-24,TOTAL,2024,18.5,bd,publie
+FR1,Ile-de-France,Y15-24,TOTAL,2025,21.2,d,publie
+FR1,Ile-de-France,Y15-24,ED0-2,2023,25.8,d,publie
+FR1,Ile-de-France,Y15-24,ED0-2,2024,35.6,bd,publie
+FR1,Ile-de-France,Y15-24,ED0-2,2025,39.4,d,publie
+FR1,Ile-de-France,Y15-24,ED3_4,2023,17.3,d,publie
+FR1,Ile-de-France,Y15-24,ED3_4,2024,20.0,bd,publie
+FR1,Ile-de-France,Y15-24,ED3_4,2025,21.4,d,publie
+FR1,Ile-de-France,Y15-24,ED5-8,2023,12.9,d,publie
+FR1,Ile-de-France,Y15-24,ED5-8,2024,12.6,bd,publie
+FR1,Ile-de-France,Y15-24,ED5-8,2025,16.6,d,publie
+FR1,Ile-de-France,Y25-34,TOTAL,2023,9.1,d,publie
+FR1,Ile-de-France,Y25-34,TOTAL,2024,9.2,bd,publie
+FR1,Ile-de-France,Y25-34,TOTAL,2025,10.7,d,publie
+FR1,Ile-de-France,Y25-34,ED0-2,2023,17.0,d,publie
+FR1,Ile-de-France,Y25-34,ED0-2,2024,20.4,bd,publie
+FR1,Ile-de-France,Y25-34,ED0-2,2025,26.7,d,publie
+FR1,Ile-de-France,Y25-34,ED3_4,2023,14.2,d,publie
+FR1,Ile-de-France,Y25-34,ED3_4,2024,13.1,bd,publie
+FR1,Ile-de-France,Y25-34,ED3_4,2025,15.1,d,publie
+FR1,Ile-de-France,Y25-34,ED5-8,2023,6.8,d,publie
+FR1,Ile-de-France,Y25-34,ED5-8,2024,7.1,bd,publie
+FR1,Ile-de-France,Y25-34,ED5-8,2025,8.7,d,publie
+FR1,Ile-de-France,Y35-44,TOTAL,2023,6.6,d,publie
+FR1,Ile-de-France,Y35-44,TOTAL,2024,6.6,bd,publie
+FR1,Ile-de-France,Y35-44,TOTAL,2025,7.3,d,publie
+FR1,Ile-de-France,Y35-44,ED0-2,2023,11.9,d,publie
+FR1,Ile-de-France,Y35-44,ED0-2,2024,12.1,bd,publie
+FR1,Ile-de-France,Y35-44,ED0-2,2025,14.1,d,publie
+FR1,Ile-de-France,Y35-44,ED3_4,2023,8.9,d,publie
+FR1,Ile-de-France,Y35-44,ED3_4,2024,9.0,bd,publie
+FR1,Ile-de-France,Y35-44,ED3_4,2025,9.4,d,publie
+FR1,Ile-de-France,Y35-44,ED5-8,2023,4.7,d,publie
+FR1,Ile-de-France,Y35-44,ED5-8,2024,4.6,bd,publie
+FR1,Ile-de-France,Y35-44,ED5-8,2025,5.3,d,publie
+FR1,Ile-de-France,Y45-54,TOTAL,2023,5.1,d,publie
+FR1,Ile-de-France,Y45-54,TOTAL,2024,5.6,bd,publie
+FR1,Ile-de-France,Y45-54,TOTAL,2025,5.6,d,publie
+FR1,Ile-de-France,Y45-54,ED0-2,2023,8.7,d,publie
+FR1,Ile-de-France,Y45-54,ED0-2,2024,7.0,bd,publie
+FR1,Ile-de-France,Y45-54,ED0-2,2025,8.0,d,publie
+FR1,Ile-de-France,Y45-54,ED3_4,2023,5.6,d,publie
+FR1,Ile-de-France,Y45-54,ED3_4,2024,6.4,bd,publie
+FR1,Ile-de-France,Y45-54,ED3_4,2025,7.2,d,publie
+FR1,Ile-de-France,Y45-54,ED5-8,2023,3.9,d,publie
+FR1,Ile-de-France,Y45-54,ED5-8,2024,4.8,bd,publie
+FR1,Ile-de-France,Y45-54,ED5-8,2025,4.2,d,publie
+FR1,Ile-de-France,Y55-64,TOTAL,2023,5.8,d,publie
+FR1,Ile-de-France,Y55-64,TOTAL,2024,5.9,bd,publie
+FR1,Ile-de-France,Y55-64,TOTAL,2025,5.8,d,publie
+FR1,Ile-de-France,Y55-64,ED0-2,2023,7.1,d,publie
+FR1,Ile-de-France,Y55-64,ED0-2,2024,7.5,bd,publie
+FR1,Ile-de-France,Y55-64,ED0-2,2025,7.9,d,publie
+FR1,Ile-de-France,Y55-64,ED3_4,2023,6.0,d,publie
+FR1,Ile-de-France,Y55-64,ED3_4,2024,5.3,bd,publie
+FR1,Ile-de-France,Y55-64,ED3_4,2025,6.5,d,publie
+FR1,Ile-de-France,Y55-64,ED5-8,2023,5.1,d,publie
+FR1,Ile-de-France,Y55-64,ED5-8,2024,5.6,bd,publie
+FR1,Ile-de-France,Y55-64,ED5-8,2025,4.6,d,publie
+FR1,Ile-de-France,Y_GE25,TOTAL,2023,6.7,d,publie
+FR1,Ile-de-France,Y_GE25,TOTAL,2024,6.8,bd,publie
+FR1,Ile-de-France,Y_GE25,TOTAL,2025,7.5,d,publie
+FR1,Ile-de-France,Y_GE25,ED0-2,2023,10.0,d,publie
+FR1,Ile-de-France,Y_GE25,ED0-2,2024,9.9,bd,publie
+FR1,Ile-de-France,Y_GE25,ED0-2,2025,11.5,d,publie
+FR1,Ile-de-France,Y_GE25,ED3_4,2023,8.6,d,publie
+FR1,Ile-de-France,Y_GE25,ED3_4,2024,8.3,bd,publie
+FR1,Ile-de-France,Y_GE25,ED3_4,2025,9.1,d,publie
+FR1,Ile-de-France,Y_GE25,ED5-8,2023,5.2,d,publie
+FR1,Ile-de-France,Y_GE25,ED5-8,2024,5.5,bd,publie
+FR1,Ile-de-France,Y_GE25,ED5-8,2025,6.1,d,publie
+FR1,Ile-de-France,Y15-74,TOTAL,2023,7.6,d,publie
+FR1,Ile-de-France,Y15-74,TOTAL,2024,8.0,bd,publie
+FR1,Ile-de-France,Y15-74,TOTAL,2025,8.8,d,publie
+FR1,Ile-de-France,Y15-74,ED0-2,2023,11.1,d,publie
+FR1,Ile-de-France,Y15-74,ED0-2,2024,12.0,bd,publie
+FR1,Ile-de-France,Y15-74,ED0-2,2025,13.6,d,publie
+FR1,Ile-de-France,Y15-74,ED3_4,2023,10.0,d,publie
+FR1,Ile-de-France,Y15-74,ED3_4,2024,10.2,bd,publie
+FR1,Ile-de-France,Y15-74,ED3_4,2025,11.3,d,publie
+FR1,Ile-de-France,Y15-74,ED5-8,2023,5.8,d,publie
+FR1,Ile-de-France,Y15-74,ED5-8,2024,6.0,bd,publie
+FR1,Ile-de-France,Y15-74,ED5-8,2025,6.8,d,publie
+FR1,Ile-de-France,Y25-54_calc,TOTAL,2023,6.9,calc,calc
+FR1,Ile-de-France,Y25-54_calc,TOTAL,2024,7.1,calc,calc
+FR1,Ile-de-France,Y25-54_calc,TOTAL,2025,7.9,calc,calc
+FR1,Ile-de-France,Y25-54_calc,ED0-2,2023,11.4,calc,calc
+FR1,Ile-de-France,Y25-54_calc,ED0-2,2024,11.3,calc,calc
+FR1,Ile-de-France,Y25-54_calc,ED0-2,2025,13.2,calc,calc
+FR1,Ile-de-France,Y25-54_calc,ED3_4,2023,9.4,calc,calc
+FR1,Ile-de-France,Y25-54_calc,ED3_4,2024,9.2,calc,calc
+FR1,Ile-de-France,Y25-54_calc,ED3_4,2025,10.0,calc,calc
+FR1,Ile-de-France,Y25-54_calc,ED5-8,2023,5.2,calc,calc
+FR1,Ile-de-France,Y25-54_calc,ED5-8,2024,5.6,calc,calc
+FR1,Ile-de-France,Y25-54_calc,ED5-8,2025,6.3,calc,calc
+FRB,Centre-Val de Loire,Y15-24,TOTAL,2023,15.6,d,publie
+FRB,Centre-Val de Loire,Y15-24,TOTAL,2024,18.0,bd,publie
+FRB,Centre-Val de Loire,Y15-24,TOTAL,2025,18.0,d,publie
+FRB,Centre-Val de Loire,Y15-24,ED0-2,2023,25.8,du,publie
+FRB,Centre-Val de Loire,Y15-24,ED0-2,2024,28.1,bdu,publie
+FRB,Centre-Val de Loire,Y15-24,ED0-2,2025,26.9,du,publie
+FRB,Centre-Val de Loire,Y15-24,ED3_4,2023,13.0,du,publie
+FRB,Centre-Val de Loire,Y15-24,ED3_4,2024,16.2,bd,publie
+FRB,Centre-Val de Loire,Y15-24,ED3_4,2025,17.6,d,publie
+FRB,Centre-Val de Loire,Y15-24,ED5-8,2023,,u,publie
+FRB,Centre-Val de Loire,Y15-24,ED5-8,2024,16.6,bdu,publie
+FRB,Centre-Val de Loire,Y15-24,ED5-8,2025,,u,publie
+FRB,Centre-Val de Loire,Y25-34,TOTAL,2023,6.1,d,publie
+FRB,Centre-Val de Loire,Y25-34,TOTAL,2024,4.8,bd,publie
+FRB,Centre-Val de Loire,Y25-34,TOTAL,2025,6.6,d,publie
+FRB,Centre-Val de Loire,Y25-34,ED0-2,2023,,u,publie
+FRB,Centre-Val de Loire,Y25-34,ED0-2,2024,,bu,publie
+FRB,Centre-Val de Loire,Y25-34,ED0-2,2025,,u,publie
+FRB,Centre-Val de Loire,Y25-34,ED3_4,2023,7.2,du,publie
+FRB,Centre-Val de Loire,Y25-34,ED3_4,2024,4.6,bdu,publie
+FRB,Centre-Val de Loire,Y25-34,ED3_4,2025,5.9,du,publie
+FRB,Centre-Val de Loire,Y25-34,ED5-8,2023,5.3,du,publie
+FRB,Centre-Val de Loire,Y25-34,ED5-8,2024,,bu,publie
+FRB,Centre-Val de Loire,Y25-34,ED5-8,2025,6.8,du,publie
+FRB,Centre-Val de Loire,Y35-44,TOTAL,2023,4.7,d,publie
+FRB,Centre-Val de Loire,Y35-44,TOTAL,2024,4.8,bd,publie
+FRB,Centre-Val de Loire,Y35-44,TOTAL,2025,3.7,du,publie
+FRB,Centre-Val de Loire,Y35-44,ED0-2,2023,,u,publie
+FRB,Centre-Val de Loire,Y35-44,ED0-2,2024,,bu,publie
+FRB,Centre-Val de Loire,Y35-44,ED0-2,2025,,u,publie
+FRB,Centre-Val de Loire,Y35-44,ED3_4,2023,5.8,du,publie
+FRB,Centre-Val de Loire,Y35-44,ED3_4,2024,5.3,bdu,publie
+FRB,Centre-Val de Loire,Y35-44,ED3_4,2025,,u,publie
+FRB,Centre-Val de Loire,Y35-44,ED5-8,2023,,u,publie
+FRB,Centre-Val de Loire,Y35-44,ED5-8,2024,4.0,bdu,publie
+FRB,Centre-Val de Loire,Y35-44,ED5-8,2025,,u,publie
+FRB,Centre-Val de Loire,Y45-54,TOTAL,2023,3.0,du,publie
+FRB,Centre-Val de Loire,Y45-54,TOTAL,2024,2.1,bdu,publie
+FRB,Centre-Val de Loire,Y45-54,TOTAL,2025,4.4,d,publie
+FRB,Centre-Val de Loire,Y45-54,ED0-2,2023,,u,publie
+FRB,Centre-Val de Loire,Y45-54,ED0-2,2024,,bu,publie
+FRB,Centre-Val de Loire,Y45-54,ED0-2,2025,,u,publie
+FRB,Centre-Val de Loire,Y45-54,ED3_4,2023,4.0,du,publie
+FRB,Centre-Val de Loire,Y45-54,ED3_4,2024,,bu,publie
+FRB,Centre-Val de Loire,Y45-54,ED3_4,2025,,u,publie
+FRB,Centre-Val de Loire,Y45-54,ED5-8,2023,,u,publie
+FRB,Centre-Val de Loire,Y45-54,ED5-8,2024,,bu,publie
+FRB,Centre-Val de Loire,Y45-54,ED5-8,2025,4.2,du,publie
+FRB,Centre-Val de Loire,Y55-64,TOTAL,2023,5.2,d,publie
+FRB,Centre-Val de Loire,Y55-64,TOTAL,2024,5.0,bd,publie
+FRB,Centre-Val de Loire,Y55-64,TOTAL,2025,3.9,du,publie
+FRB,Centre-Val de Loire,Y55-64,ED0-2,2023,,u,publie
+FRB,Centre-Val de Loire,Y55-64,ED0-2,2024,,bu,publie
+FRB,Centre-Val de Loire,Y55-64,ED0-2,2025,,u,publie
+FRB,Centre-Val de Loire,Y55-64,ED3_4,2023,4.8,du,publie
+FRB,Centre-Val de Loire,Y55-64,ED3_4,2024,6.0,bdu,publie
+FRB,Centre-Val de Loire,Y55-64,ED3_4,2025,,u,publie
+FRB,Centre-Val de Loire,Y55-64,ED5-8,2023,,u,publie
+FRB,Centre-Val de Loire,Y55-64,ED5-8,2024,,bu,publie
+FRB,Centre-Val de Loire,Y55-64,ED5-8,2025,,u,publie
+FRB,Centre-Val de Loire,Y_GE25,TOTAL,2023,4.5,d,publie
+FRB,Centre-Val de Loire,Y_GE25,TOTAL,2024,4.0,bd,publie
+FRB,Centre-Val de Loire,Y_GE25,TOTAL,2025,4.6,d,publie
+FRB,Centre-Val de Loire,Y_GE25,ED0-2,2023,5.7,du,publie
+FRB,Centre-Val de Loire,Y_GE25,ED0-2,2024,5.4,bdu,publie
+FRB,Centre-Val de Loire,Y_GE25,ED0-2,2025,7.0,du,publie
+FRB,Centre-Val de Loire,Y_GE25,ED3_4,2023,5.2,d,publie
+FRB,Centre-Val de Loire,Y_GE25,ED3_4,2024,4.1,bd,publie
+FRB,Centre-Val de Loire,Y_GE25,ED3_4,2025,4.1,d,publie
+FRB,Centre-Val de Loire,Y_GE25,ED5-8,2023,3.4,d,publie
+FRB,Centre-Val de Loire,Y_GE25,ED5-8,2024,3.6,bd,publie
+FRB,Centre-Val de Loire,Y_GE25,ED5-8,2025,4.4,d,publie
+FRB,Centre-Val de Loire,Y15-74,TOTAL,2023,5.7,d,publie
+FRB,Centre-Val de Loire,Y15-74,TOTAL,2024,5.6,bd,publie
+FRB,Centre-Val de Loire,Y15-74,TOTAL,2025,6.1,d,publie
+FRB,Centre-Val de Loire,Y15-74,ED0-2,2023,9.4,d,publie
+FRB,Centre-Val de Loire,Y15-74,ED0-2,2024,8.8,bd,publie
+FRB,Centre-Val de Loire,Y15-74,ED0-2,2025,10.4,d,publie
+FRB,Centre-Val de Loire,Y15-74,ED3_4,2023,6.2,d,publie
+FRB,Centre-Val de Loire,Y15-74,ED3_4,2024,5.7,bd,publie
+FRB,Centre-Val de Loire,Y15-74,ED3_4,2025,6.0,d,publie
+FRB,Centre-Val de Loire,Y15-74,ED5-8,2023,4.0,d,publie
+FRB,Centre-Val de Loire,Y15-74,ED5-8,2024,4.7,bd,publie
+FRB,Centre-Val de Loire,Y15-74,ED5-8,2025,5.1,d,publie
+FRB,Centre-Val de Loire,Y25-54_calc,TOTAL,2023,4.4,calc+u,calc
+FRB,Centre-Val de Loire,Y25-54_calc,TOTAL,2024,3.8,calc+u,calc
+FRB,Centre-Val de Loire,Y25-54_calc,TOTAL,2025,4.8,calc+u,calc
+FRB,Centre-Val de Loire,Y25-54_calc,ED0-2,2023,,,calc
+FRB,Centre-Val de Loire,Y25-54_calc,ED0-2,2024,,,calc
+FRB,Centre-Val de Loire,Y25-54_calc,ED0-2,2025,,,calc
+FRB,Centre-Val de Loire,Y25-54_calc,ED3_4,2023,5.5,calc+u,calc
+FRB,Centre-Val de Loire,Y25-54_calc,ED3_4,2024,,,calc
+FRB,Centre-Val de Loire,Y25-54_calc,ED3_4,2025,,,calc
+FRB,Centre-Val de Loire,Y25-54_calc,ED5-8,2023,,,calc
+FRB,Centre-Val de Loire,Y25-54_calc,ED5-8,2024,,,calc
+FRB,Centre-Val de Loire,Y25-54_calc,ED5-8,2025,,,calc
+FRC,Bourgogne-Franche-Comte,Y15-24,TOTAL,2023,14.7,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,TOTAL,2024,15.0,bd,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,TOTAL,2025,19.3,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,ED0-2,2023,28.6,du,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,ED0-2,2024,,bu,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,ED0-2,2025,30.0,du,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,ED3_4,2023,13.8,du,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,ED3_4,2024,16.3,bd,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,ED3_4,2025,22.4,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,ED5-8,2023,,u,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,ED5-8,2024,,bu,publie
+FRC,Bourgogne-Franche-Comte,Y15-24,ED5-8,2025,,u,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,TOTAL,2023,6.7,d,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,TOTAL,2024,6.6,bd,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,TOTAL,2025,10.0,d,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,ED0-2,2023,,u,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,ED0-2,2024,,bu,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,ED0-2,2025,28.9,du,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,ED3_4,2023,5.8,du,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,ED3_4,2024,5.0,bdu,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,ED3_4,2025,9.8,du,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,ED5-8,2023,6.1,du,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,ED5-8,2024,6.0,bdu,publie
+FRC,Bourgogne-Franche-Comte,Y25-34,ED5-8,2025,6.1,du,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,TOTAL,2023,5.0,d,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,TOTAL,2024,4.7,bd,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,TOTAL,2025,4.6,d,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,ED0-2,2023,15.8,du,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,ED0-2,2024,14.9,bdu,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,ED0-2,2025,,u,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,ED3_4,2023,5.7,du,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,ED3_4,2024,,bu,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,ED3_4,2025,6.5,du,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,ED5-8,2023,,u,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,ED5-8,2024,,bu,publie
+FRC,Bourgogne-Franche-Comte,Y35-44,ED5-8,2025,,u,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,TOTAL,2023,5.9,d,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,TOTAL,2024,4.6,bd,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,TOTAL,2025,4.4,d,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,ED0-2,2023,,u,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,ED0-2,2024,,bu,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,ED0-2,2025,,u,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,ED3_4,2023,6.2,du,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,ED3_4,2024,3.7,bdu,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,ED3_4,2025,4.6,du,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,ED5-8,2023,4.4,du,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,ED5-8,2024,4.9,bdu,publie
+FRC,Bourgogne-Franche-Comte,Y45-54,ED5-8,2025,,u,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,TOTAL,2023,4.8,d,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,TOTAL,2024,4.4,bd,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,TOTAL,2025,5.2,d,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,ED0-2,2023,,u,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,ED0-2,2024,,bu,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,ED0-2,2025,,u,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,ED3_4,2023,5.9,du,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,ED3_4,2024,5.9,bdu,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,ED3_4,2025,7.0,du,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,ED5-8,2023,,u,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,ED5-8,2024,,bu,publie
+FRC,Bourgogne-Franche-Comte,Y55-64,ED5-8,2025,,u,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,TOTAL,2023,5.5,d,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,TOTAL,2024,4.9,bd,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,TOTAL,2025,5.8,d,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,ED0-2,2023,9.1,d,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,ED0-2,2024,9.8,bd,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,ED0-2,2025,11.7,d,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,ED3_4,2023,5.9,d,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,ED3_4,2024,4.4,bd,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,ED3_4,2025,6.7,d,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,ED5-8,2023,3.9,d,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,ED5-8,2024,3.8,bd,publie
+FRC,Bourgogne-Franche-Comte,Y_GE25,ED5-8,2025,2.9,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,TOTAL,2023,6.6,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,TOTAL,2024,6.1,bd,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,TOTAL,2025,7.5,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,ED0-2,2023,12.6,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,ED0-2,2024,11.2,bd,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,ED0-2,2025,14.1,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,ED3_4,2023,6.8,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,ED3_4,2024,6.0,bd,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,ED3_4,2025,8.9,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,ED5-8,2023,4.2,d,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,ED5-8,2024,4.3,bd,publie
+FRC,Bourgogne-Franche-Comte,Y15-74,ED5-8,2025,3.5,d,publie
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,TOTAL,2023,5.8,calc,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,TOTAL,2024,5.2,calc,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,TOTAL,2025,6.1,calc,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,ED0-2,2023,,,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,ED0-2,2024,,,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,ED0-2,2025,,,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,ED3_4,2023,5.9,calc+u,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,ED3_4,2024,,,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,ED3_4,2025,6.7,calc+u,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,ED5-8,2023,,,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,ED5-8,2024,,,calc
+FRC,Bourgogne-Franche-Comte,Y25-54_calc,ED5-8,2025,,,calc
+FRD,Normandie,Y15-24,TOTAL,2023,15.5,d,publie
+FRD,Normandie,Y15-24,TOTAL,2024,17.8,bd,publie
+FRD,Normandie,Y15-24,TOTAL,2025,19.7,d,publie
+FRD,Normandie,Y15-24,ED0-2,2023,32.5,d,publie
+FRD,Normandie,Y15-24,ED0-2,2024,34.1,bd,publie
+FRD,Normandie,Y15-24,ED0-2,2025,34.7,d,publie
+FRD,Normandie,Y15-24,ED3_4,2023,13.6,d,publie
+FRD,Normandie,Y15-24,ED3_4,2024,15.2,bd,publie
+FRD,Normandie,Y15-24,ED3_4,2025,18.1,d,publie
+FRD,Normandie,Y15-24,ED5-8,2023,,u,publie
+FRD,Normandie,Y15-24,ED5-8,2024,,bu,publie
+FRD,Normandie,Y15-24,ED5-8,2025,12.5,du,publie
+FRD,Normandie,Y25-34,TOTAL,2023,6.3,d,publie
+FRD,Normandie,Y25-34,TOTAL,2024,8.1,bd,publie
+FRD,Normandie,Y25-34,TOTAL,2025,7.6,d,publie
+FRD,Normandie,Y25-34,ED0-2,2023,19.8,du,publie
+FRD,Normandie,Y25-34,ED0-2,2024,,bu,publie
+FRD,Normandie,Y25-34,ED0-2,2025,,u,publie
+FRD,Normandie,Y25-34,ED3_4,2023,7.2,du,publie
+FRD,Normandie,Y25-34,ED3_4,2024,9.3,bd,publie
+FRD,Normandie,Y25-34,ED3_4,2025,9.1,d,publie
+FRD,Normandie,Y25-34,ED5-8,2023,3.5,du,publie
+FRD,Normandie,Y25-34,ED5-8,2024,5.9,bd,publie
+FRD,Normandie,Y25-34,ED5-8,2025,5.1,du,publie
+FRD,Normandie,Y35-44,TOTAL,2023,6.0,d,publie
+FRD,Normandie,Y35-44,TOTAL,2024,5.5,bd,publie
+FRD,Normandie,Y35-44,TOTAL,2025,5.9,d,publie
+FRD,Normandie,Y35-44,ED0-2,2023,,u,publie
+FRD,Normandie,Y35-44,ED0-2,2024,16.6,bdu,publie
+FRD,Normandie,Y35-44,ED0-2,2025,24.9,du,publie
+FRD,Normandie,Y35-44,ED3_4,2023,6.5,d,publie
+FRD,Normandie,Y35-44,ED3_4,2024,5.2,bdu,publie
+FRD,Normandie,Y35-44,ED3_4,2025,5.6,du,publie
+FRD,Normandie,Y35-44,ED5-8,2023,4.0,du,publie
+FRD,Normandie,Y35-44,ED5-8,2024,3.6,bdu,publie
+FRD,Normandie,Y35-44,ED5-8,2025,,u,publie
+FRD,Normandie,Y45-54,TOTAL,2023,4.3,d,publie
+FRD,Normandie,Y45-54,TOTAL,2024,4.5,bd,publie
+FRD,Normandie,Y45-54,TOTAL,2025,4.6,d,publie
+FRD,Normandie,Y45-54,ED0-2,2023,,u,publie
+FRD,Normandie,Y45-54,ED0-2,2024,12.1,bdu,publie
+FRD,Normandie,Y45-54,ED0-2,2025,,u,publie
+FRD,Normandie,Y45-54,ED3_4,2023,4.7,du,publie
+FRD,Normandie,Y45-54,ED3_4,2024,4.9,bdu,publie
+FRD,Normandie,Y45-54,ED3_4,2025,6.1,du,publie
+FRD,Normandie,Y45-54,ED5-8,2023,,u,publie
+FRD,Normandie,Y45-54,ED5-8,2024,,bu,publie
+FRD,Normandie,Y45-54,ED5-8,2025,,u,publie
+FRD,Normandie,Y55-64,TOTAL,2023,4.2,du,publie
+FRD,Normandie,Y55-64,TOTAL,2024,6.5,bd,publie
+FRD,Normandie,Y55-64,TOTAL,2025,4.6,d,publie
+FRD,Normandie,Y55-64,ED0-2,2023,,u,publie
+FRD,Normandie,Y55-64,ED0-2,2024,,bu,publie
+FRD,Normandie,Y55-64,ED0-2,2025,,u,publie
+FRD,Normandie,Y55-64,ED3_4,2023,5.6,du,publie
+FRD,Normandie,Y55-64,ED3_4,2024,7.3,bdu,publie
+FRD,Normandie,Y55-64,ED3_4,2025,3.9,du,publie
+FRD,Normandie,Y55-64,ED5-8,2023,,u,publie
+FRD,Normandie,Y55-64,ED5-8,2024,,bu,publie
+FRD,Normandie,Y55-64,ED5-8,2025,,u,publie
+FRD,Normandie,Y_GE25,TOTAL,2023,5.2,d,publie
+FRD,Normandie,Y_GE25,TOTAL,2024,6.0,bd,publie
+FRD,Normandie,Y_GE25,TOTAL,2025,5.6,d,publie
+FRD,Normandie,Y_GE25,ED0-2,2023,8.5,d,publie
+FRD,Normandie,Y_GE25,ED0-2,2024,11.3,bd,publie
+FRD,Normandie,Y_GE25,ED0-2,2025,11.1,d,publie
+FRD,Normandie,Y_GE25,ED3_4,2023,5.9,d,publie
+FRD,Normandie,Y_GE25,ED3_4,2024,6.5,bd,publie
+FRD,Normandie,Y_GE25,ED3_4,2025,6.1,d,publie
+FRD,Normandie,Y_GE25,ED5-8,2023,3.3,d,publie
+FRD,Normandie,Y_GE25,ED5-8,2024,4.0,bd,publie
+FRD,Normandie,Y_GE25,ED5-8,2025,3.7,d,publie
+FRD,Normandie,Y15-74,TOTAL,2023,6.5,d,publie
+FRD,Normandie,Y15-74,TOTAL,2024,7.5,bd,publie
+FRD,Normandie,Y15-74,TOTAL,2025,7.4,d,publie
+FRD,Normandie,Y15-74,ED0-2,2023,13.0,d,publie
+FRD,Normandie,Y15-74,ED0-2,2024,15.4,bd,publie
+FRD,Normandie,Y15-74,ED0-2,2025,15.4,d,publie
+FRD,Normandie,Y15-74,ED3_4,2023,7.0,d,publie
+FRD,Normandie,Y15-74,ED3_4,2024,7.8,bd,publie
+FRD,Normandie,Y15-74,ED3_4,2025,7.8,d,publie
+FRD,Normandie,Y15-74,ED5-8,2023,3.6,d,publie
+FRD,Normandie,Y15-74,ED5-8,2024,4.6,bd,publie
+FRD,Normandie,Y15-74,ED5-8,2025,4.4,d,publie
+FRD,Normandie,Y25-54_calc,TOTAL,2023,5.5,calc,calc
+FRD,Normandie,Y25-54_calc,TOTAL,2024,6.0,calc,calc
+FRD,Normandie,Y25-54_calc,TOTAL,2025,6.0,calc,calc
+FRD,Normandie,Y25-54_calc,ED0-2,2023,,,calc
+FRD,Normandie,Y25-54_calc,ED0-2,2024,,,calc
+FRD,Normandie,Y25-54_calc,ED0-2,2025,,,calc
+FRD,Normandie,Y25-54_calc,ED3_4,2023,6.1,calc+u,calc
+FRD,Normandie,Y25-54_calc,ED3_4,2024,6.3,calc+u,calc
+FRD,Normandie,Y25-54_calc,ED3_4,2025,6.8,calc+u,calc
+FRD,Normandie,Y25-54_calc,ED5-8,2023,,,calc
+FRD,Normandie,Y25-54_calc,ED5-8,2024,,,calc
+FRD,Normandie,Y25-54_calc,ED5-8,2025,,,calc
+FRE,Hauts-de-France,Y15-24,TOTAL,2023,22.7,d,publie
+FRE,Hauts-de-France,Y15-24,TOTAL,2024,23.2,bd,publie
+FRE,Hauts-de-France,Y15-24,TOTAL,2025,23.2,d,publie
+FRE,Hauts-de-France,Y15-24,ED0-2,2023,47.1,d,publie
+FRE,Hauts-de-France,Y15-24,ED0-2,2024,42.6,bd,publie
+FRE,Hauts-de-France,Y15-24,ED0-2,2025,40.2,d,publie
+FRE,Hauts-de-France,Y15-24,ED3_4,2023,21.7,d,publie
+FRE,Hauts-de-France,Y15-24,ED3_4,2024,24.4,bd,publie
+FRE,Hauts-de-France,Y15-24,ED3_4,2025,22.6,d,publie
+FRE,Hauts-de-France,Y15-24,ED5-8,2023,12.0,d,publie
+FRE,Hauts-de-France,Y15-24,ED5-8,2024,11.2,bd,publie
+FRE,Hauts-de-France,Y15-24,ED5-8,2025,17.1,d,publie
+FRE,Hauts-de-France,Y25-34,TOTAL,2023,11.9,d,publie
+FRE,Hauts-de-France,Y25-34,TOTAL,2024,9.7,bd,publie
+FRE,Hauts-de-France,Y25-34,TOTAL,2025,9.5,d,publie
+FRE,Hauts-de-France,Y25-34,ED0-2,2023,29.8,d,publie
+FRE,Hauts-de-France,Y25-34,ED0-2,2024,13.6,bdu,publie
+FRE,Hauts-de-France,Y25-34,ED0-2,2025,20.3,d,publie
+FRE,Hauts-de-France,Y25-34,ED3_4,2023,11.9,d,publie
+FRE,Hauts-de-France,Y25-34,ED3_4,2024,11.5,bd,publie
+FRE,Hauts-de-France,Y25-34,ED3_4,2025,10.2,d,publie
+FRE,Hauts-de-France,Y25-34,ED5-8,2023,7.7,d,publie
+FRE,Hauts-de-France,Y25-34,ED5-8,2024,7.7,bd,publie
+FRE,Hauts-de-France,Y25-34,ED5-8,2025,7.0,d,publie
+FRE,Hauts-de-France,Y35-44,TOTAL,2023,6.9,d,publie
+FRE,Hauts-de-France,Y35-44,TOTAL,2024,7.0,bd,publie
+FRE,Hauts-de-France,Y35-44,TOTAL,2025,4.7,d,publie
+FRE,Hauts-de-France,Y35-44,ED0-2,2023,13.2,du,publie
+FRE,Hauts-de-France,Y35-44,ED0-2,2024,18.8,bd,publie
+FRE,Hauts-de-France,Y35-44,ED0-2,2025,12.2,du,publie
+FRE,Hauts-de-France,Y35-44,ED3_4,2023,7.9,d,publie
+FRE,Hauts-de-France,Y35-44,ED3_4,2024,7.4,bd,publie
+FRE,Hauts-de-France,Y35-44,ED3_4,2025,5.4,d,publie
+FRE,Hauts-de-France,Y35-44,ED5-8,2023,4.1,d,publie
+FRE,Hauts-de-France,Y35-44,ED5-8,2024,3.7,bd,publie
+FRE,Hauts-de-France,Y35-44,ED5-8,2025,2.8,du,publie
+FRE,Hauts-de-France,Y45-54,TOTAL,2023,6.2,d,publie
+FRE,Hauts-de-France,Y45-54,TOTAL,2024,5.7,bd,publie
+FRE,Hauts-de-France,Y45-54,TOTAL,2025,5.5,d,publie
+FRE,Hauts-de-France,Y45-54,ED0-2,2023,12.7,d,publie
+FRE,Hauts-de-France,Y45-54,ED0-2,2024,11.4,bdu,publie
+FRE,Hauts-de-France,Y45-54,ED0-2,2025,8.7,du,publie
+FRE,Hauts-de-France,Y45-54,ED3_4,2023,5.1,d,publie
+FRE,Hauts-de-France,Y45-54,ED3_4,2024,6.8,bd,publie
+FRE,Hauts-de-France,Y45-54,ED3_4,2025,8.2,d,publie
+FRE,Hauts-de-France,Y45-54,ED5-8,2023,4.6,d,publie
+FRE,Hauts-de-France,Y45-54,ED5-8,2024,2.8,bdu,publie
+FRE,Hauts-de-France,Y45-54,ED5-8,2025,,u,publie
+FRE,Hauts-de-France,Y55-64,TOTAL,2023,5.7,d,publie
+FRE,Hauts-de-France,Y55-64,TOTAL,2024,4.4,bd,publie
+FRE,Hauts-de-France,Y55-64,TOTAL,2025,6.1,d,publie
+FRE,Hauts-de-France,Y55-64,ED0-2,2023,5.8,du,publie
+FRE,Hauts-de-France,Y55-64,ED0-2,2024,6.6,bdu,publie
+FRE,Hauts-de-France,Y55-64,ED0-2,2025,12.3,d,publie
+FRE,Hauts-de-France,Y55-64,ED3_4,2023,6.8,d,publie
+FRE,Hauts-de-France,Y55-64,ED3_4,2024,5.2,bd,publie
+FRE,Hauts-de-France,Y55-64,ED3_4,2025,5.5,d,publie
+FRE,Hauts-de-France,Y55-64,ED5-8,2023,,u,publie
+FRE,Hauts-de-France,Y55-64,ED5-8,2024,,bu,publie
+FRE,Hauts-de-France,Y55-64,ED5-8,2025,,u,publie
+FRE,Hauts-de-France,Y_GE25,TOTAL,2023,7.7,d,publie
+FRE,Hauts-de-France,Y_GE25,TOTAL,2024,6.9,bd,publie
+FRE,Hauts-de-France,Y_GE25,TOTAL,2025,6.5,d,publie
+FRE,Hauts-de-France,Y_GE25,ED0-2,2023,13.9,d,publie
+FRE,Hauts-de-France,Y_GE25,ED0-2,2024,11.9,bd,publie
+FRE,Hauts-de-France,Y_GE25,ED0-2,2025,12.7,d,publie
+FRE,Hauts-de-France,Y_GE25,ED3_4,2023,7.8,d,publie
+FRE,Hauts-de-France,Y_GE25,ED3_4,2024,7.8,bd,publie
+FRE,Hauts-de-France,Y_GE25,ED3_4,2025,7.3,d,publie
+FRE,Hauts-de-France,Y_GE25,ED5-8,2023,5.3,d,publie
+FRE,Hauts-de-France,Y_GE25,ED5-8,2024,4.4,bd,publie
+FRE,Hauts-de-France,Y_GE25,ED5-8,2025,3.9,d,publie
+FRE,Hauts-de-France,Y15-74,TOTAL,2023,9.6,d,publie
+FRE,Hauts-de-France,Y15-74,TOTAL,2024,8.9,bd,publie
+FRE,Hauts-de-France,Y15-74,TOTAL,2025,8.5,d,publie
+FRE,Hauts-de-France,Y15-74,ED0-2,2023,18.0,d,publie
+FRE,Hauts-de-France,Y15-74,ED0-2,2024,16.2,bd,publie
+FRE,Hauts-de-France,Y15-74,ED0-2,2025,16.7,d,publie
+FRE,Hauts-de-France,Y15-74,ED3_4,2023,9.9,d,publie
+FRE,Hauts-de-France,Y15-74,ED3_4,2024,10.3,bd,publie
+FRE,Hauts-de-France,Y15-74,ED3_4,2025,9.5,d,publie
+FRE,Hauts-de-France,Y15-74,ED5-8,2023,5.9,d,publie
+FRE,Hauts-de-France,Y15-74,ED5-8,2024,5.0,bd,publie
+FRE,Hauts-de-France,Y15-74,ED5-8,2025,5.1,d,publie
+FRE,Hauts-de-France,Y25-54_calc,TOTAL,2023,8.3,calc,calc
+FRE,Hauts-de-France,Y25-54_calc,TOTAL,2024,7.4,calc,calc
+FRE,Hauts-de-France,Y25-54_calc,TOTAL,2025,6.5,calc,calc
+FRE,Hauts-de-France,Y25-54_calc,ED0-2,2023,17.6,calc+u,calc
+FRE,Hauts-de-France,Y25-54_calc,ED0-2,2024,14.4,calc+u,calc
+FRE,Hauts-de-France,Y25-54_calc,ED0-2,2025,13.4,calc+u,calc
+FRE,Hauts-de-France,Y25-54_calc,ED3_4,2023,8.1,calc,calc
+FRE,Hauts-de-France,Y25-54_calc,ED3_4,2024,8.4,calc,calc
+FRE,Hauts-de-France,Y25-54_calc,ED3_4,2025,7.8,calc,calc
+FRE,Hauts-de-France,Y25-54_calc,ED5-8,2023,5.5,calc,calc
+FRE,Hauts-de-France,Y25-54_calc,ED5-8,2024,4.9,calc+u,calc
+FRE,Hauts-de-France,Y25-54_calc,ED5-8,2025,,,calc
+FRF,Grand Est,Y15-24,TOTAL,2023,16.4,d,publie
+FRF,Grand Est,Y15-24,TOTAL,2024,20.5,bd,publie
+FRF,Grand Est,Y15-24,TOTAL,2025,17.2,d,publie
+FRF,Grand Est,Y15-24,ED0-2,2023,27.6,d,publie
+FRF,Grand Est,Y15-24,ED0-2,2024,38.3,bd,publie
+FRF,Grand Est,Y15-24,ED0-2,2025,31.6,d,publie
+FRF,Grand Est,Y15-24,ED3_4,2023,15.5,d,publie
+FRF,Grand Est,Y15-24,ED3_4,2024,19.3,bd,publie
+FRF,Grand Est,Y15-24,ED3_4,2025,16.8,d,publie
+FRF,Grand Est,Y15-24,ED5-8,2023,11.0,du,publie
+FRF,Grand Est,Y15-24,ED5-8,2024,13.7,bd,publie
+FRF,Grand Est,Y15-24,ED5-8,2025,9.7,du,publie
+FRF,Grand Est,Y25-34,TOTAL,2023,6.9,d,publie
+FRF,Grand Est,Y25-34,TOTAL,2024,7.9,bd,publie
+FRF,Grand Est,Y25-34,TOTAL,2025,6.9,d,publie
+FRF,Grand Est,Y25-34,ED0-2,2023,14.5,du,publie
+FRF,Grand Est,Y25-34,ED0-2,2024,20.1,bd,publie
+FRF,Grand Est,Y25-34,ED0-2,2025,13.3,du,publie
+FRF,Grand Est,Y25-34,ED3_4,2023,7.1,d,publie
+FRF,Grand Est,Y25-34,ED3_4,2024,8.9,bd,publie
+FRF,Grand Est,Y25-34,ED3_4,2025,8.4,d,publie
+FRF,Grand Est,Y25-34,ED5-8,2023,5.5,d,publie
+FRF,Grand Est,Y25-34,ED5-8,2024,4.7,bd,publie
+FRF,Grand Est,Y25-34,ED5-8,2025,4.8,d,publie
+FRF,Grand Est,Y35-44,TOTAL,2023,5.0,d,publie
+FRF,Grand Est,Y35-44,TOTAL,2024,5.3,bd,publie
+FRF,Grand Est,Y35-44,TOTAL,2025,4.8,d,publie
+FRF,Grand Est,Y35-44,ED0-2,2023,15.0,du,publie
+FRF,Grand Est,Y35-44,ED0-2,2024,12.7,bdu,publie
+FRF,Grand Est,Y35-44,ED0-2,2025,13.6,du,publie
+FRF,Grand Est,Y35-44,ED3_4,2023,4.3,d,publie
+FRF,Grand Est,Y35-44,ED3_4,2024,4.9,bd,publie
+FRF,Grand Est,Y35-44,ED3_4,2025,5.1,d,publie
+FRF,Grand Est,Y35-44,ED5-8,2023,3.3,du,publie
+FRF,Grand Est,Y35-44,ED5-8,2024,3.9,bd,publie
+FRF,Grand Est,Y35-44,ED5-8,2025,2.7,du,publie
+FRF,Grand Est,Y45-54,TOTAL,2023,4.5,d,publie
+FRF,Grand Est,Y45-54,TOTAL,2024,4.8,bd,publie
+FRF,Grand Est,Y45-54,TOTAL,2025,4.5,d,publie
+FRF,Grand Est,Y45-54,ED0-2,2023,6.9,du,publie
+FRF,Grand Est,Y45-54,ED0-2,2024,9.2,bdu,publie
+FRF,Grand Est,Y45-54,ED0-2,2025,9.5,du,publie
+FRF,Grand Est,Y45-54,ED3_4,2023,4.9,d,publie
+FRF,Grand Est,Y45-54,ED3_4,2024,5.3,bd,publie
+FRF,Grand Est,Y45-54,ED3_4,2025,4.7,d,publie
+FRF,Grand Est,Y45-54,ED5-8,2023,3.2,du,publie
+FRF,Grand Est,Y45-54,ED5-8,2024,3.0,bdu,publie
+FRF,Grand Est,Y45-54,ED5-8,2025,2.9,du,publie
+FRF,Grand Est,Y55-64,TOTAL,2023,6.0,d,publie
+FRF,Grand Est,Y55-64,TOTAL,2024,4.8,bd,publie
+FRF,Grand Est,Y55-64,TOTAL,2025,5.0,d,publie
+FRF,Grand Est,Y55-64,ED0-2,2023,6.5,du,publie
+FRF,Grand Est,Y55-64,ED0-2,2024,,bu,publie
+FRF,Grand Est,Y55-64,ED0-2,2025,7.4,du,publie
+FRF,Grand Est,Y55-64,ED3_4,2023,5.4,d,publie
+FRF,Grand Est,Y55-64,ED3_4,2024,5.1,bd,publie
+FRF,Grand Est,Y55-64,ED3_4,2025,4.8,d,publie
+FRF,Grand Est,Y55-64,ED5-8,2023,6.7,du,publie
+FRF,Grand Est,Y55-64,ED5-8,2024,,bu,publie
+FRF,Grand Est,Y55-64,ED5-8,2025,,u,publie
+FRF,Grand Est,Y_GE25,TOTAL,2023,5.5,d,publie
+FRF,Grand Est,Y_GE25,TOTAL,2024,5.6,bd,publie
+FRF,Grand Est,Y_GE25,TOTAL,2025,5.3,d,publie
+FRF,Grand Est,Y_GE25,ED0-2,2023,9.7,d,publie
+FRF,Grand Est,Y_GE25,ED0-2,2024,10.8,bd,publie
+FRF,Grand Est,Y_GE25,ED0-2,2025,10.0,d,publie
+FRF,Grand Est,Y_GE25,ED3_4,2023,5.3,d,publie
+FRF,Grand Est,Y_GE25,ED3_4,2024,5.9,bd,publie
+FRF,Grand Est,Y_GE25,ED3_4,2025,5.5,d,publie
+FRF,Grand Est,Y_GE25,ED5-8,2023,4.4,d,publie
+FRF,Grand Est,Y_GE25,ED5-8,2024,3.8,bd,publie
+FRF,Grand Est,Y_GE25,ED5-8,2025,3.6,d,publie
+FRF,Grand Est,Y15-74,TOTAL,2023,6.8,d,publie
+FRF,Grand Est,Y15-74,TOTAL,2024,7.3,bd,publie
+FRF,Grand Est,Y15-74,TOTAL,2025,6.6,d,publie
+FRF,Grand Est,Y15-74,ED0-2,2023,12.4,d,publie
+FRF,Grand Est,Y15-74,ED0-2,2024,14.5,bd,publie
+FRF,Grand Est,Y15-74,ED0-2,2025,13.1,d,publie
+FRF,Grand Est,Y15-74,ED3_4,2023,6.6,d,publie
+FRF,Grand Est,Y15-74,ED3_4,2024,7.6,bd,publie
+FRF,Grand Est,Y15-74,ED3_4,2025,7.0,d,publie
+FRF,Grand Est,Y15-74,ED5-8,2023,4.9,d,publie
+FRF,Grand Est,Y15-74,ED5-8,2024,4.6,bd,publie
+FRF,Grand Est,Y15-74,ED5-8,2025,4.1,d,publie
+FRF,Grand Est,Y25-54_calc,TOTAL,2023,5.4,calc,calc
+FRF,Grand Est,Y25-54_calc,TOTAL,2024,5.9,calc,calc
+FRF,Grand Est,Y25-54_calc,TOTAL,2025,5.3,calc,calc
+FRF,Grand Est,Y25-54_calc,ED0-2,2023,11.1,calc+u,calc
+FRF,Grand Est,Y25-54_calc,ED0-2,2024,13.5,calc+u,calc
+FRF,Grand Est,Y25-54_calc,ED0-2,2025,11.8,calc+u,calc
+FRF,Grand Est,Y25-54_calc,ED3_4,2023,5.3,calc,calc
+FRF,Grand Est,Y25-54_calc,ED3_4,2024,6.2,calc,calc
+FRF,Grand Est,Y25-54_calc,ED3_4,2025,5.9,calc,calc
+FRF,Grand Est,Y25-54_calc,ED5-8,2023,4.0,calc+u,calc
+FRF,Grand Est,Y25-54_calc,ED5-8,2024,3.9,calc+u,calc
+FRF,Grand Est,Y25-54_calc,ED5-8,2025,3.5,calc+u,calc
+FRG,Pays de la Loire,Y15-24,TOTAL,2023,14.3,d,publie
+FRG,Pays de la Loire,Y15-24,TOTAL,2024,14.7,bd,publie
+FRG,Pays de la Loire,Y15-24,TOTAL,2025,16.1,d,publie
+FRG,Pays de la Loire,Y15-24,ED0-2,2023,24.4,d,publie
+FRG,Pays de la Loire,Y15-24,ED0-2,2024,18.2,bdu,publie
+FRG,Pays de la Loire,Y15-24,ED0-2,2025,31.5,d,publie
+FRG,Pays de la Loire,Y15-24,ED3_4,2023,13.5,d,publie
+FRG,Pays de la Loire,Y15-24,ED3_4,2024,16.1,bd,publie
+FRG,Pays de la Loire,Y15-24,ED3_4,2025,13.7,d,publie
+FRG,Pays de la Loire,Y15-24,ED5-8,2023,,u,publie
+FRG,Pays de la Loire,Y15-24,ED5-8,2024,10.0,bdu,publie
+FRG,Pays de la Loire,Y15-24,ED5-8,2025,10.3,du,publie
+FRG,Pays de la Loire,Y25-34,TOTAL,2023,5.9,d,publie
+FRG,Pays de la Loire,Y25-34,TOTAL,2024,6.9,bd,publie
+FRG,Pays de la Loire,Y25-34,TOTAL,2025,7.8,d,publie
+FRG,Pays de la Loire,Y25-34,ED0-2,2023,,u,publie
+FRG,Pays de la Loire,Y25-34,ED0-2,2024,19.4,bdu,publie
+FRG,Pays de la Loire,Y25-34,ED0-2,2025,18.7,du,publie
+FRG,Pays de la Loire,Y25-34,ED3_4,2023,6.1,du,publie
+FRG,Pays de la Loire,Y25-34,ED3_4,2024,6.0,bdu,publie
+FRG,Pays de la Loire,Y25-34,ED3_4,2025,7.6,d,publie
+FRG,Pays de la Loire,Y25-34,ED5-8,2023,4.6,du,publie
+FRG,Pays de la Loire,Y25-34,ED5-8,2024,6.1,bd,publie
+FRG,Pays de la Loire,Y25-34,ED5-8,2025,6.5,d,publie
+FRG,Pays de la Loire,Y35-44,TOTAL,2023,5.8,d,publie
+FRG,Pays de la Loire,Y35-44,TOTAL,2024,5.9,bd,publie
+FRG,Pays de la Loire,Y35-44,TOTAL,2025,5.4,d,publie
+FRG,Pays de la Loire,Y35-44,ED0-2,2023,,u,publie
+FRG,Pays de la Loire,Y35-44,ED0-2,2024,,bu,publie
+FRG,Pays de la Loire,Y35-44,ED0-2,2025,,u,publie
+FRG,Pays de la Loire,Y35-44,ED3_4,2023,6.0,d,publie
+FRG,Pays de la Loire,Y35-44,ED3_4,2024,8.0,bd,publie
+FRG,Pays de la Loire,Y35-44,ED3_4,2025,6.9,d,publie
+FRG,Pays de la Loire,Y35-44,ED5-8,2023,4.4,du,publie
+FRG,Pays de la Loire,Y35-44,ED5-8,2024,2.4,bdu,publie
+FRG,Pays de la Loire,Y35-44,ED5-8,2025,3.0,du,publie
+FRG,Pays de la Loire,Y45-54,TOTAL,2023,3.5,d,publie
+FRG,Pays de la Loire,Y45-54,TOTAL,2024,3.4,bd,publie
+FRG,Pays de la Loire,Y45-54,TOTAL,2025,4.0,d,publie
+FRG,Pays de la Loire,Y45-54,ED0-2,2023,,u,publie
+FRG,Pays de la Loire,Y45-54,ED0-2,2024,,bu,publie
+FRG,Pays de la Loire,Y45-54,ED0-2,2025,10.9,du,publie
+FRG,Pays de la Loire,Y45-54,ED3_4,2023,4.9,d,publie
+FRG,Pays de la Loire,Y45-54,ED3_4,2024,4.8,bd,publie
+FRG,Pays de la Loire,Y45-54,ED3_4,2025,2.8,du,publie
+FRG,Pays de la Loire,Y45-54,ED5-8,2023,,u,publie
+FRG,Pays de la Loire,Y45-54,ED5-8,2024,,bu,publie
+FRG,Pays de la Loire,Y45-54,ED5-8,2025,3.3,du,publie
+FRG,Pays de la Loire,Y55-64,TOTAL,2023,4.3,d,publie
+FRG,Pays de la Loire,Y55-64,TOTAL,2024,4.1,bd,publie
+FRG,Pays de la Loire,Y55-64,TOTAL,2025,4.5,d,publie
+FRG,Pays de la Loire,Y55-64,ED0-2,2023,,u,publie
+FRG,Pays de la Loire,Y55-64,ED0-2,2024,,bu,publie
+FRG,Pays de la Loire,Y55-64,ED0-2,2025,,u,publie
+FRG,Pays de la Loire,Y55-64,ED3_4,2023,5.0,du,publie
+FRG,Pays de la Loire,Y55-64,ED3_4,2024,4.3,bdu,publie
+FRG,Pays de la Loire,Y55-64,ED3_4,2025,4.5,du,publie
+FRG,Pays de la Loire,Y55-64,ED5-8,2023,,u,publie
+FRG,Pays de la Loire,Y55-64,ED5-8,2024,,bu,publie
+FRG,Pays de la Loire,Y55-64,ED5-8,2025,,u,publie
+FRG,Pays de la Loire,Y_GE25,TOTAL,2023,4.9,d,publie
+FRG,Pays de la Loire,Y_GE25,TOTAL,2024,5.1,bd,publie
+FRG,Pays de la Loire,Y_GE25,TOTAL,2025,5.4,d,publie
+FRG,Pays de la Loire,Y_GE25,ED0-2,2023,7.4,d,publie
+FRG,Pays de la Loire,Y_GE25,ED0-2,2024,8.4,bd,publie
+FRG,Pays de la Loire,Y_GE25,ED0-2,2025,10.3,d,publie
+FRG,Pays de la Loire,Y_GE25,ED3_4,2023,5.6,d,publie
+FRG,Pays de la Loire,Y_GE25,ED3_4,2024,5.9,bd,publie
+FRG,Pays de la Loire,Y_GE25,ED3_4,2025,5.2,d,publie
+FRG,Pays de la Loire,Y_GE25,ED5-8,2023,3.5,d,publie
+FRG,Pays de la Loire,Y_GE25,ED5-8,2024,3.6,bd,publie
+FRG,Pays de la Loire,Y_GE25,ED5-8,2025,4.3,d,publie
+FRG,Pays de la Loire,Y15-74,TOTAL,2023,6.1,d,publie
+FRG,Pays de la Loire,Y15-74,TOTAL,2024,6.3,bd,publie
+FRG,Pays de la Loire,Y15-74,TOTAL,2025,6.6,d,publie
+FRG,Pays de la Loire,Y15-74,ED0-2,2023,10.8,d,publie
+FRG,Pays de la Loire,Y15-74,ED0-2,2024,10.4,bd,publie
+FRG,Pays de la Loire,Y15-74,ED0-2,2025,14.3,d,publie
+FRG,Pays de la Loire,Y15-74,ED3_4,2023,6.7,d,publie
+FRG,Pays de la Loire,Y15-74,ED3_4,2024,7.4,bd,publie
+FRG,Pays de la Loire,Y15-74,ED3_4,2025,6.3,d,publie
+FRG,Pays de la Loire,Y15-74,ED5-8,2023,3.9,d,publie
+FRG,Pays de la Loire,Y15-74,ED5-8,2024,4.1,bd,publie
+FRG,Pays de la Loire,Y15-74,ED5-8,2025,4.8,d,publie
+FRG,Pays de la Loire,Y25-54_calc,TOTAL,2023,5.0,calc,calc
+FRG,Pays de la Loire,Y25-54_calc,TOTAL,2024,5.4,calc,calc
+FRG,Pays de la Loire,Y25-54_calc,TOTAL,2025,5.6,calc,calc
+FRG,Pays de la Loire,Y25-54_calc,ED0-2,2023,,,calc
+FRG,Pays de la Loire,Y25-54_calc,ED0-2,2024,,,calc
+FRG,Pays de la Loire,Y25-54_calc,ED0-2,2025,,,calc
+FRG,Pays de la Loire,Y25-54_calc,ED3_4,2023,5.6,calc+u,calc
+FRG,Pays de la Loire,Y25-54_calc,ED3_4,2024,6.3,calc+u,calc
+FRG,Pays de la Loire,Y25-54_calc,ED3_4,2025,5.5,calc+u,calc
+FRG,Pays de la Loire,Y25-54_calc,ED5-8,2023,,,calc
+FRG,Pays de la Loire,Y25-54_calc,ED5-8,2024,,,calc
+FRG,Pays de la Loire,Y25-54_calc,ED5-8,2025,4.3,calc+u,calc
+FRH,Bretagne,Y15-24,TOTAL,2023,14.4,d,publie
+FRH,Bretagne,Y15-24,TOTAL,2024,18.6,bd,publie
+FRH,Bretagne,Y15-24,TOTAL,2025,16.4,d,publie
+FRH,Bretagne,Y15-24,ED0-2,2023,16.0,du,publie
+FRH,Bretagne,Y15-24,ED0-2,2024,26.0,bdu,publie
+FRH,Bretagne,Y15-24,ED0-2,2025,23.5,du,publie
+FRH,Bretagne,Y15-24,ED3_4,2023,16.0,d,publie
+FRH,Bretagne,Y15-24,ED3_4,2024,16.6,bd,publie
+FRH,Bretagne,Y15-24,ED3_4,2025,18.8,d,publie
+FRH,Bretagne,Y15-24,ED5-8,2023,10.6,du,publie
+FRH,Bretagne,Y15-24,ED5-8,2024,18.4,bd,publie
+FRH,Bretagne,Y15-24,ED5-8,2025,9.6,du,publie
+FRH,Bretagne,Y25-34,TOTAL,2023,6.3,d,publie
+FRH,Bretagne,Y25-34,TOTAL,2024,6.5,bd,publie
+FRH,Bretagne,Y25-34,TOTAL,2025,8.2,d,publie
+FRH,Bretagne,Y25-34,ED0-2,2023,,u,publie
+FRH,Bretagne,Y25-34,ED0-2,2024,,bu,publie
+FRH,Bretagne,Y25-34,ED0-2,2025,,u,publie
+FRH,Bretagne,Y25-34,ED3_4,2023,5.5,du,publie
+FRH,Bretagne,Y25-34,ED3_4,2024,5.0,bdu,publie
+FRH,Bretagne,Y25-34,ED3_4,2025,9.6,d,publie
+FRH,Bretagne,Y25-34,ED5-8,2023,5.2,du,publie
+FRH,Bretagne,Y25-34,ED5-8,2024,6.1,bdu,publie
+FRH,Bretagne,Y25-34,ED5-8,2025,5.6,du,publie
+FRH,Bretagne,Y35-44,TOTAL,2023,3.4,d,publie
+FRH,Bretagne,Y35-44,TOTAL,2024,3.6,bd,publie
+FRH,Bretagne,Y35-44,TOTAL,2025,3.2,d,publie
+FRH,Bretagne,Y35-44,ED0-2,2023,,u,publie
+FRH,Bretagne,Y35-44,ED0-2,2024,,bu,publie
+FRH,Bretagne,Y35-44,ED0-2,2025,,u,publie
+FRH,Bretagne,Y35-44,ED3_4,2023,,u,publie
+FRH,Bretagne,Y35-44,ED3_4,2024,3.5,bdu,publie
+FRH,Bretagne,Y35-44,ED3_4,2025,4.3,du,publie
+FRH,Bretagne,Y35-44,ED5-8,2023,3.4,du,publie
+FRH,Bretagne,Y35-44,ED5-8,2024,3.3,bdu,publie
+FRH,Bretagne,Y35-44,ED5-8,2025,,u,publie
+FRH,Bretagne,Y45-54,TOTAL,2023,3.9,d,publie
+FRH,Bretagne,Y45-54,TOTAL,2024,3.2,bd,publie
+FRH,Bretagne,Y45-54,TOTAL,2025,3.5,d,publie
+FRH,Bretagne,Y45-54,ED0-2,2023,,u,publie
+FRH,Bretagne,Y45-54,ED0-2,2024,,bu,publie
+FRH,Bretagne,Y45-54,ED0-2,2025,,u,publie
+FRH,Bretagne,Y45-54,ED3_4,2023,4.1,du,publie
+FRH,Bretagne,Y45-54,ED3_4,2024,,bu,publie
+FRH,Bretagne,Y45-54,ED3_4,2025,3.0,du,publie
+FRH,Bretagne,Y45-54,ED5-8,2023,,u,publie
+FRH,Bretagne,Y45-54,ED5-8,2024,3.4,bdu,publie
+FRH,Bretagne,Y45-54,ED5-8,2025,3.7,du,publie
+FRH,Bretagne,Y55-64,TOTAL,2023,3.2,du,publie
+FRH,Bretagne,Y55-64,TOTAL,2024,3.7,bd,publie
+FRH,Bretagne,Y55-64,TOTAL,2025,2.6,du,publie
+FRH,Bretagne,Y55-64,ED0-2,2023,,u,publie
+FRH,Bretagne,Y55-64,ED0-2,2024,,bu,publie
+FRH,Bretagne,Y55-64,ED0-2,2025,,u,publie
+FRH,Bretagne,Y55-64,ED3_4,2023,,u,publie
+FRH,Bretagne,Y55-64,ED3_4,2024,3.3,bdu,publie
+FRH,Bretagne,Y55-64,ED3_4,2025,,u,publie
+FRH,Bretagne,Y55-64,ED5-8,2023,,u,publie
+FRH,Bretagne,Y55-64,ED5-8,2024,,bu,publie
+FRH,Bretagne,Y55-64,ED5-8,2025,,u,publie
+FRH,Bretagne,Y_GE25,TOTAL,2023,4.2,d,publie
+FRH,Bretagne,Y_GE25,TOTAL,2024,4.1,bd,publie
+FRH,Bretagne,Y_GE25,TOTAL,2025,4.1,d,publie
+FRH,Bretagne,Y_GE25,ED0-2,2023,7.4,du,publie
+FRH,Bretagne,Y_GE25,ED0-2,2024,7.5,bdu,publie
+FRH,Bretagne,Y_GE25,ED0-2,2025,9.3,du,publie
+FRH,Bretagne,Y_GE25,ED3_4,2023,4.0,d,publie
+FRH,Bretagne,Y_GE25,ED3_4,2024,3.3,bd,publie
+FRH,Bretagne,Y_GE25,ED3_4,2025,4.1,d,publie
+FRH,Bretagne,Y_GE25,ED5-8,2023,3.7,d,publie
+FRH,Bretagne,Y_GE25,ED5-8,2024,4.2,bd,publie
+FRH,Bretagne,Y_GE25,ED5-8,2025,3.3,d,publie
+FRH,Bretagne,Y15-74,TOTAL,2023,5.4,d,publie
+FRH,Bretagne,Y15-74,TOTAL,2024,5.7,bd,publie
+FRH,Bretagne,Y15-74,TOTAL,2025,5.6,d,publie
+FRH,Bretagne,Y15-74,ED0-2,2023,9.3,d,publie
+FRH,Bretagne,Y15-74,ED0-2,2024,10.7,bd,publie
+FRH,Bretagne,Y15-74,ED0-2,2025,12.5,d,publie
+FRH,Bretagne,Y15-74,ED3_4,2023,5.6,d,publie
+FRH,Bretagne,Y15-74,ED3_4,2024,4.9,bd,publie
+FRH,Bretagne,Y15-74,ED3_4,2025,6.2,d,publie
+FRH,Bretagne,Y15-74,ED5-8,2023,4.3,d,publie
+FRH,Bretagne,Y15-74,ED5-8,2024,5.4,bd,publie
+FRH,Bretagne,Y15-74,ED5-8,2025,3.8,d,publie
+FRH,Bretagne,Y25-54_calc,TOTAL,2023,4.5,calc,calc
+FRH,Bretagne,Y25-54_calc,TOTAL,2024,4.3,calc,calc
+FRH,Bretagne,Y25-54_calc,TOTAL,2025,4.5,calc,calc
+FRH,Bretagne,Y25-54_calc,ED0-2,2023,,,calc
+FRH,Bretagne,Y25-54_calc,ED0-2,2024,,,calc
+FRH,Bretagne,Y25-54_calc,ED0-2,2025,,,calc
+FRH,Bretagne,Y25-54_calc,ED3_4,2023,,,calc
+FRH,Bretagne,Y25-54_calc,ED3_4,2024,,,calc
+FRH,Bretagne,Y25-54_calc,ED3_4,2025,5.0,calc+u,calc
+FRH,Bretagne,Y25-54_calc,ED5-8,2023,,,calc
+FRH,Bretagne,Y25-54_calc,ED5-8,2024,4.2,calc+u,calc
+FRH,Bretagne,Y25-54_calc,ED5-8,2025,,,calc
+FRI,Nouvelle-Aquitaine,Y15-24,TOTAL,2023,17.6,d,publie
+FRI,Nouvelle-Aquitaine,Y15-24,TOTAL,2024,16.2,bd,publie
+FRI,Nouvelle-Aquitaine,Y15-24,TOTAL,2025,18.1,d,publie
+FRI,Nouvelle-Aquitaine,Y15-24,ED0-2,2023,28.5,d,publie
+FRI,Nouvelle-Aquitaine,Y15-24,ED0-2,2024,21.5,bd,publie
+FRI,Nouvelle-Aquitaine,Y15-24,ED0-2,2025,30.5,d,publie
+FRI,Nouvelle-Aquitaine,Y15-24,ED3_4,2023,17.4,d,publie
+FRI,Nouvelle-Aquitaine,Y15-24,ED3_4,2024,18.2,bd,publie
+FRI,Nouvelle-Aquitaine,Y15-24,ED3_4,2025,18.6,d,publie
+FRI,Nouvelle-Aquitaine,Y15-24,ED5-8,2023,11.5,d,publie
+FRI,Nouvelle-Aquitaine,Y15-24,ED5-8,2024,9.6,bdu,publie
+FRI,Nouvelle-Aquitaine,Y15-24,ED5-8,2025,11.8,d,publie
+FRI,Nouvelle-Aquitaine,Y25-34,TOTAL,2023,7.6,d,publie
+FRI,Nouvelle-Aquitaine,Y25-34,TOTAL,2024,7.2,bd,publie
+FRI,Nouvelle-Aquitaine,Y25-34,TOTAL,2025,8.8,d,publie
+FRI,Nouvelle-Aquitaine,Y25-34,ED0-2,2023,24.9,d,publie
+FRI,Nouvelle-Aquitaine,Y25-34,ED0-2,2024,15.6,bdu,publie
+FRI,Nouvelle-Aquitaine,Y25-34,ED0-2,2025,19.5,du,publie
+FRI,Nouvelle-Aquitaine,Y25-34,ED3_4,2023,8.9,d,publie
+FRI,Nouvelle-Aquitaine,Y25-34,ED3_4,2024,10.2,bd,publie
+FRI,Nouvelle-Aquitaine,Y25-34,ED3_4,2025,9.0,d,publie
+FRI,Nouvelle-Aquitaine,Y25-34,ED5-8,2023,3.6,d,publie
+FRI,Nouvelle-Aquitaine,Y25-34,ED5-8,2024,3.6,bdu,publie
+FRI,Nouvelle-Aquitaine,Y25-34,ED5-8,2025,7.1,d,publie
+FRI,Nouvelle-Aquitaine,Y35-44,TOTAL,2023,5.3,d,publie
+FRI,Nouvelle-Aquitaine,Y35-44,TOTAL,2024,5.2,bd,publie
+FRI,Nouvelle-Aquitaine,Y35-44,TOTAL,2025,5.8,d,publie
+FRI,Nouvelle-Aquitaine,Y35-44,ED0-2,2023,9.1,du,publie
+FRI,Nouvelle-Aquitaine,Y35-44,ED0-2,2024,12.7,bdu,publie
+FRI,Nouvelle-Aquitaine,Y35-44,ED0-2,2025,11.9,du,publie
+FRI,Nouvelle-Aquitaine,Y35-44,ED3_4,2023,6.7,d,publie
+FRI,Nouvelle-Aquitaine,Y35-44,ED3_4,2024,5.2,bd,publie
+FRI,Nouvelle-Aquitaine,Y35-44,ED3_4,2025,6.6,d,publie
+FRI,Nouvelle-Aquitaine,Y35-44,ED5-8,2023,3.4,d,publie
+FRI,Nouvelle-Aquitaine,Y35-44,ED5-8,2024,4.0,bd,publie
+FRI,Nouvelle-Aquitaine,Y35-44,ED5-8,2025,4.4,d,publie
+FRI,Nouvelle-Aquitaine,Y45-54,TOTAL,2023,4.7,d,publie
+FRI,Nouvelle-Aquitaine,Y45-54,TOTAL,2024,3.6,bd,publie
+FRI,Nouvelle-Aquitaine,Y45-54,TOTAL,2025,4.5,d,publie
+FRI,Nouvelle-Aquitaine,Y45-54,ED0-2,2023,8.6,du,publie
+FRI,Nouvelle-Aquitaine,Y45-54,ED0-2,2024,6.3,bdu,publie
+FRI,Nouvelle-Aquitaine,Y45-54,ED0-2,2025,,u,publie
+FRI,Nouvelle-Aquitaine,Y45-54,ED3_4,2023,5.0,d,publie
+FRI,Nouvelle-Aquitaine,Y45-54,ED3_4,2024,3.7,bd,publie
+FRI,Nouvelle-Aquitaine,Y45-54,ED3_4,2025,5.4,d,publie
+FRI,Nouvelle-Aquitaine,Y45-54,ED5-8,2023,3.2,du,publie
+FRI,Nouvelle-Aquitaine,Y45-54,ED5-8,2024,2.7,bdu,publie
+FRI,Nouvelle-Aquitaine,Y45-54,ED5-8,2025,3.5,d,publie
+FRI,Nouvelle-Aquitaine,Y55-64,TOTAL,2023,6.3,d,publie
+FRI,Nouvelle-Aquitaine,Y55-64,TOTAL,2024,5.1,bd,publie
+FRI,Nouvelle-Aquitaine,Y55-64,TOTAL,2025,4.8,d,publie
+FRI,Nouvelle-Aquitaine,Y55-64,ED0-2,2023,10.0,du,publie
+FRI,Nouvelle-Aquitaine,Y55-64,ED0-2,2024,6.2,bdu,publie
+FRI,Nouvelle-Aquitaine,Y55-64,ED0-2,2025,,u,publie
+FRI,Nouvelle-Aquitaine,Y55-64,ED3_4,2023,6.8,d,publie
+FRI,Nouvelle-Aquitaine,Y55-64,ED3_4,2024,5.9,bd,publie
+FRI,Nouvelle-Aquitaine,Y55-64,ED3_4,2025,5.7,d,publie
+FRI,Nouvelle-Aquitaine,Y55-64,ED5-8,2023,3.4,du,publie
+FRI,Nouvelle-Aquitaine,Y55-64,ED5-8,2024,3.5,bdu,publie
+FRI,Nouvelle-Aquitaine,Y55-64,ED5-8,2025,3.2,du,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,TOTAL,2023,5.8,d,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,TOTAL,2024,5.1,bd,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,TOTAL,2025,5.9,d,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,ED0-2,2023,11.4,d,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,ED0-2,2024,8.7,bd,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,ED0-2,2025,9.3,d,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,ED3_4,2023,6.7,d,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,ED3_4,2024,5.9,bd,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,ED3_4,2025,6.4,d,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,ED5-8,2023,3.3,d,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,ED5-8,2024,3.4,bd,publie
+FRI,Nouvelle-Aquitaine,Y_GE25,ED5-8,2025,4.7,d,publie
+FRI,Nouvelle-Aquitaine,Y15-74,TOTAL,2023,7.1,d,publie
+FRI,Nouvelle-Aquitaine,Y15-74,TOTAL,2024,6.3,bd,publie
+FRI,Nouvelle-Aquitaine,Y15-74,TOTAL,2025,7.2,d,publie
+FRI,Nouvelle-Aquitaine,Y15-74,ED0-2,2023,14.3,d,publie
+FRI,Nouvelle-Aquitaine,Y15-74,ED0-2,2024,10.8,bd,publie
+FRI,Nouvelle-Aquitaine,Y15-74,ED0-2,2025,12.3,d,publie
+FRI,Nouvelle-Aquitaine,Y15-74,ED3_4,2023,8.1,d,publie
+FRI,Nouvelle-Aquitaine,Y15-74,ED3_4,2024,7.5,bd,publie
+FRI,Nouvelle-Aquitaine,Y15-74,ED3_4,2025,7.9,d,publie
+FRI,Nouvelle-Aquitaine,Y15-74,ED5-8,2023,4.0,d,publie
+FRI,Nouvelle-Aquitaine,Y15-74,ED5-8,2024,3.9,bd,publie
+FRI,Nouvelle-Aquitaine,Y15-74,ED5-8,2025,5.2,d,publie
+FRI,Nouvelle-Aquitaine,Y25-54_calc,TOTAL,2023,5.8,calc,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,TOTAL,2024,5.2,calc,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,TOTAL,2025,6.3,calc,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,ED0-2,2023,13.0,calc+u,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,ED0-2,2024,10.4,calc+u,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,ED0-2,2025,,,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,ED3_4,2023,6.7,calc,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,ED3_4,2024,5.9,calc,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,ED3_4,2025,6.9,calc,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,ED5-8,2023,3.4,calc+u,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,ED5-8,2024,3.4,calc+u,calc
+FRI,Nouvelle-Aquitaine,Y25-54_calc,ED5-8,2025,5.0,calc,calc
+FRJ,Occitanie,Y15-24,TOTAL,2023,17.1,d,publie
+FRJ,Occitanie,Y15-24,TOTAL,2024,22.0,bd,publie
+FRJ,Occitanie,Y15-24,TOTAL,2025,20.4,d,publie
+FRJ,Occitanie,Y15-24,ED0-2,2023,30.4,d,publie
+FRJ,Occitanie,Y15-24,ED0-2,2024,40.5,bd,publie
+FRJ,Occitanie,Y15-24,ED0-2,2025,36.6,d,publie
+FRJ,Occitanie,Y15-24,ED3_4,2023,18.5,d,publie
+FRJ,Occitanie,Y15-24,ED3_4,2024,21.7,bd,publie
+FRJ,Occitanie,Y15-24,ED3_4,2025,20.9,d,publie
+FRJ,Occitanie,Y15-24,ED5-8,2023,10.1,du,publie
+FRJ,Occitanie,Y15-24,ED5-8,2024,15.5,bd,publie
+FRJ,Occitanie,Y15-24,ED5-8,2025,13.3,d,publie
+FRJ,Occitanie,Y25-34,TOTAL,2023,8.9,d,publie
+FRJ,Occitanie,Y25-34,TOTAL,2024,8.0,bd,publie
+FRJ,Occitanie,Y25-34,TOTAL,2025,8.8,d,publie
+FRJ,Occitanie,Y25-34,ED0-2,2023,15.9,du,publie
+FRJ,Occitanie,Y25-34,ED0-2,2024,19.1,bdu,publie
+FRJ,Occitanie,Y25-34,ED0-2,2025,21.9,du,publie
+FRJ,Occitanie,Y25-34,ED3_4,2023,9.8,d,publie
+FRJ,Occitanie,Y25-34,ED3_4,2024,9.8,bd,publie
+FRJ,Occitanie,Y25-34,ED3_4,2025,10.5,d,publie
+FRJ,Occitanie,Y25-34,ED5-8,2023,7.3,d,publie
+FRJ,Occitanie,Y25-34,ED5-8,2024,5.8,bd,publie
+FRJ,Occitanie,Y25-34,ED5-8,2025,6.1,d,publie
+FRJ,Occitanie,Y35-44,TOTAL,2023,7.2,d,publie
+FRJ,Occitanie,Y35-44,TOTAL,2024,5.1,bd,publie
+FRJ,Occitanie,Y35-44,TOTAL,2025,5.4,d,publie
+FRJ,Occitanie,Y35-44,ED0-2,2023,12.4,du,publie
+FRJ,Occitanie,Y35-44,ED0-2,2024,9.5,bdu,publie
+FRJ,Occitanie,Y35-44,ED0-2,2025,13.6,du,publie
+FRJ,Occitanie,Y35-44,ED3_4,2023,8.5,d,publie
+FRJ,Occitanie,Y35-44,ED3_4,2024,7.2,bd,publie
+FRJ,Occitanie,Y35-44,ED3_4,2025,7.3,d,publie
+FRJ,Occitanie,Y35-44,ED5-8,2023,5.6,d,publie
+FRJ,Occitanie,Y35-44,ED5-8,2024,3.0,bd,publie
+FRJ,Occitanie,Y35-44,ED5-8,2025,3.0,d,publie
+FRJ,Occitanie,Y45-54,TOTAL,2023,4.9,d,publie
+FRJ,Occitanie,Y45-54,TOTAL,2024,5.2,bd,publie
+FRJ,Occitanie,Y45-54,TOTAL,2025,4.6,d,publie
+FRJ,Occitanie,Y45-54,ED0-2,2023,11.1,du,publie
+FRJ,Occitanie,Y45-54,ED0-2,2024,13.7,bd,publie
+FRJ,Occitanie,Y45-54,ED0-2,2025,7.4,du,publie
+FRJ,Occitanie,Y45-54,ED3_4,2023,5.5,d,publie
+FRJ,Occitanie,Y45-54,ED3_4,2024,5.2,bd,publie
+FRJ,Occitanie,Y45-54,ED3_4,2025,5.6,d,publie
+FRJ,Occitanie,Y45-54,ED5-8,2023,2.7,du,publie
+FRJ,Occitanie,Y45-54,ED5-8,2024,3.0,bdu,publie
+FRJ,Occitanie,Y45-54,ED5-8,2025,3.3,d,publie
+FRJ,Occitanie,Y55-64,TOTAL,2023,5.1,d,publie
+FRJ,Occitanie,Y55-64,TOTAL,2024,5.7,bd,publie
+FRJ,Occitanie,Y55-64,TOTAL,2025,6.4,d,publie
+FRJ,Occitanie,Y55-64,ED0-2,2023,10.0,du,publie
+FRJ,Occitanie,Y55-64,ED0-2,2024,7.4,bdu,publie
+FRJ,Occitanie,Y55-64,ED0-2,2025,16.2,d,publie
+FRJ,Occitanie,Y55-64,ED3_4,2023,4.2,d,publie
+FRJ,Occitanie,Y55-64,ED3_4,2024,4.1,bdu,publie
+FRJ,Occitanie,Y55-64,ED3_4,2025,4.3,d,publie
+FRJ,Occitanie,Y55-64,ED5-8,2023,4.1,du,publie
+FRJ,Occitanie,Y55-64,ED5-8,2024,6.8,bd,publie
+FRJ,Occitanie,Y55-64,ED5-8,2025,5.4,d,publie
+FRJ,Occitanie,Y_GE25,TOTAL,2023,6.4,d,publie
+FRJ,Occitanie,Y_GE25,TOTAL,2024,5.8,bd,publie
+FRJ,Occitanie,Y_GE25,TOTAL,2025,6.0,d,publie
+FRJ,Occitanie,Y_GE25,ED0-2,2023,11.5,d,publie
+FRJ,Occitanie,Y_GE25,ED0-2,2024,10.8,bd,publie
+FRJ,Occitanie,Y_GE25,ED0-2,2025,13.1,d,publie
+FRJ,Occitanie,Y_GE25,ED3_4,2023,6.8,d,publie
+FRJ,Occitanie,Y_GE25,ED3_4,2024,6.3,bd,publie
+FRJ,Occitanie,Y_GE25,ED3_4,2025,6.6,d,publie
+FRJ,Occitanie,Y_GE25,ED5-8,2023,5.0,d,publie
+FRJ,Occitanie,Y_GE25,ED5-8,2024,4.4,bd,publie
+FRJ,Occitanie,Y_GE25,ED5-8,2025,4.2,d,publie
+FRJ,Occitanie,Y15-74,TOTAL,2023,7.5,d,publie
+FRJ,Occitanie,Y15-74,TOTAL,2024,7.5,bd,publie
+FRJ,Occitanie,Y15-74,TOTAL,2025,7.6,d,publie
+FRJ,Occitanie,Y15-74,ED0-2,2023,13.8,d,publie
+FRJ,Occitanie,Y15-74,ED0-2,2024,14.9,bd,publie
+FRJ,Occitanie,Y15-74,ED0-2,2025,17.0,d,publie
+FRJ,Occitanie,Y15-74,ED3_4,2023,8.2,d,publie
+FRJ,Occitanie,Y15-74,ED3_4,2024,8.2,bd,publie
+FRJ,Occitanie,Y15-74,ED3_4,2025,8.4,d,publie
+FRJ,Occitanie,Y15-74,ED5-8,2023,5.3,d,publie
+FRJ,Occitanie,Y15-74,ED5-8,2024,5.2,bd,publie
+FRJ,Occitanie,Y15-74,ED5-8,2025,5.0,d,publie
+FRJ,Occitanie,Y25-54_calc,TOTAL,2023,6.9,calc,calc
+FRJ,Occitanie,Y25-54_calc,TOTAL,2024,6.0,calc,calc
+FRJ,Occitanie,Y25-54_calc,TOTAL,2025,6.1,calc,calc
+FRJ,Occitanie,Y25-54_calc,ED0-2,2023,12.7,calc+u,calc
+FRJ,Occitanie,Y25-54_calc,ED0-2,2024,13.2,calc+u,calc
+FRJ,Occitanie,Y25-54_calc,ED0-2,2025,12.9,calc+u,calc
+FRJ,Occitanie,Y25-54_calc,ED3_4,2023,7.7,calc,calc
+FRJ,Occitanie,Y25-54_calc,ED3_4,2024,7.2,calc,calc
+FRJ,Occitanie,Y25-54_calc,ED3_4,2025,7.5,calc,calc
+FRJ,Occitanie,Y25-54_calc,ED5-8,2023,5.2,calc+u,calc
+FRJ,Occitanie,Y25-54_calc,ED5-8,2024,3.9,calc+u,calc
+FRJ,Occitanie,Y25-54_calc,ED5-8,2025,4.0,calc,calc
+FRK,Auvergne-Rhone-Alpes,Y15-24,TOTAL,2023,16.0,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,TOTAL,2024,16.4,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,TOTAL,2025,17.3,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,ED0-2,2023,30.0,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,ED0-2,2024,31.9,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,ED0-2,2025,28.3,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,ED3_4,2023,15.3,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,ED3_4,2024,14.4,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,ED3_4,2025,17.6,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,ED5-8,2023,10.3,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,ED5-8,2024,11.8,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y15-24,ED5-8,2025,11.7,d,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,TOTAL,2023,7.6,d,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,TOTAL,2024,8.9,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,TOTAL,2025,7.5,d,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,ED0-2,2023,20.6,d,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,ED0-2,2024,20.1,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,ED0-2,2025,17.2,du,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,ED3_4,2023,8.4,d,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,ED3_4,2024,11.2,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,ED3_4,2025,8.2,d,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,ED5-8,2023,5.5,d,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,ED5-8,2024,5.9,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y25-34,ED5-8,2025,6.1,d,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,TOTAL,2023,5.1,d,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,TOTAL,2024,5.2,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,TOTAL,2025,5.7,d,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,ED0-2,2023,9.6,du,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,ED0-2,2024,12.6,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,ED0-2,2025,19.2,d,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,ED3_4,2023,5.3,d,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,ED3_4,2024,6.7,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,ED3_4,2025,6.5,d,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,ED5-8,2023,4.3,d,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,ED5-8,2024,3.1,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y35-44,ED5-8,2025,3.4,d,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,TOTAL,2023,3.9,d,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,TOTAL,2024,4.7,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,TOTAL,2025,4.5,d,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,ED0-2,2023,7.0,du,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,ED0-2,2024,12.7,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,ED0-2,2025,11.8,d,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,ED3_4,2023,4.3,d,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,ED3_4,2024,4.4,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,ED3_4,2025,3.8,d,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,ED5-8,2023,2.9,d,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,ED5-8,2024,2.9,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y45-54,ED5-8,2025,3.5,d,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,TOTAL,2023,4.9,d,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,TOTAL,2024,4.3,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,TOTAL,2025,5.3,d,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,ED0-2,2023,5.5,du,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,ED0-2,2024,7.9,bdu,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,ED0-2,2025,6.4,du,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,ED3_4,2023,5.4,d,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,ED3_4,2024,4.3,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,ED3_4,2025,5.0,d,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,ED5-8,2023,4.0,du,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,ED5-8,2024,2.6,bdu,publie
+FRK,Auvergne-Rhone-Alpes,Y55-64,ED5-8,2025,5.3,d,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,TOTAL,2023,5.4,d,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,TOTAL,2024,5.8,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,TOTAL,2025,5.7,d,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,ED0-2,2023,9.6,d,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,ED0-2,2024,12.2,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,ED0-2,2025,12.1,d,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,ED3_4,2023,5.7,d,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,ED3_4,2024,6.4,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,ED3_4,2025,5.7,d,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,ED5-8,2023,4.2,d,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,ED5-8,2024,3.9,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y_GE25,ED5-8,2025,4.5,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,TOTAL,2023,6.6,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,TOTAL,2024,7.0,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,TOTAL,2025,7.0,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,ED0-2,2023,12.9,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,ED0-2,2024,15.3,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,ED0-2,2025,14.7,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,ED3_4,2023,7.1,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,ED3_4,2024,7.5,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,ED3_4,2025,7.4,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,ED5-8,2023,4.7,d,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,ED5-8,2024,4.4,bd,publie
+FRK,Auvergne-Rhone-Alpes,Y15-74,ED5-8,2025,5.0,d,publie
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,TOTAL,2023,5.5,calc,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,TOTAL,2024,6.2,calc,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,TOTAL,2025,5.9,calc,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,ED0-2,2023,11.6,calc+u,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,ED0-2,2024,14.7,calc,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,ED0-2,2025,15.5,calc+u,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,ED3_4,2023,5.8,calc,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,ED3_4,2024,7.1,calc,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,ED3_4,2025,6.0,calc,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,ED5-8,2023,4.3,calc,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,ED5-8,2024,4.0,calc,calc
+FRK,Auvergne-Rhone-Alpes,Y25-54_calc,ED5-8,2025,4.4,calc,calc
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,TOTAL,2023,18.2,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,TOTAL,2024,14.1,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,TOTAL,2025,22.6,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,ED0-2,2023,31.0,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,ED0-2,2024,26.8,bdu,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,ED0-2,2025,34.0,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,ED3_4,2023,17.1,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,ED3_4,2024,13.0,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,ED3_4,2025,22.8,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,ED5-8,2023,13.4,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,ED5-8,2024,,bu,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-24,ED5-8,2025,14.3,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,TOTAL,2023,9.9,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,TOTAL,2024,9.1,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,TOTAL,2025,8.2,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,ED0-2,2023,15.5,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,ED0-2,2024,,bu,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,ED0-2,2025,27.7,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,ED3_4,2023,11.5,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,ED3_4,2024,10.1,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,ED3_4,2025,8.5,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,ED5-8,2023,7.6,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,ED5-8,2024,8.2,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-34,ED5-8,2025,5.4,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,TOTAL,2023,5.4,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,TOTAL,2024,5.7,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,TOTAL,2025,5.6,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,ED0-2,2023,11.0,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,ED0-2,2024,8.3,bdu,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,ED0-2,2025,,u,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,ED3_4,2023,6.5,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,ED3_4,2024,8.0,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,ED3_4,2025,5.8,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,ED5-8,2023,3.5,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,ED5-8,2024,3.5,bdu,publie
+FRL,Provence-Alpes-Cote d'Azur,Y35-44,ED5-8,2025,5.0,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,TOTAL,2023,5.1,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,TOTAL,2024,5.6,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,TOTAL,2025,5.3,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,ED0-2,2023,9.1,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,ED0-2,2024,8.9,bdu,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,ED0-2,2025,9.9,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,ED3_4,2023,6.3,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,ED3_4,2024,6.1,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,ED3_4,2025,4.5,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,ED5-8,2023,3.1,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,ED5-8,2024,4.1,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y45-54,ED5-8,2025,4.7,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,TOTAL,2023,4.5,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,TOTAL,2024,5.1,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,TOTAL,2025,4.0,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,ED0-2,2023,8.6,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,ED0-2,2024,6.4,bdu,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,ED0-2,2025,,u,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,ED3_4,2023,4.3,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,ED3_4,2024,5.6,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,ED3_4,2025,4.7,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,ED5-8,2023,,u,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,ED5-8,2024,3.7,bdu,publie
+FRL,Provence-Alpes-Cote d'Azur,Y55-64,ED5-8,2025,3.3,du,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,TOTAL,2023,6.0,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,TOTAL,2024,6.2,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,TOTAL,2025,5.7,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,ED0-2,2023,9.8,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,ED0-2,2024,8.6,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,ED0-2,2025,9.5,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,ED3_4,2023,6.9,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,ED3_4,2024,7.2,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,ED3_4,2025,5.8,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,ED5-8,2023,4.1,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,ED5-8,2024,4.8,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y_GE25,ED5-8,2025,4.7,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,TOTAL,2023,7.1,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,TOTAL,2024,6.9,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,TOTAL,2025,7.3,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,ED0-2,2023,12.1,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,ED0-2,2024,10.7,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,ED0-2,2025,12.9,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,ED3_4,2023,8.2,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,ED3_4,2024,7.8,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,ED3_4,2025,7.8,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,ED5-8,2023,4.7,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,ED5-8,2024,4.9,bd,publie
+FRL,Provence-Alpes-Cote d'Azur,Y15-74,ED5-8,2025,5.2,d,publie
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,TOTAL,2023,6.5,calc,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,TOTAL,2024,6.6,calc,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,TOTAL,2025,6.3,calc,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,ED0-2,2023,11.2,calc+u,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,ED0-2,2024,,,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,ED0-2,2025,,,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,ED3_4,2023,7.8,calc,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,ED3_4,2024,7.9,calc,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,ED3_4,2025,6.1,calc,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,ED5-8,2023,4.4,calc+u,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,ED5-8,2024,5.0,calc+u,calc
+FRL,Provence-Alpes-Cote d'Azur,Y25-54_calc,ED5-8,2025,5.0,calc,calc
+FRM,Corse,Y15-24,TOTAL,2023,,u,publie
+FRM,Corse,Y15-24,TOTAL,2024,46.0,bdu,publie
+FRM,Corse,Y15-24,TOTAL,2025,,u,publie
+FRM,Corse,Y15-24,ED0-2,2023,,u,publie
+FRM,Corse,Y15-24,ED0-2,2024,,bu,publie
+FRM,Corse,Y15-24,ED0-2,2025,,u,publie
+FRM,Corse,Y15-24,ED3_4,2023,,u,publie
+FRM,Corse,Y15-24,ED3_4,2024,,bu,publie
+FRM,Corse,Y15-24,ED3_4,2025,,u,publie
+FRM,Corse,Y15-24,ED5-8,2023,,u,publie
+FRM,Corse,Y15-24,ED5-8,2024,,bu,publie
+FRM,Corse,Y15-24,ED5-8,2025,,u,publie
+FRM,Corse,Y25-34,TOTAL,2023,,u,publie
+FRM,Corse,Y25-34,TOTAL,2024,,bu,publie
+FRM,Corse,Y25-34,TOTAL,2025,,u,publie
+FRM,Corse,Y25-34,ED0-2,2023,,u,publie
+FRM,Corse,Y25-34,ED0-2,2024,,bu,publie
+FRM,Corse,Y25-34,ED0-2,2025,,u,publie
+FRM,Corse,Y25-34,ED3_4,2023,,u,publie
+FRM,Corse,Y25-34,ED3_4,2024,,bu,publie
+FRM,Corse,Y25-34,ED3_4,2025,,u,publie
+FRM,Corse,Y25-34,ED5-8,2023,,u,publie
+FRM,Corse,Y25-34,ED5-8,2024,,bu,publie
+FRM,Corse,Y25-34,ED5-8,2025,,u,publie
+FRM,Corse,Y35-44,TOTAL,2023,,u,publie
+FRM,Corse,Y35-44,TOTAL,2024,,bu,publie
+FRM,Corse,Y35-44,TOTAL,2025,,u,publie
+FRM,Corse,Y35-44,ED0-2,2023,,u,publie
+FRM,Corse,Y35-44,ED0-2,2024,,bu,publie
+FRM,Corse,Y35-44,ED0-2,2025,,u,publie
+FRM,Corse,Y35-44,ED3_4,2023,,u,publie
+FRM,Corse,Y35-44,ED3_4,2024,,bu,publie
+FRM,Corse,Y35-44,ED3_4,2025,,u,publie
+FRM,Corse,Y35-44,ED5-8,2023,,u,publie
+FRM,Corse,Y35-44,ED5-8,2024,,bu,publie
+FRM,Corse,Y35-44,ED5-8,2025,,u,publie
+FRM,Corse,Y45-54,TOTAL,2023,,u,publie
+FRM,Corse,Y45-54,TOTAL,2024,,bu,publie
+FRM,Corse,Y45-54,TOTAL,2025,,u,publie
+FRM,Corse,Y45-54,ED0-2,2023,,u,publie
+FRM,Corse,Y45-54,ED0-2,2024,,bu,publie
+FRM,Corse,Y45-54,ED0-2,2025,,u,publie
+FRM,Corse,Y45-54,ED3_4,2023,,u,publie
+FRM,Corse,Y45-54,ED3_4,2024,,bu,publie
+FRM,Corse,Y45-54,ED3_4,2025,,u,publie
+FRM,Corse,Y45-54,ED5-8,2023,,u,publie
+FRM,Corse,Y45-54,ED5-8,2024,,bu,publie
+FRM,Corse,Y45-54,ED5-8,2025,,u,publie
+FRM,Corse,Y55-64,TOTAL,2023,,u,publie
+FRM,Corse,Y55-64,TOTAL,2024,,bu,publie
+FRM,Corse,Y55-64,TOTAL,2025,,u,publie
+FRM,Corse,Y55-64,ED0-2,2023,,u,publie
+FRM,Corse,Y55-64,ED0-2,2024,,bu,publie
+FRM,Corse,Y55-64,ED0-2,2025,,u,publie
+FRM,Corse,Y55-64,ED3_4,2023,,u,publie
+FRM,Corse,Y55-64,ED3_4,2024,,bu,publie
+FRM,Corse,Y55-64,ED3_4,2025,,u,publie
+FRM,Corse,Y55-64,ED5-8,2023,,u,publie
+FRM,Corse,Y55-64,ED5-8,2024,,bu,publie
+FRM,Corse,Y55-64,ED5-8,2025,,u,publie
+FRM,Corse,Y_GE25,TOTAL,2023,5.2,du,publie
+FRM,Corse,Y_GE25,TOTAL,2024,,bu,publie
+FRM,Corse,Y_GE25,TOTAL,2025,5.8,du,publie
+FRM,Corse,Y_GE25,ED0-2,2023,,u,publie
+FRM,Corse,Y_GE25,ED0-2,2024,,bu,publie
+FRM,Corse,Y_GE25,ED0-2,2025,,u,publie
+FRM,Corse,Y_GE25,ED3_4,2023,,u,publie
+FRM,Corse,Y_GE25,ED3_4,2024,,bu,publie
+FRM,Corse,Y_GE25,ED3_4,2025,,u,publie
+FRM,Corse,Y_GE25,ED5-8,2023,,u,publie
+FRM,Corse,Y_GE25,ED5-8,2024,,bu,publie
+FRM,Corse,Y_GE25,ED5-8,2025,,u,publie
+FRM,Corse,Y15-74,TOTAL,2023,6.9,du,publie
+FRM,Corse,Y15-74,TOTAL,2024,7.2,bdu,publie
+FRM,Corse,Y15-74,TOTAL,2025,7.3,du,publie
+FRM,Corse,Y15-74,ED0-2,2023,15.4,du,publie
+FRM,Corse,Y15-74,ED0-2,2024,,bu,publie
+FRM,Corse,Y15-74,ED0-2,2025,,u,publie
+FRM,Corse,Y15-74,ED3_4,2023,,u,publie
+FRM,Corse,Y15-74,ED3_4,2024,7.7,bdu,publie
+FRM,Corse,Y15-74,ED3_4,2025,10.7,du,publie
+FRM,Corse,Y15-74,ED5-8,2023,,u,publie
+FRM,Corse,Y15-74,ED5-8,2024,,bu,publie
+FRM,Corse,Y15-74,ED5-8,2025,,u,publie
+FRM,Corse,Y25-54_calc,TOTAL,2023,,,calc
+FRM,Corse,Y25-54_calc,TOTAL,2024,,,calc
+FRM,Corse,Y25-54_calc,TOTAL,2025,,,calc
+FRM,Corse,Y25-54_calc,ED0-2,2023,,,calc
+FRM,Corse,Y25-54_calc,ED0-2,2024,,,calc
+FRM,Corse,Y25-54_calc,ED0-2,2025,,,calc
+FRM,Corse,Y25-54_calc,ED3_4,2023,,,calc
+FRM,Corse,Y25-54_calc,ED3_4,2024,,,calc
+FRM,Corse,Y25-54_calc,ED3_4,2025,,,calc
+FRM,Corse,Y25-54_calc,ED5-8,2023,,,calc
+FRM,Corse,Y25-54_calc,ED5-8,2024,,,calc
+FRM,Corse,Y25-54_calc,ED5-8,2025,,,calc
+BE,Belgique,Y15-24,TOTAL,2023,16.1,,publie
+BE,Belgique,Y15-24,TOTAL,2024,17.4,,publie
+BE,Belgique,Y15-24,TOTAL,2025,17.4,,publie
+BE,Belgique,Y15-24,ED0-2,2023,25.3,,publie
+BE,Belgique,Y15-24,ED0-2,2024,27.7,,publie
+BE,Belgique,Y15-24,ED0-2,2025,28.5,,publie
+BE,Belgique,Y15-24,ED3_4,2023,14.7,,publie
+BE,Belgique,Y15-24,ED3_4,2024,15.4,,publie
+BE,Belgique,Y15-24,ED3_4,2025,14.1,,publie
+BE,Belgique,Y15-24,ED5-8,2023,10.4,,publie
+BE,Belgique,Y15-24,ED5-8,2024,9.5,,publie
+BE,Belgique,Y15-24,ED5-8,2025,10.6,,publie
+BE,Belgique,Y25-34,TOTAL,2023,7.0,,publie
+BE,Belgique,Y25-34,TOTAL,2024,7.1,,publie
+BE,Belgique,Y25-34,TOTAL,2025,7.6,,publie
+BE,Belgique,Y25-34,ED0-2,2023,18.7,,publie
+BE,Belgique,Y25-34,ED0-2,2024,17.4,,publie
+BE,Belgique,Y25-34,ED0-2,2025,20.5,,publie
+BE,Belgique,Y25-34,ED3_4,2023,8.7,,publie
+BE,Belgique,Y25-34,ED3_4,2024,8.9,,publie
+BE,Belgique,Y25-34,ED3_4,2025,9.1,,publie
+BE,Belgique,Y25-34,ED5-8,2023,3.7,,publie
+BE,Belgique,Y25-34,ED5-8,2024,4.2,,publie
+BE,Belgique,Y25-34,ED5-8,2025,5.1,,publie
+BE,Belgique,Y35-44,TOTAL,2023,4.1,,publie
+BE,Belgique,Y35-44,TOTAL,2024,4.4,,publie
+BE,Belgique,Y35-44,TOTAL,2025,4.5,,publie
+BE,Belgique,Y35-44,ED0-2,2023,12.4,,publie
+BE,Belgique,Y35-44,ED0-2,2024,10.6,,publie
+BE,Belgique,Y35-44,ED0-2,2025,12.7,,publie
+BE,Belgique,Y35-44,ED3_4,2023,4.2,,publie
+BE,Belgique,Y35-44,ED3_4,2024,5.4,,publie
+BE,Belgique,Y35-44,ED3_4,2025,5.0,,publie
+BE,Belgique,Y35-44,ED5-8,2023,2.3,,publie
+BE,Belgique,Y35-44,ED5-8,2024,2.5,,publie
+BE,Belgique,Y35-44,ED5-8,2025,2.8,,publie
+BE,Belgique,Y45-54,TOTAL,2023,3.7,,publie
+BE,Belgique,Y45-54,TOTAL,2024,3.6,,publie
+BE,Belgique,Y45-54,TOTAL,2025,4.2,,publie
+BE,Belgique,Y45-54,ED0-2,2023,9.5,,publie
+BE,Belgique,Y45-54,ED0-2,2024,8.5,,publie
+BE,Belgique,Y45-54,ED0-2,2025,10.7,,publie
+BE,Belgique,Y45-54,ED3_4,2023,3.7,,publie
+BE,Belgique,Y45-54,ED3_4,2024,3.7,,publie
+BE,Belgique,Y45-54,ED3_4,2025,4.5,,publie
+BE,Belgique,Y45-54,ED5-8,2023,2.3,,publie
+BE,Belgique,Y45-54,ED5-8,2024,2.4,,publie
+BE,Belgique,Y45-54,ED5-8,2025,2.6,,publie
+BE,Belgique,Y55-64,TOTAL,2023,3.5,,publie
+BE,Belgique,Y55-64,TOTAL,2024,3.4,,publie
+BE,Belgique,Y55-64,TOTAL,2025,4.1,,publie
+BE,Belgique,Y55-64,ED0-2,2023,6.1,,publie
+BE,Belgique,Y55-64,ED0-2,2024,6.4,,publie
+BE,Belgique,Y55-64,ED0-2,2025,6.3,,publie
+BE,Belgique,Y55-64,ED3_4,2023,3.9,,publie
+BE,Belgique,Y55-64,ED3_4,2024,3.5,,publie
+BE,Belgique,Y55-64,ED3_4,2025,4.1,,publie
+BE,Belgique,Y55-64,ED5-8,2023,2.2,,publie
+BE,Belgique,Y55-64,ED5-8,2024,2.2,,publie
+BE,Belgique,Y55-64,ED5-8,2025,3.5,,publie
+BE,Belgique,Y_GE25,TOTAL,2023,4.6,,publie
+BE,Belgique,Y_GE25,TOTAL,2024,4.7,,publie
+BE,Belgique,Y_GE25,TOTAL,2025,5.1,,publie
+BE,Belgique,Y_GE25,ED0-2,2023,11.2,,publie
+BE,Belgique,Y_GE25,ED0-2,2024,10.1,,publie
+BE,Belgique,Y_GE25,ED0-2,2025,11.7,,publie
+BE,Belgique,Y_GE25,ED3_4,2023,5.1,,publie
+BE,Belgique,Y_GE25,ED3_4,2024,5.4,,publie
+BE,Belgique,Y_GE25,ED3_4,2025,5.6,,publie
+BE,Belgique,Y_GE25,ED5-8,2023,2.7,,publie
+BE,Belgique,Y_GE25,ED5-8,2024,2.9,,publie
+BE,Belgique,Y_GE25,ED5-8,2025,3.5,,publie
+BE,Belgique,Y15-74,TOTAL,2023,5.5,,publie
+BE,Belgique,Y15-74,TOTAL,2024,5.7,,publie
+BE,Belgique,Y15-74,TOTAL,2025,6.2,,publie
+BE,Belgique,Y15-74,ED0-2,2023,13.1,,publie
+BE,Belgique,Y15-74,ED0-2,2024,13.0,,publie
+BE,Belgique,Y15-74,ED0-2,2025,15.2,,publie
+BE,Belgique,Y15-74,ED3_4,2023,6.3,,publie
+BE,Belgique,Y15-74,ED3_4,2024,6.6,,publie
+BE,Belgique,Y15-74,ED3_4,2025,6.7,,publie
+BE,Belgique,Y15-74,ED5-8,2023,3.0,,publie
+BE,Belgique,Y15-74,ED5-8,2024,3.1,,publie
+BE,Belgique,Y15-74,ED5-8,2025,3.7,,publie
+BE,Belgique,Y25-54_calc,TOTAL,2023,4.9,calc,calc
+BE,Belgique,Y25-54_calc,TOTAL,2024,5.0,calc,calc
+BE,Belgique,Y25-54_calc,TOTAL,2025,5.4,calc,calc
+BE,Belgique,Y25-54_calc,ED0-2,2023,13.3,calc,calc
+BE,Belgique,Y25-54_calc,ED0-2,2024,11.8,calc,calc
+BE,Belgique,Y25-54_calc,ED0-2,2025,14.0,calc,calc
+BE,Belgique,Y25-54_calc,ED3_4,2023,5.5,calc,calc
+BE,Belgique,Y25-54_calc,ED3_4,2024,6.0,calc,calc
+BE,Belgique,Y25-54_calc,ED3_4,2025,6.1,calc,calc
+BE,Belgique,Y25-54_calc,ED5-8,2023,2.8,calc,calc
+BE,Belgique,Y25-54_calc,ED5-8,2024,3.1,calc,calc
+BE,Belgique,Y25-54_calc,ED5-8,2025,3.5,calc,calc
+BE1,Bruxelles-Capitale,Y15-24,TOTAL,2023,25.7,,publie
+BE1,Bruxelles-Capitale,Y15-24,TOTAL,2024,23.6,,publie
+BE1,Bruxelles-Capitale,Y15-24,TOTAL,2025,30.5,,publie
+BE1,Bruxelles-Capitale,Y15-24,ED0-2,2023,49.4,u,publie
+BE1,Bruxelles-Capitale,Y15-24,ED0-2,2024,34.4,u,publie
+BE1,Bruxelles-Capitale,Y15-24,ED0-2,2025,51.5,,publie
+BE1,Bruxelles-Capitale,Y15-24,ED3_4,2023,21.5,u,publie
+BE1,Bruxelles-Capitale,Y15-24,ED3_4,2024,21.0,u,publie
+BE1,Bruxelles-Capitale,Y15-24,ED3_4,2025,22.9,u,publie
+BE1,Bruxelles-Capitale,Y15-24,ED5-8,2023,,u,publie
+BE1,Bruxelles-Capitale,Y15-24,ED5-8,2024,,u,publie
+BE1,Bruxelles-Capitale,Y15-24,ED5-8,2025,,u,publie
+BE1,Bruxelles-Capitale,Y25-34,TOTAL,2023,10.9,,publie
+BE1,Bruxelles-Capitale,Y25-34,TOTAL,2024,12.1,,publie
+BE1,Bruxelles-Capitale,Y25-34,TOTAL,2025,12.8,,publie
+BE1,Bruxelles-Capitale,Y25-34,ED0-2,2023,23.7,u,publie
+BE1,Bruxelles-Capitale,Y25-34,ED0-2,2024,22.2,u,publie
+BE1,Bruxelles-Capitale,Y25-34,ED0-2,2025,19.5,u,publie
+BE1,Bruxelles-Capitale,Y25-34,ED3_4,2023,16.6,,publie
+BE1,Bruxelles-Capitale,Y25-34,ED3_4,2024,18.8,,publie
+BE1,Bruxelles-Capitale,Y25-34,ED3_4,2025,22.5,,publie
+BE1,Bruxelles-Capitale,Y25-34,ED5-8,2023,7.1,,publie
+BE1,Bruxelles-Capitale,Y25-34,ED5-8,2024,8.2,,publie
+BE1,Bruxelles-Capitale,Y25-34,ED5-8,2025,8.8,,publie
+BE1,Bruxelles-Capitale,Y35-44,TOTAL,2023,10.3,,publie
+BE1,Bruxelles-Capitale,Y35-44,TOTAL,2024,10.1,,publie
+BE1,Bruxelles-Capitale,Y35-44,TOTAL,2025,11.7,,publie
+BE1,Bruxelles-Capitale,Y35-44,ED0-2,2023,20.2,,publie
+BE1,Bruxelles-Capitale,Y35-44,ED0-2,2024,20.3,u,publie
+BE1,Bruxelles-Capitale,Y35-44,ED0-2,2025,29.5,,publie
+BE1,Bruxelles-Capitale,Y35-44,ED3_4,2023,11.0,u,publie
+BE1,Bruxelles-Capitale,Y35-44,ED3_4,2024,14.8,u,publie
+BE1,Bruxelles-Capitale,Y35-44,ED3_4,2025,19.9,,publie
+BE1,Bruxelles-Capitale,Y35-44,ED5-8,2023,7.4,,publie
+BE1,Bruxelles-Capitale,Y35-44,ED5-8,2024,6.4,,publie
+BE1,Bruxelles-Capitale,Y35-44,ED5-8,2025,6.5,,publie
+BE1,Bruxelles-Capitale,Y45-54,TOTAL,2023,8.9,,publie
+BE1,Bruxelles-Capitale,Y45-54,TOTAL,2024,10.7,,publie
+BE1,Bruxelles-Capitale,Y45-54,TOTAL,2025,10.3,,publie
+BE1,Bruxelles-Capitale,Y45-54,ED0-2,2023,17.9,u,publie
+BE1,Bruxelles-Capitale,Y45-54,ED0-2,2024,19.9,u,publie
+BE1,Bruxelles-Capitale,Y45-54,ED0-2,2025,18.9,u,publie
+BE1,Bruxelles-Capitale,Y45-54,ED3_4,2023,11.6,u,publie
+BE1,Bruxelles-Capitale,Y45-54,ED3_4,2024,13.1,u,publie
+BE1,Bruxelles-Capitale,Y45-54,ED3_4,2025,14.7,u,publie
+BE1,Bruxelles-Capitale,Y45-54,ED5-8,2023,5.0,u,publie
+BE1,Bruxelles-Capitale,Y45-54,ED5-8,2024,6.8,u,publie
+BE1,Bruxelles-Capitale,Y45-54,ED5-8,2025,6.2,u,publie
+BE1,Bruxelles-Capitale,Y55-64,TOTAL,2023,7.8,,publie
+BE1,Bruxelles-Capitale,Y55-64,TOTAL,2024,11.3,,publie
+BE1,Bruxelles-Capitale,Y55-64,TOTAL,2025,10.5,,publie
+BE1,Bruxelles-Capitale,Y55-64,ED0-2,2023,19.5,u,publie
+BE1,Bruxelles-Capitale,Y55-64,ED0-2,2024,23.6,u,publie
+BE1,Bruxelles-Capitale,Y55-64,ED0-2,2025,19.7,u,publie
+BE1,Bruxelles-Capitale,Y55-64,ED3_4,2023,,u,publie
+BE1,Bruxelles-Capitale,Y55-64,ED3_4,2024,11.7,u,publie
+BE1,Bruxelles-Capitale,Y55-64,ED3_4,2025,9.6,u,publie
+BE1,Bruxelles-Capitale,Y55-64,ED5-8,2023,,u,publie
+BE1,Bruxelles-Capitale,Y55-64,ED5-8,2024,5.7,u,publie
+BE1,Bruxelles-Capitale,Y55-64,ED5-8,2025,8.1,u,publie
+BE1,Bruxelles-Capitale,Y_GE25,TOTAL,2023,9.7,,publie
+BE1,Bruxelles-Capitale,Y_GE25,TOTAL,2024,10.9,,publie
+BE1,Bruxelles-Capitale,Y_GE25,TOTAL,2025,11.4,,publie
+BE1,Bruxelles-Capitale,Y_GE25,ED0-2,2023,19.8,,publie
+BE1,Bruxelles-Capitale,Y_GE25,ED0-2,2024,21.2,,publie
+BE1,Bruxelles-Capitale,Y_GE25,ED0-2,2025,21.7,,publie
+BE1,Bruxelles-Capitale,Y_GE25,ED3_4,2023,12.1,,publie
+BE1,Bruxelles-Capitale,Y_GE25,ED3_4,2024,15.1,,publie
+BE1,Bruxelles-Capitale,Y_GE25,ED3_4,2025,17.2,,publie
+BE1,Bruxelles-Capitale,Y_GE25,ED5-8,2023,6.2,,publie
+BE1,Bruxelles-Capitale,Y_GE25,ED5-8,2024,6.9,,publie
+BE1,Bruxelles-Capitale,Y_GE25,ED5-8,2025,7.3,,publie
+BE1,Bruxelles-Capitale,Y15-74,TOTAL,2023,10.6,,publie
+BE1,Bruxelles-Capitale,Y15-74,TOTAL,2024,11.8,,publie
+BE1,Bruxelles-Capitale,Y15-74,TOTAL,2025,12.6,,publie
+BE1,Bruxelles-Capitale,Y15-74,ED0-2,2023,22.3,,publie
+BE1,Bruxelles-Capitale,Y15-74,ED0-2,2024,22.9,,publie
+BE1,Bruxelles-Capitale,Y15-74,ED0-2,2025,25.4,,publie
+BE1,Bruxelles-Capitale,Y15-74,ED3_4,2023,13.3,,publie
+BE1,Bruxelles-Capitale,Y15-74,ED3_4,2024,15.9,,publie
+BE1,Bruxelles-Capitale,Y15-74,ED3_4,2025,18.0,,publie
+BE1,Bruxelles-Capitale,Y15-74,ED5-8,2023,6.4,,publie
+BE1,Bruxelles-Capitale,Y15-74,ED5-8,2024,7.1,,publie
+BE1,Bruxelles-Capitale,Y15-74,ED5-8,2025,7.6,,publie
+BE1,Bruxelles-Capitale,Y25-54_calc,TOTAL,2023,10.1,calc,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,TOTAL,2024,11.0,calc,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,TOTAL,2025,11.7,calc,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,ED0-2,2023,20.2,calc+u,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,ED0-2,2024,20.7,calc+u,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,ED0-2,2025,22.8,calc+u,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,ED3_4,2023,13.3,calc+u,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,ED3_4,2024,15.9,calc+u,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,ED3_4,2025,19.2,calc+u,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,ED5-8,2023,6.7,calc+u,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,ED5-8,2024,7.2,calc+u,calc
+BE1,Bruxelles-Capitale,Y25-54_calc,ED5-8,2025,7.3,calc+u,calc
+BE3,Wallonie,Y15-24,TOTAL,2023,23.0,,publie
+BE3,Wallonie,Y15-24,TOTAL,2024,22.3,,publie
+BE3,Wallonie,Y15-24,TOTAL,2025,22.2,,publie
+BE3,Wallonie,Y15-24,ED0-2,2023,33.3,,publie
+BE3,Wallonie,Y15-24,ED0-2,2024,36.4,,publie
+BE3,Wallonie,Y15-24,ED0-2,2025,34.4,,publie
+BE3,Wallonie,Y15-24,ED3_4,2023,22.0,,publie
+BE3,Wallonie,Y15-24,ED3_4,2024,19.1,,publie
+BE3,Wallonie,Y15-24,ED3_4,2025,17.0,,publie
+BE3,Wallonie,Y15-24,ED5-8,2023,15.6,u,publie
+BE3,Wallonie,Y15-24,ED5-8,2024,13.4,u,publie
+BE3,Wallonie,Y15-24,ED5-8,2025,18.2,u,publie
+BE3,Wallonie,Y25-34,TOTAL,2023,11.5,,publie
+BE3,Wallonie,Y25-34,TOTAL,2024,10.1,,publie
+BE3,Wallonie,Y25-34,TOTAL,2025,9.9,,publie
+BE3,Wallonie,Y25-34,ED0-2,2023,26.1,,publie
+BE3,Wallonie,Y25-34,ED0-2,2024,25.4,,publie
+BE3,Wallonie,Y25-34,ED0-2,2025,27.5,,publie
+BE3,Wallonie,Y25-34,ED3_4,2023,13.3,,publie
+BE3,Wallonie,Y25-34,ED3_4,2024,11.8,,publie
+BE3,Wallonie,Y25-34,ED3_4,2025,11.8,,publie
+BE3,Wallonie,Y25-34,ED5-8,2023,5.7,,publie
+BE3,Wallonie,Y25-34,ED5-8,2024,4.8,,publie
+BE3,Wallonie,Y25-34,ED5-8,2025,4.8,,publie
+BE3,Wallonie,Y35-44,TOTAL,2023,6.1,,publie
+BE3,Wallonie,Y35-44,TOTAL,2024,5.8,,publie
+BE3,Wallonie,Y35-44,TOTAL,2025,5.3,,publie
+BE3,Wallonie,Y35-44,ED0-2,2023,20.0,,publie
+BE3,Wallonie,Y35-44,ED0-2,2024,14.6,,publie
+BE3,Wallonie,Y35-44,ED0-2,2025,13.7,,publie
+BE3,Wallonie,Y35-44,ED3_4,2023,6.2,,publie
+BE3,Wallonie,Y35-44,ED3_4,2024,7.5,,publie
+BE3,Wallonie,Y35-44,ED3_4,2025,6.1,,publie
+BE3,Wallonie,Y35-44,ED5-8,2023,2.4,u,publie
+BE3,Wallonie,Y35-44,ED5-8,2024,2.4,u,publie
+BE3,Wallonie,Y35-44,ED5-8,2025,2.6,,publie
+BE3,Wallonie,Y45-54,TOTAL,2023,4.8,,publie
+BE3,Wallonie,Y45-54,TOTAL,2024,4.5,,publie
+BE3,Wallonie,Y45-54,TOTAL,2025,4.7,,publie
+BE3,Wallonie,Y45-54,ED0-2,2023,12.4,,publie
+BE3,Wallonie,Y45-54,ED0-2,2024,9.5,u,publie
+BE3,Wallonie,Y45-54,ED0-2,2025,10.6,,publie
+BE3,Wallonie,Y45-54,ED3_4,2023,4.9,,publie
+BE3,Wallonie,Y45-54,ED3_4,2024,5.1,,publie
+BE3,Wallonie,Y45-54,ED3_4,2025,4.7,,publie
+BE3,Wallonie,Y45-54,ED5-8,2023,2.6,u,publie
+BE3,Wallonie,Y45-54,ED5-8,2024,2.7,,publie
+BE3,Wallonie,Y45-54,ED5-8,2025,3.2,,publie
+BE3,Wallonie,Y55-64,TOTAL,2023,5.1,,publie
+BE3,Wallonie,Y55-64,TOTAL,2024,4.2,,publie
+BE3,Wallonie,Y55-64,TOTAL,2025,6.1,,publie
+BE3,Wallonie,Y55-64,ED0-2,2023,8.0,u,publie
+BE3,Wallonie,Y55-64,ED0-2,2024,5.4,u,publie
+BE3,Wallonie,Y55-64,ED0-2,2025,6.9,u,publie
+BE3,Wallonie,Y55-64,ED3_4,2023,6.6,,publie
+BE3,Wallonie,Y55-64,ED3_4,2024,5.5,,publie
+BE3,Wallonie,Y55-64,ED3_4,2025,7.5,,publie
+BE3,Wallonie,Y55-64,ED5-8,2023,3.0,u,publie
+BE3,Wallonie,Y55-64,ED5-8,2024,2.7,u,publie
+BE3,Wallonie,Y55-64,ED5-8,2025,4.6,,publie
+BE3,Wallonie,Y_GE25,TOTAL,2023,6.9,,publie
+BE3,Wallonie,Y_GE25,TOTAL,2024,6.2,,publie
+BE3,Wallonie,Y_GE25,TOTAL,2025,6.4,,publie
+BE3,Wallonie,Y_GE25,ED0-2,2023,16.5,,publie
+BE3,Wallonie,Y_GE25,ED0-2,2024,13.5,,publie
+BE3,Wallonie,Y_GE25,ED0-2,2025,14.0,,publie
+BE3,Wallonie,Y_GE25,ED3_4,2023,7.9,,publie
+BE3,Wallonie,Y_GE25,ED3_4,2024,7.5,,publie
+BE3,Wallonie,Y_GE25,ED3_4,2025,7.4,,publie
+BE3,Wallonie,Y_GE25,ED5-8,2023,3.3,,publie
+BE3,Wallonie,Y_GE25,ED5-8,2024,3.1,,publie
+BE3,Wallonie,Y_GE25,ED5-8,2025,3.7,,publie
+BE3,Wallonie,Y15-74,TOTAL,2023,8.2,,publie
+BE3,Wallonie,Y15-74,TOTAL,2024,7.4,,publie
+BE3,Wallonie,Y15-74,TOTAL,2025,7.8,,publie
+BE3,Wallonie,Y15-74,ED0-2,2023,18.5,,publie
+BE3,Wallonie,Y15-74,ED0-2,2024,16.5,,publie
+BE3,Wallonie,Y15-74,ED0-2,2025,17.7,,publie
+BE3,Wallonie,Y15-74,ED3_4,2023,9.5,,publie
+BE3,Wallonie,Y15-74,ED3_4,2024,8.8,,publie
+BE3,Wallonie,Y15-74,ED3_4,2025,8.7,,publie
+BE3,Wallonie,Y15-74,ED5-8,2023,3.8,,publie
+BE3,Wallonie,Y15-74,ED5-8,2024,3.4,,publie
+BE3,Wallonie,Y15-74,ED5-8,2025,4.1,,publie
+BE3,Wallonie,Y25-54_calc,TOTAL,2023,7.4,calc,calc
+BE3,Wallonie,Y25-54_calc,TOTAL,2024,6.7,calc,calc
+BE3,Wallonie,Y25-54_calc,TOTAL,2025,6.6,calc,calc
+BE3,Wallonie,Y25-54_calc,ED0-2,2023,19.3,calc,calc
+BE3,Wallonie,Y25-54_calc,ED0-2,2024,16.3,calc+u,calc
+BE3,Wallonie,Y25-54_calc,ED0-2,2025,16.6,calc,calc
+BE3,Wallonie,Y25-54_calc,ED3_4,2023,8.2,calc,calc
+BE3,Wallonie,Y25-54_calc,ED3_4,2024,8.1,calc,calc
+BE3,Wallonie,Y25-54_calc,ED3_4,2025,7.5,calc,calc
+BE3,Wallonie,Y25-54_calc,ED5-8,2023,3.5,calc+u,calc
+BE3,Wallonie,Y25-54_calc,ED5-8,2024,3.2,calc+u,calc
+BE3,Wallonie,Y25-54_calc,ED5-8,2025,3.5,calc,calc
+BE2,Flandre (reference),Y15-24,TOTAL,2023,11.8,,publie
+BE2,Flandre (reference),Y15-24,TOTAL,2024,14.5,,publie
+BE2,Flandre (reference),Y15-24,TOTAL,2025,13.5,,publie
+BE2,Flandre (reference),Y15-24,ED0-2,2023,19.0,,publie
+BE2,Flandre (reference),Y15-24,ED0-2,2024,23.3,,publie
+BE2,Flandre (reference),Y15-24,ED0-2,2025,22.7,,publie
+BE2,Flandre (reference),Y15-24,ED3_4,2023,10.4,,publie
+BE2,Flandre (reference),Y15-24,ED3_4,2024,13.0,,publie
+BE2,Flandre (reference),Y15-24,ED3_4,2025,11.4,,publie
+BE2,Flandre (reference),Y15-24,ED5-8,2023,8.1,,publie
+BE2,Flandre (reference),Y15-24,ED5-8,2024,7.6,u,publie
+BE2,Flandre (reference),Y15-24,ED5-8,2025,6.8,u,publie
+BE2,Flandre (reference),Y25-34,TOTAL,2023,3.9,,publie
+BE2,Flandre (reference),Y25-34,TOTAL,2024,4.5,,publie
+BE2,Flandre (reference),Y25-34,TOTAL,2025,5.3,,publie
+BE2,Flandre (reference),Y25-34,ED0-2,2023,12.1,,publie
+BE2,Flandre (reference),Y25-34,ED0-2,2024,9.7,,publie
+BE2,Flandre (reference),Y25-34,ED0-2,2025,14.3,,publie
+BE2,Flandre (reference),Y25-34,ED3_4,2023,4.9,,publie
+BE2,Flandre (reference),Y25-34,ED3_4,2024,5.9,,publie
+BE2,Flandre (reference),Y25-34,ED3_4,2025,5.8,,publie
+BE2,Flandre (reference),Y25-34,ED5-8,2023,1.9,,publie
+BE2,Flandre (reference),Y25-34,ED5-8,2024,2.8,,publie
+BE2,Flandre (reference),Y25-34,ED5-8,2025,4.1,,publie
+BE2,Flandre (reference),Y35-44,TOTAL,2023,1.9,,publie
+BE2,Flandre (reference),Y35-44,TOTAL,2024,2.6,,publie
+BE2,Flandre (reference),Y35-44,TOTAL,2025,2.7,,publie
+BE2,Flandre (reference),Y35-44,ED0-2,2023,4.7,u,publie
+BE2,Flandre (reference),Y35-44,ED0-2,2024,5.4,u,publie
+BE2,Flandre (reference),Y35-44,ED0-2,2025,6.9,u,publie
+BE2,Flandre (reference),Y35-44,ED3_4,2023,2.4,,publie
+BE2,Flandre (reference),Y35-44,ED3_4,2024,3.3,,publie
+BE2,Flandre (reference),Y35-44,ED3_4,2025,3.0,,publie
+BE2,Flandre (reference),Y35-44,ED5-8,2023,1.1,u,publie
+BE2,Flandre (reference),Y35-44,ED5-8,2024,1.5,,publie
+BE2,Flandre (reference),Y35-44,ED5-8,2025,1.9,,publie
+BE2,Flandre (reference),Y45-54,TOTAL,2023,2.2,,publie
+BE2,Flandre (reference),Y45-54,TOTAL,2024,1.9,,publie
+BE2,Flandre (reference),Y45-54,TOTAL,2025,2.9,,publie
+BE2,Flandre (reference),Y45-54,ED0-2,2023,4.9,u,publie
+BE2,Flandre (reference),Y45-54,ED0-2,2024,4.2,u,publie
+BE2,Flandre (reference),Y45-54,ED0-2,2025,8.6,,publie
+BE2,Flandre (reference),Y45-54,ED3_4,2023,2.2,,publie
+BE2,Flandre (reference),Y45-54,ED3_4,2024,2.1,,publie
+BE2,Flandre (reference),Y45-54,ED3_4,2025,3.2,,publie
+BE2,Flandre (reference),Y45-54,ED5-8,2023,1.6,,publie
+BE2,Flandre (reference),Y45-54,ED5-8,2024,1.3,u,publie
+BE2,Flandre (reference),Y45-54,ED5-8,2025,1.6,,publie
+BE2,Flandre (reference),Y55-64,TOTAL,2023,2.1,,publie
+BE2,Flandre (reference),Y55-64,TOTAL,2024,1.9,,publie
+BE2,Flandre (reference),Y55-64,TOTAL,2025,2.3,,publie
+BE2,Flandre (reference),Y55-64,ED0-2,2023,2.6,u,publie
+BE2,Flandre (reference),Y55-64,ED0-2,2024,3.2,u,publie
+BE2,Flandre (reference),Y55-64,ED0-2,2025,,u,publie
+BE2,Flandre (reference),Y55-64,ED3_4,2023,2.6,,publie
+BE2,Flandre (reference),Y55-64,ED3_4,2024,1.9,u,publie
+BE2,Flandre (reference),Y55-64,ED3_4,2025,2.2,,publie
+BE2,Flandre (reference),Y55-64,ED5-8,2023,1.5,u,publie
+BE2,Flandre (reference),Y55-64,ED5-8,2024,1.5,u,publie
+BE2,Flandre (reference),Y55-64,ED5-8,2025,2.3,,publie
+BE2,Flandre (reference),Y_GE25,TOTAL,2023,2.5,,publie
+BE2,Flandre (reference),Y_GE25,TOTAL,2024,2.8,,publie
+BE2,Flandre (reference),Y_GE25,TOTAL,2025,3.3,,publie
+BE2,Flandre (reference),Y_GE25,ED0-2,2023,5.6,,publie
+BE2,Flandre (reference),Y_GE25,ED0-2,2024,5.1,,publie
+BE2,Flandre (reference),Y_GE25,ED0-2,2025,7.5,,publie
+BE2,Flandre (reference),Y_GE25,ED3_4,2023,3.0,,publie
+BE2,Flandre (reference),Y_GE25,ED3_4,2024,3.3,,publie
+BE2,Flandre (reference),Y_GE25,ED3_4,2025,3.6,,publie
+BE2,Flandre (reference),Y_GE25,ED5-8,2023,1.5,,publie
+BE2,Flandre (reference),Y_GE25,ED5-8,2024,1.8,,publie
+BE2,Flandre (reference),Y_GE25,ED5-8,2025,2.5,,publie
+BE2,Flandre (reference),Y15-74,TOTAL,2023,3.3,,publie
+BE2,Flandre (reference),Y15-74,TOTAL,2024,3.8,,publie
+BE2,Flandre (reference),Y15-74,TOTAL,2025,4.3,,publie
+BE2,Flandre (reference),Y15-74,ED0-2,2023,7.8,,publie
+BE2,Flandre (reference),Y15-74,ED0-2,2024,8.6,,publie
+BE2,Flandre (reference),Y15-74,ED0-2,2025,11.2,,publie
+BE2,Flandre (reference),Y15-74,ED3_4,2023,3.8,,publie
+BE2,Flandre (reference),Y15-74,ED3_4,2024,4.4,,publie
+BE2,Flandre (reference),Y15-74,ED3_4,2025,4.5,,publie
+BE2,Flandre (reference),Y15-74,ED5-8,2023,1.8,,publie
+BE2,Flandre (reference),Y15-74,ED5-8,2024,2.0,,publie
+BE2,Flandre (reference),Y15-74,ED5-8,2025,2.7,,publie
+BE2,Flandre (reference),Y25-54_calc,TOTAL,2023,2.6,calc,calc
+BE2,Flandre (reference),Y25-54_calc,TOTAL,2024,3.0,calc,calc
+BE2,Flandre (reference),Y25-54_calc,TOTAL,2025,3.6,calc,calc
+BE2,Flandre (reference),Y25-54_calc,ED0-2,2023,7.0,calc+u,calc
+BE2,Flandre (reference),Y25-54_calc,ED0-2,2024,6.2,calc+u,calc
+BE2,Flandre (reference),Y25-54_calc,ED0-2,2025,9.4,calc+u,calc
+BE2,Flandre (reference),Y25-54_calc,ED3_4,2023,3.1,calc,calc
+BE2,Flandre (reference),Y25-54_calc,ED3_4,2024,3.7,calc,calc
+BE2,Flandre (reference),Y25-54_calc,ED3_4,2025,3.9,calc,calc
+BE2,Flandre (reference),Y25-54_calc,ED5-8,2023,1.5,calc+u,calc
+BE2,Flandre (reference),Y25-54_calc,ED5-8,2024,1.9,calc+u,calc
+BE2,Flandre (reference),Y25-54_calc,ED5-8,2025,2.5,calc,calc
+LU00,Luxembourg,Y15-24,TOTAL,2023,18.8,,publie
+LU00,Luxembourg,Y15-24,TOTAL,2024,21.6,,publie
+LU00,Luxembourg,Y15-24,TOTAL,2025,19.4,,publie
+LU00,Luxembourg,Y15-24,ED0-2,2023,30.5,u,publie
+LU00,Luxembourg,Y15-24,ED0-2,2024,27.6,u,publie
+LU00,Luxembourg,Y15-24,ED0-2,2025,,u,publie
+LU00,Luxembourg,Y15-24,ED3_4,2023,,u,publie
+LU00,Luxembourg,Y15-24,ED3_4,2024,21.2,u,publie
+LU00,Luxembourg,Y15-24,ED3_4,2025,,u,publie
+LU00,Luxembourg,Y15-24,ED5-8,2023,,u,publie
+LU00,Luxembourg,Y15-24,ED5-8,2024,,u,publie
+LU00,Luxembourg,Y15-24,ED5-8,2025,,u,publie
+LU00,Luxembourg,Y25-34,TOTAL,2023,5.0,,publie
+LU00,Luxembourg,Y25-34,TOTAL,2024,6.7,,publie
+LU00,Luxembourg,Y25-34,TOTAL,2025,6.1,,publie
+LU00,Luxembourg,Y25-34,ED0-2,2023,,u,publie
+LU00,Luxembourg,Y25-34,ED0-2,2024,,u,publie
+LU00,Luxembourg,Y25-34,ED0-2,2025,,u,publie
+LU00,Luxembourg,Y25-34,ED3_4,2023,,u,publie
+LU00,Luxembourg,Y25-34,ED3_4,2024,8.1,u,publie
+LU00,Luxembourg,Y25-34,ED3_4,2025,,u,publie
+LU00,Luxembourg,Y25-34,ED5-8,2023,4.4,u,publie
+LU00,Luxembourg,Y25-34,ED5-8,2024,4.6,u,publie
+LU00,Luxembourg,Y25-34,ED5-8,2025,5.0,u,publie
+LU00,Luxembourg,Y35-44,TOTAL,2023,3.6,u,publie
+LU00,Luxembourg,Y35-44,TOTAL,2024,4.5,,publie
+LU00,Luxembourg,Y35-44,TOTAL,2025,5.8,,publie
+LU00,Luxembourg,Y35-44,ED0-2,2023,,u,publie
+LU00,Luxembourg,Y35-44,ED0-2,2024,,u,publie
+LU00,Luxembourg,Y35-44,ED0-2,2025,,u,publie
+LU00,Luxembourg,Y35-44,ED3_4,2023,,u,publie
+LU00,Luxembourg,Y35-44,ED3_4,2024,,u,publie
+LU00,Luxembourg,Y35-44,ED3_4,2025,,u,publie
+LU00,Luxembourg,Y35-44,ED5-8,2023,,u,publie
+LU00,Luxembourg,Y35-44,ED5-8,2024,4.2,u,publie
+LU00,Luxembourg,Y35-44,ED5-8,2025,5.4,u,publie
+LU00,Luxembourg,Y45-54,TOTAL,2023,3.5,u,publie
+LU00,Luxembourg,Y45-54,TOTAL,2024,5.1,,publie
+LU00,Luxembourg,Y45-54,TOTAL,2025,5.4,,publie
+LU00,Luxembourg,Y45-54,ED0-2,2023,,u,publie
+LU00,Luxembourg,Y45-54,ED0-2,2024,,u,publie
+LU00,Luxembourg,Y45-54,ED0-2,2025,,u,publie
+LU00,Luxembourg,Y45-54,ED3_4,2023,,u,publie
+LU00,Luxembourg,Y45-54,ED3_4,2024,,u,publie
+LU00,Luxembourg,Y45-54,ED3_4,2025,,u,publie
+LU00,Luxembourg,Y45-54,ED5-8,2023,,u,publie
+LU00,Luxembourg,Y45-54,ED5-8,2024,5.2,u,publie
+LU00,Luxembourg,Y45-54,ED5-8,2025,5.3,u,publie
+LU00,Luxembourg,Y55-64,TOTAL,2023,,u,publie
+LU00,Luxembourg,Y55-64,TOTAL,2024,,u,publie
+LU00,Luxembourg,Y55-64,TOTAL,2025,4.5,u,publie
+LU00,Luxembourg,Y55-64,ED0-2,2023,,u,publie
+LU00,Luxembourg,Y55-64,ED0-2,2024,,u,publie
+LU00,Luxembourg,Y55-64,ED0-2,2025,,u,publie
+LU00,Luxembourg,Y55-64,ED3_4,2023,,u,publie
+LU00,Luxembourg,Y55-64,ED3_4,2024,,u,publie
+LU00,Luxembourg,Y55-64,ED3_4,2025,,u,publie
+LU00,Luxembourg,Y55-64,ED5-8,2023,,u,publie
+LU00,Luxembourg,Y55-64,ED5-8,2024,,u,publie
+LU00,Luxembourg,Y55-64,ED5-8,2025,,u,publie
+LU00,Luxembourg,Y_GE25,TOTAL,2023,4.1,,publie
+LU00,Luxembourg,Y_GE25,TOTAL,2024,5.1,,publie
+LU00,Luxembourg,Y_GE25,TOTAL,2025,5.5,,publie
+LU00,Luxembourg,Y_GE25,ED0-2,2023,4.9,u,publie
+LU00,Luxembourg,Y_GE25,ED0-2,2024,7.5,u,publie
+LU00,Luxembourg,Y_GE25,ED0-2,2025,8.4,u,publie
+LU00,Luxembourg,Y_GE25,ED3_4,2023,4.4,u,publie
+LU00,Luxembourg,Y_GE25,ED3_4,2024,5.4,,publie
+LU00,Luxembourg,Y_GE25,ED3_4,2025,5.5,,publie
+LU00,Luxembourg,Y_GE25,ED5-8,2023,3.7,,publie
+LU00,Luxembourg,Y_GE25,ED5-8,2024,4.5,,publie
+LU00,Luxembourg,Y_GE25,ED5-8,2025,5.0,,publie
+LU00,Luxembourg,Y15-74,TOTAL,2023,5.2,,publie
+LU00,Luxembourg,Y15-74,TOTAL,2024,6.4,,publie
+LU00,Luxembourg,Y15-74,TOTAL,2025,6.5,,publie
+LU00,Luxembourg,Y15-74,ED0-2,2023,8.8,,publie
+LU00,Luxembourg,Y15-74,ED0-2,2024,11.2,,publie
+LU00,Luxembourg,Y15-74,ED0-2,2025,10.9,,publie
+LU00,Luxembourg,Y15-74,ED3_4,2023,5.4,,publie
+LU00,Luxembourg,Y15-74,ED3_4,2024,7.4,,publie
+LU00,Luxembourg,Y15-74,ED3_4,2025,6.8,,publie
+LU00,Luxembourg,Y15-74,ED5-8,2023,3.9,,publie
+LU00,Luxembourg,Y15-74,ED5-8,2024,4.8,,publie
+LU00,Luxembourg,Y15-74,ED5-8,2025,5.4,,publie
+LU00,Luxembourg,Y25-54_calc,TOTAL,2023,4.1,calc+u,calc
+LU00,Luxembourg,Y25-54_calc,TOTAL,2024,5.4,calc,calc
+LU00,Luxembourg,Y25-54_calc,TOTAL,2025,5.8,calc,calc
+LU00,Luxembourg,Y25-54_calc,ED0-2,2023,,,calc
+LU00,Luxembourg,Y25-54_calc,ED0-2,2024,,,calc
+LU00,Luxembourg,Y25-54_calc,ED0-2,2025,,,calc
+LU00,Luxembourg,Y25-54_calc,ED3_4,2023,,,calc
+LU00,Luxembourg,Y25-54_calc,ED3_4,2024,,,calc
+LU00,Luxembourg,Y25-54_calc,ED3_4,2025,,,calc
+LU00,Luxembourg,Y25-54_calc,ED5-8,2023,,,calc
+LU00,Luxembourg,Y25-54_calc,ED5-8,2024,4.6,calc+u,calc
+LU00,Luxembourg,Y25-54_calc,ED5-8,2025,5.2,calc+u,calc
+CH,Suisse,Y15-24,TOTAL,2023,7.9,,publie
+CH,Suisse,Y15-24,TOTAL,2024,8.2,,publie
+CH,Suisse,Y15-24,TOTAL,2025,8.8,,publie
+CH,Suisse,Y15-24,ED0-2,2023,8.8,,publie
+CH,Suisse,Y15-24,ED0-2,2024,10.0,,publie
+CH,Suisse,Y15-24,ED0-2,2025,8.8,,publie
+CH,Suisse,Y15-24,ED3_4,2023,6.8,,publie
+CH,Suisse,Y15-24,ED3_4,2024,7.2,,publie
+CH,Suisse,Y15-24,ED3_4,2025,9.0,,publie
+CH,Suisse,Y15-24,ED5-8,2023,9.6,,publie
+CH,Suisse,Y15-24,ED5-8,2024,7.0,u,publie
+CH,Suisse,Y15-24,ED5-8,2025,7.4,u,publie
+CH,Suisse,Y25-34,TOTAL,2023,4.0,,publie
+CH,Suisse,Y25-34,TOTAL,2024,4.9,,publie
+CH,Suisse,Y25-34,TOTAL,2025,5.8,,publie
+CH,Suisse,Y25-34,ED0-2,2023,10.8,,publie
+CH,Suisse,Y25-34,ED0-2,2024,11.4,,publie
+CH,Suisse,Y25-34,ED0-2,2025,13.3,,publie
+CH,Suisse,Y25-34,ED3_4,2023,4.2,,publie
+CH,Suisse,Y25-34,ED3_4,2024,4.9,,publie
+CH,Suisse,Y25-34,ED3_4,2025,6.0,,publie
+CH,Suisse,Y25-34,ED5-8,2023,3.0,,publie
+CH,Suisse,Y25-34,ED5-8,2024,4.0,,publie
+CH,Suisse,Y25-34,ED5-8,2025,4.5,,publie
+CH,Suisse,Y35-44,TOTAL,2023,3.5,,publie
+CH,Suisse,Y35-44,TOTAL,2024,4.0,,publie
+CH,Suisse,Y35-44,TOTAL,2025,4.4,,publie
+CH,Suisse,Y35-44,ED0-2,2023,7.5,,publie
+CH,Suisse,Y35-44,ED0-2,2024,7.9,,publie
+CH,Suisse,Y35-44,ED0-2,2025,7.8,,publie
+CH,Suisse,Y35-44,ED3_4,2023,2.6,,publie
+CH,Suisse,Y35-44,ED3_4,2024,3.1,,publie
+CH,Suisse,Y35-44,ED3_4,2025,3.7,,publie
+CH,Suisse,Y35-44,ED5-8,2023,3.2,,publie
+CH,Suisse,Y35-44,ED5-8,2024,3.7,,publie
+CH,Suisse,Y35-44,ED5-8,2025,4.0,,publie
+CH,Suisse,Y45-54,TOTAL,2023,3.6,,publie
+CH,Suisse,Y45-54,TOTAL,2024,3.4,,publie
+CH,Suisse,Y45-54,TOTAL,2025,4.1,,publie
+CH,Suisse,Y45-54,ED0-2,2023,6.8,,publie
+CH,Suisse,Y45-54,ED0-2,2024,6.1,,publie
+CH,Suisse,Y45-54,ED0-2,2025,7.1,,publie
+CH,Suisse,Y45-54,ED3_4,2023,2.9,,publie
+CH,Suisse,Y45-54,ED3_4,2024,2.6,,publie
+CH,Suisse,Y45-54,ED3_4,2025,3.5,,publie
+CH,Suisse,Y45-54,ED5-8,2023,3.1,,publie
+CH,Suisse,Y45-54,ED5-8,2024,3.3,,publie
+CH,Suisse,Y45-54,ED5-8,2025,3.6,,publie
+CH,Suisse,Y55-64,TOTAL,2023,3.4,,publie
+CH,Suisse,Y55-64,TOTAL,2024,3.4,,publie
+CH,Suisse,Y55-64,TOTAL,2025,3.6,,publie
+CH,Suisse,Y55-64,ED0-2,2023,6.8,,publie
+CH,Suisse,Y55-64,ED0-2,2024,8.1,,publie
+CH,Suisse,Y55-64,ED0-2,2025,6.2,,publie
+CH,Suisse,Y55-64,ED3_4,2023,2.7,,publie
+CH,Suisse,Y55-64,ED3_4,2024,2.5,,publie
+CH,Suisse,Y55-64,ED3_4,2025,3.3,,publie
+CH,Suisse,Y55-64,ED5-8,2023,3.0,,publie
+CH,Suisse,Y55-64,ED5-8,2024,2.7,,publie
+CH,Suisse,Y55-64,ED5-8,2025,3.1,,publie
+CH,Suisse,Y_GE25,TOTAL,2023,3.5,,publie
+CH,Suisse,Y_GE25,TOTAL,2024,3.8,,publie
+CH,Suisse,Y_GE25,TOTAL,2025,4.3,,publie
+CH,Suisse,Y_GE25,ED0-2,2023,7.4,,publie
+CH,Suisse,Y_GE25,ED0-2,2024,7.6,,publie
+CH,Suisse,Y_GE25,ED0-2,2025,7.8,,publie
+CH,Suisse,Y_GE25,ED3_4,2023,3.0,,publie
+CH,Suisse,Y_GE25,ED3_4,2024,3.2,,publie
+CH,Suisse,Y_GE25,ED3_4,2025,4.0,,publie
+CH,Suisse,Y_GE25,ED5-8,2023,3.0,,publie
+CH,Suisse,Y_GE25,ED5-8,2024,3.4,,publie
+CH,Suisse,Y_GE25,ED5-8,2025,3.8,,publie
+CH,Suisse,Y15-74,TOTAL,2023,4.1,,publie
+CH,Suisse,Y15-74,TOTAL,2024,4.4,,publie
+CH,Suisse,Y15-74,TOTAL,2025,4.9,,publie
+CH,Suisse,Y15-74,ED0-2,2023,7.9,,publie
+CH,Suisse,Y15-74,ED0-2,2024,8.4,,publie
+CH,Suisse,Y15-74,ED0-2,2025,8.2,,publie
+CH,Suisse,Y15-74,ED3_4,2023,3.7,,publie
+CH,Suisse,Y15-74,ED3_4,2024,3.8,,publie
+CH,Suisse,Y15-74,ED3_4,2025,4.8,,publie
+CH,Suisse,Y15-74,ED5-8,2023,3.2,,publie
+CH,Suisse,Y15-74,ED5-8,2024,3.5,,publie
+CH,Suisse,Y15-74,ED5-8,2025,3.9,,publie
+CH,Suisse,Y25-54_calc,TOTAL,2023,3.7,calc,calc
+CH,Suisse,Y25-54_calc,TOTAL,2024,4.1,calc,calc
+CH,Suisse,Y25-54_calc,TOTAL,2025,4.8,calc,calc
+CH,Suisse,Y25-54_calc,ED0-2,2023,7.9,calc,calc
+CH,Suisse,Y25-54_calc,ED0-2,2024,7.9,calc,calc
+CH,Suisse,Y25-54_calc,ED0-2,2025,8.8,calc,calc
+CH,Suisse,Y25-54_calc,ED3_4,2023,3.2,calc,calc
+CH,Suisse,Y25-54_calc,ED3_4,2024,3.5,calc,calc
+CH,Suisse,Y25-54_calc,ED3_4,2025,4.4,calc,calc
+CH,Suisse,Y25-54_calc,ED5-8,2023,3.1,calc,calc
+CH,Suisse,Y25-54_calc,ED5-8,2024,3.7,calc,calc
+CH,Suisse,Y25-54_calc,ED5-8,2025,4.0,calc,calc
+CH01,Region lemanique,Y15-24,TOTAL,2023,15.8,,publie
+CH01,Region lemanique,Y15-24,TOTAL,2024,15.4,,publie
+CH01,Region lemanique,Y15-24,TOTAL,2025,14.7,,publie
+CH01,Region lemanique,Y15-24,ED0-2,2023,15.0,,publie
+CH01,Region lemanique,Y15-24,ED0-2,2024,17.6,,publie
+CH01,Region lemanique,Y15-24,ED0-2,2025,16.9,,publie
+CH01,Region lemanique,Y15-24,ED3_4,2023,15.0,,publie
+CH01,Region lemanique,Y15-24,ED3_4,2024,15.2,,publie
+CH01,Region lemanique,Y15-24,ED3_4,2025,14.0,,publie
+CH01,Region lemanique,Y15-24,ED5-8,2023,19.0,u,publie
+CH01,Region lemanique,Y15-24,ED5-8,2024,10.2,u,publie
+CH01,Region lemanique,Y15-24,ED5-8,2025,12.4,u,publie
+CH01,Region lemanique,Y25-34,TOTAL,2023,5.6,,publie
+CH01,Region lemanique,Y25-34,TOTAL,2024,8.2,,publie
+CH01,Region lemanique,Y25-34,TOTAL,2025,9.1,,publie
+CH01,Region lemanique,Y25-34,ED0-2,2023,11.1,u,publie
+CH01,Region lemanique,Y25-34,ED0-2,2024,15.1,u,publie
+CH01,Region lemanique,Y25-34,ED0-2,2025,14.0,u,publie
+CH01,Region lemanique,Y25-34,ED3_4,2023,5.1,u,publie
+CH01,Region lemanique,Y25-34,ED3_4,2024,8.1,,publie
+CH01,Region lemanique,Y25-34,ED3_4,2025,10.5,,publie
+CH01,Region lemanique,Y25-34,ED5-8,2023,5.0,,publie
+CH01,Region lemanique,Y25-34,ED5-8,2024,6.8,,publie
+CH01,Region lemanique,Y25-34,ED5-8,2025,7.1,,publie
+CH01,Region lemanique,Y35-44,TOTAL,2023,5.7,,publie
+CH01,Region lemanique,Y35-44,TOTAL,2024,6.5,,publie
+CH01,Region lemanique,Y35-44,TOTAL,2025,6.4,,publie
+CH01,Region lemanique,Y35-44,ED0-2,2023,7.9,u,publie
+CH01,Region lemanique,Y35-44,ED0-2,2024,10.5,u,publie
+CH01,Region lemanique,Y35-44,ED0-2,2025,9.4,u,publie
+CH01,Region lemanique,Y35-44,ED3_4,2023,6.2,u,publie
+CH01,Region lemanique,Y35-44,ED3_4,2024,4.0,u,publie
+CH01,Region lemanique,Y35-44,ED3_4,2025,4.8,u,publie
+CH01,Region lemanique,Y35-44,ED5-8,2023,4.7,,publie
+CH01,Region lemanique,Y35-44,ED5-8,2024,6.8,,publie
+CH01,Region lemanique,Y35-44,ED5-8,2025,6.5,,publie
+CH01,Region lemanique,Y45-54,TOTAL,2023,5.6,,publie
+CH01,Region lemanique,Y45-54,TOTAL,2024,4.6,,publie
+CH01,Region lemanique,Y45-54,TOTAL,2025,6.9,,publie
+CH01,Region lemanique,Y45-54,ED0-2,2023,7.2,u,publie
+CH01,Region lemanique,Y45-54,ED0-2,2024,5.7,u,publie
+CH01,Region lemanique,Y45-54,ED0-2,2025,9.2,u,publie
+CH01,Region lemanique,Y45-54,ED3_4,2023,5.1,u,publie
+CH01,Region lemanique,Y45-54,ED3_4,2024,3.7,u,publie
+CH01,Region lemanique,Y45-54,ED3_4,2025,6.7,u,publie
+CH01,Region lemanique,Y45-54,ED5-8,2023,5.3,u,publie
+CH01,Region lemanique,Y45-54,ED5-8,2024,4.8,u,publie
+CH01,Region lemanique,Y45-54,ED5-8,2025,6.0,,publie
+CH01,Region lemanique,Y55-64,TOTAL,2023,5.5,,publie
+CH01,Region lemanique,Y55-64,TOTAL,2024,6.0,,publie
+CH01,Region lemanique,Y55-64,TOTAL,2025,5.5,,publie
+CH01,Region lemanique,Y55-64,ED0-2,2023,8.0,u,publie
+CH01,Region lemanique,Y55-64,ED0-2,2024,11.2,u,publie
+CH01,Region lemanique,Y55-64,ED0-2,2025,7.1,u,publie
+CH01,Region lemanique,Y55-64,ED3_4,2023,4.9,u,publie
+CH01,Region lemanique,Y55-64,ED3_4,2024,4.2,u,publie
+CH01,Region lemanique,Y55-64,ED3_4,2025,5.2,u,publie
+CH01,Region lemanique,Y55-64,ED5-8,2023,4.5,u,publie
+CH01,Region lemanique,Y55-64,ED5-8,2024,4.9,u,publie
+CH01,Region lemanique,Y55-64,ED5-8,2025,5.2,u,publie
+CH01,Region lemanique,Y_GE25,TOTAL,2023,5.5,,publie
+CH01,Region lemanique,Y_GE25,TOTAL,2024,6.2,,publie
+CH01,Region lemanique,Y_GE25,TOTAL,2025,6.8,,publie
+CH01,Region lemanique,Y_GE25,ED0-2,2023,8.0,,publie
+CH01,Region lemanique,Y_GE25,ED0-2,2024,9.8,,publie
+CH01,Region lemanique,Y_GE25,ED0-2,2025,9.3,,publie
+CH01,Region lemanique,Y_GE25,ED3_4,2023,5.2,,publie
+CH01,Region lemanique,Y_GE25,ED3_4,2024,5.0,,publie
+CH01,Region lemanique,Y_GE25,ED3_4,2025,6.7,,publie
+CH01,Region lemanique,Y_GE25,ED5-8,2023,4.8,,publie
+CH01,Region lemanique,Y_GE25,ED5-8,2024,5.9,,publie
+CH01,Region lemanique,Y_GE25,ED5-8,2025,6.1,,publie
+CH01,Region lemanique,Y15-74,TOTAL,2023,6.7,,publie
+CH01,Region lemanique,Y15-74,TOTAL,2024,7.3,,publie
+CH01,Region lemanique,Y15-74,TOTAL,2025,7.8,,publie
+CH01,Region lemanique,Y15-74,ED0-2,2023,9.7,,publie
+CH01,Region lemanique,Y15-74,ED0-2,2024,11.6,,publie
+CH01,Region lemanique,Y15-74,ED0-2,2025,11.1,,publie
+CH01,Region lemanique,Y15-74,ED3_4,2023,6.7,,publie
+CH01,Region lemanique,Y15-74,ED3_4,2024,6.6,,publie
+CH01,Region lemanique,Y15-74,ED3_4,2025,7.9,,publie
+CH01,Region lemanique,Y15-74,ED5-8,2023,5.4,,publie
+CH01,Region lemanique,Y15-74,ED5-8,2024,6.1,,publie
+CH01,Region lemanique,Y15-74,ED5-8,2025,6.4,,publie
+CH01,Region lemanique,Y25-54_calc,TOTAL,2023,5.6,calc,calc
+CH01,Region lemanique,Y25-54_calc,TOTAL,2024,6.4,calc,calc
+CH01,Region lemanique,Y25-54_calc,TOTAL,2025,7.4,calc,calc
+CH01,Region lemanique,Y25-54_calc,ED0-2,2023,8.3,calc+u,calc
+CH01,Region lemanique,Y25-54_calc,ED0-2,2024,9.7,calc+u,calc
+CH01,Region lemanique,Y25-54_calc,ED0-2,2025,10.5,calc+u,calc
+CH01,Region lemanique,Y25-54_calc,ED3_4,2023,5.4,calc+u,calc
+CH01,Region lemanique,Y25-54_calc,ED3_4,2024,5.4,calc+u,calc
+CH01,Region lemanique,Y25-54_calc,ED3_4,2025,7.4,calc+u,calc
+CH01,Region lemanique,Y25-54_calc,ED5-8,2023,5.0,calc+u,calc
+CH01,Region lemanique,Y25-54_calc,ED5-8,2024,6.2,calc+u,calc
+CH01,Region lemanique,Y25-54_calc,ED5-8,2025,6.6,calc,calc
+CH02,Espace Mittelland,Y15-24,TOTAL,2023,6.6,,publie
+CH02,Espace Mittelland,Y15-24,TOTAL,2024,7.7,,publie
+CH02,Espace Mittelland,Y15-24,TOTAL,2025,8.5,,publie
+CH02,Espace Mittelland,Y15-24,ED0-2,2023,8.2,u,publie
+CH02,Espace Mittelland,Y15-24,ED0-2,2024,10.1,,publie
+CH02,Espace Mittelland,Y15-24,ED0-2,2025,9.9,,publie
+CH02,Espace Mittelland,Y15-24,ED3_4,2023,5.2,u,publie
+CH02,Espace Mittelland,Y15-24,ED3_4,2024,6.1,u,publie
+CH02,Espace Mittelland,Y15-24,ED3_4,2025,7.5,,publie
+CH02,Espace Mittelland,Y15-24,ED5-8,2023,,u,publie
+CH02,Espace Mittelland,Y15-24,ED5-8,2024,,u,publie
+CH02,Espace Mittelland,Y15-24,ED5-8,2025,,u,publie
+CH02,Espace Mittelland,Y25-34,TOTAL,2023,3.8,,publie
+CH02,Espace Mittelland,Y25-34,TOTAL,2024,4.6,,publie
+CH02,Espace Mittelland,Y25-34,TOTAL,2025,5.8,,publie
+CH02,Espace Mittelland,Y25-34,ED0-2,2023,10.5,u,publie
+CH02,Espace Mittelland,Y25-34,ED0-2,2024,11.1,u,publie
+CH02,Espace Mittelland,Y25-34,ED0-2,2025,13.6,u,publie
+CH02,Espace Mittelland,Y25-34,ED3_4,2023,4.2,u,publie
+CH02,Espace Mittelland,Y25-34,ED3_4,2024,4.7,u,publie
+CH02,Espace Mittelland,Y25-34,ED3_4,2025,6.2,,publie
+CH02,Espace Mittelland,Y25-34,ED5-8,2023,2.7,u,publie
+CH02,Espace Mittelland,Y25-34,ED5-8,2024,3.3,u,publie
+CH02,Espace Mittelland,Y25-34,ED5-8,2025,4.2,u,publie
+CH02,Espace Mittelland,Y35-44,TOTAL,2023,2.7,,publie
+CH02,Espace Mittelland,Y35-44,TOTAL,2024,4.1,,publie
+CH02,Espace Mittelland,Y35-44,TOTAL,2025,3.8,,publie
+CH02,Espace Mittelland,Y35-44,ED0-2,2023,4.3,u,publie
+CH02,Espace Mittelland,Y35-44,ED0-2,2024,10.2,u,publie
+CH02,Espace Mittelland,Y35-44,ED0-2,2025,10.2,u,publie
+CH02,Espace Mittelland,Y35-44,ED3_4,2023,2.0,u,publie
+CH02,Espace Mittelland,Y35-44,ED3_4,2024,3.1,u,publie
+CH02,Espace Mittelland,Y35-44,ED3_4,2025,3.9,u,publie
+CH02,Espace Mittelland,Y35-44,ED5-8,2023,3.0,u,publie
+CH02,Espace Mittelland,Y35-44,ED5-8,2024,3.2,u,publie
+CH02,Espace Mittelland,Y35-44,ED5-8,2025,2.2,u,publie
+CH02,Espace Mittelland,Y45-54,TOTAL,2023,3.2,,publie
+CH02,Espace Mittelland,Y45-54,TOTAL,2024,2.7,,publie
+CH02,Espace Mittelland,Y45-54,TOTAL,2025,3.3,,publie
+CH02,Espace Mittelland,Y45-54,ED0-2,2023,9.7,u,publie
+CH02,Espace Mittelland,Y45-54,ED0-2,2024,5.9,u,publie
+CH02,Espace Mittelland,Y45-54,ED0-2,2025,8.3,u,publie
+CH02,Espace Mittelland,Y45-54,ED3_4,2023,2.2,u,publie
+CH02,Espace Mittelland,Y45-54,ED3_4,2024,2.1,u,publie
+CH02,Espace Mittelland,Y45-54,ED3_4,2025,2.7,u,publie
+CH02,Espace Mittelland,Y45-54,ED5-8,2023,2.0,u,publie
+CH02,Espace Mittelland,Y45-54,ED5-8,2024,2.1,u,publie
+CH02,Espace Mittelland,Y45-54,ED5-8,2025,2.3,u,publie
+CH02,Espace Mittelland,Y55-64,TOTAL,2023,2.8,,publie
+CH02,Espace Mittelland,Y55-64,TOTAL,2024,2.8,,publie
+CH02,Espace Mittelland,Y55-64,TOTAL,2025,3.6,,publie
+CH02,Espace Mittelland,Y55-64,ED0-2,2023,6.0,u,publie
+CH02,Espace Mittelland,Y55-64,ED0-2,2024,8.0,u,publie
+CH02,Espace Mittelland,Y55-64,ED0-2,2025,6.9,u,publie
+CH02,Espace Mittelland,Y55-64,ED3_4,2023,2.2,u,publie
+CH02,Espace Mittelland,Y55-64,ED3_4,2024,2.1,u,publie
+CH02,Espace Mittelland,Y55-64,ED3_4,2025,3.4,u,publie
+CH02,Espace Mittelland,Y55-64,ED5-8,2023,2.6,u,publie
+CH02,Espace Mittelland,Y55-64,ED5-8,2024,1.7,u,publie
+CH02,Espace Mittelland,Y55-64,ED5-8,2025,2.6,u,publie
+CH02,Espace Mittelland,Y_GE25,TOTAL,2023,3.1,,publie
+CH02,Espace Mittelland,Y_GE25,TOTAL,2024,3.4,,publie
+CH02,Espace Mittelland,Y_GE25,TOTAL,2025,4.0,,publie
+CH02,Espace Mittelland,Y_GE25,ED0-2,2023,7.0,,publie
+CH02,Espace Mittelland,Y_GE25,ED0-2,2024,8.0,,publie
+CH02,Espace Mittelland,Y_GE25,ED0-2,2025,8.8,,publie
+CH02,Espace Mittelland,Y_GE25,ED3_4,2023,2.6,,publie
+CH02,Espace Mittelland,Y_GE25,ED3_4,2024,2.9,,publie
+CH02,Espace Mittelland,Y_GE25,ED3_4,2025,3.9,,publie
+CH02,Espace Mittelland,Y_GE25,ED5-8,2023,2.5,,publie
+CH02,Espace Mittelland,Y_GE25,ED5-8,2024,2.6,,publie
+CH02,Espace Mittelland,Y_GE25,ED5-8,2025,2.7,,publie
+CH02,Espace Mittelland,Y15-74,TOTAL,2023,3.5,,publie
+CH02,Espace Mittelland,Y15-74,TOTAL,2024,4.0,,publie
+CH02,Espace Mittelland,Y15-74,TOTAL,2025,4.6,,publie
+CH02,Espace Mittelland,Y15-74,ED0-2,2023,7.4,,publie
+CH02,Espace Mittelland,Y15-74,ED0-2,2024,8.7,,publie
+CH02,Espace Mittelland,Y15-74,ED0-2,2025,9.2,,publie
+CH02,Espace Mittelland,Y15-74,ED3_4,2023,3.0,,publie
+CH02,Espace Mittelland,Y15-74,ED3_4,2024,3.4,,publie
+CH02,Espace Mittelland,Y15-74,ED3_4,2025,4.4,,publie
+CH02,Espace Mittelland,Y15-74,ED5-8,2023,2.7,,publie
+CH02,Espace Mittelland,Y15-74,ED5-8,2024,2.8,,publie
+CH02,Espace Mittelland,Y15-74,ED5-8,2025,2.9,,publie
+CH02,Espace Mittelland,Y25-54_calc,TOTAL,2023,3.2,calc,calc
+CH02,Espace Mittelland,Y25-54_calc,TOTAL,2024,3.8,calc,calc
+CH02,Espace Mittelland,Y25-54_calc,TOTAL,2025,4.3,calc,calc
+CH02,Espace Mittelland,Y25-54_calc,ED0-2,2023,8.0,calc+u,calc
+CH02,Espace Mittelland,Y25-54_calc,ED0-2,2024,8.6,calc+u,calc
+CH02,Espace Mittelland,Y25-54_calc,ED0-2,2025,10.3,calc+u,calc
+CH02,Espace Mittelland,Y25-54_calc,ED3_4,2023,2.8,calc+u,calc
+CH02,Espace Mittelland,Y25-54_calc,ED3_4,2024,3.3,calc+u,calc
+CH02,Espace Mittelland,Y25-54_calc,ED3_4,2025,4.3,calc+u,calc
+CH02,Espace Mittelland,Y25-54_calc,ED5-8,2023,2.6,calc+u,calc
+CH02,Espace Mittelland,Y25-54_calc,ED5-8,2024,2.9,calc+u,calc
+CH02,Espace Mittelland,Y25-54_calc,ED5-8,2025,2.9,calc+u,calc

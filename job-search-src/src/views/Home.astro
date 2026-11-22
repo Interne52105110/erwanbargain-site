@@ -1,0 +1,336 @@
+---
+import Base from '../layouts/Base.astro';
+import { useT, href, type Lang, type Key } from '../i18n/ui';
+import { ages, edus, territories, indicators, values, sources, meta } from '../data/study';
+import { findings } from '../data/findings';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useT(lang);
+
+const payload = {
+  lang,
+  sample: meta.sample,
+  territories: territories.map((x) => ({ id: x.id, name: x.name[lang], country: x.country, prog: !!x.prog, open: !!x.open, mixed: !!x.mixed })),
+  indicators: indicators.map((x) => ({ id: x.id, label: x.label[lang], unit: x.unit[lang], better: x.better, def: x.def[lang] })),
+  values,
+  sources,
+  text: {
+    missing: t('panel.missing'),
+    for: t('panel.for'),
+    source: t('panel.source'),
+    period: t('panel.period'),
+    programme: t('panel.programme'),
+    none: t('panel.none'),
+    q: { u: t('q.u'), calc: t('q.calc'), avg: t('q.avg') },
+    open: t('note.open'),
+    caEdu: t('note.caEdu'),
+    mixed: t('note.mixed'),
+    age: Object.fromEntries(ages.map((a) => [a, t(`age.${a}` as Key)])),
+    edu: Object.fromEntries(edus.map((e) => [e, t(`edu.${e}` as Key)])),
+  },
+};
+const countries = ['FR', 'BE', 'LU', 'CH', 'CA'] as const;
+const countryName: Record<string, { en: string; fr: string }> = {
+  FR: { en: 'France', fr: 'France' },
+  BE: { en: 'Belgium', fr: 'Belgique' },
+  LU: { en: 'Luxembourg', fr: 'Luxembourg' },
+  CH: { en: 'Switzerland', fr: 'Suisse' },
+  CA: { en: 'Canada', fr: 'Canada' },
+};
+---
+<Base lang={lang} route="/">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">{t('hero.eyebrow')}</p>
+        <h1>{t('hero.title.a')}<span class="accent">{t('hero.title.em')}</span>{t('hero.title.b')}</h1>
+        <p class="lead">{t('hero.lead')}</p>
+
+        <form class="picker" id="picker" onsubmit="return false">
+          <label>
+            <span>{t('picker.age')}</span>
+            <select name="age">
+              {ages.map((a) => <option value={a} selected={a === '25-54'}>{t(`age.${a}` as Key)}</option>)}
+            </select>
+          </label>
+          <label>
+            <span>{t('picker.edu')}</span>
+            <select name="edu">
+              {edus.map((e) => <option value={e} selected={e === 'high'}>{t(`edu.${e}` as Key)}</option>)}
+            </select>
+          </label>
+          <label class="wide">
+            <span>{t('picker.zone')}</span>
+            <select name="zone">
+              {countries.map((c) => (
+                <optgroup label={countryName[c][lang]}>
+                  {territories.filter((x) => x.country === c).map((x) => (
+                    <option value={x.id} selected={x.id === 'FR1'}>{x.name[lang]}</option>
+                  ))}
+                </optgroup>
+              ))}
+            </select>
+          </label>
+        </form>
+      </div>
+
+      <div class="panel result" aria-live="polite">
+        <div class="tabs" role="tablist" aria-label={t('picker.indicator')}>
+          {indicators.map((ind, k) => (
+            <button type="button" role="tab" data-ind={ind.id} aria-selected={k === 0 ? 'true' : 'false'}>{ind.label[lang]}</button>
+          ))}
+        </div>
+        <p class="for muted"><span id="r-for"></span></p>
+        <p class="big num"><span id="r-value">–</span><small id="r-unit"></small></p>
+        <p class="qual num" id="r-qual" hidden></p>
+        <p class="def muted" id="r-def"></p>
+        <p class="fallback" id="r-fallback" hidden></p>
+        <ul class="notes" id="r-notes"></ul>
+        <p class="rank-title">{t('panel.rank')}</p>
+        <ol class="rows" id="r-rows"></ol>
+        <p class="legend"><i class="prog-dot"></i> {t('legend.prog')} · <span class="num">*</span> {t('legend.u')}</p>
+        <p class="src num" id="r-src"></p>
+        {meta.sample && <p class="notice">{t('panel.sample')}</p>}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">{lang === 'fr' ? 'Résultats' : 'Findings'}</p>
+      <h2>{lang === 'fr' ? 'Six constats, chacun avec sa source' : 'Six findings, each with its source'}</h2>
+      <div class="grid-3 findings">
+        {findings.map((f) => (
+          <article class="finding">
+            <p class="fig num">{lang === 'fr' ? f.figure.replace('.', ',') : f.figure.replace(' %', '%')}</p>
+            <h3>{f.title[lang]}</h3>
+            <p class="muted">{f.text[lang]}</p>
+            <p class="fsrc num">{f.source[lang]}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">{t('home.read.eyebrow')}</p>
+      <h2>{t('home.read.title')}</h2>
+      <div class="grid-3 steps">
+        {[1, 2, 3].map((n) => (
+          <div class="step">
+            <span class="num n">0{n}</span>
+            <h3>{t(`home.read.${n}.t` as Key)}</h3>
+            <p class="muted">{t(`home.read.${n}.p` as Key)}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">{t('home.limits.eyebrow')}</p>
+      <h2>{t('home.limits.title')}</h2>
+      <p class="lead">{t('home.limits.p')}</p>
+      <p class="actions">
+        <a class="btn" href={href(lang, '/method')}>{t('cta.method')}</a>
+        <a class="btn ghost" href={href(lang, '/territories')}>{t('cta.territories')}</a>
+      </p>
+    </div>
+  </section>
+
+  <script type="application/json" id="study-data" set:html={JSON.stringify(payload)} />
+</Base>
+
+<script>
+  type V = { t: string; i: string; a: string; e: string; v: number; p: string; s: string; q: string };
+  const data = JSON.parse(document.getElementById('study-data')!.textContent!);
+  const form = document.getElementById('picker') as HTMLFormElement;
+  const tabs = [...document.querySelectorAll<HTMLButtonElement>('.tabs button')];
+  const $ = (id: string) => document.getElementById(id)!;
+  const nf = new Intl.NumberFormat(data.lang, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+
+  const index = new Map<string, V>();
+  for (const v of data.values as V[]) index.set(`${v.t}|${v.i}|${v.a}|${v.e}`, v);
+
+  /** Exact profile first, then the closest published level. */
+  function lookup(t: string, i: string, a: string, e: string): { v: V; exact: boolean } | null {
+    const tries: [string, string][] = [[a, e], ['all', e], [a, 'all'], ['all', 'all']];
+    for (let k = 0; k < tries.length; k++) {
+      const hit = index.get(`${t}|${i}|${tries[k][0]}|${tries[k][1]}`);
+      if (hit) return { v: hit, exact: k === 0 };
+    }
+    return null;
+  }
+
+  let ind = data.indicators[0].id;
+
+  function render() {
+    const fd = new FormData(form);
+    const a = String(fd.get('age')), e = String(fd.get('edu')), zone = String(fd.get('zone'));
+    const meta = data.indicators.find((x: any) => x.id === ind);
+    const terr = data.territories.find((x: any) => x.id === zone);
+    const mine = lookup(zone, ind, a, e);
+
+    $('r-for').textContent = `${data.text.for} ${terr.name}`;
+    $('r-value').textContent = mine ? nf.format(mine.v.v) : '–';
+    $('r-unit').textContent = mine ? meta.unit : '';
+    $('r-def').textContent = meta.def;
+
+    const qual = $('r-qual');
+    const qLabel = mine ? data.text.q[mine.v.q] : null;
+    qual.hidden = !qLabel;
+    qual.textContent = qLabel ?? '';
+
+    const fb = $('r-fallback');
+    if (!mine) {
+      fb.hidden = false;
+      fb.textContent = data.text.none;
+    } else if (!mine.exact) {
+      fb.hidden = false;
+      fb.textContent = `${data.text.missing} ${data.text.age[mine.v.a]}, ${data.text.edu[mine.v.e].toLowerCase()}.`;
+    } else fb.hidden = true;
+
+    const notes: string[] = [];
+    if (terr.open) notes.push(data.text.open);
+    if (terr.mixed) notes.push(data.text.mixed);
+    if (terr.country === 'CA' && ind === 'unemp' && e === 'high') notes.push(data.text.caEdu);
+    $('r-notes').replaceChildren(
+      ...notes.map((n) => {
+        const li = document.createElement('li');
+        li.textContent = n;
+        return li;
+      }),
+    );
+
+    // Compare like with like: only territories that publish the same profile level as the one shown.
+    const level = mine ? [mine.v.a, mine.v.e] : [a, e];
+    const rows = data.territories
+      .map((x: any) => ({ x, hit: index.get(`${x.id}|${ind}|${level[0]}|${level[1]}`) }))
+      .filter((r: any) => r.hit)
+      .sort((p: any, q: any) => (meta.better === 'low' ? p.hit.v - q.hit.v : q.hit.v - p.hit.v));
+    const max = Math.max(...rows.map((r: any) => r.hit.v), 1);
+
+    $('r-rows').replaceChildren(
+      ...rows.map((r: any) => {
+        const li = document.createElement('li');
+        if (r.x.id === zone) li.className = 'me';
+        const name = document.createElement('span');
+        name.className = 'name';
+        name.textContent = r.x.name;
+        name.title = r.x.name;
+        if (r.x.prog) {
+          const dot = document.createElement('i');
+          dot.className = 'prog-dot';
+          dot.title = data.text.programme;
+          name.append(dot);
+        }
+        const bar = document.createElement('span');
+        bar.className = 'bar';
+        const fill = document.createElement('i');
+        fill.style.width = `${Math.round((r.hit.v / max) * 100)}%`;
+        bar.append(fill);
+        const val = document.createElement('span');
+        val.className = 'v num';
+        val.textContent = nf.format(r.hit.v) + (r.hit.q === 'u' ? '*' : '');
+        if (r.hit.q !== 'ok') val.title = data.text.q[r.hit.q];
+        li.append(name, bar, val);
+        return li;
+      }),
+    );
+
+    const src = $('r-src');
+    src.replaceChildren();
+    if (mine) {
+      const s = data.sources[mine.v.s];
+      const link = document.createElement('a');
+      link.href = s.url;
+      link.rel = 'noopener';
+      link.textContent = s.label;
+      const colon = data.lang === 'fr' ? ' : ' : ': ';
+      src.append(data.text.source + colon, link, ` · ${data.text.period}${colon}${mine.v.p}`);
+    }
+  }
+
+  tabs.forEach((b) =>
+    b.addEventListener('click', () => {
+      ind = b.dataset.ind!;
+      tabs.forEach((o) => o.setAttribute('aria-selected', String(o === b)));
+      render();
+    }),
+  );
+  form.addEventListener('change', render);
+  render();
+</script>
+
+<style>
+  .hero {
+    background-image: linear-gradient(var(--track) 1px, transparent 1px), linear-gradient(90deg, var(--track) 1px, transparent 1px);
+    background-size: 56px 56px; background-position: center top;
+  }
+  .hero-grid {
+    display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 56px);
+    padding-top: clamp(40px, 7vw, 84px); padding-bottom: clamp(40px, 7vw, 84px); align-items: start;
+  }
+  .hero .eyebrow { margin-bottom: 18px; }
+  .hero h1 { margin-bottom: 20px; max-width: 16ch; }
+  .hero .lead { margin-bottom: 30px; }
+
+  .picker { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 520px; }
+  .picker label { display: block; background: var(--panel); border: 1px solid var(--line-strong); border-radius: var(--radius); padding: 7px 12px 6px; }
+  .picker label:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .picker label.wide { grid-column: 1 / -1; }
+  .picker span { display: block; font-size: 11.5px; color: var(--muted); }
+  .picker select {
+    width: 100%; border: 0; background: transparent; font: 500 15px var(--font-ui); color: var(--fg);
+    padding: 2px 0 3px; margin-left: -3px; cursor: pointer; outline: none;
+  }
+
+  .result { padding: 18px 22px 20px; }
+  .tabs { display: flex; gap: 4px; flex-wrap: wrap; margin: 0 -6px 16px; border-bottom: 1px solid var(--line); }
+  .tabs button {
+    font: 500 13px var(--font-ui); color: var(--muted); background: none; border: 0; cursor: pointer;
+    padding: 6px 6px 10px; margin-bottom: -1px; border-bottom: 2px solid transparent;
+  }
+  .tabs button[aria-selected='true'] { color: var(--fg); border-bottom-color: var(--fg); }
+  .for { font-size: 13px; }
+  .big { font-size: 46px; font-weight: 500; letter-spacing: -0.03em; line-height: 1.15; }
+  .big small { font: 400 14px var(--font-ui); color: var(--muted); letter-spacing: 0; margin-left: 8px; }
+  .def { font-size: 13px; margin-top: 2px; }
+  .qual { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+  .fallback { font-size: 12.5px; color: var(--warn-fg); margin-top: 8px; }
+  .notes { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+  .notes :global(li) { font-size: 12.5px; color: var(--warn-fg); background: var(--warn-bg); border: 1px solid var(--warn-line); border-radius: var(--radius); padding: 7px 10px; }
+  .legend { font-size: 11.5px; color: var(--muted); margin-top: 14px; }
+  .rank-title { font: 500 12px var(--font-num); color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin: 20px 0 10px; }
+  .rows { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+  .rows :global(li) { display: grid; grid-template-columns: minmax(0, 168px) 1fr 46px; gap: 10px; align-items: center; font-size: 13px; }
+  .rows :global(.name) { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .rows :global(.bar) { height: 8px; background: var(--track); border-radius: 2px; }
+  .rows :global(.bar i) { display: block; height: 100%; background: var(--bar); border-radius: 2px; transition: width 0.25s ease; }
+  .rows :global(.v) { text-align: right; font-size: 12.5px; }
+  .rows :global(li.me) { font-weight: 600; }
+  .rows :global(li.me .bar i) { background: var(--accent); }
+  .rows :global(.prog-dot), .legend .prog-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); margin-left: 6px; vertical-align: middle; }
+  .src { font-size: 11.5px; color: var(--muted); margin: 16px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
+  .result .notice { margin-top: 12px; font-size: 13px; }
+
+  .findings { margin-top: 28px; gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+  .finding { padding: 22px 22px 20px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--panel); display: flex; flex-direction: column; }
+  .fig { font-size: 30px; font-weight: 500; letter-spacing: -0.03em; color: var(--accent); line-height: 1.1; }
+  .finding h3 { margin: 12px 0 8px; }
+  .finding .muted { font-size: 14.5px; }
+  .fsrc { font-size: 11px; color: var(--muted); margin-top: auto; padding-top: 14px; }
+  .steps { margin-top: 28px; gap: 28px; }
+  .step .n { color: var(--accent); font-size: 13px; }
+  .step h3 { margin: 8px 0 8px; }
+  .step p { font-size: 15px; }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 24px; }
+
+  @media (max-width: 860px) {
+    .hero-grid { grid-template-columns: minmax(0, 1fr); }
+    .hero h1 { max-width: none; }
+  }
+</style>

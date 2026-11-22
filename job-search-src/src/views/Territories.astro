@@ -1,0 +1,122 @@
+---
+import Base from '../layouts/Base.astro';
+import { useT, type Lang } from '../i18n/ui';
+import { territories, communities } from '../data/study';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = useT(lang);
+const country = {
+  FR: { en: 'France', fr: 'France' },
+  BE: { en: 'Belgium', fr: 'Belgique' },
+  LU: { en: 'Luxembourg', fr: 'Luxembourg' },
+  CH: { en: 'Switzerland', fr: 'Suisse' },
+  CA: { en: 'Canada', fr: 'Canada' },
+};
+const nf = new Intl.NumberFormat(lang, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const fmt = (v: number | null, suffix = '') => (v == null ? '–' : nf.format(v) + suffix);
+---
+<Base lang={lang} route="/territories" title={t('terr.title')}>
+  <section class="section first">
+    <div class="container">
+      <h1>{t('terr.title')}</h1>
+      <p class="lead">{t('terr.lead')}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{t('terr.why.title')}</h2>
+      <div class="prose">
+        <p>{t('terr.why.p1')}</p>
+        <ul>
+          <li>{t('terr.why.fcip')}</li>
+          <li>{t('terr.why.wfc')}</li>
+        </ul>
+        <p>{t('terr.why.p2')}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{t('terr.comm.title')}</h2>
+      <p class="lead">{t('terr.comm.lead')}</p>
+      <div class="table-wrap">
+        <table class="data">
+          <thead>
+            <tr>
+              <th>{t('terr.comm.name')}</th>
+              <th>{t('terr.comm.prov')}</th>
+              <th>{t('terr.col.programme')}</th>
+              <th>{t('terr.comm.region')}</th>
+              <th class="r">{t('terr.comm.unemp')}</th>
+              <th class="r">{t('terr.comm.uv')}</th>
+              <th class="r">{t('terr.comm.fr')}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {communities.map((c) => (
+              <tr>
+                <td>{c.name}</td>
+                <td class="muted">{c.province}</td>
+                <td>
+                  {c.programmes.includes('FCIP') && <span class="tag prog">{t('terr.prog.fcip')}</span>}
+                  {c.programmes.includes('WFC') && <span class="tag">{t('terr.prog.wfc')}</span>}
+                </td>
+                <td class="muted">{c.region}</td>
+                <td class="r num">{fmt(c.unemp, ' %')}</td>
+                <td class="r num">{fmt(c.uv)}</td>
+                <td class="r num">{fmt(c.frenchAtWork, ' %')}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="foot-note muted">{t('terr.comm.note')}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{t('terr.reg.title')}</h2>
+      <p class="lead">{t('terr.reg.lead')}</p>
+      <div class="table-wrap">
+        <table class="data">
+          <thead>
+            <tr>
+              <th>{t('terr.col.territory')}</th>
+              <th>{t('terr.col.country')}</th>
+              <th>{t('terr.col.level')}</th>
+              <th>{t('terr.col.note')}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {territories.map((x) => (
+              <tr>
+                <td>{x.name[lang]}</td>
+                <td>{country[x.country][lang]}</td>
+                <td class="muted">{x.level[lang]}</td>
+                <td>
+                  {x.open && <span class="tag">{t('terr.tag.open')}</span>}
+                  {x.mixed && <span class="tag">{t('terr.tag.mixed')}</span>}
+                  {x.prog && <span class="tag prog">{t('terr.tag.prog')}</span>}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .first { border-top: 0; }
+  h1 { margin-bottom: 16px; }
+  .lead { margin-bottom: 24px; max-width: 72ch; }
+  td .tag + .tag { margin-left: 6px; }
+  .r { text-align: right; }
+  th.r { white-space: normal; min-width: 96px; }
+  .foot-note { font-size: 13px; margin-top: 16px; max-width: 80ch; }
+</style>
