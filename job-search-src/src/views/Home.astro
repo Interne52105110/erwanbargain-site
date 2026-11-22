@@ -3,10 +3,19 @@ import Base from '../layouts/Base.astro';
 import { useT, href, type Lang, type Key } from '../i18n/ui';
 import { ages, edus, territories, indicators, values, sources, meta } from '../data/study';
 import { findings } from '../data/findings';
+import { cities, unempKind, rentKind, fmtRent } from '../data/cities';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = useT(lang);
+
+const cityRows = cities.map((c) => ({
+  t: c.territory,
+  n: c.name[lang],
+  u: c.unemp.v,
+  k: unempKind[c.unemp.kind][lang],
+  r: c.rent ? `${fmtRent(c, lang)} · ${rentKind[c.rent.kind][lang]}` : '',
+}));
 
 const payload = {
   lang,
@@ -15,7 +24,9 @@ const payload = {
   indicators: indicators.map((x) => ({ id: x.id, label: x.label[lang], unit: x.unit[lang], better: x.better, def: x.def[lang] })),
   values,
   sources,
+  cities: cityRows,
   text: {
+    cities: t('panel.cities'),
     missing: t('panel.missing'),
     for: t('panel.for'),
     source: t('panel.source'),
@@ -91,6 +102,11 @@ const countryName: Record<string, { en: string; fr: string }> = {
         <ol class="rows" id="r-rows"></ol>
         <p class="legend"><i class="prog-dot"></i> {t('legend.prog')} · <span class="num">*</span> {t('legend.u')}</p>
         <p class="src num" id="r-src"></p>
+        <div class="cities" id="r-cities" hidden>
+          <p class="rank-title" id="r-cities-title"></p>
+          <ul class="city-rows" id="r-city-rows"></ul>
+          <p class="legend">{t('panel.citiesNote')} <a href={href(lang, '/cities')}>{t('panel.citiesAll')} →</a></p>
+        </div>
         {meta.sample && <p class="notice">{t('panel.sample')}</p>}
       </div>
     </div>
@@ -241,6 +257,28 @@ const countryName: Record<string, { en: string; fr: string }> = {
       }),
     );
 
+    const local = (data.cities as any[]).filter((c) => c.t === zone).sort((p, q) => p.u - q.u);
+    $('r-cities').hidden = !local.length;
+    $('r-cities-title').textContent = `${data.text.cities} ${terr.name.replace(/\s*\(.*\)/, '')}`;
+    $('r-city-rows').replaceChildren(
+      ...local.map((c) => {
+        const li = document.createElement('li');
+        const name = document.createElement('span');
+        name.className = 'name';
+        name.textContent = c.n;
+        name.title = c.n;
+        const rent = document.createElement('span');
+        rent.className = 'rent';
+        rent.textContent = c.r;
+        const val = document.createElement('span');
+        val.className = 'v num';
+        val.textContent = nf.format(c.u);
+        val.title = c.k;
+        li.append(name, rent, val);
+        return li;
+      }),
+    );
+
     const src = $('r-src');
     src.replaceChildren();
     if (mine) {
@@ -250,7 +288,9 @@ const countryName: Record<string, { en: string; fr: string }> = {
       link.rel = 'noopener';
       link.textContent = s.label;
       const colon = data.lang === 'fr' ? ' : ' : ': ';
-      src.append(data.text.source + colon, link, ` · ${data.text.period}${colon}${mine.v.p}`);
+      // Periods are stored in English; French uses T for quarters and its own month abbreviations.
+      const period = data.lang === 'fr' ? mine.v.p.replace(/^Q(\d)/, 'T$1').replace('Nov ', 'nov. ').replace('Oct ', 'oct. ') : mine.v.p;
+      src.append(data.text.source + colon, link, ` · ${data.text.period}${colon}${period}`);
     }
   }
 
@@ -304,6 +344,12 @@ const countryName: Record<string, { en: string; fr: string }> = {
   .notes { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
   .notes :global(li) { font-size: 12.5px; color: var(--warn-fg); background: var(--warn-bg); border: 1px solid var(--warn-line); border-radius: var(--radius); padding: 7px 10px; }
   .legend { font-size: 11.5px; color: var(--muted); margin-top: 14px; }
+  .cities { margin-top: 18px; padding-top: 4px; border-top: 1px solid var(--line); }
+  .city-rows { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  .city-rows :global(li) { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.3fr) 46px; gap: 10px; align-items: baseline; font-size: 13px; }
+  .city-rows :global(.name) { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .city-rows :global(.rent) { font-size: 11.5px; color: var(--muted); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .city-rows :global(.v) { text-align: right; font-size: 12.5px; }
   .rank-title { font: 500 12px var(--font-num); color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin: 20px 0 10px; }
   .rows { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
   .rows :global(li) { display: grid; grid-template-columns: minmax(0, 168px) 1fr 46px; gap: 10px; align-items: center; font-size: 13px; }

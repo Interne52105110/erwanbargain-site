@@ -1,0 +1,2005 @@
+[
+ {
+  "id": "be-bruxelles",
+  "name": {
+   "en": "Brussels",
+   "fr": "Bruxelles"
+  },
+  "territory": "BE1",
+  "country": "BE",
+  "unemp": {
+   "v": 12.6,
+   "kind": "prov",
+   "period": "2025"
+  },
+  "rent": {
+   "v": 920,
+   "unit": "€",
+   "per": "month",
+   "kind": "paid",
+   "period": "2024",
+   "computed": false
+  }
+ },
+ {
+  "id": "be-brabant-wallon",
+  "name": {
+   "en": "Walloon Brabant",
+   "fr": "Brabant wallon"
+  },
+  "territory": "BE3",
+  "country": "BE",
+  "unemp": {
+   "v": 6.7,
+   "kind": "prov",
+   "period": "2025"
+  }
+ },
+ {
+  "id": "be-luxembourg",
+  "name": {
+   "en": "Luxembourg (Belgian province)",
+   "fr": "Luxembourg (province belge)"
+  },
+  "territory": "BE3",
+  "country": "BE",
+  "unemp": {
+   "v": 6.7,
+   "kind": "prov",
+   "period": "2025"
+  }
+ },
+ {
+  "id": "be-liege",
+  "name": {
+   "en": "Liège (province)",
+   "fr": "Liège (province)"
+  },
+  "territory": "BE3",
+  "country": "BE",
+  "unemp": {
+   "v": 7.2,
+   "kind": "prov",
+   "period": "2025"
+  },
+  "rent": {
+   "v": 750,
+   "unit": "€",
+   "per": "month",
+   "kind": "paid",
+   "period": "2024",
+   "computed": false
+  }
+ },
+ {
+  "id": "be-namur",
+  "name": {
+   "en": "Namur (province)",
+   "fr": "Namur (province)"
+  },
+  "territory": "BE3",
+  "country": "BE",
+  "unemp": {
+   "v": 7.7,
+   "kind": "prov",
+   "period": "2025"
+  }
+ },
+ {
+  "id": "be-hainaut",
+  "name": {
+   "en": "Hainaut (Charleroi, Mons)",
+   "fr": "Hainaut (Charleroi, Mons)"
+  },
+  "territory": "BE3",
+  "country": "BE",
+  "unemp": {
+   "v": 9,
+   "kind": "prov",
+   "period": "2025"
+  },
+  "rent": {
+   "v": 695,
+   "unit": "€",
+   "per": "month",
+   "kind": "paid",
+   "period": "2024",
+   "computed": false
+  }
+ },
+ {
+  "id": "ca-calgary",
+  "name": {
+   "en": "Calgary",
+   "fr": "Calgary"
+  },
+  "territory": "CA-AB",
+  "country": "CA",
+  "unemp": {
+   "v": 6.6,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 1890,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 5,
+   "period": "2025-10"
+  },
+  "share": {
+   "v": 31.5,
+   "basis": "gross",
+   "asking": false
+  }
+ },
+ {
+  "id": "ca-nanaimo",
+  "name": {
+   "en": "Nanaimo",
+   "fr": "Nanaimo"
+  },
+  "territory": "CA-BC",
+  "country": "CA",
+  "unemp": {
+   "v": 4.9,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  }
+ },
+ {
+  "id": "ca-vancouver",
+  "name": {
+   "en": "Vancouver",
+   "fr": "Vancouver"
+  },
+  "territory": "CA-BC",
+  "country": "CA",
+  "unemp": {
+   "v": 6.7,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 3030,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 3.7,
+   "period": "2025-10"
+  },
+  "share": {
+   "v": 39.2,
+   "basis": "gross",
+   "asking": false
+  }
+ },
+ {
+  "id": "ca-prince-george",
+  "name": {
+   "en": "Prince George",
+   "fr": "Prince George"
+  },
+  "territory": "CA-BC",
+  "country": "CA",
+  "unemp": {
+   "v": 7.5,
+   "lo": 5.5,
+   "hi": 9.4,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-kelowna",
+  "name": {
+   "en": "Kelowna",
+   "fr": "Kelowna"
+  },
+  "territory": "CA-BC",
+  "country": "CA",
+  "unemp": {
+   "v": 9.6,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 2330,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 6.3,
+   "period": "2025-10"
+  }
+ },
+ {
+  "id": "ca-edmundston",
+  "name": {
+   "en": "Edmundston",
+   "fr": "Edmundston"
+  },
+  "territory": "CA-NB",
+  "country": "CA",
+  "unemp": {
+   "v": 7.1,
+   "lo": 5,
+   "hi": 9.2,
+   "kind": "sae",
+   "period": "Aug 2026"
+  },
+  "vacancy": {
+   "v": 0.8,
+   "period": "2025-10"
+  }
+ },
+ {
+  "id": "ca-moncton",
+  "name": {
+   "en": "Moncton",
+   "fr": "Moncton"
+  },
+  "territory": "CA-NB",
+  "country": "CA",
+  "unemp": {
+   "v": 7.2,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 1460,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 3.7,
+   "period": "2025-10"
+  }
+ },
+ {
+  "id": "ca-bathurst",
+  "name": {
+   "en": "Bathurst",
+   "fr": "Bathurst"
+  },
+  "territory": "CA-NB",
+  "country": "CA",
+  "unemp": {
+   "v": 8.3,
+   "lo": 6.2,
+   "hi": 10.4,
+   "kind": "sae",
+   "period": "Aug 2026"
+  },
+  "rent": {
+   "v": 979,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "paid2",
+   "period": "2025-10",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 3.9,
+   "period": "2025-10"
+  }
+ },
+ {
+  "id": "ca-saint-quentin",
+  "name": {
+   "en": "Saint-Quentin",
+   "fr": "Saint-Quentin"
+  },
+  "territory": "CA-NB",
+  "country": "CA",
+  "unemp": {
+   "v": 12,
+   "lo": 9.2,
+   "hi": 14.8,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-acadian-peninsula",
+  "name": {
+   "en": "Acadian Peninsula (Tracadie)",
+   "fr": "Acadian Peninsula (Tracadie)"
+  },
+  "territory": "CA-NB",
+  "country": "CA",
+  "unemp": {
+   "v": 14,
+   "lo": 11.1,
+   "hi": 16.9,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-labrador-city",
+  "name": {
+   "en": "Labrador City",
+   "fr": "Labrador City"
+  },
+  "territory": "CA-NL",
+  "country": "CA",
+  "unemp": {
+   "v": 9.8,
+   "lo": 7.6,
+   "hi": 12.1,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-clare",
+  "name": {
+   "en": "Clare",
+   "fr": "Clare"
+  },
+  "territory": "CA-NS",
+  "country": "CA",
+  "unemp": {
+   "v": 9.6,
+   "lo": 7.4,
+   "hi": 11.7,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-cheticamp-area",
+  "name": {
+   "en": "Chéticamp area (Inverness)",
+   "fr": "Chéticamp area (Inverness)"
+  },
+  "territory": "CA-NS",
+  "country": "CA",
+  "unemp": {
+   "v": 11.3,
+   "lo": 9,
+   "hi": 13.7,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-yellowknife",
+  "name": {
+   "en": "Yellowknife",
+   "fr": "Yellowknife"
+  },
+  "territory": "CA-NT",
+  "country": "CA",
+  "unemp": {
+   "v": 8,
+   "kind": "terr",
+   "period": "Apr–Jun 2026"
+  },
+  "rent": {
+   "v": 2115,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "paid2",
+   "period": "2025-10",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 1.3,
+   "period": "2025"
+  },
+  "share": {
+   "v": 27.7,
+   "basis": "gross",
+   "asking": false
+  }
+ },
+ {
+  "id": "ca-iqaluit",
+  "name": {
+   "en": "Iqaluit",
+   "fr": "Iqaluit"
+  },
+  "territory": "CA-NU",
+  "country": "CA",
+  "unemp": {
+   "v": 11.6,
+   "kind": "terr",
+   "period": "Apr–Jun 2026"
+  },
+  "vacancy": {
+   "v": 0.3,
+   "period": "2025"
+  },
+  "share": {
+   "v": 37.9,
+   "basis": "gross",
+   "asking": false
+  }
+ },
+ {
+  "id": "ca-sudbury",
+  "name": {
+   "en": "Greater Sudbury",
+   "fr": "Grand Sudbury"
+  },
+  "territory": "CA-ON",
+  "country": "CA",
+  "unemp": {
+   "v": 5.6,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 1940,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 1.3,
+   "period": "2025-10"
+  }
+ },
+ {
+  "id": "ca-northern-corridor",
+  "name": {
+   "en": "Northern Corridor (Kapuskasing)",
+   "fr": "Northern Corridor (Kapuskasing)"
+  },
+  "territory": "CA-ON",
+  "country": "CA",
+  "unemp": {
+   "v": 6.8,
+   "lo": 4.7,
+   "hi": 8.9,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-toronto",
+  "name": {
+   "en": "Toronto",
+   "fr": "Toronto"
+  },
+  "territory": "CA-ON",
+  "country": "CA",
+  "unemp": {
+   "v": 7.1,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 2650,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 3,
+   "period": "2025-10"
+  },
+  "share": {
+   "v": 33.1,
+   "basis": "gross",
+   "asking": false
+  }
+ },
+ {
+  "id": "ca-cornwall",
+  "name": {
+   "en": "Cornwall",
+   "fr": "Cornwall"
+  },
+  "territory": "CA-ON",
+  "country": "CA",
+  "unemp": {
+   "v": 7.2,
+   "lo": 5.2,
+   "hi": 9.2,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-hawkesbury",
+  "name": {
+   "en": "Hawkesbury",
+   "fr": "Hawkesbury"
+  },
+  "territory": "CA-ON",
+  "country": "CA",
+  "unemp": {
+   "v": 7.3,
+   "lo": 5.2,
+   "hi": 9.4,
+   "kind": "sae",
+   "period": "Aug 2026"
+  },
+  "vacancy": {
+   "v": 0.7,
+   "period": "2025-10"
+  }
+ },
+ {
+  "id": "ca-timmins",
+  "name": {
+   "en": "Timmins",
+   "fr": "Timmins"
+  },
+  "territory": "CA-ON",
+  "country": "CA",
+  "unemp": {
+   "v": 7.4,
+   "lo": 5.4,
+   "hi": 9.5,
+   "kind": "sae",
+   "period": "Aug 2026"
+  },
+  "rent": {
+   "v": 1484,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "paid2",
+   "period": "2025-10",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 1.9,
+   "period": "2025-10"
+  }
+ },
+ {
+  "id": "ca-superior-east",
+  "name": {
+   "en": "Superior East (Algoma North)",
+   "fr": "Superior East (Algoma North)"
+  },
+  "territory": "CA-ON",
+  "country": "CA",
+  "unemp": {
+   "v": 7.5,
+   "lo": 5.4,
+   "hi": 9.6,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-hamilton",
+  "name": {
+   "en": "Hamilton",
+   "fr": "Hamilton"
+  },
+  "territory": "CA-ON",
+  "country": "CA",
+  "unemp": {
+   "v": 7.6,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 2150,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 3.6,
+   "period": "2025-10"
+  }
+ },
+ {
+  "id": "ca-london",
+  "name": {
+   "en": "London",
+   "fr": "London"
+  },
+  "territory": "CA-ON",
+  "country": "CA",
+  "unemp": {
+   "v": 8.1,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 1920,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 3.9,
+   "period": "2025-10"
+  }
+ },
+ {
+  "id": "ca-evangeline-region",
+  "name": {
+   "en": "Évangéline region (Central Prince)",
+   "fr": "Évangéline region (Central Prince)"
+  },
+  "territory": "CA-PE",
+  "country": "CA",
+  "unemp": {
+   "v": 9.1,
+   "lo": 6.9,
+   "hi": 11.3,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-saguenay",
+  "name": {
+   "en": "Saguenay",
+   "fr": "Saguenay"
+  },
+  "territory": "CA-QC",
+  "country": "CA",
+  "unemp": {
+   "v": 3.8,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  }
+ },
+ {
+  "id": "ca-sherbrooke",
+  "name": {
+   "en": "Sherbrooke",
+   "fr": "Sherbrooke"
+  },
+  "territory": "CA-QC",
+  "country": "CA",
+  "unemp": {
+   "v": 4.2,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 1300,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 2.5,
+   "period": "2025-10"
+  }
+ },
+ {
+  "id": "ca-quebec",
+  "name": {
+   "en": "Québec City",
+   "fr": "Québec (ville)"
+  },
+  "territory": "CA-QC",
+  "country": "CA",
+  "unemp": {
+   "v": 4.5,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 1460,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 2.6,
+   "period": "2025-10"
+  },
+  "share": {
+   "v": 22.2,
+   "basis": "gross",
+   "asking": false
+  }
+ },
+ {
+  "id": "ca-drummondville",
+  "name": {
+   "en": "Drummondville",
+   "fr": "Drummondville"
+  },
+  "territory": "CA-QC",
+  "country": "CA",
+  "unemp": {
+   "v": 5,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  }
+ },
+ {
+  "id": "ca-trois-rivieres",
+  "name": {
+   "en": "Trois-Rivières",
+   "fr": "Trois-Rivières"
+  },
+  "territory": "CA-QC",
+  "country": "CA",
+  "unemp": {
+   "v": 5.5,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  }
+ },
+ {
+  "id": "ca-gatineau",
+  "name": {
+   "en": "Gatineau",
+   "fr": "Gatineau"
+  },
+  "territory": "CA-QC",
+  "country": "CA",
+  "unemp": {
+   "v": 6.3,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 1700,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 4.6,
+   "period": "2025-10"
+  },
+  "share": {
+   "v": 21.4,
+   "basis": "gross",
+   "asking": false
+  }
+ },
+ {
+  "id": "ca-montreal",
+  "name": {
+   "en": "Montréal",
+   "fr": "Montréal"
+  },
+  "territory": "CA-QC",
+  "country": "CA",
+  "unemp": {
+   "v": 6.9,
+   "kind": "cma",
+   "period": "Aug–Oct 2026"
+  },
+  "rent": {
+   "v": 1820,
+   "unit": "CAD",
+   "per": "month",
+   "kind": "asking2",
+   "period": "2026-T2",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 3.3,
+   "period": "2025-10"
+  },
+  "share": {
+   "v": 31.9,
+   "basis": "gross",
+   "asking": true
+  }
+ },
+ {
+  "id": "ca-moose-jaw",
+  "name": {
+   "en": "Moose Jaw",
+   "fr": "Moose Jaw"
+  },
+  "territory": "CA-SK",
+  "country": "CA",
+  "unemp": {
+   "v": 7.1,
+   "lo": 5.1,
+   "hi": 9.1,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-prince-albert",
+  "name": {
+   "en": "Prince Albert",
+   "fr": "Prince Albert"
+  },
+  "territory": "CA-SK",
+  "country": "CA",
+  "unemp": {
+   "v": 8.3,
+   "lo": 6.2,
+   "hi": 10.3,
+   "kind": "sae",
+   "period": "Aug 2026"
+  }
+ },
+ {
+  "id": "ca-whitehorse",
+  "name": {
+   "en": "Whitehorse",
+   "fr": "Whitehorse"
+  },
+  "territory": "CA-YT",
+  "country": "CA",
+  "unemp": {
+   "v": 6.6,
+   "kind": "terr",
+   "period": "Apr–Jun 2026"
+  },
+  "vacancy": {
+   "v": 1.9,
+   "period": "2025"
+  }
+ },
+ {
+  "id": "ch-valais",
+  "name": {
+   "en": "Valais (canton)",
+   "fr": "Valais (canton)"
+  },
+  "territory": "CH01",
+  "country": "CH",
+  "unemp": {
+   "v": 3.3,
+   "kind": "canton",
+   "period": "Oct 2026"
+  },
+  "rent": {
+   "v": 1227,
+   "unit": "CHF",
+   "per": "month",
+   "kind": "sitting",
+   "period": "2024",
+   "computed": false
+  }
+ },
+ {
+  "id": "ch-vaud",
+  "name": {
+   "en": "Vaud (canton)",
+   "fr": "Vaud (canton)"
+  },
+  "territory": "CH01",
+  "country": "CH",
+  "unemp": {
+   "v": 4.8,
+   "kind": "canton",
+   "period": "Oct 2026"
+  },
+  "rent": {
+   "v": 1465,
+   "unit": "CHF",
+   "per": "month",
+   "kind": "sitting",
+   "period": "2024",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 0.87,
+   "period": "2026-06-01"
+  },
+  "share": {
+   "v": 22,
+   "basis": "net",
+   "asking": false
+  }
+ },
+ {
+  "id": "ch-geneve",
+  "name": {
+   "en": "Geneva (canton)",
+   "fr": "Genève (canton)"
+  },
+  "territory": "CH01",
+  "country": "CH",
+  "unemp": {
+   "v": 5.3,
+   "kind": "canton",
+   "period": "Oct 2026"
+  },
+  "rent": {
+   "v": 1573,
+   "unit": "CHF",
+   "per": "month",
+   "kind": "sitting",
+   "period": "2024",
+   "computed": false
+  },
+  "vacancy": {
+   "v": 0.31,
+   "period": "2026-06-01"
+  },
+  "share": {
+   "v": 23.7,
+   "basis": "net",
+   "asking": false
+  }
+ },
+ {
+  "id": "ch-berne",
+  "name": {
+   "en": "Bern (canton)",
+   "fr": "Berne (canton)"
+  },
+  "territory": "CH02",
+  "country": "CH",
+  "unemp": {
+   "v": 2.2,
+   "kind": "canton",
+   "period": "Oct 2026"
+  }
+ },
+ {
+  "id": "ch-fribourg",
+  "name": {
+   "en": "Fribourg (canton)",
+   "fr": "Fribourg (canton)"
+  },
+  "territory": "CH02",
+  "country": "CH",
+  "unemp": {
+   "v": 2.5,
+   "kind": "canton",
+   "period": "Oct 2026"
+  },
+  "rent": {
+   "v": 1328,
+   "unit": "CHF",
+   "per": "month",
+   "kind": "sitting",
+   "period": "2024",
+   "computed": false
+  },
+  "share": {
+   "v": 20,
+   "basis": "net",
+   "asking": false
+  }
+ },
+ {
+  "id": "ch-jura",
+  "name": {
+   "en": "Jura (canton)",
+   "fr": "Jura (canton)"
+  },
+  "territory": "CH02",
+  "country": "CH",
+  "unemp": {
+   "v": 4.2,
+   "kind": "canton",
+   "period": "Oct 2026"
+  },
+  "vacancy": {
+   "v": 3.35,
+   "period": "2026-06-01"
+  }
+ },
+ {
+  "id": "ch-neuchatel",
+  "name": {
+   "en": "Neuchâtel (canton)",
+   "fr": "Neuchâtel (canton)"
+  },
+  "territory": "CH02",
+  "country": "CH",
+  "unemp": {
+   "v": 4.3,
+   "kind": "canton",
+   "period": "Oct 2026"
+  },
+  "rent": {
+   "v": 1091,
+   "unit": "CHF",
+   "per": "month",
+   "kind": "sitting",
+   "period": "2024",
+   "computed": false
+  },
+  "share": {
+   "v": 16.4,
+   "basis": "net",
+   "asking": false
+  }
+ },
+ {
+  "id": "fr-versailles-saint-quentin",
+  "name": {
+   "en": "Versailles-Saint-Quentin",
+   "fr": "Versailles-Saint-Quentin"
+  },
+  "territory": "FR1",
+  "country": "FR",
+  "unemp": {
+   "v": 6.7,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-saclay",
+  "name": {
+   "en": "Saclay",
+   "fr": "Saclay"
+  },
+  "territory": "FR1",
+  "country": "FR",
+  "unemp": {
+   "v": 7,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-paris",
+  "name": {
+   "en": "Paris",
+   "fr": "Paris"
+  },
+  "territory": "FR1",
+  "country": "FR",
+  "unemp": {
+   "v": 8.1,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 33.1,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": true
+  },
+  "share": {
+   "v": 63.9,
+   "basis": "net",
+   "asking": true
+  }
+ },
+ {
+  "id": "fr-roissy",
+  "name": {
+   "en": "Roissy",
+   "fr": "Roissy"
+  },
+  "territory": "FR1",
+  "country": "FR",
+  "unemp": {
+   "v": 10.5,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-orleans",
+  "name": {
+   "en": "Orléans",
+   "fr": "Orléans"
+  },
+  "territory": "FRB",
+  "country": "FR",
+  "unemp": {
+   "v": 7.8,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 14.3,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  }
+ },
+ {
+  "id": "fr-pontarlier",
+  "name": {
+   "en": "Pontarlier",
+   "fr": "Pontarlier"
+  },
+  "territory": "FRC",
+  "country": "FR",
+  "unemp": {
+   "v": 6.1,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-dijon",
+  "name": {
+   "en": "Dijon",
+   "fr": "Dijon"
+  },
+  "territory": "FRC",
+  "country": "FR",
+  "unemp": {
+   "v": 7,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 13.3,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  }
+ },
+ {
+  "id": "fr-montbeliard",
+  "name": {
+   "en": "Montbéliard",
+   "fr": "Montbéliard"
+  },
+  "territory": "FRC",
+  "country": "FR",
+  "unemp": {
+   "v": 12.1,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-caen",
+  "name": {
+   "en": "Caen",
+   "fr": "Caen"
+  },
+  "territory": "FRD",
+  "country": "FR",
+  "unemp": {
+   "v": 7.8,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-rouen",
+  "name": {
+   "en": "Rouen",
+   "fr": "Rouen"
+  },
+  "territory": "FRD",
+  "country": "FR",
+  "unemp": {
+   "v": 9.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 13.3,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  }
+ },
+ {
+  "id": "fr-le-havre",
+  "name": {
+   "en": "Le Havre",
+   "fr": "Le Havre"
+  },
+  "territory": "FRD",
+  "country": "FR",
+  "unemp": {
+   "v": 9.8,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-arras",
+  "name": {
+   "en": "Arras",
+   "fr": "Arras"
+  },
+  "territory": "FRE",
+  "country": "FR",
+  "unemp": {
+   "v": 6.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-lille",
+  "name": {
+   "en": "Lille",
+   "fr": "Lille"
+  },
+  "territory": "FRE",
+  "country": "FR",
+  "unemp": {
+   "v": 8.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 15.8,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  },
+  "share": {
+   "v": 30.5,
+   "basis": "net",
+   "asking": true
+  }
+ },
+ {
+  "id": "fr-lens",
+  "name": {
+   "en": "Lens",
+   "fr": "Lens"
+  },
+  "territory": "FRE",
+  "country": "FR",
+  "unemp": {
+   "v": 11.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-calais",
+  "name": {
+   "en": "Calais",
+   "fr": "Calais"
+  },
+  "territory": "FRE",
+  "country": "FR",
+  "unemp": {
+   "v": 12.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-maubeuge",
+  "name": {
+   "en": "Maubeuge",
+   "fr": "Maubeuge"
+  },
+  "territory": "FRE",
+  "country": "FR",
+  "unemp": {
+   "v": 13,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-roubaix-tourcoing",
+  "name": {
+   "en": "Roubaix-Tourcoing",
+   "fr": "Roubaix-Tourcoing"
+  },
+  "territory": "FRE",
+  "country": "FR",
+  "unemp": {
+   "v": 13.5,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-valenciennes",
+  "name": {
+   "en": "Valenciennes",
+   "fr": "Valenciennes"
+  },
+  "territory": "FRE",
+  "country": "FR",
+  "unemp": {
+   "v": 13.5,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-saint-louis",
+  "name": {
+   "en": "Saint-Louis",
+   "fr": "Saint-Louis"
+  },
+  "territory": "FRF",
+  "country": "FR",
+  "unemp": {
+   "v": 6.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-thionville",
+  "name": {
+   "en": "Thionville",
+   "fr": "Thionville"
+  },
+  "territory": "FRF",
+  "country": "FR",
+  "unemp": {
+   "v": 6.7,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-metz",
+  "name": {
+   "en": "Metz",
+   "fr": "Metz"
+  },
+  "territory": "FRF",
+  "country": "FR",
+  "unemp": {
+   "v": 7.9,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-strasbourg",
+  "name": {
+   "en": "Strasbourg",
+   "fr": "Strasbourg"
+  },
+  "territory": "FRF",
+  "country": "FR",
+  "unemp": {
+   "v": 8.2,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 15.6,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  },
+  "share": {
+   "v": 30.1,
+   "basis": "net",
+   "asking": true
+  }
+ },
+ {
+  "id": "fr-mulhouse",
+  "name": {
+   "en": "Mulhouse",
+   "fr": "Mulhouse"
+  },
+  "territory": "FRF",
+  "country": "FR",
+  "unemp": {
+   "v": 9.2,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-forbach",
+  "name": {
+   "en": "Forbach",
+   "fr": "Forbach"
+  },
+  "territory": "FRF",
+  "country": "FR",
+  "unemp": {
+   "v": 12.3,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-les-herbiers-montaigu",
+  "name": {
+   "en": "Les Herbiers-Montaigu",
+   "fr": "Les Herbiers-Montaigu"
+  },
+  "territory": "FRG",
+  "country": "FR",
+  "unemp": {
+   "v": 4.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-ancenis",
+  "name": {
+   "en": "Ancenis",
+   "fr": "Ancenis"
+  },
+  "territory": "FRG",
+  "country": "FR",
+  "unemp": {
+   "v": 4.8,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-nantes",
+  "name": {
+   "en": "Nantes",
+   "fr": "Nantes"
+  },
+  "territory": "FRG",
+  "country": "FR",
+  "unemp": {
+   "v": 6.7,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 14.5,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  },
+  "share": {
+   "v": 28,
+   "basis": "net",
+   "asking": true
+  }
+ },
+ {
+  "id": "fr-angers",
+  "name": {
+   "en": "Angers",
+   "fr": "Angers"
+  },
+  "territory": "FRG",
+  "country": "FR",
+  "unemp": {
+   "v": 8.1,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-le-mans",
+  "name": {
+   "en": "Le Mans",
+   "fr": "Le Mans"
+  },
+  "territory": "FRG",
+  "country": "FR",
+  "unemp": {
+   "v": 8.7,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-vitre",
+  "name": {
+   "en": "Vitré",
+   "fr": "Vitré"
+  },
+  "territory": "FRH",
+  "country": "FR",
+  "unemp": {
+   "v": 4.6,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-lamballe-armor",
+  "name": {
+   "en": "Lamballe-Armor",
+   "fr": "Lamballe-Armor"
+  },
+  "territory": "FRH",
+  "country": "FR",
+  "unemp": {
+   "v": 5.5,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-vannes",
+  "name": {
+   "en": "Vannes",
+   "fr": "Vannes"
+  },
+  "territory": "FRH",
+  "country": "FR",
+  "unemp": {
+   "v": 6.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-lorient",
+  "name": {
+   "en": "Lorient",
+   "fr": "Lorient"
+  },
+  "territory": "FRH",
+  "country": "FR",
+  "unemp": {
+   "v": 6.6,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-rennes",
+  "name": {
+   "en": "Rennes",
+   "fr": "Rennes"
+  },
+  "territory": "FRH",
+  "country": "FR",
+  "unemp": {
+   "v": 7.1,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 14.9,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  },
+  "share": {
+   "v": 28.7,
+   "basis": "net",
+   "asking": true
+  }
+ },
+ {
+  "id": "fr-quimper",
+  "name": {
+   "en": "Quimper",
+   "fr": "Quimper"
+  },
+  "territory": "FRH",
+  "country": "FR",
+  "unemp": {
+   "v": 7.1,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 12,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  }
+ },
+ {
+  "id": "fr-brest",
+  "name": {
+   "en": "Brest",
+   "fr": "Brest"
+  },
+  "territory": "FRH",
+  "country": "FR",
+  "unemp": {
+   "v": 7.2,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 12.2,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  },
+  "share": {
+   "v": 23.5,
+   "basis": "net",
+   "asking": true
+  }
+ },
+ {
+  "id": "fr-saint-brieuc",
+  "name": {
+   "en": "Saint-Brieuc",
+   "fr": "Saint-Brieuc"
+  },
+  "territory": "FRH",
+  "country": "FR",
+  "unemp": {
+   "v": 7.3,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-carhaix-plouguer",
+  "name": {
+   "en": "Carhaix-Plouguer",
+   "fr": "Carhaix-Plouguer"
+  },
+  "territory": "FRH",
+  "country": "FR",
+  "unemp": {
+   "v": 7.9,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-bordeaux",
+  "name": {
+   "en": "Bordeaux",
+   "fr": "Bordeaux"
+  },
+  "territory": "FRI",
+  "country": "FR",
+  "unemp": {
+   "v": 8,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 16,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  },
+  "share": {
+   "v": 30.9,
+   "basis": "net",
+   "asking": true
+  }
+ },
+ {
+  "id": "fr-toulouse",
+  "name": {
+   "en": "Toulouse",
+   "fr": "Toulouse"
+  },
+  "territory": "FRJ",
+  "country": "FR",
+  "unemp": {
+   "v": 9.1,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 14,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  },
+  "share": {
+   "v": 27,
+   "basis": "net",
+   "asking": true
+  }
+ },
+ {
+  "id": "fr-montpellier",
+  "name": {
+   "en": "Montpellier",
+   "fr": "Montpellier"
+  },
+  "territory": "FRJ",
+  "country": "FR",
+  "unemp": {
+   "v": 10.6,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-perpignan",
+  "name": {
+   "en": "Perpignan",
+   "fr": "Perpignan"
+  },
+  "territory": "FRJ",
+  "country": "FR",
+  "unemp": {
+   "v": 12.8,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-ales-le-vigan",
+  "name": {
+   "en": "Alès-Le Vigan",
+   "fr": "Alès-Le Vigan"
+  },
+  "territory": "FRJ",
+  "country": "FR",
+  "unemp": {
+   "v": 13.1,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-agde-pezenas",
+  "name": {
+   "en": "Agde-Pézenas",
+   "fr": "Agde-Pézenas"
+  },
+  "territory": "FRJ",
+  "country": "FR",
+  "unemp": {
+   "v": 14.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-le-mont-blanc",
+  "name": {
+   "en": "Le Mont Blanc",
+   "fr": "Le Mont Blanc"
+  },
+  "territory": "FRK",
+  "country": "FR",
+  "unemp": {
+   "v": 4.3,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-saint-flour",
+  "name": {
+   "en": "Saint-Flour",
+   "fr": "Saint-Flour"
+  },
+  "territory": "FRK",
+  "country": "FR",
+  "unemp": {
+   "v": 4.3,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-annecy",
+  "name": {
+   "en": "Annecy",
+   "fr": "Annecy"
+  },
+  "territory": "FRK",
+  "country": "FR",
+  "unemp": {
+   "v": 5.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-grenoble",
+  "name": {
+   "en": "Grenoble",
+   "fr": "Grenoble"
+  },
+  "territory": "FRK",
+  "country": "FR",
+  "unemp": {
+   "v": 7,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-le-genevois-francais",
+  "name": {
+   "en": "Le Genevois français",
+   "fr": "Le Genevois français"
+  },
+  "territory": "FRK",
+  "country": "FR",
+  "unemp": {
+   "v": 7.1,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-lyon",
+  "name": {
+   "en": "Lyon",
+   "fr": "Lyon"
+  },
+  "territory": "FRK",
+  "country": "FR",
+  "unemp": {
+   "v": 7.6,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 16.6,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": true
+  },
+  "share": {
+   "v": 32,
+   "basis": "net",
+   "asking": true
+  }
+ },
+ {
+  "id": "fr-nice",
+  "name": {
+   "en": "Nice",
+   "fr": "Nice"
+  },
+  "territory": "FRL",
+  "country": "FR",
+  "unemp": {
+   "v": 7.7,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-marseille",
+  "name": {
+   "en": "Marseille",
+   "fr": "Marseille"
+  },
+  "territory": "FRL",
+  "country": "FR",
+  "unemp": {
+   "v": 10.4,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 16.2,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": true
+  },
+  "share": {
+   "v": 31.3,
+   "basis": "net",
+   "asking": true
+  }
+ },
+ {
+  "id": "fr-avignon",
+  "name": {
+   "en": "Avignon",
+   "fr": "Avignon"
+  },
+  "territory": "FRL",
+  "country": "FR",
+  "unemp": {
+   "v": 11.3,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "fr-ajaccio",
+  "name": {
+   "en": "Ajaccio",
+   "fr": "Ajaccio"
+  },
+  "territory": "FRM",
+  "country": "FR",
+  "unemp": {
+   "v": 5.9,
+   "kind": "ze",
+   "period": "Q2 2026"
+  },
+  "rent": {
+   "v": 15.2,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025-T3",
+   "computed": false
+  }
+ },
+ {
+  "id": "fr-bastia",
+  "name": {
+   "en": "Bastia",
+   "fr": "Bastia"
+  },
+  "territory": "FRM",
+  "country": "FR",
+  "unemp": {
+   "v": 7,
+   "kind": "ze",
+   "period": "Q2 2026"
+  }
+ },
+ {
+  "id": "lu-ville",
+  "name": {
+   "en": "Luxembourg City",
+   "fr": "Luxembourg-Ville"
+  },
+  "territory": "LU00",
+  "country": "LU",
+  "unemp": {
+   "v": 6.5,
+   "kind": "country",
+   "period": "2025"
+  },
+  "rent": {
+   "v": 39.1,
+   "unit": "€/m²",
+   "per": "m2",
+   "kind": "asking",
+   "period": "2025",
+   "computed": false
+  },
+  "share": {
+   "v": 42,
+   "basis": "net",
+   "asking": true
+  }
+ }
+]

@@ -17,6 +17,7 @@ const desc = description ?? t('site.desc');
 const abs = (p: string) => new URL(p, Astro.site).toString();
 const nav = [
   { route: '/', key: 'nav.profile' },
+  { route: '/cities', key: 'nav.cities' },
   { route: '/territories', key: 'nav.territories' },
   { route: '/method', key: 'nav.method' },
   { route: '/sources', key: 'nav.sources' },

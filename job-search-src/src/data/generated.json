@@ -353,6 +353,45 @@
     "fr": "Province"
    },
    "prog": true
+  },
+  {
+   "id": "CA-YT",
+   "country": "CA",
+   "name": {
+    "en": "Yukon (Whitehorse)",
+    "fr": "Yukon (Whitehorse)"
+   },
+   "level": {
+    "en": "Territory",
+    "fr": "Territoire"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-NT",
+   "country": "CA",
+   "name": {
+    "en": "Northwest Territories (Yellowknife)",
+    "fr": "Territoires du Nord-Ouest (Yellowknife)"
+   },
+   "level": {
+    "en": "Territory",
+    "fr": "Territoire"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-NU",
+   "country": "CA",
+   "name": {
+    "en": "Nunavut (Iqaluit)",
+    "fr": "Nunavut (Iqaluit)"
+   },
+   "level": {
+    "en": "Territory",
+    "fr": "Territoire"
+   },
+   "prog": true
   }
  ],
  "values": [
@@ -4545,6 +4584,36 @@
    "p": "Nov 2025–Oct 2026",
    "s": "statcan-1410034201",
    "q": "calc"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 11.6,
+   "p": "Q2 2026",
+   "s": "statcan-1410029201",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 8,
+   "p": "Q2 2026",
+   "s": "statcan-1410029201",
+   "q": "ok"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 6.6,
+   "p": "Q2 2026",
+   "s": "statcan-1410029201",
+   "q": "ok"
   }
  ],
  "communities": [
@@ -4914,6 +4983,10 @@
   "statcan-1410002001": {
    "label": "Statistics Canada, table 14-10-0020-01",
    "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410002001"
+  },
+  "statcan-1410029201": {
+   "label": "Statistics Canada, table 14-10-0292-01",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410029201"
   },
   "statcan-1410034201": {
    "label": "Statistics Canada, table 14-10-0342-01",

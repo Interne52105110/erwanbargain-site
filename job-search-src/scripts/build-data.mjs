@@ -24,6 +24,7 @@ const csv = (text) => {
 // ---------- territories ----------
 const nuts = { en: 'Region', fr: 'Région' };
 const prov = { en: 'Province', fr: 'Province' };
+const terr = { en: 'Territory', fr: 'Territoire' };
 const T = [
   ['FR1', 'FR', 'Île-de-France', 'Île-de-France', nuts, { open: true }],
   ['FRB', 'FR', 'Centre-Val de Loire', 'Centre-Val de Loire', nuts],
@@ -53,6 +54,9 @@ const T = [
   ['CA-NS', 'CA', 'Nova Scotia', 'Nouvelle-Écosse', prov, { prog: true }],
   ['CA-PE', 'CA', 'Prince Edward Island', 'Île-du-Prince-Édouard', prov, { prog: true }],
   ['CA-NL', 'CA', 'Newfoundland and Labrador', 'Terre-Neuve-et-Labrador', prov, { prog: true }],
+  ['CA-YT', 'CA', 'Yukon (Whitehorse)', 'Yukon (Whitehorse)', terr, { prog: true }],
+  ['CA-NT', 'CA', 'Northwest Territories (Yellowknife)', 'Territoires du Nord-Ouest (Yellowknife)', terr, { prog: true }],
+  ['CA-NU', 'CA', 'Nunavut (Iqaluit)', 'Nunavut (Iqaluit)', terr, { prog: true }],
 ];
 const territories = T.map(([id, country, en, fr, level, extra]) => ({ id, country, name: { en, fr }, level, ...(extra ?? {}) }));
 const ids = new Set(territories.map((t) => t.id));
@@ -150,6 +154,14 @@ const communities = ca
     };
   });
 
+// The three territories: no education breakdown is published; only the overall rate
+// (Labour Force Survey, three-month average to June 2026) is available for now.
+const terrOf = { Yn: 'CA-YT', 'T.N.-O.': 'CA-NT', Nt: 'CA-NU' };
+for (const l of ca.filter((x) => /^\| CFA/.test(x) && cells(x).length >= 12)) {
+  const c = cells(l);
+  if (terrOf[c[2]]) push(terrOf[c[2]], 'unemp', 'all', 'all', num(c[5]), 'Q2 2026', 'statcan-1410029201', 'ok');
+}
+
 const sources = {
   'eurostat-lfu3rt': {
     label: 'Eurostat, lfst_r_lfu3rt',
@@ -166,6 +178,10 @@ const sources = {
   'statcan-1410002001': {
     label: 'Statistics Canada, table 14-10-0020-01',
     url: 'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410002001',
+  },
+  'statcan-1410029201': {
+    label: 'Statistics Canada, table 14-10-0292-01',
+    url: 'https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410029201',
   },
   'statcan-1410034201': {
     label: 'Statistics Canada, table 14-10-0342-01',
