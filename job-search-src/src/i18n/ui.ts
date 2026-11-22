@@ -3,10 +3,10 @@ export const langs: Lang[] = ['en', 'fr'];
 
 export const ui = {
   en: {
-    'site.name': 'Job search in the French-speaking OECD',
+    'site.name': 'Finding work in French-speaking Europe and Canada',
     'site.short': 'job search',
     'site.desc':
-      'How hard is it to find a job in France, Belgium, Luxembourg, French-speaking Switzerland and francophone Canada? Public sources, open method, limits written down.',
+      'Where is it easiest to find a job in France, Belgium, Luxembourg, French-speaking Switzerland and francophone Canada, for your age and level of education? Public sources, open method, limits written down.',
     'nav.profile': 'My profile',
     'nav.territories': 'Territories',
     'nav.method': 'Method',
@@ -15,8 +15,8 @@ export const ui = {
     'nav.switchLabel': 'Lire en français',
     'hero.eyebrow': 'Study · November 2026',
     'hero.title.a': 'Where is it ',
-    'hero.title.em': 'really',
-    'hero.title.b': ' hard to find a job in the French-speaking world?',
+    'hero.title.em': 'easiest',
+    'hero.title.b': ' to find a job in French-speaking Europe and Canada?',
     'hero.lead':
       'France, Belgium, Luxembourg, French-speaking Switzerland and francophone Canada, compared by age and level of education. Public sources, an open method, and the limits written next to the results.',
     'picker.age': 'Age',
@@ -24,7 +24,7 @@ export const ui = {
     'picker.zone': 'Where you live or look',
     'picker.indicator': 'Indicator',
     'panel.for': 'For your profile in',
-    'panel.rank': 'Compared with the other territories',
+    'panel.rank': 'Other territories, most favourable first',
     'panel.missing': 'Not published for this exact profile (sample too small). Showing:',
     'panel.source': 'Source',
     'panel.period': 'Period',
@@ -111,10 +111,10 @@ export const ui = {
     'footer.main': 'erwanbargain.com',
   },
   fr: {
-    'site.name': "Chercher un emploi dans l'OCDE francophone",
+    'site.name': 'Trouver un emploi en Europe et au Canada francophones',
     'site.short': 'emploi',
     'site.desc':
-      "Est-il difficile de trouver un emploi en France, en Belgique, au Luxembourg, en Suisse romande et au Canada francophone ? Sources publiques, méthode ouverte, limites écrites.",
+      "Où est-il le plus facile de trouver un emploi en France, en Belgique, au Luxembourg, en Suisse romande et au Canada francophone, selon votre âge et votre diplôme ? Sources publiques, méthode ouverte, limites écrites.",
     'nav.profile': 'Mon profil',
     'nav.territories': 'Territoires',
     'nav.method': 'Méthode',
@@ -123,8 +123,8 @@ export const ui = {
     'nav.switchLabel': 'Read in English',
     'hero.eyebrow': 'Étude · novembre 2026',
     'hero.title.a': 'Où est-il ',
-    'hero.title.em': 'vraiment',
-    'hero.title.b': ' difficile de trouver un emploi en francophonie ?',
+    'hero.title.em': 'le plus facile',
+    'hero.title.b': ' de trouver un emploi en Europe et au Canada francophones ?',
     'hero.lead':
       "France, Belgique, Luxembourg, Suisse romande et Canada francophone, comparés selon l'âge et le niveau de diplôme. Des sources publiques, une méthode ouverte, et les limites écrites à côté des résultats.",
     'picker.age': 'Âge',
@@ -132,7 +132,7 @@ export const ui = {
     'picker.zone': 'Où vous vivez ou cherchez',
     'picker.indicator': 'Indicateur',
     'panel.for': 'Pour votre profil en',
-    'panel.rank': 'Par rapport aux autres territoires',
+    'panel.rank': 'Autres territoires, du plus favorable au moins favorable',
     'panel.missing': 'Non publié pour ce profil exact (échantillon trop petit). Affiché :',
     'panel.source': 'Source',
     'panel.period': 'Période',

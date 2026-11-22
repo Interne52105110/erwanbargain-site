@@ -90,7 +90,8 @@ const nav = [
   .foot .container { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   @media (max-width: 720px) {
     .bar { height: auto; padding-top: 12px; padding-bottom: 10px; flex-wrap: wrap; gap: 8px 16px; }
-    nav { order: 3; width: 100%; margin-left: 0; gap: 18px; overflow-x: auto; }
+    nav { order: 3; width: 100%; margin-left: 0; gap: 18px; overflow-x: auto; scrollbar-width: none; }
+    nav::-webkit-scrollbar { display: none; }
     .lang { margin-left: auto; }
   }
 </style>

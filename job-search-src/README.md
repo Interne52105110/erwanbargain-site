@@ -1,7 +1,7 @@
 # emploi.erwanbargain.com
 
-Bilingual site (English by default, French under `/fr/`) for the study on job-search
-difficulty in the French-speaking OECD. Built with Astro 5, static output, self-hosted fonts.
+Bilingual site (English by default, French under `/fr/`) for the study on finding work
+in French-speaking Europe and Canada. Built with Astro 5, static output, self-hosted fonts.
 
 ## Run
 
