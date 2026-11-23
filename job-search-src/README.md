@@ -26,6 +26,7 @@ node scripts/build-data.mjs    # src/data/generated.json  (regions, profiles, IR
 node scripts/build-cities.mjs  # src/data/cities.json     (cities: local unemployment, rent, education)
 node scripts/build-gains.mjs   # src/data/gains.json      (pay after tax, prices and rent)
 node scripts/build-refs.mjs    # src/data/references.json (every source linked in the reports)
+node scripts/build-card.mjs    # research/design/card-*.html, the share cards (not part of `npm run data`; see the file for the PNG step)
 ```
 
 They read `research/notes/` and `research/reports/`. `research/` holds the working material:
