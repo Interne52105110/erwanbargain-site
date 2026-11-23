@@ -1,0 +1,215 @@
+---
+import Base from '../layouts/Base.astro';
+import { href, type Lang } from '../i18n/ui';
+import { gains, placeName, rentLabel, beyond, cell, profiles, fragile, caveatLabel } from '../data/gains';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const fr = lang === 'fr';
+const nf = new Intl.NumberFormat(lang);
+const money = (v: number, cur: string) => (fr ? `${nf.format(v)} ${cur === 'EUR' ? '€' : cur}` : `${cur === 'EUR' ? '€' : cur + ' '}${nf.format(v)}`);
+const h = {
+  title: fr ? "Ce qu'il vous reste" : 'What you keep',
+  lead: fr
+    ? "Un salaire plus élevé ailleurs ne dit pas ce que l'on y gagne. Entre le brut et le niveau de vie s'intercalent l'impôt, les prix, la prime maladie quand elle n'est pas dans l'impôt, et surtout le loyer que paie un nouvel arrivant."
+    : 'A higher salary elsewhere does not tell you what you gain there. Between gross pay and living standards come tax, prices, the health premium where it sits outside tax, and above all the rent a newcomer pays.',
+  warn: fr
+    ? "Tous les montants de cette page sont des calculs faits pour l'étude à partir de chiffres publiés. Ils se lisent à l'intérieur de chaque pays ; entre pays, seuls les grands écarts sont interprétables."
+    : 'Every amount on this page is a computation made for the study from published figures. Read them within each country first; across countries, only large gaps mean something.',
+  s1: fr ? 'Après impôt et prix' : 'After tax and prices',
+  s1lead: fr
+    ? 'Salaire moyen local, net d’impôt et corrigé du niveau des prix, France = 100 (salaires 2022). Le loyer n’est pas encore déduit.'
+    : 'Local average wage, net of tax and adjusted for the price level, France = 100 (2022 wages). Rent is not yet deducted.',
+  s1note: fr ? '† avant la prime maladie obligatoire, qui retire environ 8 % du net en Suisse.' : '† before the mandatory health premium, which takes about 8% of net pay in Switzerland.',
+  s2: fr ? 'Après loyer, au salaire médian' : 'After rent, at the median wage',
+  s2lead: fr
+    ? "Ce qui reste par mois à une personne seule payée au salaire médian de son territoire, après impôt et cotisations selon les règles de son canton ou de sa province, prime maladie en Suisse, et loyer d'un nouvel arrivant pour un logement d'une chambre ou d'environ 50 m². La dernière colonne refait le calcul aux deux tiers du salaire médian."
+    : 'What a single person paid the median wage of their territory has left each month, after tax and contributions under the rules of their canton or province, the Swiss health premium, and a newcomer’s rent for a one-bedroom or about 50 m². The last column repeats the computation at two-thirds of the median wage.',
+  s2tax: fr
+    ? `Les règles locales comptent : à salaire égal, le net est inférieur de 278 CHF par mois à Genève par rapport au barème de Zurich, et de 199 CAD au Québec par rapport au barème de l'Ontario.`
+    : 'Local rules matter: at the same wage, net pay is 278 CHF a month lower in Geneva than under Zurich’s schedule, and 199 CAD lower in Québec than under Ontario’s.',
+  countries: fr ? { FR: 'France', BE: 'Belgique', LU: 'Luxembourg', CH: 'Suisse', CA: 'Canada' } : { FR: 'France', BE: 'Belgium', LU: 'Luxembourg', CH: 'Switzerland', CA: 'Canada' },
+  noteCol: fr ? 'Réserve' : 'Caveat',
+  s4: fr ? 'Au-delà de la paie' : 'Beyond pay',
+  s4lead: fr
+    ? "Chiffres officiels, au niveau national seulement. Pour le Canada, le modèle de l'OCDE retient les règles d'une seule province : la valeur ne décrit ni le Québec ni les provinces à tarif de garde réduit."
+    : 'Official figures, at national level only. For Canada, the OECD model uses the rules of a single province: the value describes neither Québec nor the provinces with reduced childcare fees.',
+  s5: fr ? 'Lecture par profil' : 'Reading by profile',
+  s6: fr ? 'Où ces calculs sont fragiles' : 'Where these computations are fragile',
+  city: fr ? 'Ville ou territoire' : 'City or territory',
+  rent: fr ? 'Loyer et part du net' : 'Rent and share of net',
+  premium: fr ? 'Prime maladie' : 'Health premium',
+  left67: fr ? 'Reste aux deux tiers' : 'Left at two-thirds',
+  net: fr ? 'Net au salaire médian' : 'Net pay at the median',
+  bed: fr ? 'Loyer, une chambre' : 'One-bedroom rent',
+  left: fr ? 'Reste' : 'Left',
+  share: fr ? 'Loyer / net' : 'Rent / net pay',
+  paid: fr ? 'payé' : 'paid',
+  asking: fr ? 'demandé' : 'asking',
+  ind: fr ? 'Indicateur' : 'Indicator',
+  cols: fr ? ['France', 'Belgique', 'Luxembourg', 'Suisse', 'Canada'] : ['France', 'Belgium', 'Luxembourg', 'Switzerland', 'Canada'],
+  back: fr ? 'Chercher par profil' : 'Search by profile',
+  method: fr ? 'Lire la méthode' : 'Read the method',
+};
+const index = [...gains.index].sort((a, b) => b.v - a.v);
+const max = Math.max(...index.map((r) => r.v));
+const rows4 = [...gains.family, ...gains.daily];
+const groups = (['FR', 'BE', 'LU', 'CH', 'CA'] as const).map((c) => ({ c, rows: gains.after.filter((r) => r.country === c).sort((a, b) => b.left - a.left) }));
+---
+<Base lang={lang} route="/gains" title={h.title}>
+  <section class="section first">
+    <div class="container">
+      <h1>{h.title}</h1>
+      <p class="lead">{h.lead}</p>
+      <p class="notice">{h.warn}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two">
+      <div>
+        <h2>{h.s1}</h2>
+        <p class="note muted">{h.s1lead}</p>
+        <p class="note muted">{h.s1note}</p>
+      </div>
+      <ol class="bars">
+        {index.map((r) => (
+          <li class:list={{ ref: r.v === 100 && r.name.startsWith('Provence') }}>
+            <span class="name">{placeName(r.name, lang)}{r.beforePremium && ' †'}</span>
+            <span class="bar"><i style={`width:${Math.round((r.v / max) * 100)}%`}></i></span>
+            <span class="v num">{r.v}</span>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s2}</h2>
+      <p class="note muted">{h.s2lead}</p>
+      <p class="note muted">{h.s2tax}</p>
+      {groups.map((g) => (
+        <div class="country">
+          <h3>{h.countries[g.c]}</h3>
+          <div class="table-wrap">
+            <table class="data">
+              <thead>
+                <tr>
+                  <th>{h.city}</th>
+                  <th class="r">{h.net}</th>
+                  {g.c === 'CH' && <th class="r">{h.premium}</th>}
+                  <th class="r">{h.rent}</th>
+                  <th class="r">{h.left}</th>
+                  <th class="r">{h.left67}</th>
+                  <th>{h.noteCol}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {g.rows.map((r) => (
+                  <tr>
+                    <td class="name">{placeName(r.name, lang, true)}</td>
+                    <td class="r num">{money(r.net, r.currency)}</td>
+                    {g.c === 'CH' && <td class="r num">{r.premium ? money(r.premium, r.currency) : '–'}</td>}
+                    <td class="r"><span class="num v">{money(r.rent, r.currency)}</span><span class="sub">{rentLabel[r.rentKind][lang]} · {Math.round(r.share)} %</span></td>
+                    <td class="r num strong">{money(r.left, r.currency)}</td>
+                    <td class="r num">{r.left67 != null ? money(r.left67, r.currency) : '–'}</td>
+                    <td class="muted small">{r.caveats.map((c) => caveatLabel[c][lang]).join(' · ')}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s4}</h2>
+      <p class="note muted">{h.s4lead}</p>
+      <div class="table-wrap">
+        <table class="data">
+          <thead>
+            <tr>
+              <th>{h.ind}</th>
+              {h.cols.map((c) => <th class="r">{c}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {rows4.map((r) => (
+              <tr>
+                <td>{beyond[r.id][lang]}</td>
+                {r.values.slice(0, 5).map((v) => <td class="r num">{cell(v, lang)}</td>)}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s5}</h2>
+      <div class="grid-2 profiles">
+        {profiles.map((p, k) => (
+          <article class="panel">
+            <span class="num n">0{k + 1}</span>
+            <h3>{p.title[lang]}</h3>
+            <p class="muted">{p.text[lang]}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s6}</h2>
+      <ul class="caveats">
+        {fragile.map((c) => <li>{c[lang]}</li>)}
+      </ul>
+      <p class="actions">
+        <a class="btn" href={href(lang, '/')}>{h.back}</a>
+        <a class="btn ghost" href={href(lang, '/method')}>{h.method}</a>
+      </p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .first { border-top: 0; }
+  h1 { margin-bottom: 16px; }
+  .lead { margin-bottom: 20px; max-width: 72ch; }
+  .notice { max-width: 72ch; }
+  .note { font-size: 14px; max-width: 84ch; margin: 0 0 14px; }
+  .two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: clamp(24px, 5vw, 56px); align-items: start; }
+  .bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+  .bars li { display: grid; grid-template-columns: minmax(0, 190px) 1fr 40px; gap: 10px; align-items: center; font-size: 13px; }
+  .bars .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bars .bar { height: 8px; background: var(--track); border-radius: 2px; }
+  .bars .bar i { display: block; height: 100%; background: var(--bar); border-radius: 2px; }
+  .bars .v { text-align: right; font-size: 12.5px; }
+  .r { text-align: right; }
+  .name { font-weight: 500; }
+  td .v { display: block; white-space: nowrap; }
+  td .sub { display: block; font-size: 11.5px; color: var(--muted); }
+  td.num { white-space: nowrap; font-size: 13.5px; }
+  .strong { font-weight: 600; color: var(--accent); }
+  table.data th { vertical-align: bottom; }
+  table.data td { vertical-align: top; }
+  .country { margin-top: 28px; }
+  .country h3 { margin: 0 0 6px; }
+  .small { font-size: 12.5px; }
+  .profiles { margin-top: 24px; }
+  .n { color: var(--accent); font-size: 13px; }
+  h3 { margin: 8px 0; }
+  .panel p { font-size: 15px; }
+  .caveats { margin: 20px 0 0; padding: 0; list-style: none; max-width: 80ch; }
+  .caveats li { padding: 14px 0 14px 18px; border-top: 1px solid var(--line); position: relative; }
+  .caveats li::before { content: ''; position: absolute; left: 0; top: 24px; width: 6px; height: 6px; background: var(--accent); border-radius: 1px; }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 24px; }
+  @media (max-width: 820px) { .two { grid-template-columns: minmax(0, 1fr); } }
+</style>

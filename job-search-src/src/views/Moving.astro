@@ -1,0 +1,195 @@
+---
+import Base from '../layouts/Base.astro';
+import { href, type Lang } from '../i18n/ui';
+import { health, healthNote, leave, childcare, costs, pensions, replacement, commute, unconfirmed } from '../data/moving';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const fr = lang === 'fr';
+const nf = new Intl.NumberFormat(lang, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const h = {
+  title: fr ? 'Avant de partir' : 'Before you move',
+  lead: fr
+    ? "Ce que la paie ne montre pas : quand commence la couverture santé, combien de congés la loi garantit, ce que coûte la garde, ce que coûte le départ lui-même, ce que deviennent les droits à retraite, et le temps de trajet."
+    : 'What pay does not show: when health coverage starts, how much leave the law guarantees, what childcare costs, what the move itself costs, what happens to pension rights, and how long the commute is.',
+  warn: fr
+    ? "Règles et montants lus sur les pages officielles en novembre 2026. Ils changent : vérifiez-les à la source avant de décider. Ce qui n'a pas pu être confirmé est listé en bas de page, pas présenté comme un fait."
+    : 'Rules and amounts read on official pages in November 2026. They change: check them at the source before deciding. What could not be confirmed is listed at the bottom of the page, not presented as fact.',
+  s1: fr ? 'Quand commence la couverture santé publique' : 'When public health coverage starts',
+  s2: fr ? 'Congés payés et jours fériés garantis par la loi' : 'Paid leave and public holidays guaranteed by law',
+  s2lead: fr ? "Minimum légal après un an d'emploi, en jours ouvrés. Les conventions collectives donnent souvent plus." : 'Legal minimum after one year of employment, in working days. Collective agreements often give more.',
+  s3: fr ? 'Ce que la garde coûte aux parents' : 'What childcare costs parents',
+  s4: fr ? 'Ce que coûte le départ' : 'What the move costs',
+  s5: fr ? 'Ce que deviennent les droits à retraite' : 'What happens to pension rights',
+  s5t: fr ? "Régimes obligatoires, salarié au salaire moyen (OCDE, 2024) ; pauvreté à 66 ans et plus (2022)." : 'Mandatory schemes, average earner (OECD, 2024); poverty at 66 and over (2022).',
+  net: fr ? 'Pension nette en % du dernier salaire net' : 'Net pension as % of last net pay',
+  pov: fr ? 'Taux de pauvreté à 66 ans et plus, %' : 'Poverty rate at 66 and over, %',
+  caNote: fr ? 'Canada : 70,6 % en comptant les régimes volontaires.' : 'Canada: 70.6% once voluntary schemes are counted.',
+  s6: fr ? 'Temps de trajet domicile-travail' : 'Commuting time',
+  s6lead: fr
+    ? "Minutes pour un aller simple. En Europe : tous les actifs occupés, 2019, par pays seulement. Au Canada : personnes qui se déplacent, mai 2025. Les deux séries ne se comparent pas à la minute."
+    : 'Minutes one way. Europe: all employed residents, 2019, by country only. Canada: people who commute, May 2025. The two series do not compare to the minute.',
+  s7: fr ? "Ce qui n'a pas pu être confirmé" : 'What could not be confirmed',
+  where: fr ? 'Lieu' : 'Place',
+  rule: fr ? 'Règle' : 'Rule',
+  vac: fr ? 'Congés' : 'Vacation',
+  hol: fr ? 'Fériés' : 'Holidays',
+  total: 'Total',
+  note: fr ? 'Remarque' : 'Note',
+  item: fr ? 'Poste' : 'Item',
+  amount: fr ? 'Montant ou règle' : 'Amount or rule',
+  cols: fr ? { FR: 'France', BE: 'Belgique', LU: 'Luxembourg', CH: 'Suisse', CA: 'Canada' } : { FR: 'France', BE: 'Belgium', LU: 'Luxembourg', CH: 'Switzerland', CA: 'Canada' },
+  europe: fr ? 'Europe (2019)' : 'Europe (2019)',
+  canada: fr ? 'Canada (mai 2025)' : 'Canada (May 2025)',
+  keep: fr ? "Voir ce qu'il reste de la paie" : 'See what is left of the pay',
+};
+const rules = (title: string, rows: { place: any; value: any }[], col1: string, col2: string) => ({ title, rows, col1, col2 });
+const leaveRows = [...leave].sort((a, b) => b.vacation + b.holidays - (a.vacation + a.holidays));
+const maxC = Math.max(...commute.europe.map((r) => r.v), ...commute.canada.map((r) => r.v));
+---
+<Base lang={lang} route="/moving" title={h.title}>
+  <section class="section first">
+    <div class="container">
+      <h1>{h.title}</h1>
+      <p class="lead">{h.lead}</p>
+      <p class="notice">{h.warn}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s1}</h2>
+      <dl class="rules">
+        {health.map((r) => <div><dt>{r.place[lang]}</dt><dd>{r.value[lang]}</dd></div>)}
+      </dl>
+      <p class="note muted">{healthNote[lang]}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s2}</h2>
+      <p class="note muted">{h.s2lead}</p>
+      <div class="table-wrap">
+        <table class="data">
+          <thead>
+            <tr><th>{h.where}</th><th class="r">{h.vac}</th><th class="r">{h.hol}</th><th class="r">{h.total}</th><th>{h.note}</th></tr>
+          </thead>
+          <tbody>
+            {leaveRows.map((r) => (
+              <tr>
+                <td class="name">{r.place[lang]}</td>
+                <td class="r num">{r.vacation}</td>
+                <td class="r num">{r.holidays}</td>
+                <td class="r num strong">{r.vacation + r.holidays}</td>
+                <td class="muted small">{r.note?.[lang]}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s3}</h2>
+      <dl class="rules">
+        {childcare.map((r) => <div><dt>{r.place[lang]}</dt><dd>{r.value[lang]}</dd></div>)}
+      </dl>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s4}</h2>
+      <dl class="rules">
+        {costs.map((r) => <div><dt>{r.place[lang]}</dt><dd>{r.value[lang]}</dd></div>)}
+      </dl>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s5}</h2>
+      <ul class="caveats">
+        {pensions.map((p) => <li>{p[lang]}</li>)}
+      </ul>
+      <p class="note muted top">{h.s5t}</p>
+      <div class="table-wrap">
+        <table class="data">
+          <thead>
+            <tr><th></th>{replacement.cols.map((c) => <th class="r">{h.cols[c as keyof typeof h.cols]}</th>)}</tr>
+          </thead>
+          <tbody>
+            <tr><td>{h.net}</td>{replacement.net.map((v) => <td class="r num">{nf.format(v)}</td>)}</tr>
+            <tr><td>{h.pov}</td>{replacement.poverty.map((v) => <td class="r num">{nf.format(v)}</td>)}</tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note muted">{h.caNote}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s6}</h2>
+      <p class="note muted">{h.s6lead}</p>
+      <div class="grid-2">
+        {[{ t: h.europe, rows: commute.europe }, { t: h.canada, rows: commute.canada }].map((g) => (
+          <div>
+            <p class="rank-title">{g.t}</p>
+            <ol class="bars">
+              {g.rows.map((r) => (
+                <li>
+                  <span class="name">{r.place[lang]}</span>
+                  <span class="bar"><i style={`width:${Math.round((r.v / maxC) * 100)}%`}></i></span>
+                  <span class="v num">{Number.isInteger(r.v) ? r.v : nf.format(r.v)}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>{h.s7}</h2>
+      <ul class="caveats">
+        {unconfirmed.map((u) => <li>{u[lang]}</li>)}
+      </ul>
+      <p class="actions"><a class="btn" href={href(lang, '/gains')}>{h.keep}</a></p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .first { border-top: 0; }
+  h1 { margin-bottom: 16px; }
+  .lead { margin-bottom: 20px; max-width: 72ch; }
+  .notice { max-width: 72ch; }
+  .note { font-size: 14px; max-width: 84ch; margin: 14px 0; }
+  .note.top { margin-top: 24px; }
+  .rules { margin: 20px 0 0; max-width: 92ch; }
+  .rules div { display: grid; grid-template-columns: 240px 1fr; gap: 20px; padding: 13px 0; border-top: 1px solid var(--line); }
+  .rules dt { font-weight: 600; font-size: 14.5px; }
+  .rules dd { margin: 0; color: var(--muted); font-size: 15px; }
+  .r { text-align: right; }
+  .name { font-weight: 500; }
+  .small { font-size: 12.5px; }
+  .strong { font-weight: 600; color: var(--accent); }
+  td.num { white-space: nowrap; }
+  .caveats { margin: 20px 0 0; padding: 0; list-style: none; max-width: 84ch; }
+  .caveats li { padding: 14px 0 14px 18px; border-top: 1px solid var(--line); position: relative; }
+  .caveats li::before { content: ''; position: absolute; left: 0; top: 24px; width: 6px; height: 6px; background: var(--accent); border-radius: 1px; }
+  .rank-title { font: 500 12px var(--font-num); color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin: 8px 0 10px; }
+  .bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+  .bars li { display: grid; grid-template-columns: minmax(0, 140px) 1fr 40px; gap: 10px; align-items: center; font-size: 13px; }
+  .bars .bar { height: 8px; background: var(--track); border-radius: 2px; }
+  .bars .bar i { display: block; height: 100%; background: var(--bar); border-radius: 2px; }
+  .bars .v { text-align: right; font-size: 12.5px; }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 24px; }
+  @media (max-width: 640px) { .rules div { grid-template-columns: 1fr; gap: 4px; } }
+</style>

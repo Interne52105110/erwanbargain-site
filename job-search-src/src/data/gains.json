@@ -1,0 +1,1669 @@
+{
+ "index": [
+  {
+   "name": "Île-de-France",
+   "v": 116,
+   "beforePremium": false
+  },
+  {
+   "name": "Centre-Val de Loire",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Bourgogne-Franche-Comté",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Normandie",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Hauts-de-France",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Grand Est",
+   "v": 94,
+   "beforePremium": false
+  },
+  {
+   "name": "Pays de la Loire",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Bretagne",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Nouvelle-Aquitaine",
+   "v": 91,
+   "beforePremium": false
+  },
+  {
+   "name": "Occitanie",
+   "v": 93,
+   "beforePremium": false
+  },
+  {
+   "name": "Auvergne-Rhône-Alpes",
+   "v": 99,
+   "beforePremium": false
+  },
+  {
+   "name": "Provence-Alpes-Côte d'Azur",
+   "v": 100,
+   "beforePremium": false
+  },
+  {
+   "name": "Corse",
+   "v": 84,
+   "beforePremium": false
+  },
+  {
+   "name": "Bruxelles-Capitale",
+   "v": 113,
+   "beforePremium": false
+  },
+  {
+   "name": "Wallonie",
+   "v": 101,
+   "beforePremium": false
+  },
+  {
+   "name": "Luxembourg",
+   "v": 141,
+   "beforePremium": false
+  },
+  {
+   "name": "Région lémanique",
+   "v": 176,
+   "beforePremium": true
+  },
+  {
+   "name": "Espace Mittelland",
+   "v": 173,
+   "beforePremium": true
+  },
+  {
+   "name": "Québec",
+   "v": 102,
+   "beforePremium": false
+  },
+  {
+   "name": "Nouveau-Brunswick",
+   "v": 93,
+   "beforePremium": false
+  },
+  {
+   "name": "Ontario",
+   "v": 111,
+   "beforePremium": false
+  },
+  {
+   "name": "Manitoba",
+   "v": 96,
+   "beforePremium": false
+  },
+  {
+   "name": "Saskatchewan",
+   "v": 106,
+   "beforePremium": false
+  },
+  {
+   "name": "Alberta",
+   "v": 116,
+   "beforePremium": false
+  },
+  {
+   "name": "Colombie-Britannique",
+   "v": 111,
+   "beforePremium": false
+  },
+  {
+   "name": "Nouvelle-Écosse",
+   "v": 94,
+   "beforePremium": false
+  },
+  {
+   "name": "Île-du-Prince-Édouard",
+   "v": 92,
+   "beforePremium": false
+  },
+  {
+   "name": "Terre-Neuve-et-Labrador",
+   "v": 104,
+   "beforePremium": false
+  }
+ ],
+ "europe": [
+  {
+   "name": "Paris",
+   "rent": 1721,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 974,
+   "left67": 249,
+   "currency": "EUR"
+  },
+  {
+   "name": "Nice",
+   "rent": 1061,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 1635,
+   "left67": 909,
+   "currency": "EUR"
+  },
+  {
+   "name": "Lyon",
+   "rent": 863,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 1832,
+   "left67": 1107,
+   "currency": "EUR"
+  },
+  {
+   "name": "Marseille",
+   "rent": 842,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 1853,
+   "left67": 1127,
+   "currency": "EUR"
+  },
+  {
+   "name": "Bordeaux",
+   "rent": 832,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 1864,
+   "left67": 1138,
+   "currency": "EUR"
+  },
+  {
+   "name": "Lille",
+   "rent": 822,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 1874,
+   "left67": 1148,
+   "currency": "EUR"
+  },
+  {
+   "name": "Strasbourg",
+   "rent": 811,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 1884,
+   "left67": 1159,
+   "currency": "EUR"
+  },
+  {
+   "name": "Rennes",
+   "rent": 775,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 1921,
+   "left67": 1195,
+   "currency": "EUR"
+  },
+  {
+   "name": "Nantes",
+   "rent": 754,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 1942,
+   "left67": 1216,
+   "currency": "EUR"
+  },
+  {
+   "name": "Toulouse",
+   "rent": 728,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 1968,
+   "left67": 1242,
+   "currency": "EUR"
+  },
+  {
+   "name": "Brest",
+   "rent": 634,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 2061,
+   "left67": 1335,
+   "currency": "EUR"
+  },
+  {
+   "name": "Quimper",
+   "rent": 624,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 2072,
+   "left67": 1346,
+   "currency": "EUR"
+  },
+  {
+   "name": "Bruxelles (Région)",
+   "rent": 980,
+   "rentKind": "newlease",
+   "premium": null,
+   "left100": 2029,
+   "left67": 1381,
+   "currency": "EUR"
+  },
+  {
+   "name": "Wallonie ; complexe de Liège",
+   "rent": 750,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 2259,
+   "left67": 1611,
+   "currency": "EUR"
+  },
+  {
+   "name": "Complexe de Charleroi",
+   "rent": 695,
+   "rentKind": "median",
+   "premium": null,
+   "left100": 2314,
+   "left67": 1666,
+   "currency": "EUR"
+  },
+  {
+   "name": "Luxembourg (pays)",
+   "rent": 1700,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 2956,
+   "left67": 1876,
+   "currency": "EUR"
+  },
+  {
+   "name": "Luxembourg-Ville",
+   "rent": 1955,
+   "rentKind": "asking",
+   "premium": null,
+   "left100": 2701,
+   "left67": 1621,
+   "currency": "EUR"
+  },
+  {
+   "name": "Genève",
+   "rent": 1573,
+   "rentKind": "sitting",
+   "premium": 585,
+   "left100": 4487,
+   "left67": 2462,
+   "currency": "CHF"
+  },
+  {
+   "name": "Vaud",
+   "rent": 1465,
+   "rentKind": "sitting",
+   "premium": 527,
+   "left100": 4654,
+   "left67": 2629,
+   "currency": "CHF"
+  },
+  {
+   "name": "Vaud, 3 pièces, bail récent",
+   "rent": 1673,
+   "rentKind": "newlease",
+   "premium": 527,
+   "left100": 4446,
+   "left67": 2421,
+   "currency": "CHF"
+  },
+  {
+   "name": "Fribourg",
+   "rent": 1328,
+   "rentKind": "sitting",
+   "premium": 443,
+   "left100": 4875,
+   "left67": 2850,
+   "currency": "CHF"
+  },
+  {
+   "name": "Valais",
+   "rent": 1227,
+   "rentKind": "sitting",
+   "premium": 436,
+   "left100": 4982,
+   "left67": 2957,
+   "currency": "CHF"
+  },
+  {
+   "name": "Neuchâtel",
+   "rent": 1091,
+   "rentKind": "sitting",
+   "premium": 531,
+   "left100": 5024,
+   "left67": 2999,
+   "currency": "CHF"
+  }
+ ],
+ "canada": [
+  {
+   "name": "Montréal",
+   "net": 4212,
+   "rent": 1480,
+   "paid": false,
+   "left": 2732,
+   "share": 35
+  },
+  {
+   "name": "Québec",
+   "net": 4212,
+   "rent": 1210,
+   "paid": false,
+   "left": 3002,
+   "share": 29
+  },
+  {
+   "name": "Gatineau",
+   "net": 4212,
+   "rent": 1440,
+   "paid": false,
+   "left": 2772,
+   "share": 34
+  },
+  {
+   "name": "Sherbrooke",
+   "net": 4212,
+   "rent": 1040,
+   "paid": false,
+   "left": 3172,
+   "share": 25
+  },
+  {
+   "name": "Saguenay",
+   "net": 4212,
+   "rent": 834,
+   "paid": true,
+   "left": 3378,
+   "share": 20
+  },
+  {
+   "name": "Trois-Rivières",
+   "net": 4212,
+   "rent": 873,
+   "paid": true,
+   "left": 3339,
+   "share": 21
+  },
+  {
+   "name": "Grand Sudbury",
+   "net": 4499,
+   "rent": 1630,
+   "paid": false,
+   "left": 2869,
+   "share": 36
+  },
+  {
+   "name": "Timmins",
+   "net": 4499,
+   "rent": 1274,
+   "paid": true,
+   "left": 3225,
+   "share": 28
+  },
+  {
+   "name": "Hamilton",
+   "net": 4499,
+   "rent": 1720,
+   "paid": false,
+   "left": 2779,
+   "share": 38
+  },
+  {
+   "name": "London",
+   "net": 4499,
+   "rent": 1560,
+   "paid": false,
+   "left": 2939,
+   "share": 35
+  },
+  {
+   "name": "Ottawa",
+   "net": 4499,
+   "rent": 1900,
+   "paid": false,
+   "left": 2599,
+   "share": 42
+  },
+  {
+   "name": "Toronto",
+   "net": 4499,
+   "rent": 2090,
+   "paid": false,
+   "left": 2409,
+   "share": 46
+  },
+  {
+   "name": "Moncton",
+   "net": 3876,
+   "rent": 1290,
+   "paid": false,
+   "left": 2586,
+   "share": 33
+  },
+  {
+   "name": "Bathurst",
+   "net": 3876,
+   "rent": 763,
+   "paid": true,
+   "left": 3113,
+   "share": 20
+  },
+  {
+   "name": "Edmundston",
+   "net": 3876,
+   "rent": 726,
+   "paid": true,
+   "left": 3150,
+   "share": 19
+  },
+  {
+   "name": "Winnipeg",
+   "net": 3826,
+   "rent": 1320,
+   "paid": false,
+   "left": 2506,
+   "share": 35
+  },
+  {
+   "name": "Regina",
+   "net": 4213,
+   "rent": 1250,
+   "paid": false,
+   "left": 2963,
+   "share": 30
+  },
+  {
+   "name": "Saskatoon",
+   "net": 4213,
+   "rent": 1340,
+   "paid": false,
+   "left": 2873,
+   "share": 32
+  },
+  {
+   "name": "Calgary",
+   "net": 4648,
+   "rent": 1550,
+   "paid": false,
+   "left": 3098,
+   "share": 33
+  },
+  {
+   "name": "Edmonton",
+   "net": 4648,
+   "rent": 1260,
+   "paid": false,
+   "left": 3388,
+   "share": 27
+  },
+  {
+   "name": "Kelowna",
+   "net": 4600,
+   "rent": 1880,
+   "paid": false,
+   "left": 2720,
+   "share": 41
+  },
+  {
+   "name": "Vancouver",
+   "net": 4600,
+   "rent": 2280,
+   "paid": false,
+   "left": 2320,
+   "share": 50
+  },
+  {
+   "name": "Halifax",
+   "net": 4022,
+   "rent": 1880,
+   "paid": false,
+   "left": 2142,
+   "share": 47
+  },
+  {
+   "name": "Charlottetown",
+   "net": 3824,
+   "rent": 1090,
+   "paid": true,
+   "left": 2734,
+   "share": 29
+  },
+  {
+   "name": "St. John's",
+   "net": 4193,
+   "rent": 1270,
+   "paid": false,
+   "left": 2923,
+   "share": 30
+  }
+ ],
+ "family": [
+  {
+   "id": "childcare",
+   "values": [
+    "11 (2026)",
+    "13 (2025)",
+    "7 (2025)",
+    "17 (2025)",
+    "10 (2026)"
+   ]
+  },
+  {
+   "id": "under3",
+   "values": [
+    "59,7",
+    "48,0",
+    "56,4",
+    "36,8",
+    "n.d."
+   ]
+  },
+  {
+   "id": "maternity",
+   "values": [
+    "16 / 100 %",
+    "15 / 77 %",
+    "20 / 100 %",
+    "14 / 56 %",
+    "16 / 36 % (régime fédéral)"
+   ]
+  },
+  {
+   "id": "motherLeave",
+   "values": [
+    "20,0",
+    "15,1",
+    "38,1",
+    "7,9",
+    "19,9"
+   ]
+  },
+  {
+   "id": "fatherLeave",
+   "values": [
+    "8,1",
+    "6,3",
+    "20,1",
+    "1,1",
+    "2,0"
+   ]
+  }
+ ],
+ "daily": [
+  {
+   "id": "hours",
+   "values": [
+    "39,9",
+    "40,3",
+    "40,8",
+    "43,3",
+    "39,7",
+    "38,6",
+    "39,7"
+   ]
+  },
+  {
+   "id": "satisfaction",
+   "values": [
+    "7,1 (2025)",
+    "7,6 (2025)",
+    "7,4 (2025)",
+    "7,7 (2024)",
+    "7,0 (T2 2025)",
+    "7,5",
+    "6,8"
+   ]
+  }
+ ],
+ "after": [
+  {
+   "name": "Genève",
+   "country": "CH",
+   "currency": "CHF",
+   "net": 5910,
+   "ratio": 74.9,
+   "premium": 585,
+   "rent": 1609,
+   "rentKind": "newlease",
+   "left": 3715,
+   "share": 27.2,
+   "left67": 2007,
+   "ppp": 3505,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CH01",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Lausanne",
+   "country": "CH",
+   "currency": "CHF",
+   "net": 5098,
+   "ratio": 74.9,
+   "premium": 527,
+   "rent": 1442,
+   "rentKind": "newlease",
+   "left": 3130,
+   "share": 28.3,
+   "left67": 1709,
+   "ppp": 2953,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CH01",
+   "main": false,
+   "caveats": [
+    "estimatedRent"
+   ]
+  },
+  {
+   "name": "Vaud (3 pièces, bail d'un an ou moins)",
+   "country": "CH",
+   "currency": "CHF",
+   "net": 5098,
+   "ratio": 74.9,
+   "premium": 527,
+   "rent": 1673,
+   "rentKind": "newlease",
+   "left": 2899,
+   "share": 32.8,
+   "left67": 1478,
+   "ppp": 2735,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CH01",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "Neuchâtel",
+   "country": "CH",
+   "currency": "CHF",
+   "net": 5111,
+   "ratio": 73.4,
+   "premium": 531,
+   "rent": 1091,
+   "rentKind": "sitting",
+   "left": 3489,
+   "share": 21.3,
+   "left67": 1985,
+   "ppp": 3291,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CH02",
+   "main": false,
+   "caveats": [
+    "regionalMedian"
+   ]
+  },
+  {
+   "name": "Fribourg",
+   "country": "CH",
+   "currency": "CHF",
+   "net": 4816,
+   "ratio": 76.1,
+   "premium": 443,
+   "rent": 1328,
+   "rentKind": "sitting",
+   "left": 3045,
+   "share": 27.6,
+   "left67": 1636,
+   "ppp": 2873,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CH02",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Sion",
+   "country": "CH",
+   "currency": "CHF",
+   "net": 5042,
+   "ratio": 78.4,
+   "premium": 436,
+   "rent": 1227,
+   "rentKind": "sitting",
+   "left": 3379,
+   "share": 24.3,
+   "left67": 1887,
+   "ppp": 3188,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CH01",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "Montréal",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4026,
+   "ratio": 74.1,
+   "premium": null,
+   "rent": 1480,
+   "rentKind": "asking",
+   "left": 2546,
+   "share": 36.8,
+   "left67": 1390,
+   "ppp": 2053,
+   "priceIdx": 97.6,
+   "priceBasis": "full",
+   "territory": "CA-QC",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Québec",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4026,
+   "ratio": 74.1,
+   "premium": null,
+   "rent": 1210,
+   "rentKind": "asking",
+   "left": 2816,
+   "share": 30.1,
+   "left67": 1660,
+   "ppp": 2271,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CA-QC",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "Gatineau",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4026,
+   "ratio": 74.1,
+   "premium": null,
+   "rent": 1440,
+   "rentKind": "asking",
+   "left": 2586,
+   "share": 35.8,
+   "left67": 1430,
+   "ppp": 2085,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CA-QC",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "Sherbrooke",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4026,
+   "ratio": 74.1,
+   "premium": null,
+   "rent": 1040,
+   "rentKind": "asking",
+   "left": 2986,
+   "share": 25.8,
+   "left67": 1830,
+   "ppp": 2408,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CA-QC",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "Toronto",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4492,
+   "ratio": 76.8,
+   "premium": null,
+   "rent": 2090,
+   "rentKind": "asking",
+   "left": 2402,
+   "share": 46.5,
+   "left67": 1068,
+   "ppp": 1937,
+   "priceIdx": 104,
+   "priceBasis": "full",
+   "territory": "CA-ON",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Ottawa",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4492,
+   "ratio": 76.8,
+   "premium": null,
+   "rent": 1900,
+   "rentKind": "asking",
+   "left": 2592,
+   "share": 42.3,
+   "left67": 1258,
+   "ppp": 2090,
+   "priceIdx": 102.1,
+   "priceBasis": "full",
+   "territory": "CA-ON",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "Grand Sudbury",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4492,
+   "ratio": 76.8,
+   "premium": null,
+   "rent": 1630,
+   "rentKind": "asking",
+   "left": 2862,
+   "share": 36.3,
+   "left67": 1528,
+   "ppp": 2308,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CA-ON",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "Hamilton",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4492,
+   "ratio": 76.8,
+   "premium": null,
+   "rent": 1720,
+   "rentKind": "asking",
+   "left": 2772,
+   "share": 38.3,
+   "left67": 1438,
+   "ppp": 2235,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CA-ON",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "London",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4492,
+   "ratio": 76.8,
+   "premium": null,
+   "rent": 1560,
+   "rentKind": "asking",
+   "left": 2932,
+   "share": 34.7,
+   "left67": 1598,
+   "ppp": 2365,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CA-ON",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "Moncton",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 3824,
+   "ratio": 76.8,
+   "premium": null,
+   "rent": 1290,
+   "rentKind": "asking",
+   "left": 2534,
+   "share": 33.7,
+   "left67": 1389,
+   "ppp": 2043,
+   "priceIdx": 99.5,
+   "priceBasis": "proxy",
+   "territory": "CA-NB",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Winnipeg",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 3761,
+   "ratio": 76.5,
+   "premium": null,
+   "rent": 1320,
+   "rentKind": "asking",
+   "left": 2441,
+   "share": 35.1,
+   "left67": 1321,
+   "ppp": 1969,
+   "priceIdx": 96.6,
+   "priceBasis": "full",
+   "territory": "CA-MB",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Regina",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4145,
+   "ratio": 76.2,
+   "premium": null,
+   "rent": 1250,
+   "rentKind": "asking",
+   "left": 2895,
+   "share": 30.2,
+   "left67": 1680,
+   "ppp": 2335,
+   "priceIdx": 99.8,
+   "priceBasis": "full",
+   "territory": "CA-SK",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Saskatoon",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4145,
+   "ratio": 76.2,
+   "premium": null,
+   "rent": 1340,
+   "rentKind": "asking",
+   "left": 2805,
+   "share": 32.3,
+   "left67": 1590,
+   "ppp": 2262,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CA-SK",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "Calgary",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4659,
+   "ratio": 76.8,
+   "premium": null,
+   "rent": 1550,
+   "rentKind": "asking",
+   "left": 3109,
+   "share": 33.3,
+   "left67": 1740,
+   "ppp": 2508,
+   "priceIdx": 99.7,
+   "priceBasis": "full",
+   "territory": "CA-AB",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Edmonton",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4659,
+   "ratio": 76.8,
+   "premium": null,
+   "rent": 1260,
+   "rentKind": "asking",
+   "left": 3399,
+   "share": 27,
+   "left67": 2030,
+   "ppp": 2741,
+   "priceIdx": 97.3,
+   "priceBasis": "full",
+   "territory": "CA-AB",
+   "main": false,
+   "caveats": []
+  },
+  {
+   "name": "Vancouver",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4638,
+   "ratio": 77.4,
+   "premium": null,
+   "rent": 2280,
+   "rentKind": "asking",
+   "left": 2358,
+   "share": 49.2,
+   "left67": 975,
+   "ppp": 1902,
+   "priceIdx": 103.2,
+   "priceBasis": "full",
+   "territory": "CA-BC",
+   "main": true,
+   "caveats": [
+    "secondaryTax"
+   ]
+  },
+  {
+   "name": "Kelowna",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4638,
+   "ratio": 77.4,
+   "premium": null,
+   "rent": 1880,
+   "rentKind": "asking",
+   "left": 2758,
+   "share": 40.5,
+   "left67": 1375,
+   "ppp": 2224,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "CA-BC",
+   "main": false,
+   "caveats": [
+    "secondaryTax"
+   ]
+  },
+  {
+   "name": "Halifax",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 3825,
+   "ratio": 74,
+   "premium": null,
+   "rent": 1880,
+   "rentKind": "asking",
+   "left": 1945,
+   "share": 49.2,
+   "left67": 837,
+   "ppp": 1568,
+   "priceIdx": 101.6,
+   "priceBasis": "full",
+   "territory": "CA-NS",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Yellowknife",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 5771,
+   "ratio": 75.6,
+   "premium": null,
+   "rent": 1749,
+   "rentKind": "sitting",
+   "left": 4022,
+   "share": 30.3,
+   "left67": 2304,
+   "ppp": 3243,
+   "priceIdx": 104.4,
+   "priceBasis": "full",
+   "territory": "CA-NT",
+   "main": true,
+   "caveats": [
+    "otherConcept"
+   ]
+  },
+  {
+   "name": "Whitehorse",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 5504,
+   "ratio": 75.7,
+   "premium": null,
+   "rent": 1364,
+   "rentKind": "median",
+   "left": 4140,
+   "share": 24.8,
+   "left67": 2523,
+   "ppp": 3338,
+   "priceIdx": 101.4,
+   "priceBasis": "full",
+   "territory": "CA-YT",
+   "main": true,
+   "caveats": [
+    "otherConcept",
+    "allSizesRent"
+   ]
+  },
+  {
+   "name": "Iqaluit",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 6128,
+   "ratio": 76.8,
+   "premium": null,
+   "rent": 3025,
+   "rentKind": "median",
+   "left": 3103,
+   "share": 49.4,
+   "left67": 1250,
+   "ppp": 2502,
+   "priceIdx": 116,
+   "priceBasis": "food_only",
+   "territory": "CA-NU",
+   "main": true,
+   "caveats": [
+    "otherConcept",
+    "allSizesRent",
+    "foodOnlyPrices"
+   ]
+  },
+  {
+   "name": "Paris",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2523,
+   "ratio": 70.6,
+   "premium": null,
+   "rent": 1721,
+   "rentKind": "asking",
+   "left": 802,
+   "share": 68.2,
+   "left67": 43,
+   "ppp": 1118,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FR1",
+   "main": true,
+   "caveats": [
+    "updatedMedian"
+   ]
+  },
+  {
+   "name": "Lyon",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 863,
+   "rentKind": "asking",
+   "left": 1270,
+   "share": 40.5,
+   "left67": 629,
+   "ppp": 1772,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRK",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Marseille",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 842,
+   "rentKind": "asking",
+   "left": 1291,
+   "share": 39.5,
+   "left67": 650,
+   "ppp": 1801,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRL",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Nice",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 1061,
+   "rentKind": "asking",
+   "left": 1072,
+   "share": 49.7,
+   "left67": 431,
+   "ppp": 1496,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRL",
+   "main": false,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Bordeaux",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 832,
+   "rentKind": "asking",
+   "left": 1301,
+   "share": 39,
+   "left67": 660,
+   "ppp": 1815,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRI",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Toulouse",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 728,
+   "rentKind": "asking",
+   "left": 1405,
+   "share": 34.1,
+   "left67": 764,
+   "ppp": 1960,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRJ",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Lille",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 822,
+   "rentKind": "asking",
+   "left": 1311,
+   "share": 38.5,
+   "left67": 670,
+   "ppp": 1829,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRE",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Strasbourg",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 811,
+   "rentKind": "asking",
+   "left": 1322,
+   "share": 38,
+   "left67": 681,
+   "ppp": 1844,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRF",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Rennes",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 775,
+   "rentKind": "asking",
+   "left": 1358,
+   "share": 36.3,
+   "left67": 717,
+   "ppp": 1894,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRH",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Nantes",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 754,
+   "rentKind": "asking",
+   "left": 1379,
+   "share": 35.3,
+   "left67": 738,
+   "ppp": 1924,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRG",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Brest",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 634,
+   "rentKind": "asking",
+   "left": 1499,
+   "share": 29.7,
+   "left67": 858,
+   "ppp": 2091,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRH",
+   "main": false,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Quimper",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 624,
+   "rentKind": "asking",
+   "left": 1509,
+   "share": 29.3,
+   "left67": 868,
+   "ppp": 2105,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRH",
+   "main": false,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Bruxelles (Région)",
+   "country": "BE",
+   "currency": "EUR",
+   "net": 2810,
+   "ratio": 59,
+   "premium": null,
+   "rent": 980,
+   "rentKind": "newlease",
+   "left": 1830,
+   "share": 34.9,
+   "left67": 1143,
+   "ppp": 2434,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "BE1",
+   "main": true,
+   "caveats": [
+    "interpolated"
+   ]
+  },
+  {
+   "name": "Liège (complexe résidentiel urbain)",
+   "country": "BE",
+   "currency": "EUR",
+   "net": 2450,
+   "ratio": 62.6,
+   "premium": null,
+   "rent": 750,
+   "rentKind": "median",
+   "left": 1700,
+   "share": 30.6,
+   "left67": 1182,
+   "ppp": 2260,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "BE3",
+   "main": true,
+   "caveats": [
+    "interpolated"
+   ]
+  },
+  {
+   "name": "Charleroi (complexe résidentiel urbain)",
+   "country": "BE",
+   "currency": "EUR",
+   "net": 2450,
+   "ratio": 62.6,
+   "premium": null,
+   "rent": 695,
+   "rentKind": "median",
+   "left": 1755,
+   "share": 28.4,
+   "left67": 1237,
+   "ppp": 2333,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "BE3",
+   "main": false,
+   "caveats": [
+    "interpolated"
+   ]
+  },
+  {
+   "name": "Wallonie",
+   "country": "BE",
+   "currency": "EUR",
+   "net": 2450,
+   "ratio": 62.6,
+   "premium": null,
+   "rent": 750,
+   "rentKind": "newlease",
+   "left": 1700,
+   "share": 30.6,
+   "left67": 1182,
+   "ppp": 2260,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "BE3",
+   "main": false,
+   "caveats": [
+    "interpolated"
+   ]
+  },
+  {
+   "name": "Luxembourg (pays)",
+   "country": "LU",
+   "currency": "EUR",
+   "net": 3485,
+   "ratio": 72,
+   "premium": null,
+   "rent": 1700,
+   "rentKind": "asking",
+   "left": 1785,
+   "share": 48.8,
+   "left67": 925,
+   "ppp": 2113,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "LU00",
+   "main": false,
+   "caveats": [
+    "interpolated",
+    "unverifiedMedian"
+   ]
+  },
+  {
+   "name": "Luxembourg-Ville",
+   "country": "LU",
+   "currency": "EUR",
+   "net": 3485,
+   "ratio": 72,
+   "premium": null,
+   "rent": 1955,
+   "rentKind": "asking",
+   "left": 1530,
+   "share": 56.1,
+   "left67": 670,
+   "ppp": 1811,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "LU00",
+   "main": true,
+   "caveats": [
+    "interpolated",
+    "unverifiedMedian"
+   ]
+  },
+  {
+   "name": "Orléans",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 744,
+   "rentKind": "asking",
+   "left": 1389,
+   "share": 34.9,
+   "left67": 748,
+   "ppp": 1938,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRB",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Dijon",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 692,
+   "rentKind": "asking",
+   "left": 1441,
+   "share": 32.4,
+   "left67": 800,
+   "ppp": 2010,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRC",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Rouen",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 692,
+   "rentKind": "asking",
+   "left": 1441,
+   "share": 32.4,
+   "left67": 800,
+   "ppp": 2010,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRD",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Ajaccio",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 790,
+   "rentKind": "asking",
+   "left": 1343,
+   "share": 37,
+   "left67": 702,
+   "ppp": 1873,
+   "priceIdx": null,
+   "priceBasis": null,
+   "territory": "FRM",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "St. John's",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4055,
+   "ratio": 75,
+   "premium": null,
+   "rent": 1270,
+   "rentKind": "asking",
+   "left": 2785,
+   "share": 31.3,
+   "left67": 1623,
+   "ppp": 2245,
+   "priceIdx": 100.7,
+   "priceBasis": "full",
+   "territory": "CA-NL",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Charlottetown",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 3733,
+   "ratio": 76,
+   "premium": null,
+   "rent": 1090,
+   "rentKind": "sitting",
+   "left": 2643,
+   "share": 29.2,
+   "left67": 1550,
+   "ppp": 2131,
+   "priceIdx": 98.9,
+   "priceBasis": "full",
+   "territory": "CA-PE",
+   "main": true,
+   "caveats": []
+  }
+ ],
+ "zurichRatio": 79.5,
+ "eurPerUsdPpp": 0.717
+}

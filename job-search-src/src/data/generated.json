@@ -1,0 +1,6203 @@
+{
+ "meta": {
+  "sample": false,
+  "retrieved": "2026-11-22",
+  "modelCheck": {
+   "cells": 279,
+   "medianGap": 0.5,
+   "p90Gap": 2
+  }
+ },
+ "territories": [
+  {
+   "id": "FR1",
+   "country": "FR",
+   "name": {
+    "en": "Île-de-France",
+    "fr": "Île-de-France"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   },
+   "open": true
+  },
+  {
+   "id": "FRB",
+   "country": "FR",
+   "name": {
+    "en": "Centre-Val de Loire",
+    "fr": "Centre-Val de Loire"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRC",
+   "country": "FR",
+   "name": {
+    "en": "Bourgogne-Franche-Comté",
+    "fr": "Bourgogne-Franche-Comté"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRD",
+   "country": "FR",
+   "name": {
+    "en": "Normandy",
+    "fr": "Normandie"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRE",
+   "country": "FR",
+   "name": {
+    "en": "Hauts-de-France",
+    "fr": "Hauts-de-France"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRF",
+   "country": "FR",
+   "name": {
+    "en": "Grand Est",
+    "fr": "Grand Est"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRG",
+   "country": "FR",
+   "name": {
+    "en": "Pays de la Loire",
+    "fr": "Pays de la Loire"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRH",
+   "country": "FR",
+   "name": {
+    "en": "Brittany",
+    "fr": "Bretagne"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRI",
+   "country": "FR",
+   "name": {
+    "en": "Nouvelle-Aquitaine",
+    "fr": "Nouvelle-Aquitaine"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRJ",
+   "country": "FR",
+   "name": {
+    "en": "Occitanie",
+    "fr": "Occitanie"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRK",
+   "country": "FR",
+   "name": {
+    "en": "Auvergne-Rhône-Alpes",
+    "fr": "Auvergne-Rhône-Alpes"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRL",
+   "country": "FR",
+   "name": {
+    "en": "Provence-Alpes-Côte d'Azur",
+    "fr": "Provence-Alpes-Côte d'Azur"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "FRM",
+   "country": "FR",
+   "name": {
+    "en": "Corsica",
+    "fr": "Corse"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "BE3",
+   "country": "BE",
+   "name": {
+    "en": "Wallonia",
+    "fr": "Wallonie"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   }
+  },
+  {
+   "id": "BE1",
+   "country": "BE",
+   "name": {
+    "en": "Brussels",
+    "fr": "Bruxelles"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   },
+   "open": true
+  },
+  {
+   "id": "LU00",
+   "country": "LU",
+   "name": {
+    "en": "Luxembourg",
+    "fr": "Luxembourg"
+   },
+   "level": {
+    "en": "Country",
+    "fr": "Pays"
+   },
+   "open": true
+  },
+  {
+   "id": "CH01",
+   "country": "CH",
+   "name": {
+    "en": "Lake Geneva region (Geneva, Vaud, Valais)",
+    "fr": "Région lémanique (Genève, Vaud, Valais)"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   },
+   "open": true
+  },
+  {
+   "id": "CH02",
+   "country": "CH",
+   "name": {
+    "en": "Espace Mittelland (mostly German-speaking)",
+    "fr": "Espace Mittelland (majorité germanophone)"
+   },
+   "level": {
+    "en": "Region",
+    "fr": "Région"
+   },
+   "mixed": true
+  },
+  {
+   "id": "CA-QC",
+   "country": "CA",
+   "name": {
+    "en": "Québec",
+    "fr": "Québec"
+   },
+   "level": {
+    "en": "Province",
+    "fr": "Province"
+   }
+  },
+  {
+   "id": "CA-NB",
+   "country": "CA",
+   "name": {
+    "en": "New Brunswick",
+    "fr": "Nouveau-Brunswick"
+   },
+   "level": {
+    "en": "Province",
+    "fr": "Province"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-ON",
+   "country": "CA",
+   "name": {
+    "en": "Ontario",
+    "fr": "Ontario"
+   },
+   "level": {
+    "en": "Province",
+    "fr": "Province"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-MB",
+   "country": "CA",
+   "name": {
+    "en": "Manitoba",
+    "fr": "Manitoba"
+   },
+   "level": {
+    "en": "Province",
+    "fr": "Province"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-SK",
+   "country": "CA",
+   "name": {
+    "en": "Saskatchewan",
+    "fr": "Saskatchewan"
+   },
+   "level": {
+    "en": "Province",
+    "fr": "Province"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-AB",
+   "country": "CA",
+   "name": {
+    "en": "Alberta",
+    "fr": "Alberta"
+   },
+   "level": {
+    "en": "Province",
+    "fr": "Province"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-BC",
+   "country": "CA",
+   "name": {
+    "en": "British Columbia",
+    "fr": "Colombie-Britannique"
+   },
+   "level": {
+    "en": "Province",
+    "fr": "Province"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-NS",
+   "country": "CA",
+   "name": {
+    "en": "Nova Scotia",
+    "fr": "Nouvelle-Écosse"
+   },
+   "level": {
+    "en": "Province",
+    "fr": "Province"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-PE",
+   "country": "CA",
+   "name": {
+    "en": "Prince Edward Island",
+    "fr": "Île-du-Prince-Édouard"
+   },
+   "level": {
+    "en": "Province",
+    "fr": "Province"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-NL",
+   "country": "CA",
+   "name": {
+    "en": "Newfoundland and Labrador",
+    "fr": "Terre-Neuve-et-Labrador"
+   },
+   "level": {
+    "en": "Province",
+    "fr": "Province"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-YT",
+   "country": "CA",
+   "name": {
+    "en": "Yukon (Whitehorse)",
+    "fr": "Yukon (Whitehorse)"
+   },
+   "level": {
+    "en": "Territory",
+    "fr": "Territoire"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-NT",
+   "country": "CA",
+   "name": {
+    "en": "Northwest Territories (Yellowknife)",
+    "fr": "Territoires du Nord-Ouest (Yellowknife)"
+   },
+   "level": {
+    "en": "Territory",
+    "fr": "Territoire"
+   },
+   "prog": true
+  },
+  {
+   "id": "CA-NU",
+   "country": "CA",
+   "name": {
+    "en": "Nunavut (Iqaluit)",
+    "fr": "Nunavut (Iqaluit)"
+   },
+   "level": {
+    "en": "Territory",
+    "fr": "Territoire"
+   },
+   "prog": true
+  }
+ ],
+ "values": [
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 21.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 39.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 21.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 16.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 7.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 13.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 10,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 6.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 6.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 8.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 13.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 11.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 6.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 18,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 26.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 17.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 4.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 3.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 5.4,
+   "p": "2023–2025",
+   "s": "eurostat-lfu3rt",
+   "q": "avg"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 6.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 10.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 19.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 30,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 22.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 6.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 14.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 8.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 3.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 19.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 34.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 18.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 12.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 6.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 3.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 15.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 7.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 4.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 23.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 40.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 22.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 17.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 13.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 7.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 5.2,
+   "p": "2023–2025",
+   "s": "eurostat-lfu3rt",
+   "q": "avg"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 6.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 12.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 5.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 8.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 16.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 9.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 17.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 31.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 16.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 9.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 5.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 11.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 5.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 3.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 6.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 13.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 4.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 16.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 31.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 13.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 10.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 5.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 5.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 6.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 14.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 6.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 4.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 16.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 23.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 18.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 9.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 4.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 2.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 5.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 12.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 6.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 3.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 18.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 30.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 18.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 11.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 11.7,
+   "p": "2023–2025",
+   "s": "eurostat-lfu3rt",
+   "q": "avg"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 6.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 8.1,
+   "p": "2023–2025",
+   "s": "eurostat-lfu3rt",
+   "q": "avg"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 5.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 12.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 7.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 20.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 36.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 20.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 13.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 12.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 7.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 6.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 16.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 5.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 17,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 8.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 17.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 28.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 17.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 11.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 5.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 15.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 6.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 5.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 14.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 7.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 22.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 34,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 22.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 14.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 6.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.5,
+   "p": "2023–2025",
+   "s": "eurostat-lfu3rt",
+   "q": "avg"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 12.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 7.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 10.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 30.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 51.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 22.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 11.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 22.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 19.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 7.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 10.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 19.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 9.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 8.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 12.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 25.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 18,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 7.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 22.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 34.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 17,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 18.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 16.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 7.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 3.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 6.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 6.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 7.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 17.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 8.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 4.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 19.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 29.1,
+   "p": "2023–2025",
+   "s": "eurostat-lfu3rt",
+   "q": "avg"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 5.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 5.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 6.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 10.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 6.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 14.7,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 16.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 14,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 12.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 7.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 10.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 7.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 6.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 5.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 5.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.8,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 11.1,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 7.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH01",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 6.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 8.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 9.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 7.5,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 4.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "calc"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 10.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 4.3,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 2.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 3.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 6.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 3.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 2.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "u"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 4.6,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 9.2,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 4.4,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 2.9,
+   "p": "2025",
+   "s": "eurostat-lfu3rt",
+   "q": "ok"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 9.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 15.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 7.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 4.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 8.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 6.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 5.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 5.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 10.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 6.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 4.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 14.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 24,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 14.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 9.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 5.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 21,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 7.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 14.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 5.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 19.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 9.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 4.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 16,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 25.2,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 16,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 11.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 12.2,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 9.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 5.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 6.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 5.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 16.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 10.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 6.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 11.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 23.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 10.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 6.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 4.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 10.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 5.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 5.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 14,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 6.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 4.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 11.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 10.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 4.2,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 9.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 5.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 3.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 3.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 5.2,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 12.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 6.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 3.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 15.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 31.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 13,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 7.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 5.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 11.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 6.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 5.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 5.2,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 7.2,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 18.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 8.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 13.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 25.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 11.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 9.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 5.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 10.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 6.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 6.2,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 15.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 7.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 13,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 24.2,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 12.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 7.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 5.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 14.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 8.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 6.6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 15.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 9.2,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 4.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 10.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 14.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6.8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 16.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "u"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 10.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 5.3,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 9.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 6,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 8,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 17,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 11.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 16.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 16.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 8.4,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 6.7,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 11.5,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 10.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 19.1,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 13.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 7.9,
+   "p": "2025",
+   "s": "statcan-1410002001",
+   "q": "calc"
+  },
+  {
+   "t": "FR1",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 26.7,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FR1",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 15.3,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRB",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 17.8,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRB",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 11.8,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRC",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 19,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRC",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 15.1,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRD",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 23,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRD",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 14.1,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 25.6,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRE",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 17.1,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 25.4,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRF",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 13.5,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRG",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 12.1,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRG",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 14,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRH",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 11.8,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRH",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 12,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 17.3,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRI",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 14.2,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 20.6,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRJ",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 15.1,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 17.1,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRK",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 13.4,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRL",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 23.7,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "FRL",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 14.5,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "FRM",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 12,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "u"
+  },
+  {
+   "t": "BE1",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 46.4,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "BE1",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 20.4,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 37,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "BE3",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 15.6,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "LU00",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 30.7,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "LU00",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 14.1,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "CH01",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 36.9,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "CH01",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 18,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "CH02",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 27.4,
+   "p": "2025",
+   "s": "eurostat-lfu2ltu",
+   "q": "ok"
+  },
+  {
+   "t": "CH02",
+   "i": "slack",
+   "a": "all",
+   "e": "all",
+   "v": 12.5,
+   "p": "2025",
+   "s": "eurostat-sla",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NL",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 10.1,
+   "p": "Nov 2025–Oct 2026",
+   "s": "statcan-1410034201",
+   "q": "calc"
+  },
+  {
+   "t": "CA-PE",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 6.8,
+   "p": "Nov 2025–Oct 2026",
+   "s": "statcan-1410034201",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NS",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 10,
+   "p": "Nov 2025–Oct 2026",
+   "s": "statcan-1410034201",
+   "q": "calc"
+  },
+  {
+   "t": "CA-NB",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 10.2,
+   "p": "Nov 2025–Oct 2026",
+   "s": "statcan-1410034201",
+   "q": "calc"
+  },
+  {
+   "t": "CA-QC",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 9.2,
+   "p": "Nov 2025–Oct 2026",
+   "s": "statcan-1410034201",
+   "q": "calc"
+  },
+  {
+   "t": "CA-ON",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 16,
+   "p": "Nov 2025–Oct 2026",
+   "s": "statcan-1410034201",
+   "q": "calc"
+  },
+  {
+   "t": "CA-MB",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 12.9,
+   "p": "Nov 2025–Oct 2026",
+   "s": "statcan-1410034201",
+   "q": "calc"
+  },
+  {
+   "t": "CA-SK",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 12.8,
+   "p": "Nov 2025–Oct 2026",
+   "s": "statcan-1410034201",
+   "q": "calc"
+  },
+  {
+   "t": "CA-AB",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 12.6,
+   "p": "Nov 2025–Oct 2026",
+   "s": "statcan-1410034201",
+   "q": "calc"
+  },
+  {
+   "t": "CA-BC",
+   "i": "ltu",
+   "a": "all",
+   "e": "all",
+   "v": 12.4,
+   "p": "Nov 2025–Oct 2026",
+   "s": "statcan-1410034201",
+   "q": "calc"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 4.2,
+   "p": "2025",
+   "s": "statcan-1410046401",
+   "q": "ok"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 3.1,
+   "p": "2025",
+   "s": "statcan-1410044601",
+   "q": "ok"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 10.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 5.5,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 2.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 7.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 11.7,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 9.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 10.2,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 4.7,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 2.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.5,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 8.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 5,
+   "p": "2025",
+   "s": "statcan-1410046401",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 3.6,
+   "p": "2025",
+   "s": "statcan-1410044601",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 12.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 6.2,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 2.5,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 9.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 11.7,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 10.3,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 14.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 5.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 2.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.2,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 9.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 3,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 2.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "all",
+   "e": "all",
+   "v": 10.3,
+   "p": "2025",
+   "s": "statcan-1410046401",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 10,
+   "p": "2025",
+   "s": "statcan-1410044601",
+   "q": "ok"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 17.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "all",
+   "e": "mid",
+   "v": 9.8,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 4.7,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 17.8,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 23.5,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 12.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 17.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 9.4,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.6,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 5.9,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 10.2,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.1,
+   "p": "2025",
+   "s": "model-territories",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 14.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 9.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 4.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 5.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 9.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 13,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 2.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 14.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 3.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 13.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 11.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 3.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 4.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 2.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 2.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 12.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 14,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 18.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 32.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 24.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 12.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 13.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 9.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 6.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 19.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 18.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 19.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 10.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 6.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 6.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 5.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 5.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 7.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 22.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 6.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 6.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 3.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 10.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 5.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 8.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 9.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 6.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 19.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 6.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 13.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 10.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 25.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 10.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 13.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 11.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 14.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 12.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 10.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 4.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  }
+ ],
+ "communities": [
+  {
+   "programmes": [
+    "FCIP"
+   ],
+   "name": "Péninsule acadienne",
+   "province": "N.-B.",
+   "region": "Campbellton-Miramichi (N.-B.)",
+   "unemp": 8.6,
+   "uv": 3.66,
+   "vacancyRate": 3.2,
+   "frenchAtWork": 74.2
+  },
+  {
+   "programmes": [
+    "FCIP",
+    "WFC"
+   ],
+   "name": "Sudbury (Grand Sudbury)",
+   "province": "Ont.",
+   "region": "Northeast (Ont.)",
+   "unemp": 6.7,
+   "uv": 2.01,
+   "vacancyRate": 4,
+   "frenchAtWork": 4.9
+  },
+  {
+   "programmes": [
+    "FCIP"
+   ],
+   "name": "Timmins",
+   "province": "Ont.",
+   "region": "Northeast (Ont.)",
+   "unemp": 6.7,
+   "uv": 2.01,
+   "vacancyRate": 4,
+   "frenchAtWork": 17
+  },
+  {
+   "programmes": [
+    "FCIP"
+   ],
+   "name": "Région de Supérieur Est",
+   "province": "Ont.",
+   "region": "Northeast (Ont.)",
+   "unemp": 6.7,
+   "uv": 2.01,
+   "vacancyRate": 4,
+   "frenchAtWork": 1.4
+  },
+  {
+   "programmes": [
+    "FCIP"
+   ],
+   "name": "St-Pierre-Jolys",
+   "province": "Man.",
+   "region": "Southeast (Man.)",
+   "unemp": 4.3,
+   "uv": 1.79,
+   "vacancyRate": 3.7,
+   "frenchAtWork": 3.7
+  },
+  {
+   "programmes": [
+    "FCIP"
+   ],
+   "name": "Kelowna",
+   "province": "C.-B.",
+   "region": "Thompson-Okanagan (C.-B.)",
+   "unemp": 7.5,
+   "uv": 1.88,
+   "vacancyRate": 4.7,
+   "frenchAtWork": 0.2
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Calgary",
+   "province": "Alb.",
+   "region": "Calgary (Alb.)",
+   "unemp": 7,
+   "uv": 3.35,
+   "vacancyRate": 2.8,
+   "frenchAtWork": 0.3
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Nanaimo",
+   "province": "C.-B.",
+   "region": "Vancouver Island and Coast (C.-B.)",
+   "unemp": 5.7,
+   "uv": 1.98,
+   "vacancyRate": 3.9,
+   "frenchAtWork": 0.3
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Prince George",
+   "province": "C.-B.",
+   "region": "Cariboo (C.-B.)",
+   "unemp": 5.7,
+   "uv": 2.32,
+   "vacancyRate": 3.5,
+   "frenchAtWork": 0.2
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Région Évangéline",
+   "province": "Î.-P.-É.",
+   "region": "Île-du-Prince-Édouard",
+   "unemp": 6.9,
+   "uv": 2.8,
+   "vacancyRate": 3.7,
+   "frenchAtWork": 2.7
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Région de la Rivière-Rouge",
+   "province": "Man.",
+   "region": "Southeast (Man.)",
+   "unemp": 4.3,
+   "uv": 1.79,
+   "vacancyRate": 3.7,
+   "frenchAtWork": 3.7
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Région de la rivière Seine",
+   "province": "Man.",
+   "region": "Southeast (Man.)",
+   "unemp": 4.3,
+   "uv": 1.79,
+   "vacancyRate": 3.7,
+   "frenchAtWork": 3.7
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Acadie Nord-Est",
+   "province": "N.-B.",
+   "region": "Campbellton-Miramichi (N.-B.)",
+   "unemp": 8.6,
+   "uv": 3.66,
+   "vacancyRate": 3.2,
+   "frenchAtWork": 74.2
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Chaleur",
+   "province": "N.-B.",
+   "region": "Campbellton-Miramichi (N.-B.)",
+   "unemp": 8.6,
+   "uv": 3.66,
+   "vacancyRate": 3.2,
+   "frenchAtWork": 74.2
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Kedgwick et Saint-Quentin (Restigouche-Ouest)",
+   "province": "N.-B.",
+   "region": "Campbellton-Miramichi (N.-B.)",
+   "unemp": 8.6,
+   "uv": 3.66,
+   "vacancyRate": 3.2,
+   "frenchAtWork": 51.6
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Région Haut-Saint-Jean",
+   "province": "N.-B.",
+   "region": "Edmundston-Woodstock (N.-B.)",
+   "unemp": 4.5,
+   "uv": 1.58,
+   "vacancyRate": 3.7,
+   "frenchAtWork": 87.6
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Clare",
+   "province": "N.-É.",
+   "region": "Southern (N.-É.)",
+   "unemp": 6.1,
+   "uv": 2.33,
+   "vacancyRate": 3.3,
+   "frenchAtWork": 20.2
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Région de Chéticamp",
+   "province": "N.-É.",
+   "region": "Cape Breton (N.-É.)",
+   "unemp": 9.3,
+   "uv": 2.74,
+   "vacancyRate": 3.8,
+   "frenchAtWork": 5.6
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Iqaluit",
+   "province": "Nt",
+   "region": "Nunavut",
+   "unemp": 11.6,
+   "uv": 5.19,
+   "vacancyRate": 2.2,
+   "frenchAtWork": 0.8
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Cornwall",
+   "province": "Ont.",
+   "region": "Ottawa (Ont.)",
+   "unemp": 6.9,
+   "uv": 3.25,
+   "vacancyRate": 2.8,
+   "frenchAtWork": 5.8
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Corridor du Nord (district de Cochrane, route 11)",
+   "province": "Ont.",
+   "region": "Northeast (Ont.)",
+   "unemp": 6.7,
+   "uv": 2.01,
+   "vacancyRate": 4,
+   "frenchAtWork": 17
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Hamilton",
+   "province": "Ont.",
+   "region": "Hamilton-Niagara Peninsula (Ont.)",
+   "unemp": 6.6,
+   "uv": 3.5,
+   "vacancyRate": 2.8,
+   "frenchAtWork": 0.5
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Hawkesbury",
+   "province": "Ont.",
+   "region": "Ottawa (Ont.)",
+   "unemp": 6.9,
+   "uv": 3.25,
+   "vacancyRate": 2.8,
+   "frenchAtWork": 40.6
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "London",
+   "province": "Ont.",
+   "region": "London (Ont.)",
+   "unemp": 7.3,
+   "uv": 3.36,
+   "vacancyRate": 2.8,
+   "frenchAtWork": 0.6
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Moose Jaw et Gravelbourg",
+   "province": "Sask.",
+   "region": "Swift Current-Moose Jaw (Sask.)",
+   "unemp": 6.3,
+   "uv": 2.54,
+   "vacancyRate": 3.8,
+   "frenchAtWork": 0.4
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Prince Albert",
+   "province": "Sask.",
+   "region": "Prince Albert and Northern (Sask.)",
+   "unemp": 7.4,
+   "uv": 2.2,
+   "vacancyRate": 4.5,
+   "frenchAtWork": 0.5
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Labrador (Labrador City–Wabush)",
+   "province": "T.-N.-L.",
+   "region": "West Coast-Northern Peninsula-Labrador (T.-N.-L.)",
+   "unemp": 11.1,
+   "uv": 3.61,
+   "vacancyRate": 3.6,
+   "frenchAtWork": 0.8
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Yellowknife",
+   "province": "T.N.-O.",
+   "region": "Territoires du Nord-Ouest",
+   "unemp": 8,
+   "uv": 1.8,
+   "vacancyRate": 5.1,
+   "frenchAtWork": 1.1
+  },
+  {
+   "programmes": [
+    "WFC"
+   ],
+   "name": "Whitehorse",
+   "province": "Yn",
+   "region": "Yukon",
+   "unemp": 6.6,
+   "uv": 1.94,
+   "vacancyRate": 4.5,
+   "frenchAtWork": 1.3
+  }
+ ],
+ "sources": {
+  "model-profile": {
+   "label": "Estimate from Eurostat lfst_r_lfu3rt and Statistics Canada 14-10-0020-01",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfu3rt/default/table?lang=en"
+  },
+  "eurostat-lfu3rt": {
+   "label": "Eurostat, lfst_r_lfu3rt",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfu3rt/default/table?lang=en"
+  },
+  "eurostat-lfu2ltu": {
+   "label": "Eurostat, lfst_r_lfu2ltu",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfu2ltu/default/table?lang=en"
+  },
+  "eurostat-sla": {
+   "label": "Eurostat, lfst_r_sla_ga",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/lfst_r_sla_ga/default/table?lang=en"
+  },
+  "statcan-1410002001": {
+   "label": "Statistics Canada, table 14-10-0020-01",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410002001"
+  },
+  "statcan-1410046401": {
+   "label": "Statistics Canada, table 14-10-0464-01",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410046401"
+  },
+  "statcan-1410044601": {
+   "label": "Statistics Canada, table 14-10-0446-01",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044601"
+  },
+  "model-territories": {
+   "label": "Statistics Canada, tables 98-10-0400-01 and 14-10-0464-01",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810040001"
+  },
+  "statcan-1410034201": {
+   "label": "Statistics Canada, table 14-10-0342-01",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410034201"
+  }
+ }
+}

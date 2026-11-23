@@ -9,6 +9,8 @@ RewriteRule ^ https://erwanbargain.com%{REQUEST_URI} [R=301,L]
 
 # Repository files are not part of the site.
 RedirectMatch 404 /\.git
+# Sources and research notes of the job-search study. Only the built pages in /job-search/ are served.
+RedirectMatch 404 ^/job-search-src(/|$)
 
 <IfModule mod_headers.c>
   Header always set Strict-Transport-Security "max-age=31536000"

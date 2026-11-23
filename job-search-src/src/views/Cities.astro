@@ -1,0 +1,142 @@
+---
+import Base from '../layouts/Base.astro';
+import { type Lang } from '../i18n/ui';
+import { territories } from '../data/study';
+import { cities, unempKind, rentKind, countryNote, fmtRent, eduBasis } from '../data/cities';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const fr = lang === 'fr';
+const h = {
+  title: fr ? 'Villes et zones locales' : 'Cities and local areas',
+  lead: fr
+    ? "La région donne une idée, la ville est plus précise. Voici le niveau le plus fin que chaque pays publie, avec le loyer quand il est connu. À ce niveau, aucun pays ne publie de détail par âge et par diplôme."
+    : 'A region gives an idea; a city is more precise. This is the finest level each country publishes, with rent where it is known. At this level, no country publishes a breakdown by age and education.',
+  warn: fr
+    ? "Chaque pays mesure le chômage local à sa façon. Les chiffres se comparent à l'intérieur d'un pays, pas d'un pays à l'autre."
+    : 'Each country measures local unemployment in its own way. Figures compare within a country, not across countries.',
+  place: fr ? 'Ville ou zone' : 'City or area',
+  region: fr ? 'Région' : 'Region',
+  unemp: fr ? 'Chômage local' : 'Local unemployment',
+  rent: fr ? 'Loyer' : 'Rent',
+  vacancy: fr ? 'Logements vacants' : 'Vacancy',
+  share: fr ? 'Loyer / salaire' : 'Rent / pay',
+  edu: fr ? 'Par diplôme' : 'By education',
+  eduHelp: fr ? 'sans diplôme · secondaire · supérieur' : 'no diploma · secondary · higher',
+  eduNote: fr
+    ? "« Par diplôme » : taux de chômage au sens du recensement, pour les peu diplômés, les diplômés du secondaire et ceux du supérieur. C'est une autre mesure que le chômage local de la colonne voisine : déclarative, plus élevée, et relevée en mai 2021 au Canada, en pleine pandémie. Elle sert à lire l'écart entre niveaux de diplôme dans une même ville, pas à comparer les villes entre pays."
+    : '“By education”: census unemployment rate for people with no diploma, a secondary diploma and higher education. It is a different measure from the local rate in the next column: self-declared, higher, and taken in May 2021 in Canada, during the pandemic. Use it to read the gap between education levels within a city, not to compare cities across countries.',
+  net: fr ? 'du net' : 'of net pay',
+  gross: fr ? 'du brut' : 'of gross pay',
+  shareNote: fr
+    ? "Loyer rapporté au salaire : en Europe, au salaire net moyen national ; au Canada, au revenu d'emploi brut médian à temps plein. Les deux bases ne se comparent pas, et ces parts seront recalculées avec les salaires locaux."
+    : 'Rent against pay: in Europe, against the national average net wage; in Canada, against gross median full-time earnings. The two bases do not compare, and these shares will be recomputed with local pay.',
+};
+const countryName = {
+  FR: { en: 'France', fr: 'France' },
+  BE: { en: 'Belgium', fr: 'Belgique' },
+  LU: { en: 'Luxembourg', fr: 'Luxembourg' },
+  CH: { en: 'Switzerland', fr: 'Suisse' },
+  CA: { en: 'Canada', fr: 'Canada' },
+} as const;
+const tName = Object.fromEntries(territories.map((t) => [t.id, t.name[lang].replace(/\s*\(.*\)/, '')]));
+const nf = new Intl.NumberFormat(lang, { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const groups = (['FR', 'BE', 'LU', 'CH', 'CA'] as const).map((c) => ({
+  c,
+  rows: cities.filter((x) => x.country === c).sort((a, b) => tName[a.territory].localeCompare(tName[b.territory]) || a.unemp.v - b.unemp.v),
+}));
+---
+<Base lang={lang} route="/cities" title={h.title}>
+  <section class="section first">
+    <div class="container">
+      <h1>{h.title}</h1>
+      <p class="lead">{h.lead}</p>
+      <p class="notice">{h.warn}</p>
+    </div>
+  </section>
+
+  {groups.map((g) => (
+    <section class="section" id={g.c.toLowerCase()}>
+      <div class="container">
+        <h2>{countryName[g.c][lang]} <span class="num count">{g.rows.length}</span></h2>
+        <p class="note muted">{countryNote[g.c][lang]}</p>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr>
+                <th>{h.place}</th>
+                <th>{h.region}</th>
+                <th class="r">{h.unemp}</th>
+                <th class="r">{h.edu}<span class="sub th-sub">{h.eduHelp}</span></th>
+                <th class="r">{h.rent}</th>
+                <th class="r">{h.vacancy}</th>
+                <th class="r">{h.share}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {g.rows.map((x) => (
+                <tr>
+                  <td class="name">{x.name[lang]}</td>
+                  <td class="muted">{tName[x.territory]}</td>
+                  <td class="r">
+                    <span class="num v">{nf.format(x.unemp.v)} %</span>
+                    <span class="sub">{unempKind[x.unemp.kind][lang]}{x.unemp.lo != null && ` · ${nf.format(x.unemp.lo)}–${nf.format(x.unemp.hi!)}`}</span>
+                  </td>
+                  <td class="r">
+                    {x.edu ? (
+                      <>
+                        <span class="num v">{nf.format(x.edu.low)} · {nf.format(x.edu.mid)} · {nf.format(x.edu.high)}</span>
+                        <span class="sub">{eduBasis[x.edu.basis][lang]}</span>
+                      </>
+                    ) : <span class="muted">–</span>}
+                  </td>
+                  <td class="r">
+                    {x.rent ? (
+                      <>
+                        <span class="num v">{fmtRent(x, lang)}</span>
+                        <span class="sub">{rentKind[x.rent.kind][lang]}{x.rent.press && (fr ? ' · via la presse' : ' · press-reported')}</span>
+                      </>
+                    ) : <span class="muted">–</span>}
+                  </td>
+                  <td class="r num">{x.vacancy ? `${nf.format(x.vacancy.v)} %` : <span class="muted">–</span>}</td>
+                  <td class="r">
+                    {x.share ? (
+                      <>
+                        <span class="num v">{Math.round(x.share.v)} %</span>
+                        <span class="sub">{x.share.basis === 'net' ? h.net : h.gross}</span>
+                      </>
+                    ) : <span class="muted">–</span>}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <section class="section">
+    <div class="container">
+      <p class="note muted">{h.eduNote}</p>
+      <p class="note muted">{h.shareNote}</p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .first { border-top: 0; }
+  h1 { margin-bottom: 16px; }
+  .lead { margin-bottom: 20px; max-width: 72ch; }
+  .notice { max-width: 72ch; }
+  .count { font-size: 13px; color: var(--muted); font-weight: 400; margin-left: 6px; letter-spacing: 0; }
+  .note { font-size: 14px; max-width: 84ch; margin: 0 0 20px; }
+  .r { text-align: right; }
+  .name { font-weight: 500; }
+  td .v { display: block; font-size: 13.5px; }
+  td .sub { display: block; font-size: 11.5px; color: var(--muted); }
+  table.data td { vertical-align: top; }
+  table.data th { vertical-align: bottom; }
+  .th-sub { display: block; text-transform: none; letter-spacing: 0; font-weight: 400; font-size: 11px; margin-top: 2px; }
+  td .v { white-space: nowrap; }
+</style>

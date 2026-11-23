@@ -1,0 +1,424 @@
+territoire,indicateur,valeur,unite,annee,source,statut
+FR,esperance_vie_naissance,83.0,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FR1,esperance_vie_naissance,84.6,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRB,esperance_vie_naissance,82.6,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRC,esperance_vie_naissance,82.4,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRD,esperance_vie_naissance,82.1,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRE,esperance_vie_naissance,81.4,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRF,esperance_vie_naissance,82.1,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRG,esperance_vie_naissance,83.5,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRH,esperance_vie_naissance,82.5,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRI,esperance_vie_naissance,83.1,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRJ,esperance_vie_naissance,83.3,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRK,esperance_vie_naissance,83.9,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRL,esperance_vie_naissance,83.8,annees,2024,ESTAT_demo_r_mlifexp,officiel
+FRM,esperance_vie_naissance,84.0,annees,2024,ESTAT_demo_r_mlifexp,officiel
+BE,esperance_vie_naissance,82.4,annees,2024,ESTAT_demo_r_mlifexp,officiel
+BE1,esperance_vie_naissance,82.1,annees,2024,ESTAT_demo_r_mlifexp,officiel
+BE3,esperance_vie_naissance,80.7,annees,2024,ESTAT_demo_r_mlifexp,officiel
+LU,esperance_vie_naissance,83.2,annees,2024,ESTAT_demo_r_mlifexp,officiel
+LU00,esperance_vie_naissance,83.2,annees,2024,ESTAT_demo_r_mlifexp,officiel
+CH,esperance_vie_naissance,84.2,annees,2024,ESTAT_demo_r_mlifexp,officiel
+CH01,esperance_vie_naissance,84.6,annees,2024,ESTAT_demo_r_mlifexp,officiel
+CH02,esperance_vie_naissance,83.8,annees,2024,ESTAT_demo_r_mlifexp,officiel
+CA,esperance_vie_naissance,81.65,annees,2022/2024,STATCAN_13-10-0114,officiel
+CA-QC,esperance_vie_naissance,82.39,annees,2022/2024,STATCAN_13-10-0114,officiel
+CA-NB,esperance_vie_naissance,80.12,annees,2022/2024,STATCAN_13-10-0114,officiel
+CA-ON,esperance_vie_naissance,82.27,annees,2022/2024,STATCAN_13-10-0114,officiel
+CA-MB,esperance_vie_naissance,78.90,annees,2022/2024,STATCAN_13-10-0114,officiel
+CA-SK,esperance_vie_naissance,79.02,annees,2022/2024,STATCAN_13-10-0114,officiel
+CA-AB,esperance_vie_naissance,80.81,annees,2022/2024,STATCAN_13-10-0114,officiel
+CA-BC,esperance_vie_naissance,81.98,annees,2022/2024,STATCAN_13-10-0114,officiel
+CA-NS,esperance_vie_naissance,80.30,annees,2022/2024,STATCAN_13-10-0114,officiel
+CA-NL,esperance_vie_naissance,79.17,annees,2022/2024,STATCAN_13-10-0114,officiel
+CA-PE,esperance_vie_naissance,81.16,annees,2022/2024,STATCAN_13-10-0140,officiel
+CA-YT,esperance_vie_naissance,NA,annees,,STATCAN_13-10-0140,manquant
+CA-NT,esperance_vie_naissance,76.29,annees,2022/2024,STATCAN_13-10-0140,officiel
+CA-NU,esperance_vie_naissance,70.84,annees,2022/2024,STATCAN_13-10-0140,officiel
+FR,mortalite_infantile,4.1,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FR1,mortalite_infantile,4.1,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRB,mortalite_infantile,4.1,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRC,mortalite_infantile,4.4,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRD,mortalite_infantile,4.1,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRE,mortalite_infantile,3.6,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRF,mortalite_infantile,4.9,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRG,mortalite_infantile,3.5,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRH,mortalite_infantile,4.2,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRI,mortalite_infantile,3.4,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRJ,mortalite_infantile,3.3,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRK,mortalite_infantile,3.4,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRL,mortalite_infantile,3.7,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+FRM,mortalite_infantile,2.8,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+BE,mortalite_infantile,3.5,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+BE1,mortalite_infantile,3.2,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+BE3,mortalite_infantile,3.9,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+LU,mortalite_infantile,5.3,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+LU00,mortalite_infantile,5.3,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+CH,mortalite_infantile,3.3,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+CH01,mortalite_infantile,3.1,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+CH02,mortalite_infantile,3.5,pour 1000 naissances vivantes,2024,ESTAT_demo_r_minfind,officiel
+CA,mortalite_infantile,4.5,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-QC,mortalite_infantile,4.9,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-NB,mortalite_infantile,6.0,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-ON,mortalite_infantile,4.3,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-MB,mortalite_infantile,7.4,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-SK,mortalite_infantile,6.3,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-AB,mortalite_infantile,4.4,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-BC,mortalite_infantile,3.3,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-NS,mortalite_infantile,2.9,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-PE,mortalite_infantile,3.0,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-NL,mortalite_infantile,2.9,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-YT,mortalite_infantile,4.4,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-NT,mortalite_infantile,8.4,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+CA-NU,mortalite_infantile,21.2,pour 1000 naissances vivantes,2024,STATCAN_13-10-0713,officiel
+FR,medecins_pour_1000,3.44,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FR1,medecins_pour_1000,3.87,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRB,medecins_pour_1000,2.6,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRC,medecins_pour_1000,3.08,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRD,medecins_pour_1000,3.03,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRE,medecins_pour_1000,3.06,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRF,medecins_pour_1000,3.29,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRG,medecins_pour_1000,3.0,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRH,medecins_pour_1000,3.49,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRI,medecins_pour_1000,3.54,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRJ,medecins_pour_1000,3.49,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRK,medecins_pour_1000,3.49,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRL,medecins_pour_1000,4.08,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+FRM,medecins_pour_1000,3.35,pour 1000 hab.,2025,OCDE_REG_HEALTH_DF_CARE,officiel
+BE,medecins_pour_1000,3.02,pour 1000 hab.,2023,OCDE_REG_HEALTH_DF_CARE,officiel
+BE1,medecins_pour_1000,4.44,pour 1000 hab.,2023,OCDE_REG_HEALTH_DF_CARE,officiel
+BE3,medecins_pour_1000,3.14,pour 1000 hab.,2023,OCDE_REG_HEALTH_DF_CARE,officiel
+LU,medecins_pour_1000,NA,pour 1000 hab.,,OCDE_REG_HEALTH_DF_CARE,manquant
+LU00,medecins_pour_1000,NA,pour 1000 hab.,,OCDE_REG_HEALTH_DF_CARE,manquant
+CH,medecins_pour_1000,4.73,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CH01,medecins_pour_1000,5.19,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CH02,medecins_pour_1000,4.29,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA,medecins_pour_1000,2.41,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-QC,medecins_pour_1000,2.62,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-NB,medecins_pour_1000,2.58,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-ON,medecins_pour_1000,2.21,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-MB,medecins_pour_1000,2.25,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-SK,medecins_pour_1000,2.17,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-AB,medecins_pour_1000,2.39,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-BC,medecins_pour_1000,2.73,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-NS,medecins_pour_1000,2.67,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-PE,medecins_pour_1000,2.1,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-NL,medecins_pour_1000,2.6,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-YT,medecins_pour_1000,1.89,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-NT,medecins_pour_1000,1.13,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-NU,medecins_pour_1000,0.56,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+FR,infirmiers_pour_1000,10.97,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FR1,infirmiers_pour_1000,9.78,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRB,infirmiers_pour_1000,9.24,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRC,infirmiers_pour_1000,11.25,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRD,infirmiers_pour_1000,10.79,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRE,infirmiers_pour_1000,10.89,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRF,infirmiers_pour_1000,11.39,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRG,infirmiers_pour_1000,9.17,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRH,infirmiers_pour_1000,11.64,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRI,infirmiers_pour_1000,11.55,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRJ,infirmiers_pour_1000,12.21,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRK,infirmiers_pour_1000,11.66,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRL,infirmiers_pour_1000,12.73,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+FRM,infirmiers_pour_1000,12.63,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+BE,infirmiers_pour_1000,11.42,pour 1000 hab.,2023,OCDE_REG_HEALTH_DF_CARE,officiel
+BE1,infirmiers_pour_1000,10.62,pour 1000 hab.,2023,OCDE_REG_HEALTH_DF_CARE,officiel
+BE3,infirmiers_pour_1000,10.47,pour 1000 hab.,2023,OCDE_REG_HEALTH_DF_CARE,officiel
+LU,infirmiers_pour_1000,NA,pour 1000 hab.,,OCDE_REG_HEALTH_DF_CARE,manquant
+LU00,infirmiers_pour_1000,NA,pour 1000 hab.,,OCDE_REG_HEALTH_DF_CARE,manquant
+CH,infirmiers_pour_1000,19.02,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CH01,infirmiers_pour_1000,18.36,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CH02,infirmiers_pour_1000,19.06,pour 1000 hab.,2024,OCDE_REG_HEALTH_DF_CARE,officiel
+CA,infirmiers_pour_1000,9.93,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-QC,infirmiers_pour_1000,10.47,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-NB,infirmiers_pour_1000,12.36,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-ON,infirmiers_pour_1000,9.53,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-MB,infirmiers_pour_1000,NA,pour 1000 hab.,,OCDE_REG_HEALTH_DF_CARE,manquant
+CA-SK,infirmiers_pour_1000,11.97,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-AB,infirmiers_pour_1000,10.7,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-BC,infirmiers_pour_1000,9.63,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-NS,infirmiers_pour_1000,13.07,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-PE,infirmiers_pour_1000,NA,pour 1000 hab.,,OCDE_REG_HEALTH_DF_CARE,manquant
+CA-NL,infirmiers_pour_1000,14.57,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-YT,infirmiers_pour_1000,11.64,pour 1000 hab.,2021,OCDE_REG_HEALTH_DF_CARE,officiel
+CA-NT,infirmiers_pour_1000,NA,pour 1000 hab.,,OCDE_REG_HEALTH_DF_CARE,manquant
+CA-NU,infirmiers_pour_1000,NA,pour 1000 hab.,,OCDE_REG_HEALTH_DF_CARE,manquant
+FR,sorties_precoces_18_24,7.2,%,2025,ESTAT_edat_lfse_16,officiel
+FR1,sorties_precoces_18_24,5.0,%,2025,ESTAT_edat_lfse_16,officiel
+FRB,sorties_precoces_18_24,6.6,%,2025,ESTAT_edat_lfse_16,officiel
+FRC,sorties_precoces_18_24,6.1,%,2025,ESTAT_edat_lfse_16,officiel
+FRD,sorties_precoces_18_24,12.1,%,2025,ESTAT_edat_lfse_16,officiel
+FRE,sorties_precoces_18_24,7.6,%,2025,ESTAT_edat_lfse_16,officiel
+FRF,sorties_precoces_18_24,7.9,%,2025,ESTAT_edat_lfse_16,officiel
+FRG,sorties_precoces_18_24,7.5,%,2025,ESTAT_edat_lfse_16,officiel
+FRH,sorties_precoces_18_24,4.7,%,2025,ESTAT_edat_lfse_16,officiel
+FRI,sorties_precoces_18_24,8.2,%,2025,ESTAT_edat_lfse_16,officiel
+FRJ,sorties_precoces_18_24,6.4,%,2025,ESTAT_edat_lfse_16,officiel
+FRK,sorties_precoces_18_24,5.4,%,2025,ESTAT_edat_lfse_16,officiel
+FRL,sorties_precoces_18_24,9.2,%,2025,ESTAT_edat_lfse_16,officiel
+FRM,sorties_precoces_18_24,21.5,%,2023,ESTAT_edat_lfse_16,officiel
+BE,sorties_precoces_18_24,7.3,%,2025,ESTAT_edat_lfse_16,officiel
+BE1,sorties_precoces_18_24,8.8,%,2025,ESTAT_edat_lfse_16,officiel
+BE3,sorties_precoces_18_24,9.8,%,2025,ESTAT_edat_lfse_16,officiel
+LU,sorties_precoces_18_24,5.2,%,2025,ESTAT_edat_lfse_16,officiel
+LU00,sorties_precoces_18_24,5.2,%,2025,ESTAT_edat_lfse_16,officiel
+CH,sorties_precoces_18_24,5.5,%,2025,ESTAT_edat_lfse_16,officiel
+CH01,sorties_precoces_18_24,6.9,%,2025,ESTAT_edat_lfse_16,officiel
+CH02,sorties_precoces_18_24,5.4,%,2025,ESTAT_edat_lfse_16,officiel
+FR,diplomes_superieur_25_34,55.8,%,2025,ESTAT_edat_lfse_04,officiel
+FR1,diplomes_superieur_25_34,72.7,%,2025,ESTAT_edat_lfse_04,officiel
+FRB,diplomes_superieur_25_34,51.6,%,2025,ESTAT_edat_lfse_04,officiel
+FRC,diplomes_superieur_25_34,44.0,%,2025,ESTAT_edat_lfse_04,officiel
+FRD,diplomes_superieur_25_34,49.1,%,2025,ESTAT_edat_lfse_04,officiel
+FRE,diplomes_superieur_25_34,49.4,%,2025,ESTAT_edat_lfse_04,officiel
+FRF,diplomes_superieur_25_34,48.0,%,2025,ESTAT_edat_lfse_04,officiel
+FRG,diplomes_superieur_25_34,54.9,%,2025,ESTAT_edat_lfse_04,officiel
+FRH,diplomes_superieur_25_34,48.9,%,2025,ESTAT_edat_lfse_04,officiel
+FRI,diplomes_superieur_25_34,51.6,%,2025,ESTAT_edat_lfse_04,officiel
+FRJ,diplomes_superieur_25_34,52.9,%,2025,ESTAT_edat_lfse_04,officiel
+FRK,diplomes_superieur_25_34,58.5,%,2025,ESTAT_edat_lfse_04,officiel
+FRL,diplomes_superieur_25_34,52.3,%,2025,ESTAT_edat_lfse_04,officiel
+FRM,diplomes_superieur_25_34,28.7,%,2025,ESTAT_edat_lfse_04,officiel
+BE,diplomes_superieur_25_34,52.7,%,2025,ESTAT_edat_lfse_04,officiel
+BE1,diplomes_superieur_25_34,63.5,%,2025,ESTAT_edat_lfse_04,officiel
+BE3,diplomes_superieur_25_34,46.3,%,2025,ESTAT_edat_lfse_04,officiel
+LU,diplomes_superieur_25_34,65.2,%,2025,ESTAT_edat_lfse_04,officiel
+LU00,diplomes_superieur_25_34,65.2,%,2025,ESTAT_edat_lfse_04,officiel
+CH,diplomes_superieur_25_34,50.6,%,2025,ESTAT_edat_lfse_04,officiel
+CH01,diplomes_superieur_25_34,51.5,%,2025,ESTAT_edat_lfse_04,officiel
+CH02,diplomes_superieur_25_34,45.4,%,2025,ESTAT_edat_lfse_04,officiel
+FR,sans_diplome_secondaire_sup_25_34,10.1,%,2025,ESTAT_edat_lfse_04,officiel
+FR1,sans_diplome_secondaire_sup_25_34,6.9,%,2025,ESTAT_edat_lfse_04,officiel
+FRB,sans_diplome_secondaire_sup_25_34,8.6,%,2025,ESTAT_edat_lfse_04,officiel
+FRC,sans_diplome_secondaire_sup_25_34,13.5,%,2025,ESTAT_edat_lfse_04,officiel
+FRD,sans_diplome_secondaire_sup_25_34,11.0,%,2025,ESTAT_edat_lfse_04,officiel
+FRE,sans_diplome_secondaire_sup_25_34,11.4,%,2025,ESTAT_edat_lfse_04,officiel
+FRF,sans_diplome_secondaire_sup_25_34,11.5,%,2025,ESTAT_edat_lfse_04,officiel
+FRG,sans_diplome_secondaire_sup_25_34,11.4,%,2025,ESTAT_edat_lfse_04,officiel
+FRH,sans_diplome_secondaire_sup_25_34,7.2,%,2025,ESTAT_edat_lfse_04,officiel
+FRI,sans_diplome_secondaire_sup_25_34,10.1,%,2025,ESTAT_edat_lfse_04,officiel
+FRJ,sans_diplome_secondaire_sup_25_34,10.2,%,2025,ESTAT_edat_lfse_04,officiel
+FRK,sans_diplome_secondaire_sup_25_34,7.9,%,2025,ESTAT_edat_lfse_04,officiel
+FRL,sans_diplome_secondaire_sup_25_34,10.6,%,2025,ESTAT_edat_lfse_04,officiel
+FRM,sans_diplome_secondaire_sup_25_34,18.3,%,2023,ESTAT_edat_lfse_04,officiel
+BE,sans_diplome_secondaire_sup_25_34,11.0,%,2025,ESTAT_edat_lfse_04,officiel
+BE1,sans_diplome_secondaire_sup_25_34,10.5,%,2025,ESTAT_edat_lfse_04,officiel
+BE3,sans_diplome_secondaire_sup_25_34,16.1,%,2025,ESTAT_edat_lfse_04,officiel
+LU,sans_diplome_secondaire_sup_25_34,7.7,%,2025,ESTAT_edat_lfse_04,officiel
+LU00,sans_diplome_secondaire_sup_25_34,7.7,%,2025,ESTAT_edat_lfse_04,officiel
+CH,sans_diplome_secondaire_sup_25_34,9.4,%,2025,ESTAT_edat_lfse_04,officiel
+CH01,sans_diplome_secondaire_sup_25_34,13.8,%,2025,ESTAT_edat_lfse_04,officiel
+CH02,sans_diplome_secondaire_sup_25_34,9.5,%,2025,ESTAT_edat_lfse_04,officiel
+CA,diplomes_superieur_25_34,68,%,2025,STATCAN_37-10-0130,officiel
+CA-QC,diplomes_superieur_25_34,60,%,2025,STATCAN_37-10-0130,officiel
+CA-NB,diplomes_superieur_25_34,69,%,2025,STATCAN_37-10-0130,officiel
+CA-ON,diplomes_superieur_25_34,75,%,2025,STATCAN_37-10-0130,officiel
+CA-MB,diplomes_superieur_25_34,59,%,2025,STATCAN_37-10-0130,officiel
+CA-SK,diplomes_superieur_25_34,54,%,2025,STATCAN_37-10-0130,officiel
+CA-AB,diplomes_superieur_25_34,61,%,2025,STATCAN_37-10-0130,officiel
+CA-BC,diplomes_superieur_25_34,68,%,2025,STATCAN_37-10-0130,officiel
+CA-NS,diplomes_superieur_25_34,70,%,2025,STATCAN_37-10-0130,officiel
+CA-PE,diplomes_superieur_25_34,67,%,2025,STATCAN_37-10-0130,officiel
+CA-NL,diplomes_superieur_25_34,62,%,2025,STATCAN_37-10-0130,officiel
+CA-YT,diplomes_superieur_25_34,68,%,2025,STATCAN_37-10-0130,officiel
+CA-NT,diplomes_superieur_25_34,54,%,2025,STATCAN_37-10-0130,officiel
+CA-NU,diplomes_superieur_25_34,23,%,2025,STATCAN_37-10-0130,officiel
+CA,sans_diplome_secondaire_sup_25_34,5,%,2025,STATCAN_37-10-0130,officiel
+CA-QC,sans_diplome_secondaire_sup_25_34,8,%,2025,STATCAN_37-10-0130,officiel
+CA-NB,sans_diplome_secondaire_sup_25_34,3,%,2025,STATCAN_37-10-0130,officiel
+CA-ON,sans_diplome_secondaire_sup_25_34,3,%,2025,STATCAN_37-10-0130,officiel
+CA-MB,sans_diplome_secondaire_sup_25_34,6,%,2025,STATCAN_37-10-0130,officiel
+CA-SK,sans_diplome_secondaire_sup_25_34,5,%,2025,STATCAN_37-10-0130,officiel
+CA-AB,sans_diplome_secondaire_sup_25_34,5,%,2025,STATCAN_37-10-0130,officiel
+CA-BC,sans_diplome_secondaire_sup_25_34,3,%,2025,STATCAN_37-10-0130,officiel
+CA-NS,sans_diplome_secondaire_sup_25_34,4,%,2025,STATCAN_37-10-0130,officiel
+CA-PE,sans_diplome_secondaire_sup_25_34,4,%,2025,STATCAN_37-10-0130,officiel
+CA-NL,sans_diplome_secondaire_sup_25_34,4,%,2025,STATCAN_37-10-0130,officiel
+CA-YT,sans_diplome_secondaire_sup_25_34,4,%,2025,STATCAN_37-10-0130,officiel
+CA-NT,sans_diplome_secondaire_sup_25_34,14,%,2025,STATCAN_37-10-0130,officiel
+CA-NU,sans_diplome_secondaire_sup_25_34,44,%,2025,STATCAN_37-10-0130,officiel
+FR,taux_homicides,1.19,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FR1,taux_homicides,1.06,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRB,taux_homicides,0.73,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRC,taux_homicides,0.96,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRD,taux_homicides,0.96,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRE,taux_homicides,0.75,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRF,taux_homicides,0.83,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRG,taux_homicides,1.12,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRH,taux_homicides,0.55,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRI,taux_homicides,0.84,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRJ,taux_homicides,1.05,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRK,taux_homicides,1.03,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRL,taux_homicides,2.0,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+FRM,taux_homicides,4.18,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+BE,taux_homicides,1.4,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+BE1,taux_homicides,2.69,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+BE3,taux_homicides,1.97,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+LU,taux_homicides,1.39,pour 100000 hab.,2022,ESTAT_crim_gen_reg,officiel
+LU00,taux_homicides,1.39,pour 100000 hab.,2022,ESTAT_crim_gen_reg,officiel
+CH,taux_homicides,0.5,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+CH01,taux_homicides,0.69,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+CH02,taux_homicides,0.41,pour 100000 hab.,2024,ESTAT_crim_gen_reg,officiel
+CA,taux_homicides,1.61,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-QC,taux_homicides,0.97,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-NB,taux_homicides,1.72,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-ON,taux_homicides,1.27,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-MB,taux_homicides,3.64,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-SK,taux_homicides,5.21,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-AB,taux_homicides,1.77,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-BC,taux_homicides,1.81,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-NS,taux_homicides,1.74,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-PE,taux_homicides,1.64,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-NL,taux_homicides,2.18,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-YT,taux_homicides,6.21,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-NT,taux_homicides,10.88,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA-NU,taux_homicides,16.73,pour 100000 hab.,2025,STATCAN_35-10-0068,officiel
+CA,indice_gravite_criminalite,75.01,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-QC,indice_gravite_criminalite,61.55,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-NB,indice_gravite_criminalite,90.36,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-ON,indice_gravite_criminalite,57.17,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-MB,indice_gravite_criminalite,130.04,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-SK,indice_gravite_criminalite,146.64,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-AB,indice_gravite_criminalite,90.62,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-BC,indice_gravite_criminalite,92.37,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-NS,indice_gravite_criminalite,72.96,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-PE,indice_gravite_criminalite,68.40,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-NL,indice_gravite_criminalite,88.74,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-YT,indice_gravite_criminalite,195.42,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-NT,indice_gravite_criminalite,485.88,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+CA-NU,indice_gravite_criminalite,461.22,indice (Canada 2006=100),2025,STATCAN_35-10-0026,officiel
+FR,pm25_exposition_moyenne,9.5,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FR1,pm25_exposition_moyenne,11.1,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRB,pm25_exposition_moyenne,8.7,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRC,pm25_exposition_moyenne,8.3,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRD,pm25_exposition_moyenne,9.1,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRE,pm25_exposition_moyenne,10.4,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRF,pm25_exposition_moyenne,9.1,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRG,pm25_exposition_moyenne,8.0,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRH,pm25_exposition_moyenne,7.6,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRI,pm25_exposition_moyenne,8.4,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRJ,pm25_exposition_moyenne,8.9,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRK,pm25_exposition_moyenne,9.3,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRL,pm25_exposition_moyenne,11.2,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FRM,pm25_exposition_moyenne,9.5,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+BE,pm25_exposition_moyenne,11.1,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+BE1,pm25_exposition_moyenne,12.2,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+BE3,pm25_exposition_moyenne,10.2,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+LU,pm25_exposition_moyenne,8.7,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+LU00,pm25_exposition_moyenne,8.7,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CH,pm25_exposition_moyenne,9.0,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CH01,pm25_exposition_moyenne,9.1,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CH02,pm25_exposition_moyenne,8.1,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA,pm25_exposition_moyenne,6.3,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-QC,pm25_exposition_moyenne,7.5,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-NB,pm25_exposition_moyenne,4.8,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-ON,pm25_exposition_moyenne,6.6,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-MB,pm25_exposition_moyenne,4.4,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-SK,pm25_exposition_moyenne,5.6,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-AB,pm25_exposition_moyenne,6.1,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-BC,pm25_exposition_moyenne,5.4,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-NS,pm25_exposition_moyenne,4.8,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-PE,pm25_exposition_moyenne,3.9,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-NL,pm25_exposition_moyenne,4.0,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-YT,pm25_exposition_moyenne,4.0,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-NT,pm25_exposition_moyenne,5.6,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+CA-NU,pm25_exposition_moyenne,3.0,microgrammes/m3,2020,OCDE_ENV_DF_AIR_POLL,officiel
+FR,satisfaction_vie_0_10,7.1,note moyenne 0-10 (subjectif),2025,ESTAT_ilc_pw01,officiel
+BE,satisfaction_vie_0_10,7.6,note moyenne 0-10 (subjectif),2025,ESTAT_ilc_pw01,officiel
+LU,satisfaction_vie_0_10,7.4,note moyenne 0-10 (subjectif),2025,ESTAT_ilc_pw01,officiel
+CH,satisfaction_vie_0_10,7.7,note moyenne 0-10 (subjectif),2024,ESTAT_ilc_pw01,officiel
+CA,satisfaction_vie_0_10,7.0,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+CA-QC,satisfaction_vie_0_10,7.5,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+CA-NB,satisfaction_vie_0_10,7.3,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+CA-ON,satisfaction_vie_0_10,6.8,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+CA-MB,satisfaction_vie_0_10,7.0,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+CA-SK,satisfaction_vie_0_10,6.8,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+CA-AB,satisfaction_vie_0_10,6.6,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+CA-BC,satisfaction_vie_0_10,6.8,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+CA-NS,satisfaction_vie_0_10,7.0,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+CA-PE,satisfaction_vie_0_10,7.3,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+CA-NL,satisfaction_vie_0_10,7.2,note moyenne 0-10 (subjectif),2025-04,STATCAN_13-10-0843,officiel
+FR,indice_conjoncturel_fecondite,1.61,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FR1,indice_conjoncturel_fecondite,1.68,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRB,indice_conjoncturel_fecondite,1.66,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRC,indice_conjoncturel_fecondite,1.52,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRD,indice_conjoncturel_fecondite,1.61,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRE,indice_conjoncturel_fecondite,1.64,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRF,indice_conjoncturel_fecondite,1.45,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRG,indice_conjoncturel_fecondite,1.6,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRH,indice_conjoncturel_fecondite,1.53,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRI,indice_conjoncturel_fecondite,1.45,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRJ,indice_conjoncturel_fecondite,1.46,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRK,indice_conjoncturel_fecondite,1.58,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRL,indice_conjoncturel_fecondite,1.66,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+FRM,indice_conjoncturel_fecondite,1.21,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+BE,indice_conjoncturel_fecondite,1.44,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+BE1,indice_conjoncturel_fecondite,1.35,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+BE3,indice_conjoncturel_fecondite,1.44,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+LU,indice_conjoncturel_fecondite,1.25,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+LU00,indice_conjoncturel_fecondite,1.25,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+CH,indice_conjoncturel_fecondite,1.29,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+CH01,indice_conjoncturel_fecondite,1.25,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+CH02,indice_conjoncturel_fecondite,1.3,enfants par femme,2024,ESTAT_demo_r_frate2,officiel
+CA,indice_conjoncturel_fecondite,1.26,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-QC,indice_conjoncturel_fecondite,1.36,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-NB,indice_conjoncturel_fecondite,1.21,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-ON,indice_conjoncturel_fecondite,1.23,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-MB,indice_conjoncturel_fecondite,1.50,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-SK,indice_conjoncturel_fecondite,1.58,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-AB,indice_conjoncturel_fecondite,1.42,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-BC,indice_conjoncturel_fecondite,1.04,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-NS,indice_conjoncturel_fecondite,1.07,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-PE,indice_conjoncturel_fecondite,1.18,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-NL,indice_conjoncturel_fecondite,1.08,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-YT,indice_conjoncturel_fecondite,1.02,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-NT,indice_conjoncturel_fecondite,1.28,enfants par femme,2025,STATCAN_13-10-0418,officiel
+CA-NU,indice_conjoncturel_fecondite,2.40,enfants par femme,2025,STATCAN_13-10-0418,officiel
+FR,heures_hebdo_habituelles_tous_emplois,37.2,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FR1,heures_hebdo_habituelles_tous_emplois,37.8,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRB,heures_hebdo_habituelles_tous_emplois,37.9,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRC,heures_hebdo_habituelles_tous_emplois,37.1,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRD,heures_hebdo_habituelles_tous_emplois,37.4,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRE,heures_hebdo_habituelles_tous_emplois,36.7,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRF,heures_hebdo_habituelles_tous_emplois,36.5,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRG,heures_hebdo_habituelles_tous_emplois,37.6,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRH,heures_hebdo_habituelles_tous_emplois,37.5,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRI,heures_hebdo_habituelles_tous_emplois,37.0,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRJ,heures_hebdo_habituelles_tous_emplois,36.7,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRK,heures_hebdo_habituelles_tous_emplois,37.1,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRL,heures_hebdo_habituelles_tous_emplois,37.1,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+FRM,heures_hebdo_habituelles_tous_emplois,37.1,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+BE,heures_hebdo_habituelles_tous_emplois,36.5,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+BE1,heures_hebdo_habituelles_tous_emplois,36.6,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+BE3,heures_hebdo_habituelles_tous_emplois,35.8,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+LU,heures_hebdo_habituelles_tous_emplois,38.0,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+LU00,heures_hebdo_habituelles_tous_emplois,38.0,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+CH,heures_hebdo_habituelles_tous_emplois,35.8,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+CH01,heures_hebdo_habituelles_tous_emplois,36.1,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+CH02,heures_hebdo_habituelles_tous_emplois,35.5,heures (emploi principal; temps plein et partiel),2025,ESTAT_lfst_r_lfe2ehour,officiel
+CA,heures_hebdo_habituelles_tous_emplois,35.5,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+CA-QC,heures_hebdo_habituelles_tous_emplois,34.5,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+CA-NB,heures_hebdo_habituelles_tous_emplois,36.7,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+CA-ON,heures_hebdo_habituelles_tous_emplois,35.5,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+CA-MB,heures_hebdo_habituelles_tous_emplois,35.8,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+CA-SK,heures_hebdo_habituelles_tous_emplois,36.6,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+CA-AB,heures_hebdo_habituelles_tous_emplois,36.6,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+CA-BC,heures_hebdo_habituelles_tous_emplois,35.1,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+CA-NS,heures_hebdo_habituelles_tous_emplois,36.1,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+CA-PE,heures_hebdo_habituelles_tous_emplois,37.3,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+CA-NL,heures_hebdo_habituelles_tous_emplois,37.6,heures (emploi principal; temps plein et partiel),2025,STATCAN_14-10-0043,officiel
+FR,heures_hebdo_habituelles_temps_plein,39.9,heures (emploi principal; temps plein),2025,ESTAT_lfsa_ewhun2,officiel
+BE,heures_hebdo_habituelles_temps_plein,40.3,heures (emploi principal; temps plein),2025,ESTAT_lfsa_ewhun2,officiel
+LU,heures_hebdo_habituelles_temps_plein,40.8,heures (emploi principal; temps plein),2025,ESTAT_lfsa_ewhun2,officiel
+CH,heures_hebdo_habituelles_temps_plein,43.3,heures (emploi principal; temps plein),2025,ESTAT_lfsa_ewhun2,officiel
+CA,heures_hebdo_habituelles_temps_plein,39.7,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
+CA-QC,heures_hebdo_habituelles_temps_plein,38.6,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
+CA-NB,heures_hebdo_habituelles_temps_plein,40.1,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
+CA-ON,heures_hebdo_habituelles_temps_plein,39.7,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
+CA-MB,heures_hebdo_habituelles_temps_plein,39.9,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
+CA-SK,heures_hebdo_habituelles_temps_plein,40.8,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
+CA-AB,heures_hebdo_habituelles_temps_plein,40.9,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
+CA-BC,heures_hebdo_habituelles_temps_plein,39.7,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
+CA-NS,heures_hebdo_habituelles_temps_plein,40.0,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
+CA-PE,heures_hebdo_habituelles_temps_plein,40.6,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
+CA-NL,heures_hebdo_habituelles_temps_plein,41.4,heures (emploi principal; temps plein),2025,STATCAN_14-10-0043,officiel
