@@ -4,10 +4,15 @@ import { useT, href, type Lang, type Key } from '../i18n/ui';
 import { ages, edus, territories, indicators, values, sources, meta } from '../data/study';
 import { findings } from '../data/findings';
 import { cities, unempKind, rentKind, fmtRent } from '../data/cities';
+import { gains } from '../data/gains';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = useT(lang);
+
+const after = (name: string) => gains.after.find((r) => r.name === name)!;
+const parisLeft = new Intl.NumberFormat(lang).format(after('Paris').left);
+const shares = [after('Toronto').share, after('Vancouver').share].map((v) => Math.round(v));
 
 const cityRows = cities.map((c) => ({
   t: c.territory,
@@ -141,8 +146,8 @@ const countryName: Record<string, { en: string; fr: string }> = {
       </div>
       <dl class="keep-figs">
         <div><dt class="num">84 → 176</dt><dd>{lang === 'fr' ? 'Salaire moyen après impôt et prix, de la Corse à l’arc lémanique (France = 100)' : 'Average wage after tax and prices, from Corsica to the Lake Geneva region (France = 100)'}</dd></div>
-        <div><dt class="num">{lang === 'fr' ? '974 €' : '€974'}</dt><dd>{lang === 'fr' ? 'Reste mensuel à Paris au salaire moyen national, après impôt et loyer d’un 52 m²' : 'Left each month in Paris at the national average wage, after tax and rent for 52 m²'}</dd></div>
-        <div><dt class="num">{lang === 'fr' ? '46 à 50 %' : '46–50%'}</dt><dd>{lang === 'fr' ? 'Part du net médian prise par un logement d’une chambre à Toronto et Vancouver' : 'Share of median net pay taken by a one-bedroom in Toronto and Vancouver'}</dd></div>
+        <div><dt class="num">{lang === 'fr' ? `${parisLeft} €` : `€${parisLeft}`}</dt><dd>{lang === 'fr' ? 'Reste mensuel à Paris au salaire médian francilien, après impôt et loyer d’un 52 m²' : 'Left each month in Paris at the regional median wage, after tax and rent for 52 m²'}</dd></div>
+        <div><dt class="num">{lang === 'fr' ? `${shares[0]} à ${shares[1]} %` : `${shares[0]}–${shares[1]}%`}</dt><dd>{lang === 'fr' ? 'Part du net médian prise par un logement d’une chambre à Toronto et Vancouver' : 'Share of median net pay taken by a one-bedroom in Toronto and Vancouver'}</dd></div>
       </dl>
     </div>
   </section>

@@ -191,6 +191,8 @@ for (const [place, id] of Object.entries(terrId)) {
     if (prime && a === '25-54' && e === 'all') continue;
     // Cells resting on fewer than 250 people, or suppressed, are not shown.
     if (!(r.v > 0) || r.flag) continue;
+    // "All postsecondary" is the sum of two census categories: leave the cell out if either one is flagged.
+    if (r.edu === 'postsecondaire_tous' && census.some((x) => x.age === r.age && ['postsec_inf_bac', 'bac_ou_plus'].includes(x.edu) && x.flag)) continue;
     push(id, 'unemp', a, e, +invLogit(logit(r.v) + shift).toFixed(1), '2025', 'model-territories', 'model');
   }
 }

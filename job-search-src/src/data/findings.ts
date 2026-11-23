@@ -50,8 +50,8 @@ export const findings: Finding[] = [
     figure: '29',
     title: { en: 'Welcome is not the same as work', fr: "L'accueil n'est pas l'emploi" },
     text: {
-      en: 'Twenty-nine Canadian communities outside Québec recruit francophones through federal programmes. Being listed does not mean jobs are easy to get, or that work is in French: French is the main language at work only in northern New Brunswick.',
-      fr: "Vingt-neuf communautés canadiennes hors Québec recrutent des francophones via des programmes fédéraux. Y figurer ne signifie pas que l'emploi y est facile, ni que l'on y travaille en français : le français n'est la langue principale au travail que dans le nord du Nouveau-Brunswick.",
+      en: 'Twenty-nine Canadian communities outside Québec take part in federal programmes to attract and welcome francophones. Being listed does not mean jobs are easy to get, or that work is in French: French is the main language at work only in northern New Brunswick.',
+      fr: "Vingt-neuf communautés canadiennes hors Québec participent à des programmes fédéraux pour attirer et accueillir des francophones. Y figurer ne signifie pas que l'emploi y est facile, ni que l'on y travaille en français : le français n'est la langue principale au travail que dans le nord du Nouveau-Brunswick.",
     },
     source: { en: 'IRCC, 2026; 2021 Census', fr: 'IRCC, 2026 ; Recensement de 2021' },
   },

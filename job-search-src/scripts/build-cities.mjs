@@ -147,14 +147,15 @@ const unitLabel = { 'EUR/m2/mois': '€/m²', 'CAD/mois': 'CAD', 'CHF/mois': 'CH
 const pick = (rows, tests) => {
   for (const t of tests) {
     const r = rows.find((x) => t.re.test(x.ind));
-    if (r) return { v: r.v, unit: unitLabel[r.unit] ?? r.unit, per: r.unit.startsWith('EUR/m2') ? 'm2' : 'month', kind: t.kind, period: r.period, computed: /calcul/.test(r.status) };
+    if (r) return { v: r.v, unit: unitLabel[r.unit] ?? r.unit, per: r.unit.startsWith('EUR/m2') ? 'm2' : 'month', kind: t.kind, period: r.period, computed: /calcul/.test(r.status), press: /presse/.test(r.status) };
   }
   return null;
 };
 for (const c of cities) {
   const k = alias[c.id] ?? key(c.name.fr);
   // "Quebec (province)" is the province, not the city.
-  const rows = housing.filter((r) => r.k === k && !/province\)$/.test(r.place));
+  // Brussels: the row is the Region, so use the Region's own figures (code BE1), not those of the wider urban area.
+  const rows = c.id === 'be-bruxelles' ? housing.filter((r) => r.place === 'BE1') : housing.filter((r) => r.k === k && !/province\)$/.test(r.place));
   if (!rows.length) continue;
   const rent = pick(rows, [
     { re: /^loyer demande 2 chambres/, kind: 'asking2' },
@@ -172,6 +173,8 @@ for (const c of cities) {
   if (rent) c.rent = rent;
   if (vac) c.vacancy = { v: vac.v, period: vac.period };
   if (shareRow) c.share = { v: shareRow.v, basis: /brut/.test(shareRow.ind) ? 'gross' : 'net', asking: /demande|annonce|nouveau bail|52 m2/.test(shareRow.ind) };
+  // Never show an asking rent next to a share computed on the rent paid by sitting tenants, or the reverse.
+  if (c.share && rent && c.share.asking !== ['asking2', 'asking', 'newlease'].includes(rent.kind)) delete c.share;
 }
 
 // ---------- Unemployment by education, from censuses (a different measure from the local rate) ----------

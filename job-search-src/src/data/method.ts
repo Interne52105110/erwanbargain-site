@@ -150,6 +150,11 @@ caveats.push({
   fr: "Pour le Yukon, les Territoires du Nord-Ouest et le Nunavut, aucune enquête ne publie le chômage par diplôme. Le profil affiché y est modélisé : la structure par âge et diplôme du Recensement de 2021, décalée d'une constante par territoire pour que le taux d'ensemble égale celui de l'enquête de 2025. Les cases reposant sur moins de 250 personnes sont écartées. La stabilité de cette structure depuis 2021 n'a pas été testée.",
 });
 
+caveats.push({
+  en: 'The two reports and the data of this site went through an independent review in November 2026. About 45 headline figures were confirmed against the original sources, every computed table was recomputed, and 12 errors were found and corrected. The review did not cover everything: the parts it left out are listed in the review note.',
+  fr: "Les deux rapports et les données de ce site ont fait l'objet d'un contrôle indépendant en novembre 2026. Environ 45 chiffres principaux ont été confirmés sur les sources d'origine, tous les tableaux calculés ont été recalculés, et 12 erreurs ont été relevées et corrigées. Le contrôle n'a pas tout couvert : les parties qu'il a laissées de côté sont listées dans la note de contrôle.",
+});
+
 export const grades: { mark: string; text: L10n }[] = [
   { mark: '6.3', text: { en: 'Published by the statistical office.', fr: "Publié par l'office statistique." } },
   { mark: '6.3 · computed', text: { en: 'Computed here from published figures, with the method stated.', fr: 'Calculé ici à partir de chiffres publiés, avec la méthode indiquée.' } },

@@ -5,10 +5,25 @@ import type { L10n } from './study';
 
 export const gains = raw as {
   index: { name: string; v: number; beforePremium: boolean }[];
-  europe: { name: string; rent: number; rentKind: 'asking' | 'newlease' | 'sitting'; premium: number | null; left100: number; left67: number; currency: 'EUR' | 'CHF' }[];
+  europe: { name: string; rent: number; rentKind: 'asking' | 'newlease' | 'sitting' | 'median'; premium: number | null; left100: number; left67: number; currency: 'EUR' | 'CHF' }[];
   canada: { name: string; net: number; rent: number; paid: boolean; left: number; share: number }[];
   family: { id: string; values: string[] }[];
   daily: { id: string; values: string[] }[];
+  after: {
+    name: string;
+    country: 'FR' | 'BE' | 'LU' | 'CH' | 'CA';
+    currency: 'EUR' | 'CHF' | 'CAD';
+    net: number;
+    ratio: number;
+    premium: number | null;
+    rent: number;
+    rentKind: 'asking' | 'newlease' | 'sitting' | 'median';
+    left: number;
+    share: number;
+    left67: number | null;
+    caveats: string[];
+  }[];
+  zurichRatio: number | null;
 };
 
 /** English names for the places named in French in the report. */
@@ -33,10 +48,26 @@ const en: Record<string, string> = {
   'Vaud, 3 pièces, bail récent': 'Vaud, 3 rooms, recent lease',
   Québec: 'Québec City',
   'Grand Sudbury': 'Greater Sudbury',
+  "Vaud (3 pièces, bail d'un an ou moins)": 'Vaud, 3 rooms, lease under a year',
+  'Liège (complexe résidentiel urbain)': 'Liège area',
+  'Charleroi (complexe résidentiel urbain)': 'Charleroi area',
 };
 const frFix: Record<string, string> = {
   'Wallonie ; complexe de Liège': 'Liège (agglomération)',
   'Complexe de Charleroi': 'Charleroi (agglomération)',
+  'Liège (complexe résidentiel urbain)': 'Liège (agglomération)',
+  'Charleroi (complexe résidentiel urbain)': 'Charleroi (agglomération)',
+};
+
+export const caveatLabel: Record<string, L10n> = {
+  regionalMedian: { en: 'regional median wage', fr: 'salaire médian régional' },
+  nationalMedian: { en: 'national median wage: upper bound', fr: 'salaire médian national : borne haute' },
+  updatedMedian: { en: '2023 regional median, updated', fr: 'médiane régionale 2023, actualisée' },
+  interpolated: { en: '2022 wages', fr: 'salaires 2022' },
+  unverifiedMedian: { en: 'median not checked at source', fr: 'médiane non vérifiée à la source' },
+  otherConcept: { en: 'different wage definition', fr: 'autre définition du salaire' },
+  secondaryTax: { en: 'tax rate from a secondary source', fr: "taux d'impôt de source secondaire" },
+  estimatedRent: { en: 'rent estimated', fr: 'loyer estimé' },
 };
 /** `city` distinguishes Québec the city (rent tables) from Québec the province (pay index). */
 export function placeName(name: string, lang: 'en' | 'fr', city = false): string {
@@ -44,7 +75,8 @@ export function placeName(name: string, lang: 'en' | 'fr', city = false): string
   return lang === 'fr' ? (frFix[name] ?? name) : (en[name] ?? name);
 }
 
-export const rentLabel: Record<'asking' | 'newlease' | 'sitting', L10n> = {
+export const rentLabel: Record<'asking' | 'newlease' | 'sitting' | 'median', L10n> = {
+  median: { en: 'median rent, press-reported', fr: 'loyer médian, repris de la presse' },
   asking: { en: 'asking rent', fr: "loyer d'annonce" },
   newlease: { en: 'new leases', fr: 'nouveaux baux' },
   sitting: { en: 'sitting tenants', fr: 'locataires en place' },
@@ -100,8 +132,8 @@ export const profiles: { title: L10n; text: L10n }[] = [
   {
     title: { en: 'Aged 50 or more', fr: '50 ans ou plus' },
     text: {
-      en: 'Moving gives up a housing advantage: in Vaud, a lease of twenty years or more costs 1,092 CHF against 1,673 for a recent one. Move only with a signed job: 42 to 44% of unemployed people aged 55 to 64 have been searching for a year or more in France, Belgium and Switzerland. Pension rights and their portability are not covered here.',
-      fr: "Déménager fait perdre un avantage de logement : dans le canton de Vaud, un bail de vingt ans ou plus coûte 1 092 CHF contre 1 673 pour un bail récent. Ne partez qu'avec un emploi signé : 42 à 44 % des chômeurs de 55 à 64 ans cherchent depuis un an ou plus en France, en Belgique et en Suisse. Les droits à retraite et leur portabilité ne sont pas couverts ici.",
+      en: 'Moving gives up a housing advantage: in Vaud, a lease of twenty years or more costs 1,092 CHF against 1,673 for a recent one. Move only with a signed job: 43 to 44% of unemployed people aged 55 to 64 have been searching for a year or more in France, Belgium and Switzerland. Pension rights and their portability are not covered here.',
+      fr: "Déménager fait perdre un avantage de logement : dans le canton de Vaud, un bail de vingt ans ou plus coûte 1 092 CHF contre 1 673 pour un bail récent. Ne partez qu'avec un emploi signé : 43 à 44 % des chômeurs de 55 à 64 ans cherchent depuis un an ou plus en France, en Belgique et en Suisse. Les droits à retraite et leur portabilité ne sont pas couverts ici.",
     },
   },
   {
@@ -115,19 +147,23 @@ export const profiles: { title: L10n; text: L10n }[] = [
 
 export const fragile: L10n[] = [
   {
-    en: 'European figures use the average wage (a single person at 100% and at 67% of it); Canadian figures use the median pay of the province. The two tables cannot be compared line by line.',
-    fr: "Les chiffres européens partent du salaire moyen (une personne seule à 100 % et à 67 % de ce salaire) ; les chiffres canadiens partent du salaire médian de la province. Les deux tableaux ne se comparent pas ligne à ligne.",
+    en: 'French cities outside Paris use the national median wage, because no regional median is published. What is left there is an upper bound.',
+    fr: "Les villes françaises hors Paris utilisent le salaire médian national, faute de médiane régionale publiée. Ce qui y reste est une borne haute.",
   },
   {
-    en: 'One tax schedule is used per federal country: Zurich for Switzerland and Ontario for Canada, according to the OECD’s known method, which was not re-read. Net pay is therefore probably overstated for Geneva, Vaud and Québec.',
-    fr: "Un seul barème fiscal est utilisé par pays fédéral : Zurich pour la Suisse et l'Ontario pour le Canada, selon la méthode connue de l'OCDE, non relue. Le net est donc probablement surestimé à Genève, dans le canton de Vaud et au Québec.",
+    en: 'Belgian and Luxembourg figures rest on 2022 median wages, carried to net pay between two official points. Luxembourg’s median was read in a summary, not at the source.',
+    fr: "Les chiffres belges et luxembourgeois reposent sur des salaires médians de 2022, convertis en net entre deux points officiels. La médiane luxembourgeoise a été lue dans un résumé, pas à la source.",
   },
   {
-    en: 'Swiss rents are those paid by sitting tenants. A newcomer pays more: in Vaud, a recent lease costs 53% more than one of twenty years or more.',
-    fr: "Les loyers suisses sont ceux des locataires en place. Un arrivant paie davantage : dans le canton de Vaud, un bail récent coûte 53 % de plus qu'un bail de vingt ans ou plus.",
+    en: 'For Neuchâtel, Fribourg and Sion, the rent is that of sitting tenants: a newcomer pays more. In Geneva, a new tenant pays 18% more for the same size of flat.',
+    fr: "Pour Neuchâtel, Fribourg et Sion, le loyer est celui des locataires en place : un arrivant paie davantage. À Genève, un nouveau locataire paie 18 % de plus pour un logement de même taille.",
   },
   {
-    en: 'Years are not aligned (wages from 2022 to 2025, rents from 2024 to 2026). Read the order of cities within a country, not the exact amounts.',
-    fr: "Les années ne sont pas alignées (salaires de 2022 à 2025, loyers de 2024 à 2026). Lisez l'ordre des villes à l'intérieur d'un pays, pas les montants exacts.",
+    en: 'The Swiss health premium is the average adult premium across all insurance models, with no premium reduction deducted. Refundable tax credits in Canada are not counted.',
+    fr: "La prime maladie suisse est la prime adulte moyenne tous modèles d'assurance confondus, sans réduction de prime. Les crédits d'impôt remboursables au Canada ne sont pas comptés.",
+  },
+  {
+    en: 'Amounts are in national currency and are not adjusted for prices: compare cities within a country. The first chart of this page still rests on average wages and one tax schedule per federal country.',
+    fr: "Les montants sont en monnaie nationale et ne sont pas corrigés des prix : comparez les villes à l'intérieur d'un pays. Le premier graphique de cette page repose encore sur des salaires moyens et un seul barème fiscal par pays fédéral.",
   },
 ];

@@ -12,7 +12,7 @@ export interface City {
   territory: string;
   country: 'FR' | 'BE' | 'LU' | 'CH' | 'CA';
   unemp: { v: number; kind: UnempKind; period: string; lo?: number; hi?: number };
-  rent?: { v: number; unit: string; per: 'm2' | 'month'; kind: RentKind; period: string; computed: boolean };
+  rent?: { v: number; unit: string; per: 'm2' | 'month'; kind: RentKind; period: string; computed: boolean; press?: boolean };
   vacancy?: { v: number; period: string };
   share?: { v: number; basis: 'net' | 'gross'; asking: boolean };
   /** Census unemployment rate by education: a different measure from `unemp`. */
@@ -69,8 +69,8 @@ export const countryNote: Record<City['country'], L10n> = {
     fr: "Cantons : chômage inscrit (SECO, octobre 2026). Il compte les personnes inscrites auprès d'un office de placement et vaut environ la moitié du taux d'enquête : il ne se compare donc pas aux autres pays. Les loyers sont ceux des locataires en place (2024), nettement inférieurs à ce qui est demandé à un nouvel arrivant.",
   },
   BE: {
-    en: 'Provinces: survey-based unemployment rate, 2025. Rents are medians for the main city of each province (2024).',
-    fr: "Provinces : taux de chômage d'enquête, 2025. Les loyers sont des médianes pour la ville principale de chaque province (2024).",
+    en: 'Provinces: survey-based unemployment rate, 2025. Rents: for Brussels, the median of new leases in the Region (2024); for Liège and Charleroi, medians for the wider urban area as reported in the press (2024), not checked at the source.',
+    fr: "Provinces : taux de chômage d'enquête, 2025. Loyers : pour Bruxelles, la médiane des nouveaux baux de la Région (2024) ; pour Liège et Charleroi, des médianes de l'agglomération élargie reprises de la presse (2024), non vérifiées à la source.",
   },
   LU: {
     en: 'Luxembourg is a single labour market: the national rate is shown. The rent is the median asking rent per square metre in Luxembourg City (2025).',

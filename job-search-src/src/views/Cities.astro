@@ -94,7 +94,7 @@ const groups = (['FR', 'BE', 'LU', 'CH', 'CA'] as const).map((c) => ({
                     {x.rent ? (
                       <>
                         <span class="num v">{fmtRent(x, lang)}</span>
-                        <span class="sub">{rentKind[x.rent.kind][lang]}</span>
+                        <span class="sub">{rentKind[x.rent.kind][lang]}{x.rent.press && (fr ? ' · via la presse' : ' · press-reported')}</span>
                       </>
                     ) : <span class="muted">–</span>}
                   </td>

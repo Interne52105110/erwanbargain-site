@@ -28,7 +28,8 @@ const index = table('| Territoire | Salaire brut annuel moyen 2022')
   .filter((r) => r.v != null);
 
 // 2. What is left each month after tax, health premium (Switzerland) and rent: Europe.
-const rentKind = (s) => (/en place/.test(s) ? 'sitting' : /nouveau bail|bail récent/.test(s) ? 'newlease' : /annonce/.test(s) ? 'asking' : 'asking');
+// A rent with no label in the report is a median reported by the press (Liège and Charleroi urban areas), not an asking rent.
+const rentKind = (s) => (/en place/.test(s) ? 'sitting' : /nouveau bail|bail récent/.test(s) ? 'newlease' : /annonce/.test(s) ? 'asking' : 'median');
 const europe = table('| Ville ou territoire | Loyer retenu').map((c) => ({
   name: c[0],
   rent: int(c[1]),
@@ -70,6 +71,60 @@ const daily = pickRows(table('| Indicateur | France | Belgique | Luxembourg | Su
   { id: 'satisfaction', re: /^Satisfaction de vie/ },
 ]);
 
-const out = { index, europe, canada, family, daily };
+// 5. Recomputed on aligned bases (second research round): median wage of each territory, tax and
+// contributions under the rules of each canton or province, mandatory health premium, entry rent.
+const note2 = readFileSync(join(here, '../research/notes/Compléments et vérifications étude emploi/medians_impots_loyers_entree.md'), 'utf8').split(/\r?\n/);
+const csvBlocks = [];
+for (let k = 0; k < note2.length; k++) {
+  if (note2[k].startsWith('place;territory;currency;')) {
+    const head = note2[k].split(';');
+    const rows = [];
+    for (let j = k + 1; j < note2.length && !note2[j].startsWith('```'); j++) {
+      const c = note2[j].split(';');
+      rows.push(Object.fromEntries(head.map((h, i) => [h, c[i] ?? ''])));
+    }
+    csvBlocks.push(rows);
+  }
+}
+if (csvBlocks.length !== 2) throw new Error(`expected two CSV blocks in the medians note, found ${csvBlocks.length}`);
+const n = (s) => (s === '' || s == null ? null : Number(s));
+const countryOf = (r) =>
+  r.currency === 'CHF' ? 'CH' : r.currency === 'CAD' ? 'CA' : /Bruxelles|Wallonie/.test(r.territory) ? 'BE' : r.territory === 'Luxembourg' ? 'LU' : 'FR';
+// Short caveat codes derived from the researcher's status text; the page turns them into sentences.
+const caveats = (r) => {
+  const st = r.status;
+  const out = [];
+  if (/substitut régional/.test(st)) out.push('regionalMedian');
+  if (/médiane NATIONALE/.test(st)) out.push('nationalMedian');
+  if (/médiane régionale 2023/.test(st)) out.push('updatedMedian');
+  if (/interpolation/.test(st)) out.push('interpolated');
+  if (/résumé/.test(st)) out.push('unverifiedMedian');
+  if (/concept de salaire différent/.test(st)) out.push('otherConcept');
+  if (/source secondaire/.test(st)) out.push('secondaryTax');
+  if (/sous hypothèses/.test(st)) out.push('estimatedRent');
+  return out;
+};
+const two = new Map(csvBlocks[1].map((r) => [r.place, r]));
+const after = csvBlocks[0]
+  // Namur has no rent of its own in the research (it repeats the Walloon figure): leave it out.
+  .filter((r) => n(r.left) != null && r.place !== 'Namur')
+  .map((r) => ({
+    name: r.place,
+    country: countryOf(r),
+    currency: r.currency,
+    net: n(r.net_monthly),
+    ratio: n(r.net_ratio),
+    premium: n(r.health_premium) ? Math.round(n(r.health_premium)) : null,
+    rent: n(r.entry_rent),
+    // Liège and Charleroi: medians for the wider urban area reported in the press, per the independent review.
+    rentKind: /complexe résidentiel/.test(r.place) ? 'median' : r.rent_type.startsWith('newlease') ? 'newlease' : r.rent_type,
+    left: n(r.left),
+    share: n(r.rent_share_of_net),
+    left67: n(two.get(r.place)?.left),
+    caveats: caveats(r),
+  }));
+const refZurich = csvBlocks[0].find((r) => /^Zurich/.test(r.place));
+
+const out = { index, europe, canada, family, daily, after, zurichRatio: refZurich ? n(refZurich.net_ratio) : null };
 writeFileSync(join(here, '../src/data/gains.json'), JSON.stringify(out, null, 1));
-console.log(`index ${index.length} · europe ${europe.length} · canada ${canada.length} · family ${family.length} · daily ${daily.length}`);
+console.log(`index ${index.length} · europe ${europe.length} · canada ${canada.length} · family ${family.length} · daily ${daily.length} · after ${after.length}`);

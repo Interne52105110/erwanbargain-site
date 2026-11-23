@@ -19,6 +19,7 @@ const nav = [
   { route: '/', key: 'nav.profile' },
   { route: '/cities', key: 'nav.cities' },
   { route: '/gains', key: 'nav.gains' },
+  { route: '/moving', key: 'nav.moving' },
   { route: '/territories', key: 'nav.territories' },
   { route: '/method', key: 'nav.method' },
   { route: '/sources', key: 'nav.sources' },
@@ -80,7 +81,7 @@ const nav = [
   .brand span, .brand .sub { color: var(--muted); font-weight: 400; }
   .brand .sub:hover { color: var(--accent); }
   nav { display: flex; gap: 22px; margin-left: auto; }
-  nav a { text-decoration: none; color: var(--muted); padding: 4px 0; border-bottom: 1px solid transparent; }
+  nav a { text-decoration: none; color: var(--muted); padding: 4px 0; border-bottom: 1px solid transparent; white-space: nowrap; }
   nav a:hover { color: var(--fg); }
   nav a[aria-current='page'] { color: var(--fg); border-bottom-color: var(--fg); }
   .lang {

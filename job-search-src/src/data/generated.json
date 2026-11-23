@@ -4668,16 +4668,6 @@
   {
    "t": "CA-YT",
    "i": "unemp",
-   "a": "15-24",
-   "e": "high",
-   "v": 2.9,
-   "p": "2025",
-   "s": "model-territories",
-   "q": "model"
-  },
-  {
-   "t": "CA-YT",
-   "i": "unemp",
    "a": "25-54",
    "e": "low",
    "v": 10.2,
@@ -4828,16 +4818,6 @@
   {
    "t": "CA-NT",
    "i": "unemp",
-   "a": "15-24",
-   "e": "high",
-   "v": 4.8,
-   "p": "2025",
-   "s": "model-territories",
-   "q": "model"
-  },
-  {
-   "t": "CA-NT",
-   "i": "unemp",
    "a": "25-54",
    "e": "low",
    "v": 14.6,
@@ -4981,16 +4961,6 @@
    "a": "15-24",
    "e": "mid",
    "v": 12.6,
-   "p": "2025",
-   "s": "model-territories",
-   "q": "model"
-  },
-  {
-   "t": "CA-NU",
-   "i": "unemp",
-   "a": "15-24",
-   "e": "high",
-   "v": 13.3,
    "p": "2025",
    "s": "model-territories",
    "q": "model"

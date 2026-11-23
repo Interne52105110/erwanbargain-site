@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { href, type Lang } from '../i18n/ui';
-import { gains, placeName, rentLabel, beyond, cell, profiles, fragile } from '../data/gains';
+import { gains, placeName, rentLabel, beyond, cell, profiles, fragile, caveatLabel } from '../data/gains';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -14,21 +14,22 @@ const h = {
     ? "Un salaire plus élevé ailleurs ne dit pas ce que l'on y gagne. Entre le brut et le niveau de vie s'intercalent l'impôt, les prix, la prime maladie quand elle n'est pas dans l'impôt, et surtout le loyer que paie un nouvel arrivant."
     : 'A higher salary elsewhere does not tell you what you gain there. Between gross pay and living standards come tax, prices, the health premium where it sits outside tax, and above all the rent a newcomer pays.',
   warn: fr
-    ? "Tous les montants de cette page sont des calculs faits pour l'étude à partir de chiffres publiés. Ils se lisent d'abord à l'intérieur de chaque pays ; entre pays, seuls les grands écarts sont interprétables."
+    ? "Tous les montants de cette page sont des calculs faits pour l'étude à partir de chiffres publiés. Ils se lisent à l'intérieur de chaque pays ; entre pays, seuls les grands écarts sont interprétables."
     : 'Every amount on this page is a computation made for the study from published figures. Read them within each country first; across countries, only large gaps mean something.',
   s1: fr ? 'Après impôt et prix' : 'After tax and prices',
   s1lead: fr
     ? 'Salaire moyen local, net d’impôt et corrigé du niveau des prix, France = 100 (salaires 2022). Le loyer n’est pas encore déduit.'
     : 'Local average wage, net of tax and adjusted for the price level, France = 100 (2022 wages). Rent is not yet deducted.',
   s1note: fr ? '† avant la prime maladie obligatoire, qui retire environ 8 % du net en Suisse.' : '† before the mandatory health premium, which takes about 8% of net pay in Switzerland.',
-  s2: fr ? 'Après loyer : Europe' : 'After rent: Europe',
+  s2: fr ? 'Après loyer, au salaire médian' : 'After rent, at the median wage',
   s2lead: fr
-    ? "Ce qui reste par mois à une personne seule, après impôt, prime maladie en Suisse et loyer, au salaire moyen du pays et aux deux tiers de ce salaire. En France, le salarié médian est plus proche du second cas."
-    : 'What a single person has left each month after tax, the Swiss health premium and rent, at the country’s average wage and at two-thirds of it. In France, the median employee is closer to the second case.',
-  s3: fr ? 'Après loyer : Canada' : 'After rent: Canada',
-  s3lead: fr
-    ? "Salaire net médian à temps plein de la province, moins le loyer demandé pour un logement d'une chambre au deuxième trimestre 2026 (loyer payé quand le loyer demandé n'est pas publié)."
-    : 'Median full-time net pay of the province, minus the asking rent for a one-bedroom in the second quarter of 2026 (rent paid where the asking rent is not published).',
+    ? "Ce qui reste par mois à une personne seule payée au salaire médian de son territoire, après impôt et cotisations selon les règles de son canton ou de sa province, prime maladie en Suisse, et loyer d'un nouvel arrivant pour un logement d'une chambre ou d'environ 50 m². La dernière colonne refait le calcul aux deux tiers du salaire médian."
+    : 'What a single person paid the median wage of their territory has left each month, after tax and contributions under the rules of their canton or province, the Swiss health premium, and a newcomer’s rent for a one-bedroom or about 50 m². The last column repeats the computation at two-thirds of the median wage.',
+  s2tax: fr
+    ? `Les règles locales comptent : à salaire égal, le net est inférieur de 278 CHF par mois à Genève par rapport au barème de Zurich, et de 199 CAD au Québec par rapport au barème de l'Ontario.`
+    : 'Local rules matter: at the same wage, net pay is 278 CHF a month lower in Geneva than under Zurich’s schedule, and 199 CAD lower in Québec than under Ontario’s.',
+  countries: fr ? { FR: 'France', BE: 'Belgique', LU: 'Luxembourg', CH: 'Suisse', CA: 'Canada' } : { FR: 'France', BE: 'Belgium', LU: 'Luxembourg', CH: 'Switzerland', CA: 'Canada' },
+  noteCol: fr ? 'Réserve' : 'Caveat',
   s4: fr ? 'Au-delà de la paie' : 'Beyond pay',
   s4lead: fr
     ? "Chiffres officiels, au niveau national seulement. Pour le Canada, le modèle de l'OCDE retient les règles d'une seule province : la valeur ne décrit ni le Québec ni les provinces à tarif de garde réduit."
@@ -36,11 +37,10 @@ const h = {
   s5: fr ? 'Lecture par profil' : 'Reading by profile',
   s6: fr ? 'Où ces calculs sont fragiles' : 'Where these computations are fragile',
   city: fr ? 'Ville ou territoire' : 'City or territory',
-  rent: fr ? 'Loyer retenu' : 'Rent used',
+  rent: fr ? 'Loyer et part du net' : 'Rent and share of net',
   premium: fr ? 'Prime maladie' : 'Health premium',
-  left100: fr ? 'Reste, salaire moyen' : 'Left, average wage',
-  left67: fr ? 'Reste, deux tiers' : 'Left, two-thirds',
-  net: fr ? 'Net médian (province)' : 'Median net pay (province)',
+  left67: fr ? 'Reste aux deux tiers' : 'Left at two-thirds',
+  net: fr ? 'Net au salaire médian' : 'Net pay at the median',
   bed: fr ? 'Loyer, une chambre' : 'One-bedroom rent',
   left: fr ? 'Reste' : 'Left',
   share: fr ? 'Loyer / net' : 'Rent / net pay',
@@ -54,6 +54,7 @@ const h = {
 const index = [...gains.index].sort((a, b) => b.v - a.v);
 const max = Math.max(...index.map((r) => r.v));
 const rows4 = [...gains.family, ...gains.daily];
+const groups = (['FR', 'BE', 'LU', 'CH', 'CA'] as const).map((c) => ({ c, rows: gains.after.filter((r) => r.country === c).sort((a, b) => b.left - a.left) }));
 ---
 <Base lang={lang} route="/gains" title={h.title}>
   <section class="section first">
@@ -87,61 +88,40 @@ const rows4 = [...gains.family, ...gains.daily];
     <div class="container">
       <h2>{h.s2}</h2>
       <p class="note muted">{h.s2lead}</p>
-      <div class="table-wrap">
-        <table class="data">
-          <thead>
-            <tr>
-              <th>{h.city}</th>
-              <th class="r">{h.rent}</th>
-              <th class="r">{h.premium}</th>
-              <th class="r">{h.left100}</th>
-              <th class="r">{h.left67}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {gains.europe.map((r) => (
-              <tr>
-                <td class="name">{placeName(r.name, lang, true)}</td>
-                <td class="r"><span class="num v">{money(r.rent, r.currency)}</span><span class="sub">{rentLabel[r.rentKind][lang]}</span></td>
-                <td class="r num">{r.premium ? money(r.premium, r.currency) : <span class="muted">–</span>}</td>
-                <td class="r num strong">{money(r.left100, r.currency)}</td>
-                <td class="r num">{money(r.left67, r.currency)}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <h2>{h.s3}</h2>
-      <p class="note muted">{h.s3lead}</p>
-      <div class="table-wrap">
-        <table class="data">
-          <thead>
-            <tr>
-              <th>{h.city}</th>
-              <th class="r">{h.net}</th>
-              <th class="r">{h.bed}</th>
-              <th class="r">{h.left}</th>
-              <th class="r">{h.share}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {gains.canada.map((r) => (
-              <tr>
-                <td class="name">{placeName(r.name, lang, true)}</td>
-                <td class="r num">{money(r.net, 'CAD')}</td>
-                <td class="r"><span class="num v">{money(r.rent, 'CAD')}</span><span class="sub">{r.paid ? h.paid : h.asking}</span></td>
-                <td class="r num strong">{money(r.left, 'CAD')}</td>
-                <td class="r num">{r.share} %</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <p class="note muted">{h.s2tax}</p>
+      {groups.map((g) => (
+        <div class="country">
+          <h3>{h.countries[g.c]}</h3>
+          <div class="table-wrap">
+            <table class="data">
+              <thead>
+                <tr>
+                  <th>{h.city}</th>
+                  <th class="r">{h.net}</th>
+                  {g.c === 'CH' && <th class="r">{h.premium}</th>}
+                  <th class="r">{h.rent}</th>
+                  <th class="r">{h.left}</th>
+                  <th class="r">{h.left67}</th>
+                  <th>{h.noteCol}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {g.rows.map((r) => (
+                  <tr>
+                    <td class="name">{placeName(r.name, lang, true)}</td>
+                    <td class="r num">{money(r.net, r.currency)}</td>
+                    {g.c === 'CH' && <td class="r num">{r.premium ? money(r.premium, r.currency) : '–'}</td>}
+                    <td class="r"><span class="num v">{money(r.rent, r.currency)}</span><span class="sub">{rentLabel[r.rentKind][lang]} · {Math.round(r.share)} %</span></td>
+                    <td class="r num strong">{money(r.left, r.currency)}</td>
+                    <td class="r num">{r.left67 != null ? money(r.left67, r.currency) : '–'}</td>
+                    <td class="muted small">{r.caveats.map((c) => caveatLabel[c][lang]).join(' · ')}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ))}
     </div>
   </section>
 
@@ -220,6 +200,9 @@ const rows4 = [...gains.family, ...gains.daily];
   .strong { font-weight: 600; color: var(--accent); }
   table.data th { vertical-align: bottom; }
   table.data td { vertical-align: top; }
+  .country { margin-top: 28px; }
+  .country h3 { margin: 0 0 6px; }
+  .small { font-size: 12.5px; }
   .profiles { margin-top: 24px; }
   .n { color: var(--accent); font-size: 13px; }
   h3 { margin: 8px 0; }
