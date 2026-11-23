@@ -1743,6 +1743,20 @@
   "kind": "official"
  },
  {
+  "label": "Statistique Canada 18-10-0003-01",
+  "url": "https://www150.statcan.gc.ca/n1/tbl/csv/18100003-eng.zip",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 18-10-0007-01",
+  "url": "https://www150.statcan.gc.ca/n1/tbl/csv/18100007-eng.zip",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
   "label": "Statistique Canada 34-10-0133",
   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410013301",
   "host": "statcan.gc.ca",

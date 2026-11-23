@@ -22,6 +22,8 @@ export const gains = raw as {
     share: number;
     left67: number | null;
     ppp: number | null;
+    priceIdx: number | null;
+    priceBasis: 'full' | 'proxy' | 'food_only' | null;
     territory: string | null;
     main: boolean;
     caveats: string[];
@@ -74,7 +76,7 @@ export const caveatLabel: Record<string, L10n> = {
   secondaryTax: { en: 'tax rate from a secondary source', fr: "taux d'impôt de source secondaire" },
   estimatedRent: { en: 'rent estimated', fr: 'loyer estimé' },
   allSizesRent: { en: 'median rent of all home sizes', fr: 'loyer médian toutes tailles de logement' },
-  northPrices: { en: 'higher northern prices not counted', fr: 'prix plus élevés du Nord non comptés' },
+  foodOnlyPrices: { en: 'prices: only food is measured, minimum correction', fr: "prix : seule l'alimentation est mesurée, correction minimale" },
 };
 /** `city` distinguishes Québec the city (rent tables) from Québec the province (pay index). */
 export function placeName(name: string, lang: 'en' | 'fr', city = false): string {

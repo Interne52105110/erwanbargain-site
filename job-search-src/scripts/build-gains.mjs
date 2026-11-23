@@ -103,7 +103,7 @@ const caveats = (r) => {
   if (/source secondaire/.test(st)) out.push('secondaryTax');
   if (/sous hypothèses/.test(st)) out.push('estimatedRent');
   if (/toutes tailles/.test(st)) out.push('allSizesRent');
-  if (/prix du Nord/.test(st)) out.push('northPrices');
+  if (/seule l'alimentation/.test(st)) out.push('foodOnlyPrices');
   return out;
 };
 // Region or province of each city (our assignment), and the city used to represent it on the home page.
@@ -121,6 +121,14 @@ const territoryOf = {
 };
 const mainCity = new Set(['Paris', 'Lyon', 'Marseille', 'Bordeaux', 'Toulouse', 'Lille', 'Strasbourg', 'Rennes', 'Nantes', 'Bruxelles (Région)', 'Liège (complexe résidentiel urbain)', 'Luxembourg-Ville', 'Genève', 'Fribourg', 'Montréal', 'Toronto', 'Moncton', 'Winnipeg', 'Regina', 'Calgary', 'Vancouver', 'Halifax', 'Yellowknife', 'Orléans', 'Dijon', 'Rouen', 'Ajaccio', "St. John's", 'Charlottetown', 'Whitehorse', 'Iqaluit']);
 const two = new Map(csvBlocks[1].map((r) => [r.place, r]));
+// Price level excluding housing, Canadian cities (average of the 15 cities compared = 100): Statistics Canada, October 2019.
+const priceHead = note2.findIndex((l) => l.startsWith('city;price_index_ex_shelter;'));
+if (priceHead < 0) throw new Error('price index block not found in the medians note');
+const prices = new Map();
+for (let j = priceHead + 1; j < note2.length && !note2[j].startsWith('```'); j++) {
+  const [city, idx, basis] = note2[j].split(';');
+  prices.set(city, { idx: Number(idx), basis });
+}
 const after = csvBlocks[0]
   // Namur has no rent of its own in the research (it repeats the Walloon figure): leave it out.
   .filter((r) => n(r.left) != null && r.place !== 'Namur')
@@ -139,6 +147,9 @@ const after = csvBlocks[0]
     left67: n(two.get(r.place)?.left),
     // Purchasing-power dollars (OECD parities for private consumption): an order of magnitude only.
     ppp: n(r.left_usd_ppp),
+    // Prices excluding housing in that city against the national average (Canada only): 104.4 means 4.4% dearer.
+    priceIdx: prices.get(r.place)?.idx ?? null,
+    priceBasis: prices.get(r.place)?.basis ?? null,
     territory: territoryOf[r.place] ?? null,
     main: mainCity.has(r.place),
     caveats: caveats(r),

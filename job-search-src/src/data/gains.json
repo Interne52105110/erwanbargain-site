@@ -644,6 +644,8 @@
    "share": 27.2,
    "left67": 2007,
    "ppp": 3505,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CH01",
    "main": true,
    "caveats": []
@@ -661,6 +663,8 @@
    "share": 28.3,
    "left67": 1709,
    "ppp": 2953,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CH01",
    "main": false,
    "caveats": [
@@ -680,6 +684,8 @@
    "share": 32.8,
    "left67": 1478,
    "ppp": 2735,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CH01",
    "main": false,
    "caveats": []
@@ -697,6 +703,8 @@
    "share": 21.3,
    "left67": 1985,
    "ppp": 3291,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CH02",
    "main": false,
    "caveats": [
@@ -716,6 +724,8 @@
    "share": 27.6,
    "left67": 1636,
    "ppp": 2873,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CH02",
    "main": true,
    "caveats": []
@@ -733,6 +743,8 @@
    "share": 24.3,
    "left67": 1887,
    "ppp": 3188,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CH01",
    "main": false,
    "caveats": []
@@ -750,6 +762,8 @@
    "share": 36.8,
    "left67": 1390,
    "ppp": 2053,
+   "priceIdx": 97.6,
+   "priceBasis": "full",
    "territory": "CA-QC",
    "main": true,
    "caveats": []
@@ -767,6 +781,8 @@
    "share": 30.1,
    "left67": 1660,
    "ppp": 2271,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CA-QC",
    "main": false,
    "caveats": []
@@ -784,6 +800,8 @@
    "share": 35.8,
    "left67": 1430,
    "ppp": 2085,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CA-QC",
    "main": false,
    "caveats": []
@@ -801,6 +819,8 @@
    "share": 25.8,
    "left67": 1830,
    "ppp": 2408,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CA-QC",
    "main": false,
    "caveats": []
@@ -818,6 +838,8 @@
    "share": 46.5,
    "left67": 1068,
    "ppp": 1937,
+   "priceIdx": 104,
+   "priceBasis": "full",
    "territory": "CA-ON",
    "main": true,
    "caveats": []
@@ -835,6 +857,8 @@
    "share": 42.3,
    "left67": 1258,
    "ppp": 2090,
+   "priceIdx": 102.1,
+   "priceBasis": "full",
    "territory": "CA-ON",
    "main": false,
    "caveats": []
@@ -852,6 +876,8 @@
    "share": 36.3,
    "left67": 1528,
    "ppp": 2308,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CA-ON",
    "main": false,
    "caveats": []
@@ -869,6 +895,8 @@
    "share": 38.3,
    "left67": 1438,
    "ppp": 2235,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CA-ON",
    "main": false,
    "caveats": []
@@ -886,6 +914,8 @@
    "share": 34.7,
    "left67": 1598,
    "ppp": 2365,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CA-ON",
    "main": false,
    "caveats": []
@@ -903,6 +933,8 @@
    "share": 33.7,
    "left67": 1389,
    "ppp": 2043,
+   "priceIdx": 99.5,
+   "priceBasis": "proxy",
    "territory": "CA-NB",
    "main": true,
    "caveats": []
@@ -920,6 +952,8 @@
    "share": 35.1,
    "left67": 1321,
    "ppp": 1969,
+   "priceIdx": 96.6,
+   "priceBasis": "full",
    "territory": "CA-MB",
    "main": true,
    "caveats": []
@@ -937,6 +971,8 @@
    "share": 30.2,
    "left67": 1680,
    "ppp": 2335,
+   "priceIdx": 99.8,
+   "priceBasis": "full",
    "territory": "CA-SK",
    "main": true,
    "caveats": []
@@ -954,6 +990,8 @@
    "share": 32.3,
    "left67": 1590,
    "ppp": 2262,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CA-SK",
    "main": false,
    "caveats": []
@@ -971,6 +1009,8 @@
    "share": 33.3,
    "left67": 1740,
    "ppp": 2508,
+   "priceIdx": 99.7,
+   "priceBasis": "full",
    "territory": "CA-AB",
    "main": true,
    "caveats": []
@@ -988,6 +1028,8 @@
    "share": 27,
    "left67": 2030,
    "ppp": 2741,
+   "priceIdx": 97.3,
+   "priceBasis": "full",
    "territory": "CA-AB",
    "main": false,
    "caveats": []
@@ -1005,6 +1047,8 @@
    "share": 49.2,
    "left67": 975,
    "ppp": 1902,
+   "priceIdx": 103.2,
+   "priceBasis": "full",
    "territory": "CA-BC",
    "main": true,
    "caveats": [
@@ -1024,6 +1068,8 @@
    "share": 40.5,
    "left67": 1375,
    "ppp": 2224,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "CA-BC",
    "main": false,
    "caveats": [
@@ -1043,6 +1089,8 @@
    "share": 49.2,
    "left67": 837,
    "ppp": 1568,
+   "priceIdx": 101.6,
+   "priceBasis": "full",
    "territory": "CA-NS",
    "main": true,
    "caveats": []
@@ -1060,11 +1108,12 @@
    "share": 30.3,
    "left67": 2304,
    "ppp": 3243,
+   "priceIdx": 104.4,
+   "priceBasis": "full",
    "territory": "CA-NT",
    "main": true,
    "caveats": [
-    "otherConcept",
-    "northPrices"
+    "otherConcept"
    ]
   },
   {
@@ -1080,12 +1129,13 @@
    "share": 24.8,
    "left67": 2523,
    "ppp": 3338,
+   "priceIdx": 101.4,
+   "priceBasis": "full",
    "territory": "CA-YT",
    "main": true,
    "caveats": [
     "otherConcept",
-    "allSizesRent",
-    "northPrices"
+    "allSizesRent"
    ]
   },
   {
@@ -1101,12 +1151,14 @@
    "share": 49.4,
    "left67": 1250,
    "ppp": 2502,
+   "priceIdx": 116,
+   "priceBasis": "food_only",
    "territory": "CA-NU",
    "main": true,
    "caveats": [
     "otherConcept",
     "allSizesRent",
-    "northPrices"
+    "foodOnlyPrices"
    ]
   },
   {
@@ -1122,6 +1174,8 @@
    "share": 68.2,
    "left67": 43,
    "ppp": 1118,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FR1",
    "main": true,
    "caveats": [
@@ -1141,6 +1195,8 @@
    "share": 40.5,
    "left67": 629,
    "ppp": 1772,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRK",
    "main": true,
    "caveats": [
@@ -1160,6 +1216,8 @@
    "share": 39.5,
    "left67": 650,
    "ppp": 1801,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRL",
    "main": true,
    "caveats": [
@@ -1179,6 +1237,8 @@
    "share": 49.7,
    "left67": 431,
    "ppp": 1496,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRL",
    "main": false,
    "caveats": [
@@ -1198,6 +1258,8 @@
    "share": 39,
    "left67": 660,
    "ppp": 1815,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRI",
    "main": true,
    "caveats": [
@@ -1217,6 +1279,8 @@
    "share": 34.1,
    "left67": 764,
    "ppp": 1960,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRJ",
    "main": true,
    "caveats": [
@@ -1236,6 +1300,8 @@
    "share": 38.5,
    "left67": 670,
    "ppp": 1829,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRE",
    "main": true,
    "caveats": [
@@ -1255,6 +1321,8 @@
    "share": 38,
    "left67": 681,
    "ppp": 1844,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRF",
    "main": true,
    "caveats": [
@@ -1274,6 +1342,8 @@
    "share": 36.3,
    "left67": 717,
    "ppp": 1894,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRH",
    "main": true,
    "caveats": [
@@ -1293,6 +1363,8 @@
    "share": 35.3,
    "left67": 738,
    "ppp": 1924,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRG",
    "main": true,
    "caveats": [
@@ -1312,6 +1384,8 @@
    "share": 29.7,
    "left67": 858,
    "ppp": 2091,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRH",
    "main": false,
    "caveats": [
@@ -1331,6 +1405,8 @@
    "share": 29.3,
    "left67": 868,
    "ppp": 2105,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRH",
    "main": false,
    "caveats": [
@@ -1350,6 +1426,8 @@
    "share": 34.9,
    "left67": 1143,
    "ppp": 2434,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "BE1",
    "main": true,
    "caveats": [
@@ -1369,6 +1447,8 @@
    "share": 30.6,
    "left67": 1182,
    "ppp": 2260,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "BE3",
    "main": true,
    "caveats": [
@@ -1388,6 +1468,8 @@
    "share": 28.4,
    "left67": 1237,
    "ppp": 2333,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "BE3",
    "main": false,
    "caveats": [
@@ -1407,6 +1489,8 @@
    "share": 30.6,
    "left67": 1182,
    "ppp": 2260,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "BE3",
    "main": false,
    "caveats": [
@@ -1426,6 +1510,8 @@
    "share": 48.8,
    "left67": 925,
    "ppp": 2113,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "LU00",
    "main": false,
    "caveats": [
@@ -1446,6 +1532,8 @@
    "share": 56.1,
    "left67": 670,
    "ppp": 1811,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "LU00",
    "main": true,
    "caveats": [
@@ -1466,6 +1554,8 @@
    "share": 34.9,
    "left67": 748,
    "ppp": 1938,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRB",
    "main": true,
    "caveats": [
@@ -1485,6 +1575,8 @@
    "share": 32.4,
    "left67": 800,
    "ppp": 2010,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRC",
    "main": true,
    "caveats": [
@@ -1504,6 +1596,8 @@
    "share": 32.4,
    "left67": 800,
    "ppp": 2010,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRD",
    "main": true,
    "caveats": [
@@ -1523,6 +1617,8 @@
    "share": 37,
    "left67": 702,
    "ppp": 1873,
+   "priceIdx": null,
+   "priceBasis": null,
    "territory": "FRM",
    "main": true,
    "caveats": [
@@ -1542,6 +1638,8 @@
    "share": 31.3,
    "left67": 1623,
    "ppp": 2245,
+   "priceIdx": 100.7,
+   "priceBasis": "full",
    "territory": "CA-NL",
    "main": true,
    "caveats": []
@@ -1559,6 +1657,8 @@
    "share": 29.2,
    "left67": 1550,
    "ppp": 2131,
+   "priceIdx": 98.9,
+   "priceBasis": "full",
    "territory": "CA-PE",
    "main": true,
    "caveats": []
