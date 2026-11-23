@@ -78,11 +78,15 @@ const push = (t, i, a, e, v, p, s, q) => v != null && ids.has(t) && values.push(
 // ---------- unemployment by age × education: Europe ----------
 const ageEu = { 'Y15-24': '15-24', 'Y25-54_calc': '25-54', 'Y55-64': '55-64', 'Y15-74': 'all' };
 const eduEu = { tous: 'all', faible: 'low', moyen: 'mid', eleve: 'high' };
+// National (or EU-27) rates by age and education: the pattern used further down to estimate unpublished cells.
+const national = {};
+const natEu = { FR: 'FR', BE: 'BE', CH: 'CH', EU27_2020: 'EU' };
 for (const r of csv(read('donnees_age_diplome_eurostat_lfu3rt_grille.csv'))) {
   const a = ageEu[r.age];
   if (!a) continue;
   for (const [col, e] of Object.entries(eduEu)) {
     const v25 = num(r[`${col}_2025`]);
+    if (natEu[r.geo] && v25 != null) (national[natEu[r.geo]] ??= {})[`${a}|${e}`] = v25;
     const flag = r[`${col}_drapeau`];
     const derived = r.age.endsWith('_calc');
     if (v25 != null) {
@@ -102,6 +106,7 @@ const noteQ = { publie: 'ok', calc_somme: 'calc', calc_residuel: 'u' };
 for (const r of csv(read('donnees_age_diplome_statcan_1410002001_grille.csv'))) {
   const t = provByName[strip(r.province)];
   const a = ageCa[r.age];
+  if (r.province === 'Canada' && a) for (const [col, e] of Object.entries(eduCa)) (national.CA ??= {})[`${a}|${e}`] = num(r[`tc_${col}_2025`]);
   if (!t || !a) continue;
   for (const [col, e] of Object.entries(eduCa)) {
     const v25 = num(r[`tc_${col}_2025`]);
@@ -197,7 +202,55 @@ for (const [place, id] of Object.entries(terrId)) {
   }
 }
 
+// ---------- unpublished cells: estimated ----------
+// Surveys do not publish a rate when too few people of a given age and education were interviewed
+// in a territory. Those cells are ESTIMATED: the territory's own published rates (overall, by age,
+// by education) combined with the national pattern by age and education, on the logit scale:
+//   logit u(t,a,e) = logit u(t,a) + logit u(t,e) - logit u(t) + [logit N(a,e) - logit N(a) - logit N(e) + logit N]
+// When the territory's rate by age or by education is itself unpublished, it is first estimated
+// the same way from its overall rate. Luxembourg, being a country, uses the EU-27 pattern.
+const AGES = ['15-24', '25-54', '55-64'];
+const EDUS = ['low', 'mid', 'high'];
+const estimate = (get, N, a, e) => {
+  const base = get('all', 'all');
+  const n = (x, y) => N[`${x}|${y}`];
+  if (base == null || [n(a, e), n(a, 'all'), n('all', e), n('all', 'all')].some((v) => !(v > 0))) return null;
+  const margin = (x, y) => get(x, y) ?? invLogit(logit(base) + logit(n(x, y)) - logit(n('all', 'all')));
+  if (a === 'all' || e === 'all') return margin(a, e);
+  return invLogit(logit(margin(a, 'all')) + logit(margin('all', e)) - logit(base) + logit(n(a, e)) - logit(n(a, 'all')) - logit(n('all', e)) + logit(n('all', 'all')));
+};
+const published = new Map(values.filter((v) => v.i === 'unemp').map((v) => [`${v.t}|${v.a}|${v.e}`, v]));
+const errors = [];
+let estimated = 0;
+for (const t of territories) {
+  const N = national[t.country === 'LU' ? 'EU' : t.country];
+  const get = (a, e) => published.get(`${t.id}|${a}|${e}`)?.v;
+  for (const a of ['all', ...AGES])
+    for (const e of ['all', ...EDUS]) {
+      if (a === 'all' && e === 'all') continue;
+      const cell = published.get(`${t.id}|${a}|${e}`);
+      if (cell) {
+        // Control: estimate the cells that ARE published with full reliability, hiding the cell itself, and keep the gap.
+        if (cell.q === 'ok' || cell.q === 'calc') {
+          const v = estimate((x, y) => (x === a && y === e ? undefined : get(x, y)), N, a, e);
+          if (v != null) errors.push(Math.abs(v - cell.v));
+        }
+        continue;
+      }
+      const v = estimate(get, N, a, e);
+      if (v == null) continue;
+      push(t.id, 'unemp', a, e, +v.toFixed(1), '2025', 'model-profile', 'model');
+      estimated++;
+    }
+}
+errors.sort((x, y) => x - y);
+const modelCheck = { cells: errors.length, medianGap: +errors[Math.floor(errors.length / 2)].toFixed(1), p90Gap: +errors[Math.floor(errors.length * 0.9)].toFixed(1) };
+
 const sources = {
+  'model-profile': {
+    label: 'Estimate from Eurostat lfst_r_lfu3rt and Statistics Canada 14-10-0020-01',
+    url: 'https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfu3rt/default/table?lang=en',
+  },
   'eurostat-lfu3rt': {
     label: 'Eurostat, lfst_r_lfu3rt',
     url: 'https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfu3rt/default/table?lang=en',
@@ -232,10 +285,11 @@ const sources = {
   },
 };
 
-const out = { meta: { sample: false, retrieved: '2026-11-22' }, territories, values, communities, sources };
+const out = { meta: { sample: false, retrieved: '2026-11-22', modelCheck }, territories, values, communities, sources };
 writeFileSync(join(here, '../src/data/generated.json'), JSON.stringify(out, null, 1));
 
 const count = (i) => values.filter((v) => v.i === i).length;
+console.log(`estimated cells ${estimated} · control on ${modelCheck.cells} published cells: median gap ${modelCheck.medianGap} point, 9 in 10 within ${modelCheck.p90Gap}`);
 console.log(`territories ${territories.length} · unemp ${count('unemp')} · ltu ${count('ltu')} · slack ${count('slack')} · communities ${communities.length}`);
 for (const t of territories) {
   const n = values.filter((v) => v.t === t.id && v.i === 'unemp').length;

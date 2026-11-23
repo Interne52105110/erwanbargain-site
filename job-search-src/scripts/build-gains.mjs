@@ -102,8 +102,24 @@ const caveats = (r) => {
   if (/concept de salaire différent/.test(st)) out.push('otherConcept');
   if (/source secondaire/.test(st)) out.push('secondaryTax');
   if (/sous hypothèses/.test(st)) out.push('estimatedRent');
+  if (/toutes tailles/.test(st)) out.push('allSizesRent');
+  if (/prix du Nord/.test(st)) out.push('northPrices');
   return out;
 };
+// Region or province of each city (our assignment), and the city used to represent it on the home page.
+const territoryOf = {
+  Paris: 'FR1', Lyon: 'FRK', Marseille: 'FRL', Nice: 'FRL', Bordeaux: 'FRI', Toulouse: 'FRJ', Lille: 'FRE', Strasbourg: 'FRF',
+  Rennes: 'FRH', Nantes: 'FRG', Brest: 'FRH', Quimper: 'FRH', Orléans: 'FRB', Dijon: 'FRC', Rouen: 'FRD', Ajaccio: 'FRM',
+  'Bruxelles (Région)': 'BE1', 'Liège (complexe résidentiel urbain)': 'BE3', 'Charleroi (complexe résidentiel urbain)': 'BE3', Wallonie: 'BE3',
+  'Luxembourg (pays)': 'LU00', 'Luxembourg-Ville': 'LU00',
+  Genève: 'CH01', Lausanne: 'CH01', "Vaud (3 pièces, bail d'un an ou moins)": 'CH01', Sion: 'CH01', Neuchâtel: 'CH02', Fribourg: 'CH02',
+  Montréal: 'CA-QC', Québec: 'CA-QC', Gatineau: 'CA-QC', Sherbrooke: 'CA-QC',
+  Toronto: 'CA-ON', Ottawa: 'CA-ON', 'Grand Sudbury': 'CA-ON', Hamilton: 'CA-ON', London: 'CA-ON',
+  Moncton: 'CA-NB', Winnipeg: 'CA-MB', Regina: 'CA-SK', Saskatoon: 'CA-SK', Calgary: 'CA-AB', Edmonton: 'CA-AB',
+  Vancouver: 'CA-BC', Kelowna: 'CA-BC', Halifax: 'CA-NS', Yellowknife: 'CA-NT',
+  "St. John's": 'CA-NL', Charlottetown: 'CA-PE', Whitehorse: 'CA-YT', Iqaluit: 'CA-NU',
+};
+const mainCity = new Set(['Paris', 'Lyon', 'Marseille', 'Bordeaux', 'Toulouse', 'Lille', 'Strasbourg', 'Rennes', 'Nantes', 'Bruxelles (Région)', 'Liège (complexe résidentiel urbain)', 'Luxembourg-Ville', 'Genève', 'Fribourg', 'Montréal', 'Toronto', 'Moncton', 'Winnipeg', 'Regina', 'Calgary', 'Vancouver', 'Halifax', 'Yellowknife', 'Orléans', 'Dijon', 'Rouen', 'Ajaccio', "St. John's", 'Charlottetown', 'Whitehorse', 'Iqaluit']);
 const two = new Map(csvBlocks[1].map((r) => [r.place, r]));
 const after = csvBlocks[0]
   // Namur has no rent of its own in the research (it repeats the Walloon figure): leave it out.
@@ -121,10 +137,20 @@ const after = csvBlocks[0]
     left: n(r.left),
     share: n(r.rent_share_of_net),
     left67: n(two.get(r.place)?.left),
+    // Purchasing-power dollars (OECD parities for private consumption): an order of magnitude only.
+    ppp: n(r.left_usd_ppp),
+    territory: territoryOf[r.place] ?? null,
+    main: mainCity.has(r.place),
     caveats: caveats(r),
   }));
 const refZurich = csvBlocks[0].find((r) => /^Zurich/.test(r.place));
 
-const out = { index, europe, canada, family, daily, after, zurichRatio: refZurich ? n(refZurich.net_ratio) : null };
+// OECD purchasing power parity for private consumption, France (euros per US dollar), as quoted in the report.
+// It turns purchasing-power dollars into "euros at French prices", the single unit used for cross-country ranking.
+const pppLine = report.find((l) => /1 USD = [\d,]+ EUR en France/.test(l));
+const eurPerUsdPpp = pppLine ? Number(pppLine.match(/1 USD = ([\d,]+) EUR en France/)[1].replace(',', '.')) : null;
+if (!eurPerUsdPpp) throw new Error('French purchasing power parity not found in the report');
+
+const out = { index, europe, canada, family, daily, after, zurichRatio: refZurich ? n(refZurich.net_ratio) : null, eurPerUsdPpp };
 writeFileSync(join(here, '../src/data/gains.json'), JSON.stringify(out, null, 1));
 console.log(`index ${index.length} · europe ${europe.length} · canada ${canada.length} · family ${family.length} · daily ${daily.length} · after ${after.length}`);

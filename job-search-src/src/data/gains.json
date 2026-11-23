@@ -643,6 +643,9 @@
    "left": 3715,
    "share": 27.2,
    "left67": 2007,
+   "ppp": 3505,
+   "territory": "CH01",
+   "main": true,
    "caveats": []
   },
   {
@@ -657,6 +660,9 @@
    "left": 3130,
    "share": 28.3,
    "left67": 1709,
+   "ppp": 2953,
+   "territory": "CH01",
+   "main": false,
    "caveats": [
     "estimatedRent"
    ]
@@ -673,6 +679,9 @@
    "left": 2899,
    "share": 32.8,
    "left67": 1478,
+   "ppp": 2735,
+   "territory": "CH01",
+   "main": false,
    "caveats": []
   },
   {
@@ -687,6 +696,9 @@
    "left": 3489,
    "share": 21.3,
    "left67": 1985,
+   "ppp": 3291,
+   "territory": "CH02",
+   "main": false,
    "caveats": [
     "regionalMedian"
    ]
@@ -703,6 +715,9 @@
    "left": 3045,
    "share": 27.6,
    "left67": 1636,
+   "ppp": 2873,
+   "territory": "CH02",
+   "main": true,
    "caveats": []
   },
   {
@@ -717,6 +732,9 @@
    "left": 3379,
    "share": 24.3,
    "left67": 1887,
+   "ppp": 3188,
+   "territory": "CH01",
+   "main": false,
    "caveats": []
   },
   {
@@ -731,6 +749,9 @@
    "left": 2546,
    "share": 36.8,
    "left67": 1390,
+   "ppp": 2053,
+   "territory": "CA-QC",
+   "main": true,
    "caveats": []
   },
   {
@@ -745,6 +766,9 @@
    "left": 2816,
    "share": 30.1,
    "left67": 1660,
+   "ppp": 2271,
+   "territory": "CA-QC",
+   "main": false,
    "caveats": []
   },
   {
@@ -759,6 +783,9 @@
    "left": 2586,
    "share": 35.8,
    "left67": 1430,
+   "ppp": 2085,
+   "territory": "CA-QC",
+   "main": false,
    "caveats": []
   },
   {
@@ -773,6 +800,9 @@
    "left": 2986,
    "share": 25.8,
    "left67": 1830,
+   "ppp": 2408,
+   "territory": "CA-QC",
+   "main": false,
    "caveats": []
   },
   {
@@ -787,6 +817,9 @@
    "left": 2402,
    "share": 46.5,
    "left67": 1068,
+   "ppp": 1937,
+   "territory": "CA-ON",
+   "main": true,
    "caveats": []
   },
   {
@@ -801,6 +834,9 @@
    "left": 2592,
    "share": 42.3,
    "left67": 1258,
+   "ppp": 2090,
+   "territory": "CA-ON",
+   "main": false,
    "caveats": []
   },
   {
@@ -815,6 +851,9 @@
    "left": 2862,
    "share": 36.3,
    "left67": 1528,
+   "ppp": 2308,
+   "territory": "CA-ON",
+   "main": false,
    "caveats": []
   },
   {
@@ -829,6 +868,9 @@
    "left": 2772,
    "share": 38.3,
    "left67": 1438,
+   "ppp": 2235,
+   "territory": "CA-ON",
+   "main": false,
    "caveats": []
   },
   {
@@ -843,6 +885,9 @@
    "left": 2932,
    "share": 34.7,
    "left67": 1598,
+   "ppp": 2365,
+   "territory": "CA-ON",
+   "main": false,
    "caveats": []
   },
   {
@@ -857,6 +902,9 @@
    "left": 2534,
    "share": 33.7,
    "left67": 1389,
+   "ppp": 2043,
+   "territory": "CA-NB",
+   "main": true,
    "caveats": []
   },
   {
@@ -871,6 +919,9 @@
    "left": 2441,
    "share": 35.1,
    "left67": 1321,
+   "ppp": 1969,
+   "territory": "CA-MB",
+   "main": true,
    "caveats": []
   },
   {
@@ -885,6 +936,9 @@
    "left": 2895,
    "share": 30.2,
    "left67": 1680,
+   "ppp": 2335,
+   "territory": "CA-SK",
+   "main": true,
    "caveats": []
   },
   {
@@ -899,6 +953,9 @@
    "left": 2805,
    "share": 32.3,
    "left67": 1590,
+   "ppp": 2262,
+   "territory": "CA-SK",
+   "main": false,
    "caveats": []
   },
   {
@@ -913,6 +970,9 @@
    "left": 3109,
    "share": 33.3,
    "left67": 1740,
+   "ppp": 2508,
+   "territory": "CA-AB",
+   "main": true,
    "caveats": []
   },
   {
@@ -927,6 +987,9 @@
    "left": 3399,
    "share": 27,
    "left67": 2030,
+   "ppp": 2741,
+   "territory": "CA-AB",
+   "main": false,
    "caveats": []
   },
   {
@@ -941,6 +1004,9 @@
    "left": 2358,
    "share": 49.2,
    "left67": 975,
+   "ppp": 1902,
+   "territory": "CA-BC",
+   "main": true,
    "caveats": [
     "secondaryTax"
    ]
@@ -957,6 +1023,9 @@
    "left": 2758,
    "share": 40.5,
    "left67": 1375,
+   "ppp": 2224,
+   "territory": "CA-BC",
+   "main": false,
    "caveats": [
     "secondaryTax"
    ]
@@ -973,6 +1042,9 @@
    "left": 1945,
    "share": 49.2,
    "left67": 837,
+   "ppp": 1568,
+   "territory": "CA-NS",
+   "main": true,
    "caveats": []
   },
   {
@@ -987,8 +1059,54 @@
    "left": 4022,
    "share": 30.3,
    "left67": 2304,
+   "ppp": 3243,
+   "territory": "CA-NT",
+   "main": true,
    "caveats": [
-    "otherConcept"
+    "otherConcept",
+    "northPrices"
+   ]
+  },
+  {
+   "name": "Whitehorse",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 5504,
+   "ratio": 75.7,
+   "premium": null,
+   "rent": 1364,
+   "rentKind": "median",
+   "left": 4140,
+   "share": 24.8,
+   "left67": 2523,
+   "ppp": 3338,
+   "territory": "CA-YT",
+   "main": true,
+   "caveats": [
+    "otherConcept",
+    "allSizesRent",
+    "northPrices"
+   ]
+  },
+  {
+   "name": "Iqaluit",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 6128,
+   "ratio": 76.8,
+   "premium": null,
+   "rent": 3025,
+   "rentKind": "median",
+   "left": 3103,
+   "share": 49.4,
+   "left67": 1250,
+   "ppp": 2502,
+   "territory": "CA-NU",
+   "main": true,
+   "caveats": [
+    "otherConcept",
+    "allSizesRent",
+    "northPrices"
    ]
   },
   {
@@ -1003,6 +1121,9 @@
    "left": 802,
    "share": 68.2,
    "left67": 43,
+   "ppp": 1118,
+   "territory": "FR1",
+   "main": true,
    "caveats": [
     "updatedMedian"
    ]
@@ -1019,6 +1140,9 @@
    "left": 1270,
    "share": 40.5,
    "left67": 629,
+   "ppp": 1772,
+   "territory": "FRK",
+   "main": true,
    "caveats": [
     "nationalMedian"
    ]
@@ -1035,6 +1159,9 @@
    "left": 1291,
    "share": 39.5,
    "left67": 650,
+   "ppp": 1801,
+   "territory": "FRL",
+   "main": true,
    "caveats": [
     "nationalMedian"
    ]
@@ -1051,6 +1178,9 @@
    "left": 1072,
    "share": 49.7,
    "left67": 431,
+   "ppp": 1496,
+   "territory": "FRL",
+   "main": false,
    "caveats": [
     "nationalMedian"
    ]
@@ -1067,6 +1197,9 @@
    "left": 1301,
    "share": 39,
    "left67": 660,
+   "ppp": 1815,
+   "territory": "FRI",
+   "main": true,
    "caveats": [
     "nationalMedian"
    ]
@@ -1083,6 +1216,9 @@
    "left": 1405,
    "share": 34.1,
    "left67": 764,
+   "ppp": 1960,
+   "territory": "FRJ",
+   "main": true,
    "caveats": [
     "nationalMedian"
    ]
@@ -1099,6 +1235,9 @@
    "left": 1311,
    "share": 38.5,
    "left67": 670,
+   "ppp": 1829,
+   "territory": "FRE",
+   "main": true,
    "caveats": [
     "nationalMedian"
    ]
@@ -1115,6 +1254,9 @@
    "left": 1322,
    "share": 38,
    "left67": 681,
+   "ppp": 1844,
+   "territory": "FRF",
+   "main": true,
    "caveats": [
     "nationalMedian"
    ]
@@ -1131,6 +1273,9 @@
    "left": 1358,
    "share": 36.3,
    "left67": 717,
+   "ppp": 1894,
+   "territory": "FRH",
+   "main": true,
    "caveats": [
     "nationalMedian"
    ]
@@ -1147,6 +1292,9 @@
    "left": 1379,
    "share": 35.3,
    "left67": 738,
+   "ppp": 1924,
+   "territory": "FRG",
+   "main": true,
    "caveats": [
     "nationalMedian"
    ]
@@ -1163,6 +1311,9 @@
    "left": 1499,
    "share": 29.7,
    "left67": 858,
+   "ppp": 2091,
+   "territory": "FRH",
+   "main": false,
    "caveats": [
     "nationalMedian"
    ]
@@ -1179,6 +1330,9 @@
    "left": 1509,
    "share": 29.3,
    "left67": 868,
+   "ppp": 2105,
+   "territory": "FRH",
+   "main": false,
    "caveats": [
     "nationalMedian"
    ]
@@ -1195,6 +1349,9 @@
    "left": 1830,
    "share": 34.9,
    "left67": 1143,
+   "ppp": 2434,
+   "territory": "BE1",
+   "main": true,
    "caveats": [
     "interpolated"
    ]
@@ -1211,6 +1368,9 @@
    "left": 1700,
    "share": 30.6,
    "left67": 1182,
+   "ppp": 2260,
+   "territory": "BE3",
+   "main": true,
    "caveats": [
     "interpolated"
    ]
@@ -1227,6 +1387,9 @@
    "left": 1755,
    "share": 28.4,
    "left67": 1237,
+   "ppp": 2333,
+   "territory": "BE3",
+   "main": false,
    "caveats": [
     "interpolated"
    ]
@@ -1243,6 +1406,9 @@
    "left": 1700,
    "share": 30.6,
    "left67": 1182,
+   "ppp": 2260,
+   "territory": "BE3",
+   "main": false,
    "caveats": [
     "interpolated"
    ]
@@ -1259,6 +1425,9 @@
    "left": 1785,
    "share": 48.8,
    "left67": 925,
+   "ppp": 2113,
+   "territory": "LU00",
+   "main": false,
    "caveats": [
     "interpolated",
     "unverifiedMedian"
@@ -1276,11 +1445,125 @@
    "left": 1530,
    "share": 56.1,
    "left67": 670,
+   "ppp": 1811,
+   "territory": "LU00",
+   "main": true,
    "caveats": [
     "interpolated",
     "unverifiedMedian"
    ]
+  },
+  {
+   "name": "Orléans",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 744,
+   "rentKind": "asking",
+   "left": 1389,
+   "share": 34.9,
+   "left67": 748,
+   "ppp": 1938,
+   "territory": "FRB",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Dijon",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 692,
+   "rentKind": "asking",
+   "left": 1441,
+   "share": 32.4,
+   "left67": 800,
+   "ppp": 2010,
+   "territory": "FRC",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Rouen",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 692,
+   "rentKind": "asking",
+   "left": 1441,
+   "share": 32.4,
+   "left67": 800,
+   "ppp": 2010,
+   "territory": "FRD",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "Ajaccio",
+   "country": "FR",
+   "currency": "EUR",
+   "net": 2133,
+   "ratio": 72.2,
+   "premium": null,
+   "rent": 790,
+   "rentKind": "asking",
+   "left": 1343,
+   "share": 37,
+   "left67": 702,
+   "ppp": 1873,
+   "territory": "FRM",
+   "main": true,
+   "caveats": [
+    "nationalMedian"
+   ]
+  },
+  {
+   "name": "St. John's",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 4055,
+   "ratio": 75,
+   "premium": null,
+   "rent": 1270,
+   "rentKind": "asking",
+   "left": 2785,
+   "share": 31.3,
+   "left67": 1623,
+   "ppp": 2245,
+   "territory": "CA-NL",
+   "main": true,
+   "caveats": []
+  },
+  {
+   "name": "Charlottetown",
+   "country": "CA",
+   "currency": "CAD",
+   "net": 3733,
+   "ratio": 76,
+   "premium": null,
+   "rent": 1090,
+   "rentKind": "sitting",
+   "left": 2643,
+   "share": 29.2,
+   "left67": 1550,
+   "ppp": 2131,
+   "territory": "CA-PE",
+   "main": true,
+   "caveats": []
   }
  ],
- "zurichRatio": 79.5
+ "zurichRatio": 79.5,
+ "eurPerUsdPpp": 0.717
 }

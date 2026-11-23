@@ -91,6 +91,13 @@
   "kind": "research"
  },
  {
+  "label": "ARC, T4127",
+  "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/payroll/t4127-payroll-deductions-formulas/t4127-jan/t4127-jan-payroll-deductions-formulas-computer-programs.html",
+  "host": "canada.ca",
+  "publisher": "Canada Revenue Agency",
+  "kind": "official"
+ },
+ {
   "label": "canton de Genève",
   "url": "https://www.ge.ch/actualite/salaire-minimum-genevois-2026-etablira-2459-fr-heure-1-10-2025",
   "host": "ge.ch",
@@ -161,18 +168,25 @@
   "kind": "research"
  },
  {
+  "label": "SCHL, L'Observateur du logement",
+  "url": "https://www.cmhc-schl.gc.ca/observer/2026/why-housing-still-hard-to-find-canadas-north",
+  "host": "cmhc-schl.gc.ca",
+  "publisher": "CMHC",
+  "kind": "official"
+ },
+ {
   "label": "SCHL, mi-année 2026",
   "url": "https://www.cmhc-schl.gc.ca/observer/2026/2026-mid-year-rental-market-update",
   "host": "cmhc-schl.gc.ca",
-  "publisher": null,
-  "kind": "research"
+  "publisher": "CMHC",
+  "kind": "official"
  },
  {
   "label": "SCHL, Rapport sur le logement dans le Nord, 29 juillet 2026",
   "url": "https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/market-reports/housing-market/northern-housing-report",
   "host": "cmhc-schl.gc.ca",
-  "publisher": null,
-  "kind": "research"
+  "publisher": "CMHC",
+  "kind": "official"
  },
  {
   "label": "DARES",
@@ -201,13 +215,6 @@
   "host": "data.dares.travail-emploi.gouv.fr",
   "publisher": "DARES",
   "kind": "official"
- },
- {
-  "label": "ANIL et ministère du Logement, Carte des loyers 2025",
-  "url": "https://www.data.gouv.fr/datasets/693aa2feed1bf4da603faa49/",
-  "host": "data.gouv.fr",
-  "publisher": null,
-  "kind": "research"
  },
  {
   "label": "DH",
@@ -721,6 +728,20 @@
   "kind": "official"
  },
  {
+  "label": "ANIL et ministère du Logement, Carte des loyers 2025",
+  "url": "https://www.data.gouv.fr/datasets/693aa2feed1bf4da603faa49/",
+  "host": "data.gouv.fr",
+  "publisher": "French government open data",
+  "kind": "official"
+ },
+ {
+  "label": "data.gouv.fr, Carte des loyers 2025",
+  "url": "https://static.data.gouv.fr/resources/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2025/20251211-145010/pred-app-mef-dhup.csv",
+  "host": "static.data.gouv.fr",
+  "publisher": "French government open data",
+  "kind": "official"
+ },
+ {
   "label": "OFS",
   "url": "https://dam-api.bfs.admin.ch/hub/api/dam/assets/36890644/master",
   "host": "dam-api.bfs.admin.ch",
@@ -1200,6 +1221,13 @@
   "label": "Gallup",
   "url": "https://news.gallup.com/opinion/gallup/230639/migrants-happier-move.aspx",
   "host": "news.gallup.com",
+  "publisher": null,
+  "kind": "research"
+ },
+ {
+  "label": "Nunatsiaq News, 30 juillet 2026",
+  "url": "https://nunatsiaq.com/stories/article/new-housing-in-iqaluit-not-keeping-up-with-demand-report-finds/",
+  "host": "nunatsiaq.com",
   "publisher": null,
   "kind": "research"
  },
@@ -1722,6 +1750,13 @@
   "kind": "official"
  },
  {
+  "label": "Statistique Canada 34-10-0133",
+  "url": "https://www150.statcan.gc.ca/n1/tbl/csv/34100133-eng.zip",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
   "label": "Statistique Canada 35-10-0068-01",
   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510006801",
   "host": "statcan.gc.ca",
@@ -1752,6 +1787,13 @@
  {
   "label": "Statistique Canada 46-10-0092",
   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4610009201",
+  "host": "statcan.gc.ca",
+  "publisher": "Statistics Canada",
+  "kind": "official"
+ },
+ {
+  "label": "Statistique Canada 46-10-0092",
+  "url": "https://www150.statcan.gc.ca/n1/tbl/csv/46100092-eng.zip",
   "host": "statcan.gc.ca",
   "publisher": "Statistics Canada",
   "kind": "official"

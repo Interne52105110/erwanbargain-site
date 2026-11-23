@@ -1,7 +1,12 @@
 {
  "meta": {
   "sample": false,
-  "retrieved": "2026-11-22"
+  "retrieved": "2026-11-22",
+  "modelCheck": {
+   "cells": 279,
+   "medianGap": 0.5,
+   "p90Gap": 2
+  }
  },
  "territories": [
   {
@@ -5024,6 +5029,786 @@
    "p": "2025",
    "s": "model-territories",
    "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 14.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 9.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 4.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 5.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 9.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 13,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 2.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 14.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 3.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRD",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRF",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 13.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRG",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 3.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 11.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 3.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 4.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 2.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRH",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 2.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 12.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "all",
+   "e": "low",
+   "v": 14,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "all",
+   "e": "high",
+   "v": 5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "all",
+   "v": 18.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 32.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 24.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 12.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "all",
+   "v": 6.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 13.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 9.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "high",
+   "v": 4.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "all",
+   "v": 4.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 6.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "FRM",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "BE1",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 19.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "mid",
+   "v": 18.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 19.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 10.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 6.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 6.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "LU00",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CH02",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 5.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-QC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 5.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 7.3,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 7.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-MB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 22.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 6.9,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 6.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-SK",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 3.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 10.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-AB",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 5.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 8.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-BC",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 9.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NS",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 6.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 19.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 6.1,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 13.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-PE",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 10.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "low",
+   "v": 25.2,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 10.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "low",
+   "v": 13.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "25-54",
+   "e": "mid",
+   "v": 11.7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "low",
+   "v": 14.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 12.8,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NL",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "high",
+   "v": 10.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-YT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 4.5,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NT",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "15-24",
+   "e": "high",
+   "v": 7,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
+  },
+  {
+   "t": "CA-NU",
+   "i": "unemp",
+   "a": "55-64",
+   "e": "mid",
+   "v": 4.4,
+   "p": "2025",
+   "s": "model-profile",
+   "q": "model"
   }
  ],
  "communities": [
@@ -5378,6 +6163,10 @@
   }
  ],
  "sources": {
+  "model-profile": {
+   "label": "Estimate from Eurostat lfst_r_lfu3rt and Statistics Canada 14-10-0020-01",
+   "url": "https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfu3rt/default/table?lang=en"
+  },
   "eurostat-lfu3rt": {
    "label": "Eurostat, lfst_r_lfu3rt",
    "url": "https://ec.europa.eu/eurostat/databrowser/view/lfst_r_lfu3rt/default/table?lang=en"

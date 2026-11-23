@@ -21,9 +21,14 @@ export const gains = raw as {
     left: number;
     share: number;
     left67: number | null;
+    ppp: number | null;
+    territory: string | null;
+    main: boolean;
     caveats: string[];
   }[];
   zurichRatio: number | null;
+  /** Euros per purchasing-power dollar in France (OECD, private consumption). */
+  eurPerUsdPpp: number;
 };
 
 /** English names for the places named in French in the report. */
@@ -68,6 +73,8 @@ export const caveatLabel: Record<string, L10n> = {
   otherConcept: { en: 'different wage definition', fr: 'autre définition du salaire' },
   secondaryTax: { en: 'tax rate from a secondary source', fr: "taux d'impôt de source secondaire" },
   estimatedRent: { en: 'rent estimated', fr: 'loyer estimé' },
+  allSizesRent: { en: 'median rent of all home sizes', fr: 'loyer médian toutes tailles de logement' },
+  northPrices: { en: 'higher northern prices not counted', fr: 'prix plus élevés du Nord non comptés' },
 };
 /** `city` distinguishes Québec the city (rent tables) from Québec the province (pay index). */
 export function placeName(name: string, lang: 'en' | 'fr', city = false): string {
